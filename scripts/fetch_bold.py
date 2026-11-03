@@ -67,8 +67,14 @@ def get(url, attempts=4, as_json=True):
                 raw = resp.read().decode("utf-8", errors="replace")
             return json.loads(raw) if as_json else raw
         except urllib.error.HTTPError as exc:
-            body = exc.read().decode("utf-8", errors="replace")[:400]
-            raise RuntimeError(f"HTTP {exc.code} from {url}\n{body}") from exc
+            body = exc.read().decode("utf-8", errors="replace")
+            if "Just a moment" in body or "challenge" in body.lower():
+                raise RuntimeError(
+                    f"HTTP {exc.code}: the portal returned a bot-protection challenge page "
+                    "instead of data, so this address cannot reach the API. Run the script "
+                    "from your own machine, or export the family TSVs from the portal by hand "
+                    "and read them with --from-tsv.") from exc
+            raise RuntimeError(f"HTTP {exc.code} from {url}\n{body[:400]}") from exc
         except Exception as exc:  # noqa: BLE001 - network or parse, retry
             last = exc
             wait = 10 * (attempt + 1)

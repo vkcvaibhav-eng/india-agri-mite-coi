@@ -25,8 +25,8 @@ mites are outside the scope.
 
 ## Running it
 
-On a runner: Actions tab, *Download COI records*, Run workflow. Leave the
-inputs as `all` and `both` for a full snapshot. Add an `NCBI_API_KEY` repository
+On a runner: Actions tab, *Download COI records*, Run workflow. `source`
+defaults to `ncbi`, which is the half that works there; see the BOLD note below. Add an `NCBI_API_KEY` repository
 secret first; without it the download is limited to three requests a second.
 
 Locally:
@@ -54,10 +54,20 @@ retired in July 2026. Each family goes through the three-step token flow
 and comes back as BCDM TSV; records whose marker is not a COI variant are dropped.
 A family that fails is logged and skipped rather than ending the run.
 
-The portal caps how much one download may return. If a family is refused as too
-large, run it with `--geo India`, or ask support@boldsystems.org for the full set
-and parse the file they send with
-`python scripts/fetch_bold.py --from-tsv "data/raw/bold/*.tsv"`.
+The portal sits behind bot protection that answers requests from cloud runner
+addresses with a challenge page instead of data, so the BOLD step is not run on
+GitHub Actions. Run it from your own machine:
+
+```
+python scripts/fetch_bold.py
+git add data logs && git commit -m "BOLD snapshot" && git push
+```
+
+Failing that, export each family from the portal in a browser into
+`data/raw/bold/` and read the files with
+`python scripts/fetch_bold.py --from-tsv "data/raw/bold/*.tsv"`. The portal also
+caps how much one download may return; a family refused as too large can be
+narrowed with `--geo India` or requested from support@boldsystems.org.
 
 `logs/download_log.csv` records the date, exact query string, records found and
 records kept for every query. That file is the provenance trail for the methods

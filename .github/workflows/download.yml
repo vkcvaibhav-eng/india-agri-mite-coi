@@ -8,9 +8,9 @@ on:
         required: false
         default: "all"
       source:
-        description: "ncbi, bold or both"
+        description: "ncbi, bold or both. BOLD is blocked on runner addresses - run that step locally."
         required: false
-        default: "both"
+        default: "ncbi"
       geo:
         description: "Restrict the BOLD download to one country, e.g. India. Leave blank for the world set."
         required: false
@@ -82,5 +82,6 @@ jobs:
             echo "no change in the downloaded records"
           else
             git commit -m "COI snapshot $(date -u +%Y-%m-%d) (run ${{ github.run_number }})"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
