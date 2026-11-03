@@ -40,6 +40,44 @@ python scripts/combine.py
 
 One family at a time: `--family tetranychidae phytoseiidae`.
 
+## Species checklist (stage 1)
+
+`data/checklist/` holds the denominator for the coverage analysis, built from
+S. K. Gupta (1985), *Handbook: Plant Mites of India* (Zoological Survey of India,
+Calcutta): 557 species, 131 genera, 18 families. The book's PDF is not in this
+repository; only the extracted names, states and hosts are.
+
+| file | content |
+|---|---|
+| `gupta1985_contents.csv` | the numbered species list from the Systematic Contents, with family, subfamily, tribe, genus and subgenus |
+| `gupta1985_species.csv` | the same 557 species with the first-listed year, Indian states, hosts and outside-India distribution taken from each entry |
+
+```
+python scripts/parse_gupta_contents.py Gupta_1985.pdf
+python scripts/parse_gupta_body.py     Gupta_1985.pdf
+```
+
+The PDF is a scan with an OCR layer, and the OCR is not clean. What is checked
+and what is not:
+
+- The species count matches the book's own total (557), numbering agrees with the
+  book's sequence for 555 of 557, and entries are located in strictly increasing
+  order in the body text.
+- Indian states are matched against a fixed list of states and territories; text
+  that does not match is kept in `india_unmatched` rather than guessed at.
+  States are as the book prints them, which means 1985 boundaries (no Jharkhand,
+  Chhattisgarh, Uttarakhand, Telangana) and the spellings Orissa and Pondicherry.
+- `needs_review` marks 28 rows that a person should read against the page:
+  no state parsed, unmatched text, no year found, or a heading found by name.
+- **Species names are still as OCR read them** (`name_ocr`). They contain
+  damage such as `terpoglwssiani` and `Amh/yseius`. They must be corrected against
+  the world catalogues before they are matched to sequence labels.
+
+The book is from 1985. It fixes the Indian baseline at that date and does not
+include the species recorded or described since, nor the genus changes since,
+especially in Phytoseiidae and Eriophyoidea. A name-for-name match of this list
+against the sequence set is therefore a floor on coverage, not a measurement of it.
+
 ## Queries
 
 Two NCBI queries are run per family and logged separately:

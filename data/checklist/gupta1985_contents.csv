@@ -1,0 +1,558 @@
+number,number_ocr,number_matches_ocr,name_ocr,printed_page,order,family,subfamily,tribe,genus,subgenus
+1,1,1,Bryobia eharai,47,PROSTlGMATA,Tetranychidae,BRYOBIINAE,BRYOBIINI,Bryobia,
+2,2,1,Bryobia praetiosa,47,PROSTlGMATA,Tetranychidae,BRYOBIINAE,BRYOBIINI,Bryobia,
+3,3,1,Bryobiella punjabensis,48,PROSTlGMATA,Tetranychidae,BRYOBIINAE,BRYOBIINI,Bryobiella,
+4,4,1,Georgiobia sphaeralceae,50,PROSTlGMATA,Tetranychidae,BRYOBIINAE,HYSTRICHONYCHINI,Georgiobia,
+5,5,1,M esobryo bia jobneri,51,PROSTlGMATA,Tetranychidae,BRYOBIINAE,HYSTRICHONYCHINI,M esobryobia,
+6,6,1,M onoceronychus terpoglwssiani,51,PROSTlGMATA,Tetranychidae,BRYOBIINAE,HYSTRICHONYCHINI,Monoceronychus,
+7,7,1,Neopetrobia sim/aensis,53,PROSTlGMATA,Tetranychidae,BRYOBIINAE,HYSTRICHONYCHINI,Neopetrobia,
+8,8,1,Porcupinychus abuti/oni,55,PROSTlGMATA,Tetranychidae,BRYOBIINAE,HYSTRICHONYCHINI,Porcupinychus,
+9,9,1,Petrobia (Tetranychina) harn,55,PROSTlGMATA,Tetranychidae,BRYOBIINAE,PETROBIINI,Petrobia,Tetranychina
+10,10,1,Petrobla (Petrobia) latens,56,PROSTlGMATA,Tetranychidae,BRYOBIINAE,PETROBIINI,Petrobia,Petrobia
+11,11,1,Aponychus corpuzae,59,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Aponychus,
+12,12,1,Aponychus (Stylo plwronicus) bagh ens is,59,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Aponychus,
+13,13,1,Aponychus (Stylophoronicus) lalli,60,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Aponychus,
+14,14,1,Aponychus sar}ul,60,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Aponychus,
+15,15,1,Aponychus sulcatus,61,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Aponychus,
+16,16,1,Eutetranychus afrlcanus,62,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+17,17,1,Eutetranychus anneckei,63,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+18,18,1,Eutetranychus bi/obatus,63,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+19,19,1,Eutetranychus bredini,64,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+20,20,1,Eutetranychus caricae,64,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+21,21,1,Eutetranychus citri,64,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+22,22,1,Eutetranychus maximae,65,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+23,23,1,Eutetranychus nagai,65,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+24,24,1,Eutetranychus orientalis,66,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+25,25,1,Eutetranychus phaseoli,67,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,EURYTETRANYCHlNl,Eutetranychus,
+26,26,1,Tenuipalponychus citri,69,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TENUIPALPODINI,Tenuipalponychus,
+27,27,1,Bakerina aculus,69,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TENUIPALPODINI,Bakerina,
+28,28,1,Bakerina orissaensis,70,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TENUIPALPODINI,Bakerina,
+29,29,1,Eotetranychus broodryki,71,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+30,30,1,Eotetranychus frosti,72,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+31,31,1,Eotetranychus fremonti,73,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+32,32,1,Eotetranychus hirsti,73,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+33,33,1,Eotetranychus irregularis,74,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+34,34,1,Eotetranychus kankitus,75,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+35,35,1,Eotetranychus mandensis,75,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+36,36,1,Eotetranychus pamelae,76,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+37,37,1,Eotetranychus rohilae,76,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+38,38,1,Eotetranychus rajouriensis,77,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+39,39,1,Eotetranychus sexmaculatus,77,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+40,40,1,Eotetranychus suginamensis,78,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+41,41,1,Eotetranychus ladakhensis,78,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+42,42,1,Eotetranychus neoperplexus,79,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+43,43,1,Eotetranychus syzYgii,79,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+44,44,1,Eotetranychus truncatus,79,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+45,45,1,Eotetranychus uncatus,80,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Eotetranychus,
+46,46,1,Oligonychus biharensis,81,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+47,47,1,Oligonychus coffeae,83,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+48,48,1,Oligonychus indicus,84,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+49,49,1,Oligonychus iseilemae,86,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+50,50,1,Oligonychus mangiferus,87,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+51,51,1,Oligonychus oryzae,88,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+52,52,1,Oligonychus punicae,89,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+53,53,1,Oligonychus sacchari,90,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+54,54,1,Oligonychus sapienticolus,90,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+55,55,1,Oligonychus manishi,91,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+56,56,1,Oligonychus vitis,91,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Oligonychus,
+57,57,1,P anonychus citrl,92,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Panonychus,
+58,58,1,P anonyehus ulm;,93,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Panonychus,
+59,59,1,Platytetranychus multidigituli,94,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Platytetranychus,
+60,60,1,Schizotetranychus andropogoni,96,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+61,61,1,Schizotetranychus baltazari,97,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+62,62,1,Schizotetranychus cajani,98,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+63,63,1,Schizotetranychus fluvialis,99,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+64,64,1,Sehizotetranychus hindustanieus,99,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+65,65,1,Schizotetranychus mansonl,99,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+66,66,1,Sehizotetranyehus spireafolia,100,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+67,67,1,Sehizotetranyehus tephorosiae,100,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+68,68,1,Sehizotetranyehus undulatus,100,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Schizotetranychus,
+69,69,1,Tetranyehus angloensis,103,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+70,70,1,Tetranychus afrint/iellS,104,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+71,71,1,Tetranyehus sayedi,104,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+72,72,1,Tetranyehus kanzawai,104,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+73,73,1,Tetranychus zaheri,105,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+74,74,1,Tetranychus papayae,105,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+75,75,1,Tetranyehus einnabarinus,106,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+76,76,1,Tetranychus jijiensis,108,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+77,77,1,Tetranychus lombardinli,109,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+78,78,1,Tetranychus macfar/anel,109,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+79,79,1,Tetranychus ludeni,110,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+80,80,1,Tetranychus hypogeae,112,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+81,81,1,Tetranychus neoealedonieus,113,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+82,82,1,Tetranychus urticae,115,PROSTlGMATA,Tetranychidae,TETRANYCHINAE,TETRANYCHINI,Tetranyehus,
+83,83,1,Tuckerella indica,117,PROSTlGMATA,Tuckerellidae,,,Tuckerella,
+84,84,1,Tuckerella delhi ens is,118,PROSTlGMATA,Tuckerellidae,,,Tuckerella,
+85,85,1,Tuckerella kumaonensis,118,PROSTlGMATA,Tuckerellidae,,,Tuckerella,
+86,86,1,Aegyptobia mumulus,122,PROSTlGMATA,Tenuipalpidae,,,Aegyptobia,
+87,87,1,Brevipalpus californicus,125,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+88,88,1,Brevipalpus chilensis,126,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+89,89,1,Brevipalpus cucurbitae,127,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+90,90,1,Brevipalpus euphorbiae,127,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+91,91,1,Brevipalpus deleoni,127,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+92,92,1,Brevipalpus essigi,128,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+93,93,1,Brevipalpus lewis;,128,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+94,94,1,Brevipalpus obovatus,129,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+95,95,1,Brevipalpus phoenicis,130,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+96,96,1,Brevipalpus karachiensis,131,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+97,97,1,Brevipalpus rugulosus,132,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+98,98,1,Brevipalpus pulchur,132,PROSTlGMATA,Tenuipalpidae,,,Brevipalpus,
+99,99,1,Dolichotetranychus floridanus,133,PROSTlGMATA,Tenuipalpidae,,,Dolichotetranychus,
+100,100,1,Larvacarus transitans,133,PROSTlGMATA,Tenuipalpidae,,,Larvacarus,
+101,101,1,Obuloides rajamohani,134,PROSTlGMATA,Tenuipalpidae,,,Obuloides,
+102,102,1,P entamerismus oregonensis,135,PROSTlGMATA,Tenuipalpidae,,,Pentamerismus,
+103,103,1,Phytoptipalpus albizziae,135,PROSTlGMATA,Tenuipalpidae,,,Phytoptipalpus,
+104,104,1,Raoiella indica,137,PROSTlGMATA,Tenuipalpidae,,,Raoiella,
+105,105,1,Raoiella macfarlanei,138,PROSTlGMATA,Tenuipalpidae,,,Raoiella,
+106,106,1,Tenuipalpus aboharensis,140,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+107,107,1,Tenuipalpus acacii,141,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+108,108,1,Tenuipalpus amygdalusae,141,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+109,109,1,Tenuipalpus crassus,142,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+110,110,1,Tenuipalpus cissampelosa,142,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+111,111,1,Tenuipalpus dim ens us,142,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+112,112,1,Tenuipalpus faresianus,142,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+113,113,1,Tenuipalpus fici,143,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+114,114,1,Tenuipalpus granati,143,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+115,115,1,Tenuipalpus hastaligni,144,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+116,116,1,Tenuipalpus indicus,144,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+117,117,1,Tenuipalpus ixorae,144,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+118,118,1,Tenuipalpus lalbaghensis,145,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+119,119,1,Tenuipalpus caudatus,145,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+120,120,1,Tenuipalpus ludhianaensis,145,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+121,121,1,Tenuipalpus mustus,146,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+122,122,1,Tenuipalpus micheli,146,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+123,123,1,Tenuipalpus pernicis,146,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+124,124,1,Tenuipalpus pruni,147,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+125,125,1,Tenuipalpus punicae,147,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+126,126,1,Tenuipalpus pyrusae,148,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+127,127,1,Tenuipalpus quadrisetosus,148,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+128,128,1,Tenuipalpus tatrazygae,148,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+129,129,1,Tenuipalpus coimbatorensis,149,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+130,130,1,Tenuipalpus ghaii,149,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+131,131,1,Tenuipalpus laminasetae,149,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+132,132,1,Tenuipa/pus malligai,150,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+133,133,1,Tenuipalpus punjabensis,150,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+134,134,1,Tenuipalpus tectonae,150,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+135,135,1,Tenuipalpus yousefi,151,PROSTlGMATA,Tenuipalpidae,,,Tenuipalpus,
+136,136,1,Terminalichus delhiensis,152,PROSTlGMATA,Tenuipalpidae,,,Terminalichus,
+137,137,1,Terminalichus karachiensis,152,PROSTlGMATA,Tenuipalpidae,,,Terminalichus,
+138,138,1,Terminalichus pallajiensis,152,PROSTlGMATA,Tenuipalpidae,,,Terminalichus,
+139,139,1,Terminalichus serratus,153,PROSTlGMATA,Tenuipalpidae,,,Terminalichus,
+140,140,1,Neophantacrus mallotus,158,PROSTlGMATA,Nalepellidae,NALEPELLINAE,,N eophantacrus,
+141,141,1,Mackiella borasis,159,PROSTlGMATA,Nalepellidae,SIERRAPHYTOPTINAE,,Mackiella,
+142,142,1,Anchiphytoptus giganticus,160,PROSTlGMATA,Nalepellidae,PHYTOCOPTELLINAE,,Anchiphytoptus,
+143,143,1,Anthopoda fici,163,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Anthopoda,
+144,144,1,Anthopoda deviarensis,163,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Anthopoda,
+145,145,1,Anthopoda wightianae,164,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Anthopoda,
+146,146,1,"Colopodacus bengalen,Sis",165,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+147,147,1,Colopodacus cinnamomae,166,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+148,148,1,Colopodacus combretus,166,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+149,149,1,Colopodacus eugeniae,166,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+150,150,1,Colopodacus gynalaxtae,167,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+151,151,1,Colopodacus walayarensis,167,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Colopodacus,
+152,152,1,Cosella fleschneri,168,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Cosella,
+153,153,1,Cosella ichnocarpasia,168,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Cosella,
+154,154,1,Disella tectona,168,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Disella,
+155,155,1,Floracarus eugenifoliae,169,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Floracarur,
+156,156,1,Floracarus pollachiensis,169,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Floracarur,
+157,157,1,Floracarus salvifoliae,170,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Floracarur,
+158,158,1,Floracarus siruvaniensis,170,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Floracarur,
+159,159,1,Floracarus sivakumarii,170,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Floracarur,
+160,160,1,Neocosella ichnocarpae,171,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,NeocDsella,
+161,161,1,Neocolopodacus mitragynae,172,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Neocolopodacus,
+162,162,1,Nothopoda kallarensis,172,PROSTlGMATA,Eriophyidae,NOTHOPODINAE,,Nothopoda,
+163,163,1,Colomerus vitis,173,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Colomerus,
+164,164,1,Ectomerus chebulae,174,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Ectomerus,
+165,165,1,Epicecidophyes clerodendria,174,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Epicecidophyes,
+166,166,1,Epicecidophyes indica,175,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Epicecidophyes,
+167,167,1,Gammaphytoptus litseasis,176,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Gammaphytoptus,
+168,168,1,Neocecidophyes malloti- vagrans,176,PROSTlGMATA,Eriophyidae,CEClDOPHYlNAE,,Neocecidophyes,
+169,169,1,Acalitus gossypii,178,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Acalitus,
+170,170,1,Acalitus hibisci,179,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Acalitus,
+171,171,1,Acalitus meliosmae,179,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Acalitus,
+172,172,1,Acalitus reticulatae,179,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Acalitus,
+173,173,1,Acalitus schefflerae,180,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Acalitus,
+174,174,1,Aceria antidotalae,185,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+175,175,1,Aceria delhiensis,185,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+176,176,1,Aceria dichrostachyia,186,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+177,177,1,Acria erythrensis,186,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+178,178,1,Aceria Iitsea,186,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+179,179,1,Aceria trichocnemum,187,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+180,180,1,Aceria viddhagiriensis,187,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+181,181,1,Aceria commelinae,187,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+182,182,1,Aceria boraginae,188,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+183,183,1,Aceria polygalae,188,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+184,184,1,Aceria dichotomae,188,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+185,185,1,Aceria dactYlonae,189,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+186,186,1,Aceria donacis,189,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+187,187,1,Aceria eragrastae,189,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+188,188,1,Aceria pustulatus,190,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+189,189,1,Aceria balanites,190,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+190,190,1,Aceria bambusae,190,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+191,191,1,Aceria barleriae,191,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+192,192,1,Aceria cajani,191,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+193,193,1,Aceria clerodendronis,192,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+194,194,1,Aceria cordiae,192,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+195,195,1,Aceria crotalariae,192,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+196,196,1,Aceria dalbergiae,193,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+197,197,1,Aceria erythrinae,193,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+198,198,1,Aceria ficus,193,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+199,199,1,Aceria gastrotrichus,194,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+200,200,1,Aceria granat;,194,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+201,201,1,Aceria holopteleae,195,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+202,202,1,Aceria infectoriae,195,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+203,203,1,Aceria jasmini,196,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+204,204,1,Aceria justiciae,196,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+205,205,1,Aceria titchii,196,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+206,206,1,Aceria lyco persici,197,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+207,207,1,Aceria malloticola,198,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+208,208,1,Aceria mangiferae,198,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+209,209,1,Aceria medicaginis,200,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+210,210,1,Aceria mori,200,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+211,211,1,Aceria nandiensis,200,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+212,212,1,Aceria nerii,201,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+213,213,1,Ac eria pongamiae,201,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+214,214,1,Aceria puttarudriahi,201,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+215,215,1,Aceria ruelliae,202,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+216,216,1,Aceria saccharini,202,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+217,217,1,Aceria sapindi,203,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+218,218,1,Aceria sheldoni,203,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+219,219,1,Acerla sorghi,204,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+220,220,1,Aceria tulipae,204,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+221,221,1,Aceria agallochae,205,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+222,222,1,Aceria setaceus,205,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Aceria,
+223,223,1,Eriophyes acaciae,207,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+224,224,1,Eriophyes -alangii,207,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+225,225,1,Eriophyes casuarinae,208,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+226,226,1,Eriophyes cernuus,208,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+227,227,1,Eriophyes cheriani,208,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+228,228,1,Eriophyes cymbopogonis,209,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+229,229,1,Eriophyes ladakhensis,209,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+230,230,1,Eriophyes prosopides,209,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Briophyes,
+231,231,1,Keiferophyes avicenniae,210,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Keiferophyes,
+232,232,1,Paraphytoptus chrysanthemi,210,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Paraphytoptus,
+233,233,1,Neophytoptus ocimae,211,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Neophytoptus,
+234,234,1,Phytoptus alangii,212,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+235,235,1,Phytoptus breyniae,213,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+236,236,1,Phytoptus canthii,213,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+237,237,1,P hytoptus carissae,213,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+238,238,1,P hytoptus cyperi,214,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+239,239,1,Phytoptus eletariae,214,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+240,240,1,P hytoptus casuarinae,214,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+241,241,1,P hytoptus flcivorus,214,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+242,242,1,P hytoptus g/ycosmisae,215,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+243,243,1,P hytoptus /antanae,216,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+244,244,1,Phytoptus [aurae,216,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+245,245,1,Phytoptus morindae,216,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+246,246,1,Phytoptus karnatakaensis,216,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+247,247,1,Phytoptus rosae,217,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+248,248,1,Phytoptus subbraoi,217,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+249,249,1,P hytoptus rubifoliae,217,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+250,250,1,Phytoptus terminaliae,217,PROSTlGMATA,Eriophyidae,ERlOPHYlNAE,,Phytoptus,
+251,251,1,Paracaphyl/a streb/ae,219,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Paracaphy/la,
+252,252,1,Acaphy/lisa parindiae,219,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Acaphyl/isa,
+253,253,1,Acaphy//a indiae,220,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Acaphylla,
+254,254,1,Acaphylla steinwedenl,220,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Acaphylla,
+255,255,1,Acaphy/la syzygii,220,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Acaphylla,
+256,256,1,Acaphyl/a theae,221,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Acaphylla,
+257,257,1,Ca/acarus ara/iae,223,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+258,258,1,Calacarus carinatus,223,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+259,259,1,Calacarus brionesae,224,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+260,260,1,Ca/acarus capsica,224,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+261,261,1,Co/acarus channabasavannae,225,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+262,262,1,Clacarus cilrifolil,225,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+263,263,1,Ca/acarus jasmin;,225,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+264,264,1,Calacarus keiferi,226,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+265,265,1,Ca/acarus rnalvae,226,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+266,266,1,Ca/acarus rnlcrorostrus,226,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+267,267,1,Ca/acarus millingtonlae,227,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+268,268,1,Ca/acarus po/yalth/ae,227,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+269,269,1,Ca/acarus swietensis,227,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+270,270,1,Calacarus qUisqualis,227,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+271,271,1,Proca/acarus allyarensls,228,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ca/acarus,
+272,272,1,Scolocenus spiniferus,229,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Scolocenus,
+273,273,1,Tegonotus bassius,229,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+274,274,1,Tegonotus bengalensis,230,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+275,275,1,Tegono f u8 cardiavagrans,230,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+276,276,1,_T egonotus coimbatorensis,231,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+277,277,1,Tegonotus convolvuli,231,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+278,278,1,Tegonotus jambolensis,231,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+279,279,1,Tegonotus mangiferae,232,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+280,280,1,Tegonotus parviflorae,232,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegonotus,
+281,281,1,Calepitrimerus antedesmae,234,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+282,282,1,Calepitrtmerus asperrimae,234,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+283,283,1,Calepitrimerus azadirachtae,234,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+284,284,1,Calepitrimerus cordiae,235,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+285,285,1,Calepitrimerus leucadis,235,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+286,286,1,Calepitrimerus massanjoris,235,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+287,287,1,Calepitrimerus mysorensis,236,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Calepitrimerus,
+288,288,1,Epitrimerus azimae,237,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Epitrimerus,
+289,289,1,Epitrimerus chandramohani,237,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Epitrimerus,
+290,290,1,Indonotalox sudarsani,238,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Indonotalox,
+291,291,1,Notostrix flabelliferae,238,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Notostrix,
+292,292,1,Phyllocoptes aliyamagarensis,240,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+293,293,1,Phyllocoptes ficivagrans,240,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+294,294,1,Phyllocoptes asperaevagrans,241,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+295,295,1,Phyllocoptes immigrans,241,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+296,296,1,Phyllocoptes indicae,241,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+297,297,1,Phyllocoptes salmaliae,241,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+298,298,1,Phyllocoptes simplicifoliae,242,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P hyllocoptes,
+299,299,1,Phyllocoptruta malligai,243,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Phyllocoptruta,
+300,300,1,Phyllocoptruta odayarae,243,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Phyllocoptruta,
+301,301,1,Phyllocoptruta odinae,243,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Phyllocoptruta,
+302,302,1,P hyllocoptruta oleivora,244,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Phyllocoptruta,
+303,303,1,Vasates cassiae,245,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Vasates,
+304,304,1,Vasates dhodabettaens;s,246,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Vasates,
+305,305,1,Abacarus anacardiae,248,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+306,306,1,Abacarus arjunalis,248,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+307,307,1,Abacarus asiaticae,248,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+308,308,1,Abacarus delhiensis,249,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+309,309,1,Abacarus goaensis,249,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+310,310,1,Abacarus gossypii,249,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+311,311,1,Abacarus sacchari,250,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Abacarus,
+312,312,1,Aculops acanthae,251,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+313,313,1,Aculops abutiloni,251,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+314,314,1,Aculops betonicae,251,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+315,315,1,Aculops boerhaev;ae,252,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+316,316,1,Aculops excoecar;a,252,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+317,317,1,Aculops extensae,252,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+318,318,1,Aculops kumar;,253,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+319,319,1,Aculops leguminae,253,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+320,320,1,Aculops niphocladae,253,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+321,321,1,Aculops pittosporae,254,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+322,322,1,Aculops privae,254,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+323,323,1,Aculops xanthocarpi,254,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculops,
+324,324,1,Aculus atturensis,255,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+325,325,1,Aculus asperua,256,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+326,326,1,Aculus colei,256,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+327,327,1,Aculus cass;ae,256,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+328,328,1,Aculus indicus,257,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+329,329,1,Aculus mckenzie;,257,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+330,330,1,Aculus menoni,257,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+331,331,1,Aculus moringeae,258,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+332,332,1,Aculus kolengii,258,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+333,333,1,Aculus yelagiriensis,258,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Aculus,
+334,334,1,Anthocoptes adhatodae,259,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+335,335,1,Anthocoptes ayyanari,260,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+336,336,1,Anthocoptes glycosmis,260,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+337,337,1,Anthocoptes pavolJiae,260,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+338,338,1,Anthocoptes tectonae,260,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+339,339,1,Anthocoptes vitexae,261,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+340,340,1,AnthocD ptes walayarensis,262,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Anthocoptes,
+341,341,1,Bakeriella ocimis,262,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Bakeriella,
+342,342,1,Ditrymacus keiferl,263,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ditrymacus,
+343,343,1,Ditrymacus int egrifoliae,263,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Ditrymacus,
+344,344,1,Indotegolophus darjeelingensis,263,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Indotegolophus,
+345,345,1,Keiferana neolitseae,264,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Keiferana,
+346,346,1,M etaculus londaensis,265,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,M etaculus,
+347,347,1,M etaculus foveolatae,265,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,M etaculus,
+348,348,1,M etaculus mangi!erae,265,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,M etaculus,
+349,349,1,Metaculus sapindiphagus,265,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,M etaculus,
+350,350,1,Monotrimacus quadrangulari,267,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,MonotrimactlS,
+351,351,1,Neocalacarus mangiferae,267,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Neocalacarus,
+352,352,1,N eomesalo~ kallarensis,268,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,NeonJesalox,
+353,353,1,Neometaculus bauhiniae,269,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Neometaculus,
+354,354,1,Neotegonotus !astigatus,269,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Neotegonotus,
+355,355,1,Neotegonotus indicus,270,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Neotegonotus,
+356,356,1,Paratetra albizziae,271,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P aratetra,
+357,357,1,Paratetra elephantae,271,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P aratetra,
+358,358,1,Paratetra integrifoliavagrans,271,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P aratetra,
+359,359,1,Paratetra himalayana,271,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P aratetra,
+360,360,1,Paratetra murrayae,272,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,P aratetra,
+361,361,1,Proneotegonotus antiquorae,272,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Proneotegonotus,
+362,362,1,Tegolophus bambusae,274,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+363,363,1,Tegolophus calotropi,274,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+364,364,1,Tegolophus cordi$,274,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+365,365,1,Tegolophus gelonis,274,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+366,366,1,Tegolo phus gmelinae,276,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+367,367,1,Tegolophus gmelinus,276,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+368,368,1,Tegolophus ficusi,276,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+369,369,1,Tegolophus indica,276,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+370,370,1,Tegolophus kalyanii,277,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+371,371,1,Tegolophus nerii,277,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+372,372,1,Tegolophus spondial/us,277,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+373,373,1,Tegolophus vitexis,278,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tegolophus,
+374,374,1,Tetra bauhinae,278,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tetra,
+375,375,1,Tetra lanneansis,279,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tetra,
+376,376,1,Tetra tephrosiae,279,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Tetra,
+377,377,1,Thamnacus euphorbiae,279,PROSTlGMATA,Eriophyidae,Phy/locoptinae,,Thamnacus,
+378,378,1,Cisaberoptus kenyae,280,PROSTlGMATA,Eriophyidae,ABEROPTINAE,,Cisabero ptus,
+379,379,1,Hyboderus globulus,281,PROSTlGMATA,Rhyncaphytoptidae,RHYNCAPHYTOPTINAB,,Hyboderus,
+380,3~0,,Rhyncaphytoptus ficifoUae,281,PROSTlGMATA,Rhyncaphytoptidae,RHYNCAPHYTOPTINAB,,Rhyncaphytoptus,
+381,381,1,Rhyncaphytoptus shoreacola,282,PROSTlGMATA,Rhyncaphytoptidae,RHYNCAPHYTOPTINAB,,Rhyncaphytoptus,
+382,382,1,Diptilomiopus alang;;,284,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+383,383,1,Diptilom;opus artocarpae,284,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+384,384,1,Diptilomiopus assamica,285,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+385,385,1,Diptilomiopus benga/ensis,285,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+386,386,1,Diptilomiopus camerae,285,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+387,387,1,Diptilomiopus cocculae,285,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+388,388,1,Diptilomiopus integrifoliae,286,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+389,389,1,Diptilomiopus jevremovici,286,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+390,390,1,Diptilomiopus knorri,287,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilomiopus,
+391,391,1,Dlptilorhynacus slnusetus,287,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Diptilorhynacus,
+392,392,1,Neodiptilon:iopus vishakantal,287,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Neodlptilomiopus,
+393,393,1,N eorhynacus rajendrani,289,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,N eo rhynac us,
+394,394,1,Neorhynacus cambretis,289,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,N eo rhynac us,
+395,395,1,Neodialox palmyrae,289,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Neodialox,
+396,396,1,Cheiracus sulcatus,290,PROSTlGMATA,Rhyncaphytoptidae,DIPTILOMIOPIN AB,,Cheiracus,
+397,397,1,Polyphagotarsonemus latus,292,PROSTlGMATA,Tarsonemidae,,,Polyphagotarsonemus,
+398,398,1,Steneotarsonemus bancrofti,295,PROSTlGMATA,Tarsonemidae,,,Steneotetrsonemus,
+399,399,1,Lupotarsoncmus randsi,296,PROSTlGMATA,Tarsonemidae,,,Lupotarsonems,
+400,400,1,Tarsonemus krichneri,296,PROSTlGMATA,Tarsonemidae,,,Tarsonemus,
+401,401,1,Chelacaropsis moorei,299,PROSTIGMATA,Cheyletidae,,,Chelacaropsis,
+402,402,1,Cheletogenes ornatus,300,PROSTIGMATA,Cheyletidae,,,Cheletogenes,
+403,403,1,Cheyletus fortis,301,PROSTIGMATA,Cheyletidae,,,Cheyletus,
+404,404,1,Agistemus industani,303,PROSTIGMATA,Stigmaeidae,,,Agist.emus,
+405,405,1,Agistemus fleschneri,304,PROSTIGMATA,Stigmaeidae,,,Agist.emus,
+406,406,1,lndostigmaeus rangatensis,305,PROSTIGMATA,Stigmaeidae,,,lndostigmaeus,
+407,407,1,Pronematus elongatus,308,PROSTIGMATA,Tydeidae,,,Pronematus,
+408,408,1,Pronematus fleschneri,308,PROSTIGMATA,Tydeidae,,,Pronematus,
+409,409,1,Pronematus sextoni,308,PROSTIGMATA,Tydeidae,,,Pronematus,
+410,41 (,,P arapronematus acaciae,309,PROSTIGMATA,Tydeidae,,,Parapronematus,
+411,411,1,Lorryia africana,309,PROSTIGMATA,Tydeidae,,,Lorryia,
+412,412,1,Bdellodes (Hoploscirus) affinis,313,PROSTIGMATA,Bdellidae,,,Bdellodes,Hop/oscirus
+413,413,1,Cunaxa bambusae,315,PROSTIGMATA,Cunaxidae,,,Cunaxa,
+414,414,1,Cunaxa cynodonae,316,PROSTIGMATA,Cunaxidae,,,Cunaxa,
+415,415,1,Cunaxa myabunderensis,316,PROSTIGMATA,Cunaxidae,,,Cunaxa,
+416,416,1,Cunaxa setirostris,316,PROSTIGMATA,Cunaxidae,,,Cunaxa,
+417,417,1,Cunaxoides nicobarensis,317,PROSTIGMATA,Cunaxidae,,,Cunaxoides,
+418,418,1,Indocunaxa smiley;,318,PROSTIGMATA,Cunaxidae,,,lndocunaxa,
+419,419,1,Neocunaxoides pradhani,318,PROSTIGMATA,Cunaxidae,,,Neocunaxoides,
+420,420,1,Sphaerolophus gigas,322,PROSTIGMATA,Erythraeidae,CALLIIjOSOMATINAE,,Sphaerolophus,
+421,421,1,Sphaerolophus delhiensis,322,PROSTIGMATA,Erythraeidae,CALLIIjOSOMATINAE,,Sphaerolophus,
+422,422,1,Abrolophus delhiensis,322,PROSTIGMATA,Erythraeidae,CALLIIjOSOMATINAE,,Abrolophus,
+423,423,1,Abrolophus ripicola,324,PROSTIGMATA,Erythraeidae,CALLIIjOSOMATINAE,,Abrolophus,
+424,424,1,Leptus poonaens;s,324,PROSTIGMATA,Erythraeidae,LEPTINAE,,Leptus,
+425,425,1,Leptus giganticus,325,PROSTIGMATA,Erythraeidae,LEPTINAE,,Leptus,
+426,426,1,Erythraeus plumosus,325,PROSTIGMATA,Erythraeidae,ERYTHRAEINAE,,Erythraeus,
+427,427,1,Paraerythraeus serratocilialus,326,PROSTIGMATA,Erythraeidae,ERYTHRAEINAE,,Paraerythraeus,
+428,428,1,Neocypholaelaps pradllani,327,MESOS'fIGMATA,Ameroseiidae,,,Neocypholae/aps,
+429,429,1,Neocypholaelaps slridulans,327,MESOS'fIGMATA,Ameroseiidae,,,Neocypholae/aps,
+430,430,1,Melichares (Melichares) fiei,330,MESOS'fIGMATA,Ascidae,,,M elichares,Melichares
+431,431,1,Lasioseius quadrisetosus,330,MESOS'fIGMATA,Ascidae,,,Lasioseius,
+432,432,1,Lasioseius terrestris,331,MESOS'fIGMATA,Ascidae,,,Lasioseius,
+433,433,1,Amh/yseius (Amhlyseius) adhatodae,336,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+434,434,1,Amblyseius (Amhlyseius) aerialis,336,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+435,435,1,Amblyseius (Amb/yseius) channabasavanni,337,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+436,436,1,Amh/yseius (Amhlyseius) deleoni,338,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+437,437,1,Amhlyseius. (Amhlyseius) ipomoeae,338,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+438,438,1,Amh/yseius (Amblyseius) kulini,338,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+439,439,1,Amblyseius (Amblyseius) largoensis,339,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+440,440,1,Amhlyseius (Amblyseius) mcmurtryi,340,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+441,441,1,Amblyseius (Amblyseius) neorykei,340,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+442,442,1,Amblyseius (Amblyseius) orientatis,340,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+443,443,1,Amblyseius (Amhlyseius) paraaerialis,342,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+444,444,1,Amblyseius (Amblyseius) rhabdus,342,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+445,445,1,Amblyseius (Amb/yseius) shoreae,342,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Amblyseius
+446,446,1,Amblyseius (Asperoseius) nucifera-,343,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Asperoseius
+447,447,1,Amblyseius (Euseius) alstoniae,344,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+448,448,1,Amblyseius (Euseius) bambusae,345,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+449,449,1,Amblyseius (Euseius) coccineae,345,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+450,450,1,Amblyseius (Euseius) coccosocius,345,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+451,451,1,Amblyseius (Euseius) delhiensis 3i6,,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+452,452,1,Amblyseius (Euseius) eucalypti,346,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+453,453,1,Amblyseius (Euseius) finlandicus,347,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+454,454,1,Amblyseius (Euseius) kodaikanalellsis,347,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+455,455,1,Amblyseius (Euseius) neococcineae,348,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+456,456,1,Amblyseius (Euseius) ovalis,348,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+457,457,1,Amblyseius (Euseius) pruni,349,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+458,458,1,Amblyseius (Euseius) rhododendronis,349,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+459,459,1,Amblyseius (Euseius) sacchari,349,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Euseius
+460,460,1,Amblyseius (Neoseiulus) aceriae,351,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+461,461,1,Amblyseius (NeDseiulus) assamensis,351,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+462,462,1,Amblyseius (Neoseiulus) cynodonae,351,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+463,463,1,Amblyseius (Neoseiulus) dhooriai,352,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+464,464,1,Amblyseius (Neoseiu/us) ja/lacis,352,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+465,465,1,Amblyseius (Neoseiulus) jraterculus,354,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+466,466,1,Amhlyseius (Neoseiulus) indicus,354,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+467,467,1,Amblyseius (Neoseiulus) longispinosus,354,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+468,468,1,Amhlyseius (Neoseiulus) paspalivorus,355,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+469,469,1,Amblyseius (Neoseiulus) rangatensis,356,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Neoseiulus
+470,470,1,Amblyseius (Paraphytoseius) multidentatus,356,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Paraphytoseius
+471,471,1,AmbZyseius (Paraphytoseius) scZeroticus,358,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Paraphytoseius
+472,472,1,Amblyseius (P hyto~cutella) salebrosus,358,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,P hytoscutella
+473,473,1,Amblyseius (Proprioseius) kumaonensis,360,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Proprioseius
+474,474,1,Amblyseius (Proprioseiopsis) peltatus,360,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Proprioseio pSis
+475,475,1,Amblyseius (Typhlodromalus) eucalypticus,361,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+476,476,1,Amblyseius (Typhlodromalus) havu,361,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+477,477,1,Amblyseius (Typhlodromalus) jarooa,362,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+478,478,1,Amblyseius (Typhlodromalus) kalimpongensis,362,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+479,479,1,Amblyseius (Typhlodromalus) lablabi,363,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+480,480,1,Ambiyseius (Typhlodromalus) manipurensis,364,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+481,481,1,Amblyseius (Typhlodromalus) sorghumae,364,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+482,482,1,Amblyseius (Typhlodromalus) swaga,365,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromalus
+483,483,1,Amblyseius (Typhlodromips) arecae,366,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+484,484,1,Amblyseius (Typhlodromips) crotalariae,366,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+485,485,1,Amblyseius (Typhlodromips) eugeniae,367,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+486,486,1,Amblyseius (Typhlodromips) guajavae,367,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+487,487,1,Amblyseius (Typhlodromips) mangiferae,367,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+488,488,1,Amblyseius (Typhlodromlps) meghalayensis,368,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+489,489,1,"Amblyseius (Typhlodromips) "" neocrotalarlae",369,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+490,490,1,Amblyseius (Typhlodromips) officinaria,369,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+491,491,1,Amblyseius (Typhlodromips) polyantheae,370,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+492,492,1,Amblyseius (Typhlodromips) sapienticola,370,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+493,493,1,Amblyseius (Typh/odromips) suknaensis,370,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+494,494,1,Amblyseius (Typhlodromips) syzygii,371,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+495,495,1,Amblyse;us (Typh/odromJps) tetranychivorus,371,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+496,496,1,Amb/yseius (Typhlodromips) potenti/lae,372,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Amblyseius,Typhlodromips
+497,497,1,Indoseiulus ricin;,373,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Indoseiulus,
+498,498,1,Iphiseius andamanicus,375,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,/phiseius,
+499,499,1,lphiseius bakeri,375,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,/phiseius,
+500,500,1,Paraamblyseius formosanus,376,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Paraamblyseius,
+501,501,1,P araamblyseius fragariae,377,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Paraamblyseius,
+502,502,1,Paraamblyseius mumai,377,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Paraamblyseius,
+503,503,1,Platyseiella mumai,378,MESOS'fIGMATA,Phytoseiidae,AMBLYSElINAE,,Platyseiella,
+504,504,1,Indodromus meerutensls,379,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,lndodromus,
+505,505,1,Phytose/us (Pennaseius) kapur;,380,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,P ennaseius
+506,506,1,Phytoseius (Pennaseius) minutus,381,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,P ennaseius
+507,507,1,Phytoseius (Phytoseius) bandipurensis,382,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+508,508,1,Phytoseius (Phytoseius) corniger,383,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+509,509,1,Phytoseius (Phytoseius) crinitus,383,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+510,510,1,Phytoseius (Phytoseius) int ermedius,385,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+511,511,1,Phytoseius (Phytoseius) jaunpurensis,385,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+512,512,1,Phytoseius (Phytoseius) jujuba,385,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+513,513,1,Phytoseius (P hytoseius) macropilis,386,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+514,514,1,Phytoseius (Phytoseius) macrosetosus,386,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+515,515,1,Phytoseius (PhytDseius) meyerae,386,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+516,516,1,P hytoseius (P hytoseius) mixtus,387,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+517,517,1,Phytoseius (Phytoseius) neglecta,387,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+518,518,1,Phytoseius (Phytoseius) neocorniger,387,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+519,519,1,Phytoseius (Phytoseius) punjab en sis,388,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+520,520,1,Phytoseius (Phytoseius) rachelae,388,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+521,521,1,Phytoseius (Phytoseius) roseus,388,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+522,522,1,Phytoseius (Phytoseiusl swirskii,389,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+523,523,1,Phytoseius (Phytoseius) rugosus,389,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+524,524,1,P hytoseius (P hytoseius) wains t eini,389,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+525,525,1,P hytoseiUS (P hytoseius) woodburyi,389,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,P hytoseius,Phytoseius
+526,526,1,Typhlodromus (Amblydromella) bakeri,391,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+527,527,1,TyphlodrQmus (Amblydromella) bambusicoLus,392,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+528,528,1,Typhlodromus (Amblydromel/a) chrysanthemi,392,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+529,529,1,Typhlodromus (Amhlydromella) divergentis,393,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+530,530,1,Typhlodromus (Amblydromella) eharai,393,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+531,531,1,Typhlodromus (A mblydrom ella ) Jleschneri,393,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+532,532,1,Typhlodromus (Amblydromella) gopali,394,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+533,533,1,Typhlodromus (Amhlydrome/la) himalayensis,394,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+534,534,1,Typhlodromus (4mblydromella) homal;;,394,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+535,535,1,"Typhlodromus (Amblydr""mella) kodaikanalensis",395,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+536,536,1,Typhlodromus (Amblydromella) morl,395,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+537,537,1,Typhlodromw (Amblydromella) rhenanus,396,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+538,538,1,Ty phlodromus (Amblydromella) rhododendronls,396,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Amblydromella
+539,539,1,Typhlodromus (Brethr;a) confusus,396,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Brethria
+540,540,1,Typhlodromus (Brethria) roshanlali,397,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Brethria
+541,541,1,Ty phlodromus (Cia v;drom us) neotransvaalens;s,398,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Clay;dromus
+542,542,1,Typhlodromus (Orlentiselus) channabasavanni,400,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+543,543,1,Typhlodromus (Orientiseius) kashmiricus,400,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+544,544,1,Typhlodromus (Orientiseius) manipurensis,400,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+545,545,1,Typhlodromus (Orientiseius) orissaensis,401,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+546,546,1,Typhlodromus (Orientiseius) pruni,401,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+547,547,1,Typhlodromus (Orientiseius) rickeri,402,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Orientiseius
+548,548,1,Typhlodromus (Paraseiulus) neosoleiger,402,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,P araseiulus
+549,549,1,Typhlodromus (Typhloctomus nesbitti,403,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Ty phloctomus
+550,550,1,Typhlodromus (TYphioctomus) transitans,404,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Ty phloctomus
+551,551,1,Typhlodromus (Typhlodromus) communis,405,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Typhlodromw
+552,552,1,Typhlodromus (Typhlodromus) garhwalicus,405,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Typhlodromw
+553,553,1,Typhlodromus (Typhlodromus) neorhenanus,405,MESOS'fIGMATA,Phytoseiidae,PHYTOSEIlNAE,,Typhlodromus,Typhlodromw
+554,554,1,Garhwalicus himalayensis,406,MESOS'fIGMATA,Phytoseiidae,GNORIMINAE,,Garhwalicus,
+555,555,1,Rhizoglyphus echinopus,407,MESOS'fIGMATA,Ascidae,,,Rhizoglyphus,
+556,556,1,Tyrophagus putrescentiae,409,MESOS'fIGMATA,Ascidae,,,Tyrophagus,
+557,557,1,Scheloribates zealandicus,409,CRYPTOSTIGMATA,Oribatulidae,,,Scheloribates,
