@@ -1,0 +1,73 @@
+name: Download COI records
+
+on:
+  workflow_dispatch:
+    inputs:
+      families:
+        description: "Space-separated family keys, or 'all'"
+        required: false
+        default: "all"
+      source:
+        description: "ncbi, bold or both"
+        required: false
+        default: "both"
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Resolve family argument
+        id: fam
+        run: |
+          if [ "${{ inputs.families }}" = "all" ] || [ -z "${{ inputs.families }}" ]; then
+            echo "arg=" >> "$GITHUB_OUTPUT"
+          else
+            echo "arg=--family ${{ inputs.families }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch from NCBI
+        if: inputs.source == 'ncbi' || inputs.source == 'both'
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python scripts/fetch_ncbi.py ${{ steps.fam.outputs.arg }}
+
+      - name: Fetch from BOLD
+        if: inputs.source == 'bold' || inputs.source == 'both'
+        run: python scripts/fetch_bold.py ${{ steps.fam.outputs.arg }}
+
+      - name: Combine and deduplicate
+        run: python scripts/combine.py
+
+      - name: Upload snapshot as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coi-snapshot-${{ github.run_number }}
+          path: |
+            data/
+            logs/
+          retention-days: 90
+
+      - name: Commit the snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A data logs
+          if git diff --cached --quiet; then
+            echo "no change in the downloaded records"
+          else
+            git commit -m "COI snapshot $(date -u +%Y-%m-%d) (run ${{ github.run_number }})"
+            git push
+          fi

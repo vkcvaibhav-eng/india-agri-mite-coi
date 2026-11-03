@@ -1,0 +1,10 @@
+{
+  "families": [
+    {"key": "tetranychidae",  "ncbi_taxon": "Tetranychidae",  "bold_taxon": "Tetranychidae",  "group": "phytophagous"},
+    {"key": "tenuipalpidae",  "ncbi_taxon": "Tenuipalpidae",  "bold_taxon": "Tenuipalpidae",  "group": "phytophagous"},
+    {"key": "eriophyoidea",   "ncbi_taxon": "Eriophyoidea",   "bold_taxon": "Eriophyoidea",   "group": "phytophagous"},
+    {"key": "tarsonemidae",   "ncbi_taxon": "Tarsonemidae",   "bold_taxon": "Tarsonemidae",   "group": "phytophagous"},
+    {"key": "tuckerellidae",  "ncbi_taxon": "Tuckerellidae",  "bold_taxon": "Tuckerellidae",  "group": "phytophagous"},
+    {"key": "phytoseiidae",   "ncbi_taxon": "Phytoseiidae",   "bold_taxon": "Phytoseiidae",   "group": "predatory"}
+  ]
+}
