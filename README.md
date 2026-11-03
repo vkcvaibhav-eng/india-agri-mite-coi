@@ -48,9 +48,15 @@ Two NCBI queries are run per family and logged separately:
 - `mitogenome` — organism, mitochondrion filter, 10000–30000 bp; the COI coding
   sequence is cut out of these from the annotation
 
-For BOLD the whole family is pulled from the public combined endpoint and records
-whose marker is not a COI variant are dropped. If that endpoint has been retired,
-export each family from the BOLD data portal into `data/raw/bold/` and run
+BOLD is read through the v5 portal API, since the v3 and v4 public endpoints were
+retired in July 2026. Each family goes through the three-step token flow
+(`/api/query/preprocessor`, `/api/query`, `/api/documents/<query_id>/download`)
+and comes back as BCDM TSV; records whose marker is not a COI variant are dropped.
+A family that fails is logged and skipped rather than ending the run.
+
+The portal caps how much one download may return. If a family is refused as too
+large, run it with `--geo India`, or ask support@boldsystems.org for the full set
+and parse the file they send with
 `python scripts/fetch_bold.py --from-tsv "data/raw/bold/*.tsv"`.
 
 `logs/download_log.csv` records the date, exact query string, records found and

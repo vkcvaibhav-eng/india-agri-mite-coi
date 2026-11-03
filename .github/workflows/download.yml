@@ -11,6 +11,10 @@ on:
         description: "ncbi, bold or both"
         required: false
         default: "both"
+      geo:
+        description: "Restrict the BOLD download to one country, e.g. India. Leave blank for the world set."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -46,12 +50,20 @@ jobs:
 
       - name: Fetch from BOLD
         if: inputs.source == 'bold' || inputs.source == 'both'
-        run: python scripts/fetch_bold.py ${{ steps.fam.outputs.arg }}
+        continue-on-error: true
+        run: |
+          if [ -n "${{ inputs.geo }}" ]; then
+            python scripts/fetch_bold.py ${{ steps.fam.outputs.arg }} --geo "${{ inputs.geo }}"
+          else
+            python scripts/fetch_bold.py ${{ steps.fam.outputs.arg }}
+          fi
 
       - name: Combine and deduplicate
+        if: always()
         run: python scripts/combine.py
 
       - name: Upload snapshot as artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: coi-snapshot-${{ github.run_number }}
@@ -61,6 +73,7 @@ jobs:
           retention-days: 90
 
       - name: Commit the snapshot
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
