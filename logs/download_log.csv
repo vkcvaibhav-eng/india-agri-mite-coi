@@ -7,3 +7,10 @@ timestamp_utc,source,family,query_name,query,records_found,records_kept,note
 2026-11-03T23:16:01Z,bold,tarsonemidae,local_tsv,data/raw/bold/tarsonemidae.tsv,375,362,non_coi_markers=4
 2026-11-03T23:16:01Z,bold,tenuipalpidae,local_tsv,data/raw/bold/tenuipalpidae.tsv,635,621,non_coi_markers=14
 2026-11-03T23:16:01Z,bold,tetranychidae,local_tsv,data/raw/bold/tetranychidae.tsv,6480,5999,non_coi_markers=475
+2026-11-03T23:19:40Z,bold,diptilomiopidae,local_tsv,data/raw/bold/diptilomiopidae.tsv,638,523,non_coi_markers=115
+2026-11-03T23:19:40Z,bold,eriophyidae,local_tsv,data/raw/bold/eriophyidae.tsv,4099,3461,non_coi_markers=632
+2026-11-03T23:19:40Z,bold,phytoptidae,local_tsv,data/raw/bold/phytoptidae.tsv,335,275,non_coi_markers=60
+2026-11-03T23:19:40Z,bold,phytoseiidae,local_tsv,data/raw/bold/phytoseiidae.tsv,5734,5540,non_coi_markers=178
+2026-11-03T23:19:40Z,bold,tarsonemidae,local_tsv,data/raw/bold/tarsonemidae.tsv,375,362,non_coi_markers=4
+2026-11-03T23:19:40Z,bold,tenuipalpidae,local_tsv,data/raw/bold/tenuipalpidae.tsv,635,621,non_coi_markers=14
+2026-11-03T23:19:41Z,bold,tetranychidae,local_tsv,data/raw/bold/tetranychidae.tsv,6480,5999,non_coi_markers=475
