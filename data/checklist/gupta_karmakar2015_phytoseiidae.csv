@@ -1,0 +1,211 @@
+number,subfamily,genus,species_epithet,species,authority,year,citation_raw,needs_review
+1,Amblyseiinae,Neoseiulus,aceriae,Neoseiulus aceriae,Gupta,1975,"(Gupta), 1975:30–31; Gupta, 1986:",0
+2,Amblyseiinae,Neoseiulus,bindrai,Neoseiulus bindrai,Gupta,1977,"(Gupta), 1977c: 34–35; Gupta, 1986:",0
+3,Amblyseiinae,Neoseiulus,baraki,Neoseiulus baraki,Athias-Henriot,1966,"(Athias-Henriot), 1966: 211–212;",0
+4,Amblyseiinae,Neoseiulus,cucumeris,Neoseiulus cucumeris,Oudemans,1930,"(Oudemans), 1930: 69–70; Gupta,",0
+5,Amblyseiinae,Neoseiulus,cynodonae,Neoseiulus cynodonae,Gupta,1977,"(Gupta), 1977c: 626–627; Gupta,",0
+6,Amblyseiinae,Neoseiulus,dhooriai,Neoseiulus dhooriai,Gupta,1977,"(Gupta), 1977d: 30–31; Gupta,",0
+7,Amblyseiinae,Neoseiulus,fallacis,Neoseiulus fallacis,Garman,1948,"(Garman), 1948: 13; Gupta, 1986:",0
+8,Amblyseiinae,Neoseiulus,ficusi,Neoseiulus ficusi,Gupta,1986,"(Gupta), 1986: 146; Gupta, 2003a:",0
+9,Amblyseiinae,Neoseiulus,imbricatus,Neoseiulus imbricatus,Corpuz-Raros and Rimando,1966,"Corpuz-Raros and Rimando), 1966: 127; Gupta, 1986: 114; Gupta, 2003a:",0
+10,Amblyseiinae,Neoseiulus,indicus,Neoseiulus indicus,Narayanan and Kaur,1960,"(Narayanan and Kaur), 1960a: 2–5;",0
+11,Amblyseiinae,Neoseiulus,lablabi,Neoseiulus lablabi,Ghai and Menon,1967,"(Ghai and Menon), 1967: 72–73;",0
+12,Amblyseiinae,Neoseiulus,longispinosus,Neoseiulus longispinosus,Evans,1952,"(Evans), 1952: 413–416; Gupta,",0
+13,Amblyseiinae,Neoseiulus,neoghanii,Neoseiulus neoghanii,Gupta,1986,"(Gupta), 1986: 174; Gupta, 2003a:",0
+14,Amblyseiinae,Neoseiulus,paspalivorus,Neoseiulus paspalivorus,De Leon,1957,"(De Leon), 1957: 143–144;",0
+15,Amblyseiinae,Neoseiulus,reticulatus,Neoseiulus reticulatus,Oudemans,1930,"(Oudemans), 1930: 70-71; Gupta,",0
+23,Amblyseiinae,Okiseius,nucifera,Okiseius nucifera,Gupta,1979,"(Gupta), 1979: 80; Gupta, 1986: 71;",0
+16,Amblyseiinae,Paraphytoseius,laaensis,Paraphytoseius laaensis,Gupta,1986,"(Gupta, 1986), Moraes et al., 2004:",0
+17,Amblyseiinae,Paraphytoseius,himalayana,Paraphytoseius himalayana,Gupta,1986,"Gupta, 1986: 211; Gupta, 2003a:",0
+18,Amblyseiinae,Paraphytoseius,sikkimensis,Paraphytoseius sikkimensis,Gupta,1986,"Gupta, 1986: 213; Gupta, 2003a:",0
+19,Amblyseiinae,Paraphytoseius,yazuliensis,Paraphytoseius yazuliensis,Gupta,1986,"Gupta, 1986: 215; Gupta, 2003a:",0
+20,Amblyseiinae,Proprioseius,kumaonensis,Proprioseius kumaonensis,Gupta,1982,"Gupta, 1982a: 28; Gupta, 1986:",0
+21,Amblyseiinae,Amblyseiulella,heveae,Amblyseiulella heveae,Oudemans,1930,"(Oudemans), 1930: 97; Gupta, 1986:",0
+22,Amblyseiinae,Amblyseiulella,hyauliangensis,Amblyseiulella hyauliangensis,Gupta,1986,"(Gupta), 1986: 69; Gupta,",0
+24,Amblyseiinae,Amblyseiulella,apocynaevagrans,Amblyseiulella apocynaevagrans,Chinniah and Mohansundaram,2001,"Chinniah and Mohansundaram, 2001a: 73; Chant and",0
+25,Amblyseiinae,Amblyseiulella,arjunae,Amblyseiulella arjunae,Anithalatha Sadanandan,2006,"Anithalatha Sadanandan, 2006a: 188.",0
+26,Amblyseiinae,Amblyseiulella,bhadrakaliensis,Amblyseiulella bhadrakaliensis,Gupta,1969,"(Gupta), 1969a: 127; Gupta,",0
+27,Amblyseiinae,Amblyseiulella,horrifer,Amblyseiulella horrifer,Pritchard and Baker,1962,(Pritchard and Baker) 1962: 205–,0
+28,Amblyseiinae,Amblyseiulella,multidentatus,Amblyseiulella multidentatus,Swirski and Shechter,1961,"Swirski and Shechter, 1961:",0
+29,Amblyseiinae,Amblyseiulella,nicobarensis,Amblyseiulella nicobarensis,Gupta,1977,"(Gupta), 1977b: 631; Gupta,",0
+30,Amblyseiinae,Amblyseiulella,orientalis,Amblyseiulella orientalis,Narayanan et al.,1960,"(Narayanan et al.) 1960: 394; Gupta,",0
+31,Amblyseiinae,Amblyseiulella,scleroticus,Amblyseiulella scleroticus,Gupta and Ray,1981,"(Gupta and Ray), 1981a: 42;",0
+5,Amblyseiinae,Scapulaseius,markwelli,Scapulaseius markwelli,species group Schicha,1987,"species group Schicha, 1987: 25.",0
+6,Amblyseiinae,Scapulaseius,oguroi,Scapulaseius oguroi,species group Wu and Ou,1999,"species group Wu and Ou, 1999: 103.",0
+32,Amblyseiinae,Scapulaseius,andamanicus,Scapulaseius andamanicus,Gupta,1980,"(Gupta), 1980c: 213; Gupta,",0
+33,Amblyseiinae,Scapulaseius,asiaticus,Scapulaseius asiaticus,Evans,1953,"(Evans 1953); Moraes et al., 2004:",0
+34,Amblyseiinae,Scapulaseius,arecae,Scapulaseius arecae,Gupta,1977,"(Gupta), 1977c: 624; Gupta, 1986:",0
+35,Amblyseiinae,Scapulaseius,assamensis,Scapulaseius assamensis,Chant,1960,"Chant 1960: 60; Gupta, 1986:",0
+36,Amblyseiinae,Scapulaseius,augusta,Scapulaseius augusta,Roy et al.,2008,(Roy et al.) 2008: 1.,0
+37,Amblyseiinae,Scapulaseius,daturae,Scapulaseius daturae,Gupta,1975,"(Gupta), 1975: 34; Gupta, 1986:",0
+41,Amblyseiinae,Scapulaseius,officinaria,Scapulaseius officinaria,Gupta,1975,"(Gupta), 1975: 39; Gupta, 1986:",0
+42,Amblyseiinae,Scapulaseius,polyantheae,Scapulaseius polyantheae,Gupta,1975,"(Gupta), 1975: 42; Gupta, 1986:",0
+43,Amblyseiinae,Scapulaseius,sapienticola,Scapulaseius sapienticola,Gupta,1977,"(Gupta), 1977c: 633; Gupta,",0
+44,Amblyseiinae,Scapulaseius,sorghumae,Scapulaseius sorghumae,Gupta,1977,"(Gupta), 1977c: 635; Gupta,",0
+45,Amblyseiinae,Scapulaseius,suknaensis,Scapulaseius suknaensis,Gupta,1970,"(Gupta), 1970a: 185; Gupta,",0
+46,Amblyseiinae,Typhlodromips,syzygii,Typhlodromips syzygii,Gupta,1975,"(Gupta), 1975: 44; Gupta, 1986: 188;",0
+38,Amblyseiinae,Transeius,eucalypticus,Transeius eucalypticus,Gupta,1978,"(Gupta), 1978a: 330; Gupta,",0
+39,Amblyseiinae,Transeius,hapoli,Transeius hapoli,Gupta,1986,"(Gupta) 1986: 200; Gupta, 2003a:",0
+47,Amblyseiinae,Transeius,bangalorensis,Transeius bangalorensis,"Karg, 320; Gupta",2003,"Karg, 320; Gupta, 2003a:",0
+40,Amblyseiinae,Transeius,meghalayensis,Transeius meghalayensis,Gupta,1978,"(Gupta, 1978b: 67); Gupta,",0
+48,Amblyseiinae,Transeius,tetranychivorus,Transeius tetranychivorus,Gupta,1978,"(Gupta), 1978b: 337; Gupta,",0
+49,Amblyseiinae,Amblyseius,adhatodae,Amblyseius adhatodae,Muma,1967,"Muma, 1967: 50; Gupta, 1986:",0
+50,Amblyseiinae,Amblyseius,aerialis,Amblyseius aerialis,Muma,1955,"(Muma), 1955: 264; Athias-Henriot",0
+51,Amblyseiinae,Amblyseius,amitae,Amblyseius amitae,Bhattacharyya,1969,"Bhattacharyya, 1969: 677; Moraes et",0
+54,Amblyseiinae,Amblyseius,apocynae,Amblyseius apocynae,Chinniah and Mohanasundaram,2001,"Chinniah and Mohanasundaram, 2001b: 66; Chant and McMurtry, 2007: 75.",0
+55,Amblyseiinae,Amblyseius,channabasavannai,Amblyseius channabasavannai,Gupta and Daniel,1978,"Gupta and Daniel, 1978: 328 (originally described as",0
+56,Amblyseiinae,Amblyseius,charui,Amblyseius charui,Gupta,1969,"Gupta, 1969c: 126; Gupta, 1986:",0
+57,Amblyseiinae,Amblyseius,coffeae,Amblyseius coffeae,Sadanandan,2006,"Sadanandan, 2006: 39.",0
+58,Amblyseiinae,Amblyseius,crotolariae,Amblyseius crotolariae,Gupta,1977,"Gupta, 1977d: 53; Gupta, 1986:",0
+59,Amblyseiinae,Amblyseius,cucurbitae,Amblyseius cucurbitae,Rather,1985,"Rather, 1985: 291; Gupta, 2003a:",0
+60,Amblyseiinae,Amblyseius,deleoni,Amblyseius deleoni,Muma and Denmark,1970,"Muma and Denmark, 1970: 68;",0
+61,Amblyseiinae,Amblyseius,eujeniae,Amblyseius eujeniae,Gupta,1977,"Gupta, 1977c: 627; Gupta, 1986:",0
+62,Amblyseiinae,Amblyseius,excelsus,Amblyseius excelsus,Chaudhri et al.,1979,"Chaudhri et al., 1979: 68; Rather,",0
+63,Amblyseiinae,Amblyseius,fraterculus,Amblyseius fraterculus,Berlese,1917,"Berlese, 1917: 172; Gupta, 1986:",0
+64,Amblyseiinae,Amblyseius,giganticus,Amblyseius giganticus,Gupta,1981,"Gupta, 1981a: 33–35; Gupta,",0
+65,Amblyseiinae,Amblyseius,guajavae,Amblyseius guajavae,Gupta,1978,"Gupta, 1978b: 63; Gupta, 1986:",0
+52,Amblyseiinae,Amblyseius,amtalaensis,Amblyseius amtalaensis,Gupta,1977,"Gupta, 1977a: 53; Moraes et al.,",0
+66,Amblyseiinae,Amblyseius,hapoliensis,Amblyseius hapoliensis,Gupta,1986,"Gupta, 1986: 43; Gupta, 2003a:",0
+53,Amblyseiinae,Amblyseius,andersoni,Amblyseius andersoni,Chant,1957,"Chant, 1957b: 296; Gupta, 1986:",0
+67,Amblyseiinae,Amblyseius,herbicolus,Amblyseius herbicolus,Chant,1959,"Chant, 1959: 84–85; Gupta, 1986:",0
+68,Amblyseiinae,Amblyseius,herbiculoides,Amblyseius herbiculoides,McMurtry and Moraes,1984,"McMurtry and Moraes, 1984:",0
+69,Amblyseiinae,Amblyseius,indirae,Amblyseius indirae,Gupta,1985,"Gupta, 1985: 209; Gupta, 1986: 47;",0
+70,Amblyseiinae,Amblyseius,ipomoeae,Amblyseius ipomoeae,Ghai and Menon,1967,"Ghai and Menon, 1967: 71; Gupta,",0
+71,Amblyseiinae,Amblyseius,jarooa,Amblyseius jarooa,Gupta,1977,"Gupta, 1977b: 629; Gupta, 1986: 148;",0
+72,Amblyseiinae,Amblyseius,koothaliensis,Amblyseius koothaliensis,Anithalatha,2005,"Anithalatha, 2005: 83.",0
+73,Amblyseiinae,Amblyseius,kulini,Amblyseius kulini,Gupta,1978,"Gupta, 1978a: 62; Gupta, 1986: 30;",0
+74,Amblyseiinae,Amblyseius,laaensis,Amblyseius laaensis,Gupta,1986,"(Gupta, 1986): 266; Gupta, 1986:",0
+75,Amblyseiinae,Amblyseius,largoensis,Amblyseius largoensis,Muma,1955,"Muma, 1955: 266; Gupta, 1986:",0
+76,Amblyseiinae,Amblyseius,manipurensis,Amblyseius manipurensis,Gupta,1978,"Gupta, 1978b: 66; Gupta, 1986:",0
+77,Amblyseiinae,Amblyseius,mcmurtryi,Amblyseius mcmurtryi,Muma,1967,"Muma, 1967: 270; Gupta, 1986:",0
+78,Amblyseiinae,Amblyseius,mohanasundaramai,Amblyseius mohanasundaramai,Anithalatha,2005,"Anithalatha, 2005: 81.",0
+79,Amblyseiinae,Amblyseius,mulberricus,Amblyseius mulberricus,Anithalatha Sadanandan and Ramani,2007,"Anithalatha Sadanandan and Ramani, 2007: 215.",0
+80,Amblyseiinae,Amblyseius,muraleedharani,Amblyseius muraleedharani,Gupta,1985,"Gupta, 1985: 57; Gupta,",0
+81,Amblyseiinae,Amblyseius,neocrotalariae,Amblyseius neocrotalariae,Gupta,1978,"(Gupta), 1978b: 325; Gupta,",0
+82,Amblyseiinae,Amblyseius,neorykei,Amblyseius neorykei,Gupta,1977,"Gupta, 1977a: 56; Gupta, 1986: 59;",0
+83,Amblyseiinae,Amblyseius,orientalis,Amblyseius orientalis,Ehara,1959,"Ehara, 1959: 55; Gupta, 1986: 61;",0
+84,Amblyseiinae,Amblyseius,paraaerialis,Amblyseius paraaerialis,Muma,1967,"Muma, 1967: 270; Gupta, 1986:",0
+85,Amblyseiinae,Amblyseius,pseudorientalis,Amblyseius pseudorientalis,Chinniah and Mohanasundaram,2001,"Chinniah and Mohanasundaram, 2001a: 68; Chant and",0
+86,Amblyseiinae,Amblyseius,rangatensis,Amblyseius rangatensis,Gupta,1977,"(Gupta), 1977c: 632–633; Gupta,",0
+87,Amblyseiinae,Amblyseius,rosica,Amblyseius rosica,Gupta,1992,"Gupta, 1992a: 166; Gupta, 2003a:",0
+88,Amblyseiinae,Amblyseius,rubiae,Amblyseius rubiae,Chinniah and Mohanasundaram,2001,"Chinniah and Mohanasundaram, 2001a: 70; Chant and McMurtry, 2007: 81.",0
+89,Amblyseiinae,Amblyseius,shoreae,Amblyseius shoreae,Gupta,1977,"Gupta, 1977c: 57; Gupta, 1986: 63;",0
+90,Amblyseiinae,Amblyseius,sijiensis,Amblyseius sijiensis,Gupta,1986,"Gupta, 1986: 183; Gupta, 2003a:",0
+91,Amblyseiinae,Proprioseiopsis,arunachalensis,Proprioseiopsis arunachalensis,Gupta,1986,"(Gupta), 1986: 132; Moraes",0
+92,Amblyseiinae,Proprioseiopsis,keralaensis,Proprioseiopsis keralaensis,Chinniah and Mohanasundaram,2001,"(Chinniah and Mohanasundaram), 2001b: 76; Chant and",0
+93,Amblyseiinae,Proprioseiopsis,peltatus,Proprioseiopsis peltatus,van der Merwe,1968,"(van der Merwe), 1968: 119; Gupta,",0
+94,Amblyseiinae,Proprioseiopsis,punicae,Proprioseiopsis punicae,Gupta,1980,"(Gupta), 1980a: 213; Gupta, 1987b:",0
+95,Amblyseiinae,Proprioseiopsis,synachattiensis,Proprioseiopsis synachattiensis,Gupta,1986,"(Gupta), 1986: 136; Gupta,",0
+96,Amblyseiinae,Phytoscutus,bakeri,Phytoscutus bakeri,Gupta,1980,"(Gupta), 1980b: 214; Gupta, 1986:",0
+97,Amblyseiinae,Phytoscutus,salebrosus,Phytoscutus salebrosus,Chant,1960,"(Chant), 1960: 58; Gupta, 1986:",0
+98,Amblyseiinae,Paraamblyseius,fragariae,Paraamblyseius fragariae,Gupta,1980,"Gupta, 1980a: 215; Gupta, 1986:",0
+99,Amblyseiinae,Paraamblyseius,mumai,Paraamblyseius mumai,Gupta,1980,"Gupta, 1980b: 33; Gupta, 1986: 206;",0
+100,Amblyseiinae,Gynaeseius,eharai,Gynaeseius eharai,Gupta,1986,"(Gupta), 1986: 193–195; Gupta,",0
+101,Amblyseiinae,Gynaeseius,ghaiae,Gynaeseius ghaiae,Denmark and Kolodochka,1993,"(Denmark and Kolodochka), 1993:",0
+102,Amblyseiinae,Gynaeseius,ricini,Gynaeseius ricini,Ghai and Menon,1969,"(Ghai and Menon), 1969: 348; Gupta,",0
+103,Amblyseiinae,Amblydromalus,swaga,Amblydromalus swaga,Pritchard and Baker,1962,"(Pritchard and Baker), 1962: 73;",0
+104,Amblyseiinae,Euseius,ahaioensis,Euseius ahaioensis,Gupta,1992,"(Gupta), 1992b: 160; Gupta,",0
+105,Amblyseiinae,Euseius,alstoniae,Euseius alstoniae,Gupta,1975,"(Gupta), 1975: 31; Gupta, 1986:",0
+106,Amblyseiinae,Euseius,bambusae,Euseius bambusae,Ghai and Menon,1967,"(Ghai and Menon, 1967: 66);",0
+107,Amblyseiinae,Euseius,chikmagalurensis,Euseius chikmagalurensis,Gupta,1985,"(Gupta) 1985: 434; Gupta,",0
+108,Amblyseiinae,Euseius,chitradurgae,Euseius chitradurgae,Gupta,1985,"(Gupta), 1985: 435; Gupta,",0
+109,Amblyseiinae,Euseius,coccineae,Euseius coccineae,Gupta,1975,"Gupta, 1975: 30; Gupta, 1986: 80;",0
+110,Amblyseiinae,Euseius,coccosocius,Euseius coccosocius,Ghai and Menon,1967,"(Ghai and Menon), 1967: 67;",0
+111,Amblyseiinae,Euseius,concordis,Euseius concordis,Chant,1959,"(Chant), 1959: 69; Jagdish et al.,",0
+112,Amblyseiinae,Euseius,delhiensis,Euseius delhiensis,Narayanan and Kaur,1960,"(Narayanan and Kaur), 1960b: 5;",0
+113,Amblyseiinae,Euseius,eucalypti,Euseius eucalypti,Ghai and Menon,1967,"(Ghai and Menon), 1967: 69;",0
+114,Amblyseiinae,Euseius,finlandicus,Euseius finlandicus,Oudemans,1915,"(Oudemans), 1915: 183; Ghai and",0
+123,Amblyseiinae,Euseius,ovalis,Euseius ovalis,Evans,1953,"(Evans), 1953: 458; Narayanan et al.,",0
+124,Amblyseiinae,Euseius,papayensis,Euseius papayensis,Anithalatha Sadanandan,2006,"Anithalatha Sadanandan, 2006b:",0
+125,Amblyseiinae,Euseius,prasadi,Euseius prasadi,Chant and McMurtry,1975,"(Chant and McMurtry), 1975: 40;",0
+126,Amblyseiinae,Euseius,rhododendronis,Euseius rhododendronis,Gupta,1970,"(Gupta, 1970b: 187); Gupta,",0
+127,Amblyseiinae,Euseius,sacchari,Euseius sacchari,Ghai and Menon,1967,"(Ghai and Menon), 1967: 75; Gupta,",0
+115,Amblyseiinae,Euseius,hibisci,Euseius hibisci,Chant,1959,"(Chant), 1959: 68; Gupta, 1970b: 98;",0
+128,Amblyseiinae,Euseius,scutalis,Euseius scutalis,Athias-Henriot,1958,"(Athias-Henriot), 1958: 23–43;",0
+116,Amblyseiinae,Euseius,indica,Euseius indica,Chatterjee and Gupta,2003,"(Chatterjee and Gupta, 2003: 70,",0
+129,Amblyseiinae,Euseius,vignus,Euseius vignus,Rishi and Rather,1983,"(Rishi and Rather), 1983: 303; Gupta,",0
+117,Amblyseiinae,Euseius,insanus,Euseius insanus,Khan and Chaudri,1969,"(Khan and Chaudri), 1969: 52;",0
+118,Amblyseiinae,Euseius,kalimpongensis,Euseius kalimpongensis,Gupta,1969,"(Gupta), 1969a: 128; Gupta,",0
+119,Amblyseiinae,Euseius,kodaikanalensis,Euseius kodaikanalensis,Gupta,1978,"(Gupta), 1978c: 331; Gupta,",0
+120,Amblyseiinae,Euseius,macrospatulatus,Euseius macrospatulatus,Gupta,1986,"(Gupta), 1986: 89; Gupta,",0
+121,Phytoseiinae,Phytoseius,mangiferae,Phytoseius mangiferae,Ghai and Menon,1967,"(Ghai and Menon, 1967: 74);",0
+122,Phytoseiinae,Phytoseius,neococcineae,Phytoseius neococcineae,Gupta,1978,"(Gupta, 1978b: 60); Gupta,",0
+130,Phytoseiinae,Phytoseius,bandipurensis,Phytoseius bandipurensis,Gupta,1980,"Gupta, 1980d: 53; Gupta, 1986:",0
+131,Phytoseiinae,Phytoseius,brevicrinis,Phytoseius brevicrinis,Swirski and Shechter,1961,"Swirski and Shechter, 1961: 106;",0
+132,Phytoseiinae,Phytoseius,coheni,Phytoseius coheni,Swirski and Shechter,1961,"Swirski and Shechter, 1961: 104;",0
+133,Phytoseiinae,Phytoseius,corniger,Phytoseius corniger,Wainstein,1959,"Wainstein, 1959: 1362; Gupta,",0
+134,Phytoseiinae,Phytoseius,crinitus,Phytoseius crinitus,Swirski and Shechter,1961,"Swirski and Shechter, 1961: 102;",0
+135,Phytoseiinae,Phytoseius,domesticus,Phytoseius domesticus,Rather,1985,"Rather, 1985: 14; Gupta, 2003a:",0
+136,Phytoseiinae,Phytoseius,indicus,Phytoseius indicus,Bhattacharyya,1969,"Bhattacharyya, 1969: 679; Gupta,",0
+137,Phytoseiinae,Phytoseius,intermedius,Phytoseius intermedius,Evans and Mcfarlane,1962,"Evans and Mcfarlane, 1962: 587;",0
+138,Phytoseiinae,Phytoseius,jaunpurensis,Phytoseius jaunpurensis,Gupta,1982,"Gupta 1982b: 367; Gupta,",0
+139,Phytoseiinae,Phytoseius,jujuba,Phytoseius jujuba,Gupta,1977,"Gupta, 1977d: 13; Gupta, 1986: 238;",0
+143,Phytoseiinae,Phytoseius,maldahaensis,Phytoseius maldahaensis,Gupta,1992,"Gupta, 1992a: 177; Gupta,",0
+144,Phytoseiinae,Phytoseius,meyerae,Phytoseius meyerae,Gupta,1977,"Gupta, 1977d: 7; Gupta, 1986: 244;",0
+145,Phytoseiinae,Phytoseius,minutus,Phytoseius minutus,Narayanan et al.,1960,"Narayanan et al., 1960: 391; Gupta,",0
+146,Phytoseiinae,Phytoseius,mixtus,Phytoseius mixtus,Chaudhri,1973,"Chaudhri, 1973: 83; Ray and Gupta,",0
+147,Phytoseiinae,Phytoseius,namdaphaensis,Phytoseius namdaphaensis,Gupta,1986,"Gupta, 1986: 225; Gupta,",0
+148,Phytoseiinae,Phytoseius,neglecta,Phytoseius neglecta,Gupta,1969,"Gupta, 1969c: 117; Gupta, 1986:",0
+149,Phytoseiinae,Phytoseius,neocorniger,Phytoseius neocorniger,Gupta,1977,"Gupta, 1977a: 13; Gupta, 1986:",0
+150,Phytoseiinae,Phytoseius,neoferox,Phytoseius neoferox,Ehara and Bhandhufalck,1977,"Ehara and Bhandhufalck, 1977: 49;",0
+151,Phytoseiinae,Phytoseius,nipponicus,Phytoseius nipponicus,Ehara,1962,"Ehara, 1962: 58; Rather, 1985:",0
+152,Phytoseiinae,Phytoseius,punjabensis,Phytoseius punjabensis,Gupta,1977,"Gupta, 1977a: 16; Gupta, 1986:",0
+140,Phytoseiinae,Phytoseius,kapuri,Phytoseius kapuri,Gupta,1969,"Gupta, 1969c: 116; Gupta, 1986: 221;",0
+153,Phytoseiinae,Phytoseius,rachelae,Phytoseius rachelae,Swirski and Shechter,1961,"Swirski and Shechter, 1961: 108;",0
+141,Phytoseiinae,Phytoseius,macropilis,Phytoseius macropilis,Banks,1909,"Banks, 1909: 136; Narayanan et",0
+154,Phytoseiinae,Phytoseius,roseus,Phytoseius roseus,Gupta,1969,"Gupta, 1969b: 119; = rugulosus",0
+142,Phytoseiinae,Phytoseius,macrosetosus,Phytoseius macrosetosus,Gupta,1977,"Gupta, 1977d: 16; Gupta,",0
+155,Phytoseiinae,Phytoseius,rugosus,Phytoseius rugosus,Denmark,1966,"Denmark, 1966: 100; Gupta,",0
+156,Phytoseiinae,Phytoseius,swirskii,Phytoseius swirskii,Gupta,1980,"Gupta, 1980c: 210; Gupta, 1986:",0
+157,Phytoseiinae,Phytoseius,viscosum,Phytoseius viscosum,Roy and Saha,2010,"Roy and Saha, 2010: 123.",0
+158,Phytoseiinae,Phytoseius,wainsteini,Phytoseius wainsteini,Gupta,1981,"Gupta, 1981b: 43; Gupta, 1986:",0
+159,Phytoseiinae,Phytoseius,woodburyi,Phytoseius woodburyi,De Leon,1965,"De Leon, 1965: 11–21; Gupta,",0
+160,Phytoseiinae,Platyseiella,mumai,Platyseiella mumai,Ray and Gupta,1981,"Ray and Gupta, 1981a: 277; Gupta,",0
+161,Typhlodrominae,Kuzinellus,kuzini,Kuzinellus kuzini,Wainstein,1962,"Wainstein, 1962: 231; Rather, 1987:",0
+162,Typhlodrominae,Kuzinellus,neosoleiger,Kuzinellus neosoleiger,Gupta,1981,"Gupta, 1981a: 41; Gupta, 1986:",0
+163,Typhlodrominae,Neoseiulella,celtis,Neoseiulella celtis,Denmark and Rather,1996,"Denmark and Rather, 1996: 69; Gupta,",0
+164,Typhlodrominae,Neoseiulella,nesbitti,Neoseiulella nesbitti,Womersely,1954,"(Womersely), 1954: 179; Narayanan",0
+165,Typhlodrominae,Neoseiulella,prunus,Neoseiulella prunus,Denmark and Rather,1984,"Denmark and Rather, 1984: 173;",0
+166,Typhlodrominae,Neoseiulella,transitans,Neoseiulella transitans,Gupta,1981,"(Gupta), 1981a: 40; Gupta, 1986:",0
+167,Typhlodrominae,Typhlodromus,arunachalensis,Typhlodromus arunachalensis,Gupta,1986,"Gupta, 1986: 265; Gupta,",0
+168,Typhlodrominae,Typhlodromus,bakeri,Typhlodromus bakeri,Garman,1948,"Garman, 1948: 15; Gupta, 1986: 270;",0
+169,Typhlodrominae,Typhlodromus,bambusicolus,Typhlodromus bambusicolus,Gupta,1977,"Gupta, 1977d: 2; Gupta, 1986:",0
+170,Typhlodrominae,Typhlodromus,channabasavannai,Typhlodromus channabasavannai,Gupta,1978,"Gupta, 1978c: 50; Gupta,",0
+171,Typhlodrominae,Typhlodromus,chrysanthemi,Typhlodromus chrysanthemi,Gupta,1977,"Gupta, 1977c: 11; Gupta, 1986:",0
+172,Typhlodrominae,Typhlodromus,communis,Typhlodromus communis,Gupta,1978,"Gupta, 1978a: 53; Gupta, 1986:",0
+183,Typhlodrominae,Typhlodromus,himalayensis,Typhlodromus himalayensis,Gupta,1981,"Gupta, 1981a: 32; Gupta, 1986:",0
+184,Typhlodrominae,Typhlodromus,homalii,Typhlodromus homalii,Gupta,1970,"Gupta, 1970b: 188; Gupta, 1986:",0
+185,Typhlodrominae,Typhlodromus,kashmiricus,Typhlodromus kashmiricus,Gupta,1981,"Gupta, 1981b: 37; Gupta, 1986:",0
+173,Typhlodrominae,Typhlodromus,dactylifera,Typhlodromus dactylifera,Chaudhri et al.,1974,"Chaudhri et al., 1974: 212; Gupta,",0
+186,Typhlodrominae,Typhlodromus,kodaikanelensis,Typhlodromus kodaikanelensis,Gupta,1978,"Gupta, 1978c: 47; Gupta,",0
+174,Typhlodrominae,Typhlodromus,dalii,Typhlodromus dalii,Rather,1984,"Rather, 1984: 105; Gupta, 2003a:119;",0
+187,Typhlodrominae,Typhlodromus,majumderi,Typhlodromus majumderi,Gupta,1986,"Gupta, 1986: 291; Gupta, 2003a:",0
+175,Typhlodrominae,Typhlodromus,darjeeligensis,Typhlodromus darjeeligensis,Gupta,1986,"Gupta, 1986: 270; Gupta,",0
+188,Typhlodrominae,Typhlodromus,manipurensis,Typhlodromus manipurensis,Gupta,1977,"Gupta, 1977c: 1; Gupta, 1986:",0
+176,Typhlodrominae,Typhlodromus,denmarki,Typhlodromus denmarki,Rather,1984,"(Rather), 1984: 103; Gupta, 2003a:",0
+189,Typhlodrominae,Typhlodromus,meerutensis,Typhlodromus meerutensis,Ghai and Menon,1969,"(Ghai and Menon), 1969: 349;",0
+177,Typhlodrominae,Typhlodromus,divergentis,Typhlodromus divergentis,Chaudhri et al.,1974,"(Chaudhri et al.), 1974: 217;",0
+190,Typhlodrominae,Typhlodromus,mori,Typhlodromus mori,Gupta,1981,"Gupta, 1981a: 39; Gupta, 1986: 282;",0
+178,Typhlodrominae,Typhlodromus,eharai,Typhlodromus eharai,Gupta,1978,"Gupta, 1978c: 54; Gupta, 1986:",0
+191,Typhlodrominae,Typhlodromus,neorhenanus,Typhlodromus neorhenanus,Gupta,1977,"Gupta, 1977b: 2; Gupta, 1986:",0
+179,Typhlodrominae,Typhlodromus,fleschneri,Typhlodromus fleschneri,Chant,1960,"Chant, 1960: 60; Gupta, 1986: 272;",0
+192,Typhlodrominae,Typhlodromus,neotransvaalensis,Typhlodromus neotransvaalensis,Gupta,1978,"Gupta, 1978a: 49; Gupta,",0
+180,Typhlodrominae,Typhlodromus,garhowalicus,Typhlodromus garhowalicus,Gupta,1982,"Gupta, 1982a: 29; Gupta,",0
+193,Typhlodrominae,Typhlodromus,nilgiriensis,Typhlodromus nilgiriensis,Gupta,1986,"Gupta, 1986: 282; Gupta, 2003a:",0
+181,Typhlodrominae,Typhlodromus,gopali,Typhlodromus gopali,"Gupta, 2",1969,"Gupta, 2 1969a: 77; Gupta, 1986: 274;",0
+194,Typhlodrominae,Typhlodromus,orissaensis,Typhlodromus orissaensis,Gupta,1977,"Gupta, 1977c: 4; Gupta, 1986:",0
+182,Typhlodrominae,Typhlodromus,hadii,Typhlodromus hadii,Chaudhri,1965,"Chaudhri, 1965: 632; Gupta, 1986: 300;",0
+195,Typhlodrominae,Typhlodromus,persicus,Typhlodromus persicus,Gupta,1992,"Gupta, 1992b: 181; Gupta, 2003a:",0
+196,Typhlodrominae,Typhlodromus,pruni,Typhlodromus pruni,Gupta,1970,"Gupta, 1970b: 189; Gupta, 1986: 305;",0
+205,Typhlodrominae,Typhlodromus,confusus,Typhlodromus confusus,Narayanan et al.,1960,"Narayanan et al., 1960: 392; Gupta,",0
+197,Typhlodrominae,Typhlodromus,rhenanus,Typhlodromus rhenanus,Oudemans,1905,"(Oudemans), 1905: 78; Narayanan",0
+206,Typhlodrominae,Typhlodromus,roshanlali,Typhlodromus roshanlali,Narayanan and Ghai,1964,"Narayanan and Ghai, 1964: 539;",0
+198,Typhlodrominae,Typhlodromus,rhododendroni,Typhlodromus rhododendroni,Gupta,1978,"Gupta, 1978b: 50; Gupta,",0
+207,Typhlodrominae,Typhlodromus,torbatejamae,Typhlodromus torbatejamae,Denmark and Danesshvar,1982,Denmark and Danesshvar 1982;,0
+199,Typhlodrominae,Typhlodromus,rickeri,Typhlodromus rickeri,Chant,1960,"Chant, 1960: 62; Gupta, 1986: 307;",0
+200,Typhlodrominae,Typhlodromus,sijiensis,Typhlodromus sijiensis,Gupta,1986,"Gupta, 1986: 321; Gupta, 2003a:",0
+201,Typhlodrominae,Typhlodromus,sonprayagensis,Typhlodromus sonprayagensis,Gupta,1985,"Gupta, 1985: 211; Gupta,",0
+202,Typhlodrominae,Typhlodromus,umbratus,Typhlodromus umbratus,Chaudri,1974,"(Chaudri), 1974: 215; Rather, 1984:",0
+203,Typhlodrominae,Typhlodromus,viniferae,Typhlodromus viniferae,Rather,1999,"(Rather), 1999: 20; Gupta, 2003a:",0
+204,Typhlodrominae,Typhlodromus,zafari,Typhlodromus zafari,Chaudri,1965,"Chaudri, 1965: 632; Rather, 1984: 106;",0
+208,Typhlodrominae,Typhlodromus,metaliensis,Typhlodromus metaliensis,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 687.",0
