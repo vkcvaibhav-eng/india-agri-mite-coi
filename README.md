@@ -131,3 +131,9 @@ and are not in this repository yet.
 `scripts/parse_chalil2024.py` reads Chalil et al. (2024), *Persian Journal of Acarology* 13(1): 29–75, into `data/checklist/chalil2024_tetranychidae.csv` (135 Tetranychidae species with synonyms, type data, Indian states, outside-India distribution, hosts). 4 rows are flagged where the source names a region rather than a state. `scripts/states.py` holds the state matching shared by the checklist parsers. `synonyms_raw` can still carry stray citation fragments and needs cleaning before name matching.
 
 `scripts/parse_gupta_karmakar2015.py` reads Gupta & Karmakar (2015), *Rec. zool. Surv. India* 115(1): 51–72, into `data/checklist/gupta_karmakar2015_phytoseiidae.csv`. It recovers 210 of the 211 species the paper states, in 20 of 21 genera; the gap is not yet traced. The list has citations only, so no states or hosts. Genus is taken from the heading each entry sits under, so subgenus placements are not separated.
+
+### Further sources
+
+- `scripts/parse_dyamanagouda2020.py` → `data/checklist/dyamanagouda2020_eriophyoidea_tamilnadu.csv`: Dyamanagouda et al. (2020), *Journal of Entomology and Zoology Studies* 8(6): 137–146. 281 Eriophyoidea species in 73 genera (Eriophyidae 252, Phytoptidae 2, Diptilomiopidae 27), matching the paper's totals. All are Tamil Nadu records. 18 rows with a scattered table layout were set by hand (`OVERRIDES`), and 3 still lack an author or year (flagged).
+- `scripts/parse_tarsonemidae_wb.py` → `data/checklist/tarsonemidae_west_bengal.csv`: named species only from Mondal et al. (2023) and Karmakar (2016). The Mondal table gives the describing paper, not the authority, so authority is blank for those.
+- Mesa et al. (2009), the Tenuipalpidae world catalogue, is not yet used: the file supplied holds only the front matter.
