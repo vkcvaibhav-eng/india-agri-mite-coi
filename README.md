@@ -125,3 +125,7 @@ record count.
 No cleaning beyond a minimum length of 250 bp: stop-codon checks, contaminant
 removal and the synonym update against the Indian checklist all belong to stage 3
 and are not in this repository yet.
+
+### Updated sources (stage 1b)
+
+`scripts/parse_chalil2024.py` reads Chalil et al. (2024), *Persian Journal of Acarology* 13(1): 29–75, into `data/checklist/chalil2024_tetranychidae.csv` (135 Tetranychidae species with synonyms, type data, Indian states, outside-India distribution, hosts). 4 rows are flagged where the source names a region rather than a state. `scripts/states.py` holds the state matching shared by the checklist parsers. `synonyms_raw` can still carry stray citation fragments and needs cleaning before name matching.
