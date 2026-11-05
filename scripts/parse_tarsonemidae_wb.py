@@ -22,6 +22,20 @@ KARMAKAR = [  # Karmakar 2016, Table 1, named species only
     ("Steneotarsonemus", "furcatus", "De Leon", "Sub-Himalayan and coastal zones"),
     ("Steneotarsonemus", "konoi", "Smiley & Emmanouel", "Throughout West Bengal"),
 ]
+# Authority and year confirmed from Plazi treatments (tb.plazi.org) of the describing papers.
+# Plazi prints Metatarsonemus sirishi both as "shirishi" (heading) and "sirishi" (text); Mondal 2023 uses "sirishi".
+PLAZI = {
+    "Bongotarsonemus bicornus": ("Mondal & Karmakar", "2021"), "Bongotarsonemus unicornus": ("Mondal & Karmakar", "2021"),
+    "Ceratotarsonemus bengalicus": ("Karmakar & Kayal", "2022"), "Daidalotarsonemus tambulae": ("Karmakar & Mondal", "2023"),
+    "Metatarsonemus badurkani": ("Karmakar & Mondal", "2021"), "Metatarsonemus sirishi": ("Karmakar & Mondal", "2021"),
+    "Tarsonemus narkelae": ("Karmakar & Mondal", "2021"), "Tarsonemus mondouriensis": ("Karmakar & Ganguly", "2021"),
+    "Steneotarsonemus amlisoae": ("Karmakar, Ganguly & Mondal", "2021"), "Steneotarsonemus indianensis": ("Karmakar & Mondal", "2021"),
+    "Steneotarsonemus subfurcatus": ("Lin & Zhang", "1990"),
+}
+# Indian species found in the Plazi treatments that Mondal et al. 2023 does not list (not West Bengal-only claims).
+EXTRA = [("Steneotarsonemus", "amlisoae", "Ganguly et al. 2021, Zootaxa 5023(3)"),
+         ("Steneotarsonemus", "indianensis", "Mondal et al. 2021, Int. J. Acarol."),
+         ("Steneotarsonemus", "subfurcatus", "Ganguly et al. 2022, Zootaxa 5138(5)")]
 ZONES = ["Northern Hilly", "Teesta-Terai", "New Alluvial", "Old Alluvial", "Red & Laterite", "Coastal Saline"]
 
 
@@ -35,14 +49,22 @@ def main(src, out):
         rows.append({
             "species": f"{m.group(1)} {m.group(2)}", "authority": "", "source": "Mondal et al. 2023",
             "described_in": m.group(4), "india_states": "West Bengal",
-            "zones": "; ".join(z for z, c in zip(ZONES, counts) if c),
+            "zones": "; ".join(z for z, c in zip(ZONES, counts) if c), "year": "",
         })
+    for g, e, d in EXTRA:
+        rows.append({"species": f"{g} {e}", "authority": "", "year": "", "source": "Plazi treatment", "described_in": d,
+                     "india_states": "West Bengal", "zones": ""})
+    for r in rows:
+        if r["species"] in PLAZI:
+            r["authority"], r["year"] = PLAZI[r["species"]]
+        else:
+            r.setdefault("year", "")
     for g, e, a, d in KARMAKAR:
         rows.append({"species": f"{g} {e}", "authority": a, "source": "Karmakar 2016", "described_in": "",
-                     "india_states": "West Bengal", "zones": d})
+                     "india_states": "West Bengal", "zones": d, "year": ""})
     with open(out, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
-    print(f"named species: {len(rows)} ({len(rows) - len(KARMAKAR)} from Mondal 2023, {len(KARMAKAR)} from Karmakar 2016)")
+    print(f"named species: {len(rows)}; with authority: {sum(1 for r in rows if r['authority'])}")
 
 
 if __name__ == "__main__":

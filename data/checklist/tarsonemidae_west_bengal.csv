@@ -1,23 +1,26 @@
-species,authority,source,described_in,india_states,zones
-Bongotarsonemus bicornus,,Mondal et al. 2023,Mondal & Karmakar (2021a),West Bengal,Northern Hilly
-Bongotarsonemus unicornus,,Mondal et al. 2023,Mondal & Karmakar (2021a),West Bengal,Northern Hilly
-Ceratotarsonemus bengalicus,,Mondal et al. 2023,Kayal et al. (2022),West Bengal,Northern Hilly
-Daidalotarsonemus duolamella,,Mondal et al. 2023,Lin et al. (1998),West Bengal,Northern Hilly
-Daidalotarsonemus tambulae,,Mondal et al. 2023,Mondal & Karmakar (2022),West Bengal,New Alluvial; Old Alluvial; Coastal Saline
-Floridotarsonemus kathali,,Mondal et al. 2023,Mondal & Karmakar (2021b),West Bengal,Teesta-Terai; New Alluvial
-Floridotarsonemus kukri,,Mondal et al. 2023,Mondal & Karmakar (2021b),West Bengal,Northern Hilly; Teesta-Terai; Old Alluvial
-Fungitarsonemus baganbilase,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly; New Alluvial; Old Alluvial; Red & Laterite; Coastal Saline
-Fungitarsonemus icchepaharicus,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly; Teesta-Terai
-Fungitarsonemus rishyapensis,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly
-Metatarsonemus badurkani,,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,Northern Hilly; Teesta-Terai; New Alluvial; Old Alluvial; Red & Laterite; Coastal Saline
-Metatarsonemus connexus,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly; Teesta-Terai
-Metatarsonemus diplojuga,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly; Teesta-Terai
-Metatarsonemus infundibulum,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly
-Metatarsonemus sirishi,,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,New Alluvial
-Tarsonemus mondouriensis,,Mondal et al. 2023,Mondal et al. (2021b),West Bengal,New Alluvial; Old Alluvial; Coastal Saline
-Tarsonemus narkelae,,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,Northern Hilly; Teesta-Terai; New Alluvial; Old Alluvial; Coastal Saline
-Xenotarsonemus krishnai,,Mondal et al. 2023,Mondal et al. (2022),West Bengal,Northern Hilly
-Polyphagotarsonemus latus,Banks,Karmakar 2016,,West Bengal,Throughout West Bengal
-Steneotarsonemus spinki,Smiley,Karmakar 2016,,West Bengal,Throughout West Bengal
-Steneotarsonemus furcatus,De Leon,Karmakar 2016,,West Bengal,Sub-Himalayan and coastal zones
-Steneotarsonemus konoi,Smiley & Emmanouel,Karmakar 2016,,West Bengal,Throughout West Bengal
+species,authority,source,described_in,india_states,zones,year
+Bongotarsonemus bicornus,Mondal & Karmakar,Mondal et al. 2023,Mondal & Karmakar (2021a),West Bengal,Northern Hilly,2021
+Bongotarsonemus unicornus,Mondal & Karmakar,Mondal et al. 2023,Mondal & Karmakar (2021a),West Bengal,Northern Hilly,2021
+Ceratotarsonemus bengalicus,Karmakar & Kayal,Mondal et al. 2023,Kayal et al. (2022),West Bengal,Northern Hilly,2022
+Daidalotarsonemus duolamella,,Mondal et al. 2023,Lin et al. (1998),West Bengal,Northern Hilly,
+Daidalotarsonemus tambulae,Karmakar & Mondal,Mondal et al. 2023,Mondal & Karmakar (2022),West Bengal,New Alluvial; Old Alluvial; Coastal Saline,2023
+Floridotarsonemus kathali,,Mondal et al. 2023,Mondal & Karmakar (2021b),West Bengal,Teesta-Terai; New Alluvial,
+Floridotarsonemus kukri,,Mondal et al. 2023,Mondal & Karmakar (2021b),West Bengal,Northern Hilly; Teesta-Terai; Old Alluvial,
+Fungitarsonemus baganbilase,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly; New Alluvial; Old Alluvial; Red & Laterite; Coastal Saline,
+Fungitarsonemus icchepaharicus,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly; Teesta-Terai,
+Fungitarsonemus rishyapensis,,Mondal et al. 2023,Mondal & Karmakar (2021c),West Bengal,Northern Hilly,
+Metatarsonemus badurkani,Karmakar & Mondal,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,Northern Hilly; Teesta-Terai; New Alluvial; Old Alluvial; Red & Laterite; Coastal Saline,2021
+Metatarsonemus connexus,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly; Teesta-Terai,
+Metatarsonemus diplojuga,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly; Teesta-Terai,
+Metatarsonemus infundibulum,,Mondal et al. 2023,Mondal et al. (2021a),West Bengal,Northern Hilly,
+Metatarsonemus sirishi,Karmakar & Mondal,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,New Alluvial,2021
+Tarsonemus mondouriensis,Karmakar & Ganguly,Mondal et al. 2023,Mondal et al. (2021b),West Bengal,New Alluvial; Old Alluvial; Coastal Saline,2021
+Tarsonemus narkelae,Karmakar & Mondal,Mondal et al. 2023,Mondal & Karmakar (2021d),West Bengal,Northern Hilly; Teesta-Terai; New Alluvial; Old Alluvial; Coastal Saline,2021
+Xenotarsonemus krishnai,,Mondal et al. 2023,Mondal et al. (2022),West Bengal,Northern Hilly,
+Steneotarsonemus amlisoae,"Karmakar, Ganguly & Mondal",Plazi treatment,"Ganguly et al. 2021, Zootaxa 5023(3)",West Bengal,,2021
+Steneotarsonemus indianensis,Karmakar & Mondal,Plazi treatment,"Mondal et al. 2021, Int. J. Acarol.",West Bengal,,2021
+Steneotarsonemus subfurcatus,Lin & Zhang,Plazi treatment,"Ganguly et al. 2022, Zootaxa 5138(5)",West Bengal,,1990
+Polyphagotarsonemus latus,Banks,Karmakar 2016,,West Bengal,Throughout West Bengal,
+Steneotarsonemus spinki,Smiley,Karmakar 2016,,West Bengal,Throughout West Bengal,
+Steneotarsonemus furcatus,De Leon,Karmakar 2016,,West Bengal,Sub-Himalayan and coastal zones,
+Steneotarsonemus konoi,Smiley & Emmanouel,Karmakar 2016,,West Bengal,Throughout West Bengal,
