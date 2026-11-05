@@ -1,0 +1,114 @@
+number,family,genus,species,authority,unnamed_sp,india_states,districts,hosts_raw,in_scope_family
+1,Tetranychidae,Allonychus,,,1,West Bengal,South 24 Parganas,Hamelia patiens,1
+2,Tetranychidae,Bakerina,Bakerina aculus,Chaudhri,0,West Bengal,,Mentha arvensis,1
+3,Tetranychidae,Eotetranychus,Eotetranychus fremonti,Tuttle & Baker,0,West Bengal,South 24 Parganas,Physalis minima,1
+4,Tetranychidae,Eotetranychus,Eotetranychus hirsti,Pritchard & Baker,0,West Bengal,Bardhaman; West Medinipur,Curcuma longa; Syzygium javanicum,1
+7,Tetranychidae,Eutetranychus,Eutetranychus maximae,Nassar & Ghai,0,West Bengal,Bardhaman,Calotropis gigantea,1
+5,Tetranychidae,Eotetranychus,,,1,West Bengal,,,1
+8,Tetranychidae,Eutetranychus,Eutetranychus orientalis,(Klein),0,West Bengal,South 24 Parganas,Colocasia esculenta,1
+6,Tetranychidae,Eutetranychus,Eutetranychus africanus,(Tucker),0,West Bengal,East Medinipur; North 24 Parganas; Purulia; West Medinipur,Citrus medica; Hibiscus rosa; Holarrhena pubescens; Nyctanthes arbor; Ocimum sanctum; Vol,1
+9,Tetranychidae,Eutetranychus,Eutetranychus phaseoli,Nassar & Ghai,0,West Bengal,South 24 Parganas,Impatiens balsamina; Momordica cochinchinensis,1
+10,Tetranychidae,Oligonychus,Oligonychus indicus,(Hirst),0,West Bengal,Bankura; Birbhum; North 24 Parganas,Cymbopogon martini; Cymbopogon palmarosa; Cyperus rotundus; Zea mays,1
+11,Tetranychidae,Oligonychus,Oligonychus mangiferus,(Rahman and Sapra),0,West Bengal,Bardhaman; Nadia; North 24 Parganas; South 24 Parganas,Mangifera indica; Michelia champaca; Syzygium cumini; Syzygium jambos,1
+12,Tetranychidae,Oligonychus,Oligonychus oryzae,(Hirst),0,West Bengal,Hooghly,Cymbopogon winterianus; Cynodon dactylon; Oryza sativa,1
+13,Tetranychidae,Oligonychus,Oligonychus punicae,(Hirst),0,West Bengal,South 24 Parganas,Bixa orellana; Cedrus deodara,1
+14,Tetranychidae,Oligonychus,,,1,West Bengal,South 24 Parganas,Pterospermum accrifolium,1
+15,Tetranychidae,Panonychus,Panonychus citri,(Mcgregor),0,West Bengal,Bankura; Birbhum; East Medinipur; North 24 Parganas,Achras sapota; Carica papaya; Justicia adhatoda,1
+16,Tetranychidae,Petrobia,Petrobia harti,(Ewing),0,West Bengal,Hooghly; Howrah; North 24 Parganas; West Medinipur,Oxalis corniculata,1
+17,Tetranychidae,Porcupinychus,Porcupinychus abutiloni,Anwarullah,0,West Bengal,Hooghly; South 24 Parganas,Abutilon indicum; Sida cordifolia,1
+18,Tetranychidae,Schizotetranychus,Schizotetranychus baltazari,Rimando,0,West Bengal,South 24 Parganas; West Medinipur,Citrus limon; Citrus medica,1
+19,Tetranychidae,Schizotetranychus,Schizotetranychus cajani,Gupta,0,West Bengal,Nadia,Cajanus cajan,1
+20,Tetranychidae,Schizotetranychus,,,1,West Bengal,Birbhum,Desmodium gangeticum,1
+22,Tetranychidae,Tetranychus,Tetranychus ludeni,Zacher,0,West Bengal,,,1
+21,Tetranychidae,Tetranychus,Tetranychus hypogeae,Gupta,0,West Bengal,West Medinipur,Cassia sophera; Mimosa pudica; Plumbago zeylanica,1
+23,Tetranychidae,Tetranychus,Tetranychus macfarlanei,Baker and Pritchard,0,West Bengal,Bardhaman; East Medinipur; North 24 Parganas; Purulia,Azadirachta indica; Dolichos lablab; Mentha piperita; Ocimum grattisimum; Pavonia odorata; Phonex sylvestris; Santalum album,1
+24,Tetranychidae,Tetranychus,Tetranychus neocaledonicus,Andre,0,West Bengal,,,1
+27,Tetranychidae,Tetranychus,,,1,West Bengal,,Artocarpus integrifolia; Cassia sophera,1
+25,Tetranychidae,Tetranychus,Tetranychus puschelii,(Meyer),0,West Bengal,East Medinipur,Wissadula periplocifolia,1
+26,Tetranychidae,Tetranychus,Tetranychus urticae,Koch,0,West Bengal,Bankura; Hooghly; Howrah,Citrus limon; Cyperus rotundus; Desmodium gangeticum; Gossypium arboreum; Justicia adhatoda; Michaelia champaca; Randia dometorum,1
+28,Tenuipalpidae,Brevipalpus,Brevipalpus absens,De leon,0,West Bengal,,Michelia champaca,1
+29,Tenuipalpidae,Brevipalpus,Brevipalpus amicus,Chaudhri,0,West Bengal,Howrah,Lawsonia inermis; Polyalthia longifolia,1
+30,Tenuipalpidae,Brevipalpus,Brevipalpus araucanus,Smith-Meyer,0,West Bengal,,Hibiscus rosasinensis,1
+31,Tenuipalpidae,Brevipalpus,Brevipalpus californicus,(Banks),0,West Bengal,Bankura; Bardhaman; Hooghly; Howrah; Nadia; South 24 Parganas,Artemisia nilagirica; Barleria cristata; Citrus reticulata; Ficus hispida; Narendrapur; Piper longum; Pterocarpus santalinus,1
+32,Tenuipalpidae,Brevipalpus,Brevipalpus creber,Chaudhri,0,West Bengal,,Cleome viscosa,1
+33,Tenuipalpidae,Brevipalpus,Brevipalpus deleoni,Pritchard and Baker,0,West Bengal,East Medinipur,Michelia champaca,1
+34,Tenuipalpidae,Brevipalpus,Brevipalpus edwinae,Baker,0,West Bengal,,,1
+35,Tenuipalpidae,Brevipalpus,Brevipalpus essigi,Baker,0,West Bengal,South 24 Parganas; West Medinipur,Jhargram ex; Justicia adhatoda; Ocimum sanctum,1
+36,Tenuipalpidae,Brevipalpus,Brevipalpus lewisi,McGregor,0,West Bengal,Bardhaman; Howrah,Aegle marmelos; Costus speciosus; Croton roxburghii,1
+37,Tenuipalpidae,Brevipalpus,Brevipalpus melichrus,Smith-Meyer,0,West Bengal,,Piper nigrum,1
+38,Tenuipalpidae,Brevipalpus,Brevipalpus mitrofanovi,Smith-Meyer,0,West Bengal,South 24 Parganas,Nyctanthes arbor; Punica granatum,1
+39,Tenuipalpidae,Brevipalpus,Brevipalpus obovatus,Donnadieu,0,West Bengal,,Gloriosa superba,1
+40,Tenuipalpidae,Brevipalpus,Brevipalpus phoenicis,(Geijskes),0,West Bengal,Bankura; North 24 Parganas; South 24 Parganas,Azadirachta indica; Coccinia grandis; Justicia adhatoda; Mentha piperita,1
+41,Tenuipalpidae,Brevipalpus,Brevipalpus pictilis,Chaudhri,0,West Bengal,Bankura; South 24 Parganas,Artocarpus integrifolia; Syzygium jambos,1
+42,Tenuipalpidae,Brevipalpus,Brevipalpus rica,Chaudhri,0,West Bengal,Purulia,Bauhinia variegata,1
+43,Tenuipalpidae,Brevipalpus,Brevipalpus rugulosus,"Chaudhri, Akbar & Rasool",0,West Bengal,West Medinipur,Abelmoschus moschatus; Ambroma augusta,1
+44,Tenuipalpidae,Brevipalpus,Brevipalpus turrialbensis,Manson,0,West Bengal,South 24 Parganas,Momordica cochinchinensis,1
+45,Tenuipalpidae,Brevipalpus,,,1,West Bengal,,Cajanus cajan; Curculigo orchioides; Datura metel; Justicia adhatoda; Narendrapur,1
+46,Tenuipalpidae,Raoiella,Raoiella indica,Hirst,0,West Bengal,,Areca catechu; Cocos nucifera,1
+47,Tenuipalpidae,Tenuipalpus,Tenuipalpus leptadeniae,Mohanasundaram,0,West Bengal,,Lagestroemia speciosa,1
+48,Tarsonemidae,Fungitarsonemus,,,1,West Bengal,,Cynodon dactylon,1
+49,Tarsonemidae,Polyphagotarsonemus,Polyphagotarsonemus latus,(Banks),0,West Bengal,Bardhaman; Hooghly; Nadia; South 24 Parganas,Capsicum annuum; Datura metel; Mentha piperata; Phoenix sylvestris,1
+50,Tarsonemidae,Steneotarsonemus,,,1,West Bengal,Nadia,,1
+51,Tarsonemidae,Tarsonemus,Tarsonemus confusus,Ewing,0,West Bengal,Birbhum,,1
+52,Tarsonemidae,Tarsonemus,,,1,West Bengal,South 24 Parganas,,1
+53,Eriophyidae,Aceria,Aceria cajani,ChannaBasavanna,0,West Bengal,Nadia,Cajanus cajan,1
+54,Eriophyidae,Aceria,Aceria mori,(Keifer),0,West Bengal,Birbhum,Morus alba,1
+55,Eriophyidae,Aceria,Aceria nerii,ChannaBasavanna,0,West Bengal,Nadia,Nerium indicum,1
+56,Eriophyidae,Aceria,,,1,West Bengal,,Santalum album,1
+57,Anystidae,Anystis,Anystis baccarum,Linnaeus,0,West Bengal,Bardhaman; North 24 Parganas; South 24 Parganas,Clerodendrum inerme; Hibiscus rosa; Justicia adhatoda; Nyctanthes arbor; Zoological,0
+58,Anystidae,Walzia,Walzia indiana,Smith-Meyer,0,West Bengal,Nadia,Phyllanthus emblica,0
+59,Anystidae,Walzia,,,1,West Bengal,Hooghly,,0
+60,Bdellidae,Octobdellodes,Octobdellodes guajavae,Chatterjee & Gupta,0,West Bengal,Nadia; North 24 Parganas,Phyllanthus emblica,0
+61,Cheyletidae,Cheletogenes,Cheletogenes ornatus,(Canestrini & Fanzago),0,West Bengal,North 24 Parganas,Mangifera indica,0
+62,Cheyletidae,Hemicheyletia,Hemicheyletia bakeri,(Ehara),0,West Bengal,North 24 Parganas; South 24 Parganas,Momordica cochinchinensis; Vitex negundo,0
+63,Cunaxidae,Cunaxa,Cunaxa bambusae,Gupta,0,West Bengal,Hooghly,Bambusa vulgaris; Cynodon dactylon,0
+64,Cunaxidae,Cunaxa,Cunaxa capreolus,(Berlese),0,West Bengal,,,0
+68,Cunaxidae,Cunaxa,Cunaxa womersleyi,,0,West Bengal,Bardhaman; Nadia,Erythrina variegata; Eucalyptus globulus; Moringa oleifera; Stevia rebaudiana,0
+65,Cunaxidae,Cunaxa,Cunaxa johnstoni,Smiley,0,West Bengal,South 24 Parganas,Justicia adhatoda,0
+66,Cunaxidae,Cunaxa,,,1,West Bengal,Nadia; South 24 Parganas,Barleria cristata; Glycosmis pentaphylla; Saraca asoca,0
+67,Cunaxidae,Cunaxa,Cunaxa setirostris,(Hermann),0,West Bengal,Howrah,Tagetes patula,0
+69,Cunaxidae,Cunaxoides,Cunaxoides croceus,(Koch),0,West Bengal,,Vitex negundo,0
+70,Cunaxidae,Dactyloscirus,Dactyloscirus bengalensis,Gupta,0,West Bengal,Birbhum,Tabernaemontana divaricata,0
+71,Cunaxidae,Dactyloscirus,Dactyloscirus fuscus,Chaudhri,0,West Bengal,South 24 Parganas,Ficus hispida,0
+72,Cunaxidae,Neocunaxoides,Neocunaxoides andrei,,0,West Bengal,,Urena lobata,0
+73,Cunaxidae,Neocunaxoides,Neocunaxoides zuluensis,Den Heyer,0,West Bengal,,Ocimum gratissimum,0
+74,Cunaxidae,Neocunaxoides,,,1,West Bengal,,Withania somnifera,0
+75,Erythraeidae,Leptus,Leptus giganticus,Khot,0,West Bengal,Hooghly; South 24 Parganas,Mussaenda roxburghii; Nerium indicum,0
+76,Stigmaeidae,Agistemus,Agistemus edulis,Gupta,0,West Bengal,South 24 Parganas,Morus alba,0
+78,Stigmaeidae,Agistemus,Agistemus gamblei,Gupta,0,West Bengal,South 24 Parganas,,0
+79,Stigmaeidae,Agistemus,Agistemus heterophylla,Gupta,0,West Bengal,Howrah,Argemon mexicana,0
+80,Stigmaeidae,Agistemus,,,1,West Bengal,,Moringa oleifera,0
+81,Stigmaeidae,Agistemus,,,1,West Bengal,,Santalum album,0
+82,Tydeidae,Agistemus,Agistemus terminalis,(Quale),0,West Bengal,Bankura; Bardhaman; North 24 Parganas; South 24 Parganas,Aegle marmelos; Ambroma augusta; Barleria cristata; Ocimum sanctum,0
+84,Tydeidae,Pronematus,Pronematus mcgregori,Baker,0,West Bengal,,Anthocephalus cadamba; Psidium guajava,0
+85,Tydeidae,Pronematus,Pronematus sextoni,Baker,0,West Bengal,Howrah; Nadia,Ixora coccinae; Rosa centifolia,0
+86,Tydeidae,Pronematus,Pronematus ubiquitus,(McGregor),0,West Bengal,,Sida cordifolia,0
+91,Phytoseiidae,Amblyseius,Amblyseius adhatodae,Muma,0,West Bengal,South 24 Parganas,Aegle marmelos; Coccinia indica,1
+92,Phytoseiidae,Amblyseius,Amblyseius aerialis,(Muma),0,West Bengal,,Catharanthus roseus,1
+93,Phytoseiidae,Amblyseius,Amblyseius coffeae,De Leon,0,West Bengal,South 24 Parganas,Euphorbia hirta,1
+94,Phytoseiidae,Amblyseius,Amblyseius herbicolus,(Chant),0,West Bengal,Nadia,Clerodendrum inerme; Michelia champaca; Nyctanthes arbor,1
+95,Phytoseiidae,Amblyseius,Amblyseius largoensis,(Muma),0,West Bengal,Bankura; Bardhaman; Birbhum; East Medinipur; Howrah,Abelmoschus moschatus; Aegle marmelos; Bacopa monnieri; Bauhinia acuminata; Bixa orellana; Cedrus deodara; Citrus limon; Colocasia esculenta; Ficus hispida; Impatines balsamina; Mangifera indica; Michelia champaca; Momordica charantia; Momordica cochinchinensis; Nyctanthes arbor; Ocimum grattisimum; Piper nigrum; Pterocarpus santalinus; Santalum album; Syzygium cumini,1
+96,Phytoseiidae,Amblyseius,Amblyseius mcmurtryi,Muma,0,West Bengal,Bardhaman; North 24 Parganas,Santalum album; Shorea robusta,1
+97,Phytoseiidae,Amblyseius,Amblyseius paraaerialis,Muma,0,West Bengal,South 24 Parganas,Azadirachta indica,1
+98,Phytoseiidae,Amblyseius,Amblyseius sundi,Pritchard & Baker,0,West Bengal,South 24 Parganas,Dioscorea alata,1
+99,Phytoseiidae,Euseius,Euseius alstoniae,Gupta,0,West Bengal,Hooghly,Lawsonia inermis; Michelia champaca; Syzygium,1
+100,Phytoseiidae,Euseius,Euseius finlandicus,(Oudemans),0,West Bengal,Nadia,Alstonia scholaris,1
+101,Phytoseiidae,Euseius,Euseius ovalis,(Evans),0,West Bengal,South 24 Parganas,Pterocarpus santalinus; Syzygium javanicum,1
+102,Phytoseiidae,Euseius,Euseius prasadi,Chant & McMurtry,0,West Bengal,East Medinipur; Nadia,Saccharum spontaneum,1
+103,Phytoseiidae,Gynaesius,Gynaesius ricini,(Ghai & Menon),0,West Bengal,North 24 Parganas,Nerium indicum,1
+104,Phytoseiidae,Neoseiulus,Neoseiulus cynodonae,(Gupta),0,West Bengal,,Abelmoschus moschatus,1
+105,Phytoseiidae,Neoseiulus,Neoseiulus indicus,(Nrayanan & Kaur),0,West Bengal,,Cynodon dactylon,1
+106,Phytoseiidae,Neoseiulus,Neoseiulus longispinosus,(Evans),0,West Bengal,Hooghly,Averrhoa carambola,1
+107,Phytoseiidae,Paraphytoseius,Paraphytoseius bhadrakaliensis,(Gupta),0,West Bengal,Howrah,Abelmoschus moschatus; Solanum viarum; Ureria picta,1
+108,Phytoseiidae,Paraphytoseius,Paraphytoseius orientalis,"(Narayanan, Kaur &",0,West Bengal,East Medinipur,Bauhinia acuminata; Bixa orellana; Colocasia esculenta; Hibiscus rosa; Ocimum gratissimum; Ocimum sanctum,1
+109,Phytoseiidae,Paraphytoseius,Paraphytoseius scleroticus,Gupta & Ray,0,West Bengal,Nadia,Melia azadirach,1
+110,Phytoseiidae,Scapulaseius,Scapulaseius polyantheae,(Gupta),0,West Bengal,,Citrus limon,1
+111,Phytoseiidae,Scapulaseius,Scapulaseius suknaensis,(Gupta),0,West Bengal,South 24 Parganas,Abelmoschus moschatus; Ambroma augusta; Butea monosperma; Uraria picta,1
+112,Phytoseiidae,Typhlodromips,Typhlodromips syzygii,Gupta,0,West Bengal,Bankura; South 24 Parganas,Shorea robusta; Solanum surattense,1
+113,Phytoseiidae,Phytoseius,Phytoseius crinitus,Swirski & Shechter,0,West Bengal,,Datura metel,1
+114,Phytoseiidae,Phytoseius,Phytoseius kapuri,Gupta,0,West Bengal,Bardhaman,Ficus hispida; Heliotropium indicum; Saraca asoca,1
+115,Phytoseiidae,Phytoseius,Phytoseius macrosetosus,Gupta,0,West Bengal,,Ichnocarpus frutescens,1
+116,Phytoseiidae,Phytoseius,Phytoseius minutus,"Narayanan, Kaur & Ghai",0,West Bengal,Howrah,Azadirachta indica,1
+117,Phytoseiidae,Phytoseius,Phytoseius swirskii,Gupta,0,West Bengal,Birbhum,Psidium guajava,1
+119,Glycyphagidae,Glycyphagus,Glycyphagus domesticus,(De Geer),0,West Bengal,South 24 Parganas,Solanum xanthocarpum,0
+120,Acaridae,Suidasia,Suidasia nesbitti,Hughes,0,West Bengal,West Medinipur,Abelmoschus moschatus; Leucas cephalotes,0
