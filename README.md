@@ -130,11 +130,11 @@ and are not in this repository yet.
 
 `scripts/parse_chalil2024.py` reads Chalil et al. (2024), *Persian Journal of Acarology* 13(1): 29–75, into `data/checklist/chalil2024_tetranychidae.csv` (135 Tetranychidae species with synonyms, type data, Indian states, outside-India distribution, hosts). 4 rows are flagged where the source names a region rather than a state. `scripts/states.py` holds the state matching shared by the checklist parsers. `synonyms_raw` can still carry stray citation fragments and needs cleaning before name matching.
 
-`scripts/parse_gupta_karmakar2015.py` reads Gupta & Karmakar (2015), *Rec. zool. Surv. India* 115(1): 51–72, into `data/checklist/gupta_karmakar2015_phytoseiidae.csv`. It recovers 210 of the 211 species the paper states, in 20 of 21 genera; the gap is not yet traced. The list has citations only, so no states or hosts. Genus is taken from the heading each entry sits under, so subgenus placements are not separated.
+`scripts/parse_gupta_karmakar2015.py` reads Gupta & Karmakar (2015), *Records of the Zoological Survey of India* 115(1): 51–72, into `data/checklist/gupta_karmakar2015_phytoseiidae.csv`. It recovers all 211 species the paper states. Two numbered species-group headings (*markwelli* and *oguroi* groups of *Scapulaseius*) are skipped, and entries 208–211, the four new species of Karmakar & Gupta (2014) listed after *Typhlodromus*, are placed in *Amblyseius*, *Neoseiulus* and *Euseius* as the paper's introduction and Gupta & Mondal (2023) give them. The list has citations only, so no states or hosts. Genus is taken from the heading each entry sits under, so subgenus placements are not separated.
 
 ### Further sources
 
-- `scripts/parse_dyamanagouda2020.py` → `data/checklist/dyamanagouda2020_eriophyoidea_tamilnadu.csv`: Dyamanagouda et al. (2020), *Journal of Entomology and Zoology Studies* 8(6): 137–146. 281 Eriophyoidea species in 73 genera (Eriophyidae 252, Phytoptidae 2, Diptilomiopidae 27), matching the paper's totals. All are Tamil Nadu records. 18 rows with a scattered table layout were set by hand (`OVERRIDES`), and 3 still lack an author or year (flagged).
+- `scripts/parse_dyamanagouda2020.py` → `data/checklist/dyamanagouda2020_eriophyoidea_tamilnadu.csv`: Dyamanagouda et al. (2020), *Journal of Entomology and Zoology Studies* 8(6): 137–146. 281 Eriophyoidea species in 73 genera (Eriophyidae 252, Phytoptidae 2, Diptilomiopidae 27), matching the paper's totals. All are Tamil Nadu records. 18 rows with a scattered table layout were set by hand (`OVERRIDES`). A wrapped host name on the line above a numbered row is no longer read as that row's epithet; this had given 17 rows wrong names (for example *Aceria umapathy*, *Aceria justicia*, *Aceria sapindus*).
 - `scripts/parse_tarsonemidae_wb.py` → `data/checklist/tarsonemidae_west_bengal.csv`: named species only from Mondal et al. (2023) and Karmakar (2016). The Mondal table gives the describing paper, not the authority, so authority is blank for those.
 - Mesa et al. (2009), the Tenuipalpidae world catalogue, is not yet used: the file supplied holds only the front matter.
 
@@ -156,12 +156,48 @@ families 150, Phytoseiidae 295; 30 are unidentified `sp.` records). Source is th
 handbook (unproofread, kept outside this repository). Only name, authority, family, Indian states, hosts and page
 are kept. Covers literature up to 2022, so 2023-2026 descriptions are absent. Compared with the earlier lists
 (exact, spelling-variant and genus-change matches pooled), the union is about: Tetranychidae 148, Tenuipalpidae 111,
-Phytoseiidae 315, Eriophyoidea 546, Tarsonemidae 29. Not yet merged into `species_list.csv`.
+Phytoseiidae 315, Eriophyoidea 546, Tarsonemidae 29. These first estimates are replaced by `species_list.csv` below.
+The file also gives `year` (only where a citation reads *Name Author, Year*) and `citation_names` (the names that open
+the book's taxonomic citations, as Name|Author|Year).
 
 ## Additions since 2022 and name corrections
 
-`data/checklist/additions_2022_2026.csv` lists 18 names from papers after the 2022 cut-off of Gupta & Mondal (2023):
-four eriophyoids (Sarkar 2025; *Tetra dalbergicola* is repeated in a 2026 paper and counted once) and fourteen
-tarsonemids. `name_corrections.csv` records three spellings in older lists that differ from the published abstracts.
-The Biologia 2023 *Xenotarsonemus* paper (10.1007/s11756-023-01373-y) is still to be read for its two species names.
-Rows with an empty DOI are known from abstracts only.
+`data/checklist/additions_2022_2026.csv` lists 51 names from papers read after the 2022 cut-off of Gupta & Mondal
+(2023): 27 Phytoseiidae, 16 Tarsonemidae and 8 Eriophyoidea, each with its source and, where found, DOI. Some 2022
+names turned out to be in the book as well; the build joins them. `name_corrections.csv` records eight spellings in
+the sources that differ from the published names. `unverified_names.csv` holds names seen only in pasted answers
+(three *Typhlodromus* (*Anthoseius*) from Biswas & Karmakar 2026); `leads_to_verify.csv` lists what is still open.
+
+## species_list.csv (stage 1 output)
+
+```
+python scripts/build_species_list.py
+```
+
+joins all the lists above into `data/checklist/species_list.csv`, one row per species of the six groups. Names are
+matched in four passes within each group: exact binomial; spelling variant; a synonym or older combination that a
+source cites (Gupta & Mondal 2023 citations, Chalil et al. 2024 synonym lines, Gupta 1985 original combinations), or an
+old subgenus that is now a genus; and recombination (same epithet, first author and year in another genus, with no
+second candidate). No pass joins two names that one carefully compiled source lists as two species, except where a
+newer source treats them as synonyms; those rows are flagged. The name shown is taken from the most recent specialist
+list for the group, with the epithet spelling most sources agree on.
+
+| status | counted | meaning |
+|---|---|---|
+| confirmed | 1 | in at least one list or paper published after 1985 |
+| historical_only | 0 | only in Gupta (1985): a synonym, older combination or OCR-damaged name no newer source prints |
+| unverified | 0 | name seen only in pasted answers |
+
+Counted species: Tetranychidae 144, Tenuipalpidae 114, Eriophyoidea 587 (Eriophyidae 517, Diptilomiopidae 65,
+Phytoptidae 2, family not given 3), Tarsonemidae 43, Tuckerellidae 4, Phytoseiidae 332; total 1,224.
+
+Columns worth knowing: `sources` (which lists hold the species), `other_names_in_sources` (spellings and
+combinations used by them), `joined_by`, and `flags`, among them `not_in_gupta_mondal_2023`,
+`regional_lists_or_papers_only`, `check_vs:<id>` (a join refused because only one source keeps the two names apart:
+a possible double count), `same_name_as:<id>` (homonyms kept apart), `synonymised_by_newer_source`,
+`authority_differs`, `family_differs` and `spelling_varies`.
+
+Other outputs: `species_list_names.csv` maps every name seen in the sources, and every synonym or combination they
+cite, to its `species_id` (for matching COI record names in stage 3); `species_list_review.csv` lists each join that
+is not an exact match and each join the rules refused; `species_list_summary.csv` gives the counts per group and
+per source. Species ids are reassigned when the list is rebuilt.

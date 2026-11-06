@@ -19,6 +19,13 @@ GENUS = re.compile(r"^Genus\s+([A-Z][a-z]+)\b")
 SUBFAM = re.compile(r"^Subfamily\s+([A-Z]+)")
 ENTRY = re.compile(r"^(\d{1,3})\.\s+([a-z][a-z-]+),?(?:\s+(.*))?$")
 YEAR = re.compile(r"^(?P<auth>.*?)[,\s]+\(?(?P<year>1[89]\d{2}|20[01]\d)[a-z]?\b")
+# Entries 208-211 follow the Typhlodromus list but are the four new species of
+# Karmakar & Gupta (2014) that the summary adds to the 207 listed; the text prints
+# three of the epithets capitalised. Genera as in the introduction ("two under
+# Euseius and one each under Neoseiulus and Amblyseius") and Gupta & Mondal 2023.
+NEW2014 = {"metaliensis": "Amblyseius", "paranadae": ("Neoseiulus", "pranadae"),
+           "sativum": "Euseius", "vikrami": "Euseius"}
+LATE = re.compile(r"^(20[89]|21[01])\.\s+([A-Z]?[a-z]+)\s+(Karmakar and Gupta.*)$")
 
 
 def main(src, out):
@@ -33,7 +40,20 @@ def main(src, out):
         if m:
             genus = m.group(1)
             continue
+        late = LATE.match(l)
+        if late and late.group(2).lower() in NEW2014:
+            g = NEW2014[late.group(2).lower()]
+            g, ep = g if isinstance(g, tuple) else (g, late.group(2).lower())
+            ym = YEAR.match(late.group(3))
+            entries.append({
+                "number": int(late.group(1)), "subfamily": "Amblyseiinae", "genus": g, "species_epithet": ep,
+                "species": f"{g} {ep}", "authority": "Karmakar and Gupta", "year": ym.group("year") if ym else "",
+                "citation_raw": late.group(3)[:200], "needs_review": 0,
+            })
+            continue
         m = ENTRY.match(l)
+        if m and genus and re.match(r"\s*(species\s+)?group\b", m.group(3) or ""):
+            continue    # a species-group heading, not a species
         if m and genus:
             n, epithet, rest = int(m.group(1)), m.group(2), m.group(3) or ""
             text = rest

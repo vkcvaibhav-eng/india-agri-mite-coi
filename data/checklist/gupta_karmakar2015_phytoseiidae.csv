@@ -30,8 +30,6 @@ number,subfamily,genus,species_epithet,species,authority,year,citation_raw,needs
 29,Amblyseiinae,Amblyseiulella,nicobarensis,Amblyseiulella nicobarensis,Gupta,1977,"(Gupta), 1977b: 631; Gupta,",0
 30,Amblyseiinae,Amblyseiulella,orientalis,Amblyseiulella orientalis,Narayanan et al.,1960,"(Narayanan et al.) 1960: 394; Gupta,",0
 31,Amblyseiinae,Amblyseiulella,scleroticus,Amblyseiulella scleroticus,Gupta and Ray,1981,"(Gupta and Ray), 1981a: 42;",0
-5,Amblyseiinae,Scapulaseius,markwelli,Scapulaseius markwelli,species group Schicha,1987,"species group Schicha, 1987: 25.",0
-6,Amblyseiinae,Scapulaseius,oguroi,Scapulaseius oguroi,species group Wu and Ou,1999,"species group Wu and Ou, 1999: 103.",0
 32,Amblyseiinae,Scapulaseius,andamanicus,Scapulaseius andamanicus,Gupta,1980,"(Gupta), 1980c: 213; Gupta,",0
 33,Amblyseiinae,Scapulaseius,asiaticus,Scapulaseius asiaticus,Evans,1953,"(Evans 1953); Moraes et al., 2004:",0
 34,Amblyseiinae,Scapulaseius,arecae,Scapulaseius arecae,Gupta,1977,"(Gupta), 1977c: 624; Gupta, 1986:",0
@@ -208,4 +206,7 @@ number,subfamily,genus,species_epithet,species,authority,year,citation_raw,needs
 202,Typhlodrominae,Typhlodromus,umbratus,Typhlodromus umbratus,Chaudri,1974,"(Chaudri), 1974: 215; Rather, 1984:",0
 203,Typhlodrominae,Typhlodromus,viniferae,Typhlodromus viniferae,Rather,1999,"(Rather), 1999: 20; Gupta, 2003a:",0
 204,Typhlodrominae,Typhlodromus,zafari,Typhlodromus zafari,Chaudri,1965,"Chaudri, 1965: 632; Rather, 1984: 106;",0
-208,Typhlodrominae,Typhlodromus,metaliensis,Typhlodromus metaliensis,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 687.",0
+208,Amblyseiinae,Amblyseius,metaliensis,Amblyseius metaliensis,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 687.",0
+209,Amblyseiinae,Neoseiulus,pranadae,Neoseiulus pranadae,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 691.",0
+210,Amblyseiinae,Euseius,sativum,Euseius sativum,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 689.",0
+211,Amblyseiinae,Euseius,vikrami,Euseius vikrami,Karmakar and Gupta,2014,"Karmakar and Gupta, 2014: 691.",0

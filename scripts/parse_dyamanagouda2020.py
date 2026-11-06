@@ -73,10 +73,11 @@ def main(src, out):
             expect += 1
             continue
         nm = ROW.match(body[i + 1]) if i + 1 < len(body) else None
-        # an epithet (or epithet + author) printed on the line above its number
-        if nm and int(nm.group(1)) == expect and not nm.group(3) is None and re.match(r"^\s*[A-Za-z]", l) and not YEAR.search(re.sub(r"\s{3,}.*", "", l.strip())) is False:
-            pre.append(l.strip())
-        elif nm and int(nm.group(1)) == expect and re.match(r"^\s*[a-z][\w-]+\s*(\s{3,}.*)?$", l):
+        # an epithet (or epithet + author) printed on the line above its number; only
+        # when the numbered line itself does not start with an epithet, so that a
+        # wrapped host name ("Justicia glabra") stays with the row above
+        own = (nm.group(3) or "").strip() if nm else ""
+        if nm and int(nm.group(1)) == expect and not re.match(r"^[a-z]", own) and re.match(r"^\s*[a-z]", l):
             pre.append(l.strip())
         elif cur is not None:
             cur["lines"].append(l.strip())

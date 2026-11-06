@@ -17,6 +17,10 @@ for i, l in enumerate(src):
         if nxt: som.append((int(m.group(1)), f"{m.group(2)} {nxt.group(1)}", ""))
 seen = {}
 for n, sp, au in som: seen.setdefault(n, (sp, au))
+# Rows 45 and 55: Table 1 prints only the authority for 45 and runs the epithet into
+# the authority for 55; the names are read from Table 2 of the same paper.
+for n, sp, au in ((45, "Neooxycenus dilleniae", "Roy & Chakrabarti"), (55, "Tegolophus bambusae", "Channabasavanna")):
+    seen.setdefault(n, (sp, au))
 with open("data/checklist/som2025_eriophyoidea_south_bengal.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerow(["number", "species", "authority_fragment", "india_states"])
     for n in sorted(seen): w.writerow([n, seen[n][0], seen[n][1], "West Bengal"])
