@@ -7,8 +7,8 @@ and clusters.csv. A sequence is flagged when
   far_from_all   no other sequence in the group is within 20% (not the same gene region,
                  contamination or a mislabelled marker)
 Writes data/processed/delimitation/screen.csv
-       data/processed/delimitation/asap_<genus>.fasta  for genera with Indian sequences
-       (clean sequences only, trimmed to the reference window most Indian sequences share)
+       data/processed/delimitation/asap_<genus>_sites<a>-<b>.fas  for genera with Indian sequences:
+       clean sequences that all cover one 400-site window of the reference (ASAP input)
 """
 import csv
 import os
@@ -66,7 +66,7 @@ def min_stops(seq):
     return best
 
 
-clusters = {r["record_id"]: r for r in csv.DictReader(open(os.path.join(D, "clusters.csv")))}
+clusters = {r["record_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_matched.csv")))}
 rows, keep = [], defaultdict(dict)
 for g in GROUPS:
     p = os.path.join(D, f"{g}_on_reference.fasta")
@@ -104,32 +104,55 @@ with open(os.path.join(D, "screen.csv"), "w", newline="") as f:
     w.writeheader()
     w.writerows(rows)
 
-# ASAP input per genus: clean sequences, trimmed to the window covered by most Indian sequences
+# ASAP input per genus and COI region. ASAP and ABGD need every pair of sequences to share
+# sites, so each file holds only sequences that cover at least COVER of one fixed window
+# of WIN reference sites. The window is placed where it covers the most Indian sequences;
+# a second window is added for the part of COI the first one misses.
+WIN, COVER, STEP = 400, 0.95, 10
 summary = []
 for g, seqs in keep.items():
     by_genus = defaultdict(dict)
     for sid, s in seqs.items():
         by_genus[sid.split("|", 1)[1].split("_")[0]][sid] = s
+    if g == "Phytoseiidae":
+        # too few Indian sequences per genus: one family-level file instead
+        by_genus = {"Phytoseiidae": dict(seqs)}
     for genus, ss in by_genus.items():
-        ind = [sid for sid in ss if clusters.get(sid.split("|")[0], {}).get("india_record") == "1"]
-        if len(ind) < 3 or len(ss) < 8:
+        if not genus:
             continue
-        cov = np.zeros(len(next(iter(ss.values()))))
-        for sid in ind:
-            cov += np.array([ch != "-" for ch in ss[sid]])
-        win = np.where(cov >= 0.5 * len(ind))[0]
-        lo, hi = win.min(), win.max() + 1
-        out = {}
-        for sid, s in ss.items():
-            t = s[lo:hi]
-            if sum(ch != "-" for ch in t) >= MIN_SITES:
-                rid = sid.split("|")[0]
-                tag = "IN" if clusters.get(rid, {}).get("india_record") == "1" else "XX"
-                out[f"{rid}_{tag}_{sid.split('|')[1]}"] = t.replace("-", "N") if False else t
-        with open(os.path.join(D, f"asap_{genus}.fasta"), "w") as f:
-            for k, v in out.items():
-                f.write(f">{k}\n{v}\n")
-        summary.append((g, genus, len(out), sum("_IN_" in k for k in out), lo + 1, hi))
+        ids = list(ss)
+        m = np.array([[ch != "-" for ch in ss[i]] for i in ids])
+        csum = np.concatenate([np.zeros((len(ids), 1)), np.cumsum(m, 1)], 1)
+        india = np.array([clusters.get(i.split("|")[0], {}).get("india_record") == "1" for i in ids])
+        used, windows = np.zeros(len(ids), bool), []
+        for _ in range(2):
+            best = None
+            for lo in range(0, m.shape[1] - WIN + 1, STEP):
+                ok = (csum[:, lo + WIN] - csum[:, lo]) >= COVER * WIN
+                ok &= ~used
+                score = (int((ok & india).sum()), int(ok.sum()))
+                if best is None or score > best[0]:
+                    best = (score, lo, ok)
+            (n_in, n_all), lo, ok = best
+            if n_in < 2 or n_all < 6:
+                break
+            windows.append((lo, ok))
+            used |= ok
+        for k, (lo, ok) in enumerate(windows):
+            region = f"sites{lo + 1}-{lo + WIN}"
+            out = {}
+            for i in np.where(ok)[0]:
+                rid = ids[i].split("|")[0]
+                tag = "IN" if india[i] else "XX"
+                out[f"{rid}_{tag}_{ids[i].split('|')[1]}"] = ss[ids[i]][lo:lo + WIN]
+            fn = f"asap_{genus}_{region}.fas"
+            with open(os.path.join(D, fn), "w") as f:
+                for kk, v in out.items():
+                    f.write(f">{kk}\n{v}\n")
+            summary.append((genus, region, len(out), sum("_IN_" in kk for kk in out)))
+for old in os.listdir(D):
+    if old.startswith("asap_") and old.endswith(".fasta"):
+        os.remove(os.path.join(D, old))
 
 flagged = [r for r in rows if r["flags"]]
 print("sequences screened:", len(rows), "flagged:", len(flagged),

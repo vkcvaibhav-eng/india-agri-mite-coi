@@ -285,7 +285,7 @@ python scripts/delimit_coi.py && python scripts/screen_coi.py && python scripts/
 `screen_coi.py` flags sequences whose six reading frames all contain a stop codon under the invertebrate
 mitochondrial code (table 5), and sequences with no other sequence in their group within 20%. Flagged sequences
 (`data/processed/delimitation/screen.csv`) are kept in the files but left out of the distances when
-`delimit_coi.py` is run again. Clean, trimmed alignments for each genus with Indian sequences are written as
-`data/processed/delimitation/asap_<genus>.fasta` (names carry `_IN_` for Indian and `_XX_` for other records), ready
+`delimit_coi.py` is run again. Clean alignments are written as
+`data/processed/delimitation/asap_<genus>_sites<a>-<b>.fas`, one per genus and COI region: every sequence in a file covers at least 95% of the same 400-site window of the reference, so each pair shares sites, as ASAP and ABGD require (names carry `_IN_` for Indian and `_XX_` for other records), ready
 for the ASAP web server (https://bioinfo.mnhn.fr/abi/public/asap/; Puillandre, Brouillet & Achaz 2021, Molecular
 Ecology Resources 21:609-620). ASAP could not be compiled in the analysis environment.
