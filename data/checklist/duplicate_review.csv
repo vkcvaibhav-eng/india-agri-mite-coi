@@ -1,6 +1,5 @@
 group,species_a,species_b,decision,reviewer_note,accepted_name,accepted_authority,accepted_year
 Tetranychidae,Eotetranychus hypogeae,Tetranychus hypogeae,different,"TET0128: original spelling is Tetranychus hypogaeae Gupta, 1976. Keep distinct from Eotetranychus hypogeae Karuppuchamy & Mohanasundaram, 1988.",,,
-Tetranychidae,Eutetranychus maximae,Tetranychus maximae,different,"Correct TET0135 to Tetranychus marianae McGregor, 1950. The source book prints maximae but cites the marianae description. The cited 2016 record is in Zootaxa, not Oriental Insects. Do not create a valid-species claim for Tetranychus maximae.",,,
 Tetranychidae,Mixonychus (Tylonicus) jayaraji,Tetranychus jayaraji,same,"Retain Mixonychus (Tylonychus) jayaraji (Karuppuchamy & Mohanasundaram, 1987). Correct Tylonicus to Tylonychus. Preserve Tetranychus jayaraji as an erroneous source usage, not an independently described species.",,,
 Eriophyoidea,Levonga combretis,Colopodacus combretus,different,Retain the distinct combretis and combretus identities. Host overlap does not support synonymy. Do not change Levonga to Colopodacus.,,,
 Eriophyoidea,Acalitus ruelliae,Aceria ruelliae,same,"Use Acalitus ruelliae (Channabasavanna, 1966). Retain the older Aceria combination in synonym/source history.",,,
