@@ -174,7 +174,8 @@ step ("reviewed by hand" in `species_list_review.csv`). The tenth "different" pa
 *Tetranychus maximae*, was removed once the second name was corrected to *T. marianae* McGregor, 1950
 (`name_corrections.csv`; McGregor's paper describes *marianae* on p. 291 and has no *maximae*). The authority of
 *Eriophyes antiquorum* is set to Amrine & Stasny, 1994 in `authority_corrections.csv` (Mohammad-Doustaresharaf et al.
-2023). Other corrections suggested by the review are in the `reviewer_note` column and are not yet applied.
+2023). The 2003 year for *Euseius mangiferae* is also applied in `authority_corrections.csv`. Remaining review suggestions
+are tracked in `reviewer_note` and in [species-list-gaps-and-sources.md](species-list-gaps-and-sources.md).
 
 ## species_list.csv (stage 1 output)
 
@@ -196,8 +197,11 @@ list for the group, with the epithet spelling most sources agree on.
 | historical_only | 0 | only in Gupta (1985): a synonym, older combination or OCR-damaged name no newer source prints |
 | unverified | 0 | name seen only in pasted answers |
 
-Counted species: Tetranychidae 144, Tenuipalpidae 114, Eriophyoidea 587 (Eriophyidae 517, Diptilomiopidae 65,
-Phytoptidae 2, family not given 3), Tarsonemidae 43, Tuckerellidae 4, Phytoseiidae 332; total 1,224.
+Counted species at the current rebuild: Tetranychidae 142, Tenuipalpidae 114, Eriophyoidea 581 (Eriophyidae 514,
+Diptilomiopidae 65, Phytoptidae 2), Tarsonemidae 43, Tuckerellidae 4, Phytoseiidae 335; total 1,219.
+This is the current checklist denominator, pending the remaining nomenclatural checks. The six historical-only
+rows are not counted. See [species-list-gaps-and-sources.md](species-list-gaps-and-sources.md) for the current
+verification queue, 19 missing authorities, 63 missing years and source-file links.
 
 Columns worth knowing: `sources` (which lists hold the species), `other_names_in_sources` (spellings and
 combinations used by them), `joined_by`, and `flags`, among them `not_in_gupta_mondal_2023`,
