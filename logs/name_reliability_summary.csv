@@ -1,0 +1,21 @@
+group,verdict,indian_names
+Eriophyoidea,foreign sequences do not overlap (other COI region),2
+Eriophyoidea,matches the same name abroad (within 3%),2
+Eriophyoidea,more than 3% from the same name abroad,2
+Eriophyoidea,no foreign sequences of this name,3
+Eriophyoidea,no species name,1
+Phytoseiidae,more than 3% from the same name abroad,5
+Phytoseiidae,no foreign sequences of this name,2
+Phytoseiidae,no species name,5
+Tarsonemidae,matches the same name abroad (within 3%),1
+Tarsonemidae,no species name,1
+Tarsonemidae,only some Indian sequences match abroad,1
+Tenuipalpidae,matches the same name abroad (within 3%),1
+Tenuipalpidae,no foreign sequences of this name,2
+Tenuipalpidae,no species name,2
+Tetranychidae,matches the same name abroad (within 3%),8
+Tetranychidae,more than 3% from the same name abroad,5
+Tetranychidae,no foreign sequences of this name,11
+Tetranychidae,no species name,5
+Tetranychidae,only some Indian sequences match abroad,6
+Tetranychidae,some Indian sequences closest to another name,7

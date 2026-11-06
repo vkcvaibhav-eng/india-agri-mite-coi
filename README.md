@@ -252,3 +252,26 @@ first Indian record (Dyamanagouda et al. 2024, Acarologia 64(3):879-890) and is 
 Applied Acarology 22(4)) and is mapped to it in `coi_name_map.csv`. The other four (*T. piercei*, *Oligonychus perseae*,
 *Euseius nicholsi*, *Floracarus perrepae*) have Indian sequences but no published Indian record found yet; they are in
 `open_items.csv`.
+
+## Stage 5a: are the names on Indian COI records reliable?
+
+```
+python scripts/delimit_coi.py      # needs MAFFT only for older runs; now uses Biopython pairwise alignment
+```
+
+Every Indian COI record, plus up to 40 records of the same name from other countries (spread over BINs and
+countries), is placed on one full-length COI reference per group (*Tetranychus phaselus* NC_024679,
+*Neoseiulus californicus* NC_069213, *Acarapis woodi* KX790788, *Phyllocoptes taishanensis* NC_029209,
+*Brevipalpus obovatus* XM_074747291) by local pairwise alignment on both strands, as BOLD does. Sequences that place
+fewer than 200 sites or are under 60% identical to the reference are left out (`not_mapped.csv`). Uncorrected
+p-distances are taken over shared sites (at least 300). Each Indian sequence is then scored by best close match
+(Meier et al. 2006, Systematic Biology 55:715-728): correct, ambiguous, incorrect, or no match within 3%.
+
+| file | content |
+|---|---|
+| `data/processed/delimitation/clusters.csv` | each sequence: best close match, distance to the same name abroad, nearest other name, 2% and 3% single-linkage clusters |
+| `data/processed/name_reliability.csv` | each Indian name: best-close-match counts and a verdict |
+| `logs/name_reliability_summary.csv` | verdicts per group |
+
+Distances above about 25% between sequences of one name are too large for COI within a species and point to
+mislabelled records, numts or a different gene; they are listed for checking, not interpreted.
