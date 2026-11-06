@@ -58,89 +58,90 @@ TET0056,Tetranychidae,Tetranychidae,Mesobryobia terpoghossiani,Bagdasarian,1959,
 TET0057,Tetranychidae,Tetranychidae,Mixonychus (Bakerina) aculus,Chaudhri,1971,0,0,0,0,,,
 TET0058,Tetranychidae,Tetranychidae,Mixonychus (Bakerina) orissaensis,Prasad,1975,0,0,0,0,,,
 TET0059,Tetranychidae,Tetranychidae,Mixonychus (Tylonychus) jayaraji,(Karuppuchamy & Mohanasundaram),1987,0,0,0,0,,,
-TET0060,Tetranychidae,Tetranychidae,Neopetrobia (Neopetrobia) simlaensis,Prasad,1975,0,0,0,0,,,
-TET0061,Tetranychidae,Tetranychidae,Oligonychus bambusae,Karuppuchamy & Mohanasundaram,1988,0,0,0,0,,,
-TET0062,Tetranychidae,Tetranychidae,Oligonychus biharensis,Hirst,1925,15,8,2,5,Bangladesh;China;India;Japan;Taiwan,exact,Oligonychus biharensis
-TET0063,Tetranychidae,Tetranychidae,Oligonychus coffeae,Nietner,1861,6,2,0,2,India;Japan,exact,Oligonychus coffeae
-TET0064,Tetranychidae,Tetranychidae,Oligonychus coniferarum,McGregor,1950,0,0,0,0,,,
-TET0065,Tetranychidae,Tetranychidae,Oligonychus duncombei,Meyer,1974,0,0,0,0,,,
-TET0066,Tetranychidae,Tetranychidae,Oligonychus gossypii,(Zacher),1921,1,0,0,0,,exact,Oligonychus gossypii
-TET0067,Tetranychidae,Tetranychidae,Oligonychus grypus,Baker & Pritchard,1960,3,2,0,1,India,exact,Oligonychus grypus
-TET0068,Tetranychidae,Tetranychidae,Oligonychus indicus,Hirst,1923,7,6,0,1,India,exact,Oligonychus indicus
-TET0069,Tetranychidae,Tetranychidae,Oligonychus iseilemae,Hirst,1924,0,0,0,0,,,
-TET0070,Tetranychidae,Tetranychidae,Oligonychus mangiferus,Rahman & Sapra,1940,4,4,0,1,India,exact,Oligonychus mangiferus
-TET0071,Tetranychidae,Tetranychidae,Oligonychus manishi,Gupta,1979,0,0,0,0,,,
-TET0072,Tetranychidae,Tetranychidae,Oligonychus martensis,Meyer,1974,0,0,0,0,,,
-TET0073,Tetranychidae,Tetranychidae,Oligonychus neotylus,Zeity & Srinivasa,2016,0,0,0,0,,,
-TET0074,Tetranychidae,Tetranychidae,Oligonychus oryzae,Hirst,1926,2,2,1,1,India,exact,Oligonychus oryzae
-TET0075,Tetranychidae,Tetranychidae,Oligonychus plegas,Baker & Pritchard,1960,1,1,0,1,India,exact,Oligonychus plegas
-TET0076,Tetranychidae,Tetranychidae,Oligonychus ponmanaiensis,Karuppuchamy & Mohanasundaram,1987,0,0,0,0,,,
-TET0077,Tetranychidae,Tetranychidae,Oligonychus pratensis,(Banks),1912,1,0,0,1,USA,exact,Oligonychus pratensis
-TET0078,Tetranychidae,Tetranychidae,Oligonychus punicae,Hirst,1926,25,0,2,2,Mexico;Saudi Arabia,exact,Oligonychus punicae
-TET0079,Tetranychidae,Tetranychidae,Oligonychus sacchari,McGregor,1942,0,0,0,0,,,
-TET0080,Tetranychidae,Tetranychidae,Oligonychus saccharinus,Baker & Pritchard,1960,0,0,0,0,,,
-TET0081,Tetranychidae,Tetranychidae,Oligonychus sapienticolus,Gupta,1976,0,0,0,0,,,
-TET0082,Tetranychidae,Tetranychidae,Oligonychus thelytokus,Gutierrez,1977,5,5,0,1,India,exact,Oligonychus thelytokus
-TET0083,Tetranychidae,Tetranychidae,Oligonychus tylus,Baker & Pritchard,1960,19,16,1,3,India;Saudi Arabia;Turkey,exact,Oligonychus tylus
-TET0084,Tetranychidae,Tetranychidae,Oligonychus vitis,Zaher & Shehata,1965,1,0,0,1,Unrecoverable,exact,Oligonychus vitis
-TET0085,Tetranychidae,Tetranychidae,Panonychus citri,McGregor,1916,75,0,1,7,Australia;China;Egypt;Iran;Japan;Romania;South Korea,exact,Panonychus citri
-TET0086,Tetranychidae,Tetranychidae,Panonychus elongatus,Manson,1963,3,0,0,2,China;Japan,exact,Panonychus elongatus
-TET0087,Tetranychidae,Tetranychidae,Panonychus ulmi,Koch,1836,98,1,2,14,Australia;Brazil;Canada;Chile;China;Georgia;India;Japan;Morocco;Russia;South Africa;South Korea;USA;Unrecoverable,exact,Panonychus ulmi
-TET0088,Tetranychidae,Tetranychidae,Petrobia (Petrobia) latens,Müller,1776,7,1,0,3,India;Japan;Saudi Arabia,exact,Petrobia latens
-TET0089,Tetranychidae,Tetranychidae,Petrobia (Tetranychina) harti,Ewing,1909,9,2,0,4,China;Greece;India;Japan,exact,Petrobia harti
-TET0090,Tetranychidae,Tetranychidae,Porcupinychus abutiloni,Anwarullah,1966,0,0,0,0,,,
-TET0091,Tetranychidae,Tetranychidae,Schizotetranychus andropogoni,Hirst,1926,9,9,0,1,India,exact,Schizotetranychus andropogoni
-TET0092,Tetranychidae,Tetranychidae,Schizotetranychus approximatus,Ehara,1988,0,0,0,0,,,
-TET0093,Tetranychidae,Tetranychidae,Schizotetranychus asparagi,Oudemans,1928,1,1,0,1,India,exact,Schizotetranychus asparagi
-TET0094,Tetranychidae,Tetranychidae,Schizotetranychus baltazari,Rimando,1962,3,3,0,1,India,exact,Schizotetranychus baltazari
-TET0095,Tetranychidae,Tetranychidae,Schizotetranychus cajani,Gupta,1976,0,0,0,0,,,
-TET0096,Tetranychidae,Tetranychidae,Schizotetranychus chiangmaiensis,Ehara & Wongsiri,1975,0,0,0,0,,,
-TET0097,Tetranychidae,Tetranychidae,Schizotetranychus fluvialis,McGregor,1928,0,0,0,0,,,
-TET0098,Tetranychidae,Tetranychidae,Schizotetranychus hindustanicus,Hirst,1924,0,0,0,0,,,
-TET0099,Tetranychidae,Tetranychidae,Schizotetranychus indicus,Gupta & Gupta,1994,0,0,0,0,,,
-TET0100,Tetranychidae,Tetranychidae,Schizotetranychus kochummeni,Ehara,1988,0,0,0,0,,,
-TET0101,Tetranychidae,Tetranychidae,Schizotetranychus krungthepensis,Auger & Naing,2014,19,19,1,1,India,exact,Schizotetranychus krungthepensis
-TET0102,Tetranychidae,Tetranychidae,Schizotetranychus laevidorsatus,Ehara,1988,1,1,0,1,India,exact,Schizotetranychus laevidorsatus
-TET0103,Tetranychidae,Tetranychidae,Schizotetranychus lespedezae,Beglyarov & Mitrofanov,1973,4,0,0,1,Japan,exact,Schizotetranychus lespedezae
-TET0104,Tetranychidae,Tetranychidae,Schizotetranychus mansoni,Gupta,1980,2,1,1,2,India;Unrecoverable,exact,Schizotetranychus mansoni
-TET0105,Tetranychidae,Tetranychidae,Schizotetranychus recki,Ehara,1957,3,0,0,1,Japan,exact,Schizotetranychus recki
-TET0106,Tetranychidae,Tetranychidae,Schizotetranychus reticulatus,Baker & Pritchard,1960,0,0,0,0,,,
-TET0107,Tetranychidae,Tetranychidae,Schizotetranychus schizopus,Zacher,1913,4,0,0,2,Japan;Russia,exact,Schizotetranychus schizopus
-TET0108,Tetranychidae,Tetranychidae,Schizotetranychus spiculus,Baker & Pritchard,1960,0,0,0,0,,,
-TET0109,Tetranychidae,Tetranychidae,Schizotetranychus spireafolia,Garman,1940,0,0,0,0,,,
-TET0110,Tetranychidae,Tetranychidae,Schizotetranychus tephrosiae,Gutierrez,1968,0,0,0,0,,,
-TET0111,Tetranychidae,Tetranychidae,Schizotetranychus undulatus,Beer & Lang,1958,0,0,0,0,,,
-TET0112,Tetranychidae,Tetranychidae,Stigmaeopsis longus,Saito,1990,20,0,1,1,Japan,exact,Stigmaeopsis longus
-TET0113,Tetranychidae,Tetranychidae,Stigmaeopsis meghalayensis,Gupta & Gupta,1994,0,0,0,0,,,
-TET0114,Tetranychidae,Tetranychidae,Stylophoronychus baghensis,Prasad,1975,0,0,0,0,,,
-TET0115,Tetranychidae,Tetranychidae,Stylophoronychus lalii,Prasad,1975,0,0,0,0,,,
-TET0116,Tetranychidae,Tetranychidae,Stylophoronychus vannus,Rimando,1968,0,0,0,0,,,
-TET0117,Tetranychidae,Tetranychidae,Swarnanychus bandipurensis,Mallik & Kumar,1998,0,0,0,0,,,
-TET0118,Tetranychidae,Tetranychidae,Tenuipalponychus citri,ChannaBassavanna & Lakkundi,1977,0,0,0,0,,,
-TET0119,Tetranychidae,Tetranychidae,Tetranychus afrindicus,Nassar & Ghai,1981,0,0,0,0,,,
-TET0120,Tetranychidae,Tetranychidae,Tetranychus angolensis,Meyer,1974,0,0,0,0,,,
-TET0121,Tetranychidae,Tetranychidae,Tetranychus bambusae,Wang & Ma,1981,4,1,0,2,India;Japan,exact,Tetranychus bambusae
-TET0122,Tetranychidae,Tetranychidae,Tetranychus bellottii,Flechtmann,1981,0,0,0,0,,,
-TET0124,Tetranychidae,Tetranychidae,Tetranychus fijiensis,Hirst,1924,7,7,1,1,India,exact,Tetranychus fijiensis
-TET0125,Tetranychidae,Tetranychidae,Tetranychus gloveri,Banks,1900,27,10,2,5,Ecuador;India;Japan;USA;Viet Nam,exact,Tetranychus gloveri;Tetranychus okinawanus
-TET0126,Tetranychidae,Tetranychidae,Tetranychus hirsutus,Zeity & Srinivasa,2016,2,2,0,1,India,exact,Tetranychus hirsutus
-TET0127,Tetranychidae,Tetranychidae,Tetranychus hydrangea,Pritchard & Baker,1955,0,0,0,0,,,
-TET0128,Tetranychidae,Tetranychidae,Tetranychus hypogeae,Gupta,1976,0,0,0,0,,,
-TET0129,Tetranychidae,Tetranychidae,Tetranychus kanzawai,Kishida,1927,66,7,2,7,China;India;Japan;Pakistan;South Korea;Taiwan;Viet Nam,exact,Tetranychus kanzawai
-TET0130,Tetranychidae,Tetranychidae,Tetranychus lombardinii,Baker & Pritchard,1960,9,7,0,2,India;South Africa,exact,Tetranychus lombardinii
-TET0131,Tetranychidae,Tetranychidae,Tetranychus ludeni,Zacher,1913,81,3,2,12,Argentina;Australia;Bangladesh;China;Germany;India;Israel;Japan;Pakistan;South Africa;USA;United States,exact,Tetranychus ludeni
-TET0132,Tetranychidae,Tetranychidae,Tetranychus macfarlanei,Baker & Pritchard,1960,9,7,1,2,Bangladesh;India,exact,Tetranychus macfarlanei
-TET0133,Tetranychidae,Tetranychidae,Tetranychus marianae,McGregor,1950,5,2,0,2,India;USA,exact,Tetranychus marianae
-TET0134,Tetranychidae,Tetranychidae,Tetranychus neocaledonicus,André,1933,24,3,1,6,Australia;India;Ivory Coast;Japan;South Africa;United States,exact,Tetranychus neocaledonicus
-TET0135,Tetranychidae,Tetranychidae,Tetranychus papayae,Nassar & Ghai,1981,0,0,0,0,,,
-TET0136,Tetranychidae,Tetranychidae,Tetranychus puschelii,Meyer,1974,9,8,0,2,India;Unrecoverable,exact,Tetranychus puschelii
-TET0137,Tetranychidae,Tetranychidae,Tetranychus sayedi,Baker & Pritchard,1960,0,0,0,0,,,
-TET0138,Tetranychidae,Tetranychidae,Tetranychus taiwanicus,Ehara,1969,1,0,0,0,,exact,Tetranychus taiwanicus
-TET0139,Tetranychidae,Tetranychidae,Tetranychus truncatus,Ehara,1956,123,41,1,8,Bangladesh;Burkina Faso;China;India;Japan;South Korea;Unrecoverable;Viet Nam,exact,Tetranychus truncatus
-TET0140,Tetranychidae,Tetranychidae,Tetranychus turkestani,Ugarov & Nikolski,1937,49,4,7,11,Canada;China;France;India;Iran;Netherlands;Poland;Russia;Saudi Arabia;Spain;USA,exact,Tetranychus turkestani
-TET0141,Tetranychidae,Tetranychidae,Tetranychus udaipurensis,Gupta & Gupta,1994,17,15,1,2,India;Unrecoverable,exact,Tetranychus udaipurensis
-TET0142,Tetranychidae,Tetranychidae,Tetranychus urticae,Koch,1836,407,34,8,32,Australia;Belarus;Brazil;Canada;China;Egypt;France;Germany;Greece;India;Iran;Iraq;Italy;Japan;Kazakhstan;Mexico;Netherlands;New Zealand;Pakistan;Philippines;Portugal;Russia;Saudi Arabia;South Korea;Spain;Taiwan;Tunisia;Turkey;USA;United States;Unrecoverable;Viet Nam,exact;name_map,Tetranychus cinnabarinus;Tetranychus urticae
-TET0143,Tetranychidae,Tetranychidae,Tetranychus zaheri,Nassar & Ghai,1981,0,0,0,0,,,
+TET0060,Tetranychidae,Tetranychidae,Mononychellus mcgregori,(Flechtmann & Baker),1970,4,3,1,1,India,exact,Mononychellus mcgregori
+TET0061,Tetranychidae,Tetranychidae,Neopetrobia (Neopetrobia) simlaensis,Prasad,1975,0,0,0,0,,,
+TET0062,Tetranychidae,Tetranychidae,Oligonychus bambusae,Karuppuchamy & Mohanasundaram,1988,0,0,0,0,,,
+TET0063,Tetranychidae,Tetranychidae,Oligonychus biharensis,Hirst,1925,15,8,2,5,Bangladesh;China;India;Japan;Taiwan,exact,Oligonychus biharensis
+TET0064,Tetranychidae,Tetranychidae,Oligonychus coffeae,Nietner,1861,6,2,0,2,India;Japan,exact,Oligonychus coffeae
+TET0065,Tetranychidae,Tetranychidae,Oligonychus coniferarum,McGregor,1950,0,0,0,0,,,
+TET0066,Tetranychidae,Tetranychidae,Oligonychus duncombei,Meyer,1974,0,0,0,0,,,
+TET0067,Tetranychidae,Tetranychidae,Oligonychus gossypii,(Zacher),1921,1,0,0,0,,exact,Oligonychus gossypii
+TET0068,Tetranychidae,Tetranychidae,Oligonychus grypus,Baker & Pritchard,1960,3,2,0,1,India,exact,Oligonychus grypus
+TET0069,Tetranychidae,Tetranychidae,Oligonychus indicus,Hirst,1923,7,6,0,1,India,exact,Oligonychus indicus
+TET0070,Tetranychidae,Tetranychidae,Oligonychus iseilemae,Hirst,1924,0,0,0,0,,,
+TET0071,Tetranychidae,Tetranychidae,Oligonychus mangiferus,Rahman & Sapra,1940,4,4,0,1,India,exact,Oligonychus mangiferus
+TET0072,Tetranychidae,Tetranychidae,Oligonychus manishi,Gupta,1979,0,0,0,0,,,
+TET0073,Tetranychidae,Tetranychidae,Oligonychus martensis,Meyer,1974,0,0,0,0,,,
+TET0074,Tetranychidae,Tetranychidae,Oligonychus neotylus,Zeity & Srinivasa,2016,0,0,0,0,,,
+TET0075,Tetranychidae,Tetranychidae,Oligonychus oryzae,Hirst,1926,2,2,1,1,India,exact,Oligonychus oryzae
+TET0076,Tetranychidae,Tetranychidae,Oligonychus plegas,Baker & Pritchard,1960,1,1,0,1,India,exact,Oligonychus plegas
+TET0077,Tetranychidae,Tetranychidae,Oligonychus ponmanaiensis,Karuppuchamy & Mohanasundaram,1987,0,0,0,0,,,
+TET0078,Tetranychidae,Tetranychidae,Oligonychus pratensis,(Banks),1912,1,0,0,1,USA,exact,Oligonychus pratensis
+TET0079,Tetranychidae,Tetranychidae,Oligonychus punicae,Hirst,1926,25,0,2,2,Mexico;Saudi Arabia,exact,Oligonychus punicae
+TET0080,Tetranychidae,Tetranychidae,Oligonychus sacchari,McGregor,1942,0,0,0,0,,,
+TET0081,Tetranychidae,Tetranychidae,Oligonychus saccharinus,Baker & Pritchard,1960,0,0,0,0,,,
+TET0082,Tetranychidae,Tetranychidae,Oligonychus sapienticolus,Gupta,1976,0,0,0,0,,,
+TET0083,Tetranychidae,Tetranychidae,Oligonychus thelytokus,Gutierrez,1977,5,5,0,1,India,exact,Oligonychus thelytokus
+TET0084,Tetranychidae,Tetranychidae,Oligonychus tylus,Baker & Pritchard,1960,19,16,1,3,India;Saudi Arabia;Turkey,exact,Oligonychus tylus
+TET0085,Tetranychidae,Tetranychidae,Oligonychus vitis,Zaher & Shehata,1965,1,0,0,1,Unrecoverable,exact,Oligonychus vitis
+TET0086,Tetranychidae,Tetranychidae,Panonychus citri,McGregor,1916,75,0,1,7,Australia;China;Egypt;Iran;Japan;Romania;South Korea,exact,Panonychus citri
+TET0087,Tetranychidae,Tetranychidae,Panonychus elongatus,Manson,1963,3,0,0,2,China;Japan,exact,Panonychus elongatus
+TET0088,Tetranychidae,Tetranychidae,Panonychus ulmi,Koch,1836,98,1,2,14,Australia;Brazil;Canada;Chile;China;Georgia;India;Japan;Morocco;Russia;South Africa;South Korea;USA;Unrecoverable,exact,Panonychus ulmi
+TET0089,Tetranychidae,Tetranychidae,Petrobia (Petrobia) latens,Müller,1776,7,1,0,3,India;Japan;Saudi Arabia,exact,Petrobia latens
+TET0090,Tetranychidae,Tetranychidae,Petrobia (Tetranychina) harti,Ewing,1909,9,2,0,4,China;Greece;India;Japan,exact,Petrobia harti
+TET0091,Tetranychidae,Tetranychidae,Porcupinychus abutiloni,Anwarullah,1966,0,0,0,0,,,
+TET0092,Tetranychidae,Tetranychidae,Schizotetranychus andropogoni,Hirst,1926,9,9,0,1,India,exact,Schizotetranychus andropogoni
+TET0093,Tetranychidae,Tetranychidae,Schizotetranychus approximatus,Ehara,1988,0,0,0,0,,,
+TET0094,Tetranychidae,Tetranychidae,Schizotetranychus asparagi,Oudemans,1928,1,1,0,1,India,exact,Schizotetranychus asparagi
+TET0095,Tetranychidae,Tetranychidae,Schizotetranychus baltazari,Rimando,1962,3,3,0,1,India,exact,Schizotetranychus baltazari
+TET0096,Tetranychidae,Tetranychidae,Schizotetranychus cajani,Gupta,1976,0,0,0,0,,,
+TET0097,Tetranychidae,Tetranychidae,Schizotetranychus chiangmaiensis,Ehara & Wongsiri,1975,0,0,0,0,,,
+TET0098,Tetranychidae,Tetranychidae,Schizotetranychus fluvialis,McGregor,1928,0,0,0,0,,,
+TET0099,Tetranychidae,Tetranychidae,Schizotetranychus hindustanicus,Hirst,1924,0,0,0,0,,,
+TET0100,Tetranychidae,Tetranychidae,Schizotetranychus indicus,Gupta & Gupta,1994,0,0,0,0,,,
+TET0101,Tetranychidae,Tetranychidae,Schizotetranychus kochummeni,Ehara,1988,0,0,0,0,,,
+TET0102,Tetranychidae,Tetranychidae,Schizotetranychus krungthepensis,Auger & Naing,2014,19,19,1,1,India,exact,Schizotetranychus krungthepensis
+TET0103,Tetranychidae,Tetranychidae,Schizotetranychus laevidorsatus,Ehara,1988,1,1,0,1,India,exact,Schizotetranychus laevidorsatus
+TET0104,Tetranychidae,Tetranychidae,Schizotetranychus lespedezae,Beglyarov & Mitrofanov,1973,4,0,0,1,Japan,exact,Schizotetranychus lespedezae
+TET0105,Tetranychidae,Tetranychidae,Schizotetranychus mansoni,Gupta,1980,2,1,1,2,India;Unrecoverable,exact,Schizotetranychus mansoni
+TET0106,Tetranychidae,Tetranychidae,Schizotetranychus recki,Ehara,1957,3,0,0,1,Japan,exact,Schizotetranychus recki
+TET0107,Tetranychidae,Tetranychidae,Schizotetranychus reticulatus,Baker & Pritchard,1960,0,0,0,0,,,
+TET0108,Tetranychidae,Tetranychidae,Schizotetranychus schizopus,Zacher,1913,4,0,0,2,Japan;Russia,exact,Schizotetranychus schizopus
+TET0109,Tetranychidae,Tetranychidae,Schizotetranychus spiculus,Baker & Pritchard,1960,0,0,0,0,,,
+TET0110,Tetranychidae,Tetranychidae,Schizotetranychus spireafolia,Garman,1940,0,0,0,0,,,
+TET0111,Tetranychidae,Tetranychidae,Schizotetranychus tephrosiae,Gutierrez,1968,0,0,0,0,,,
+TET0112,Tetranychidae,Tetranychidae,Schizotetranychus undulatus,Beer & Lang,1958,0,0,0,0,,,
+TET0113,Tetranychidae,Tetranychidae,Stigmaeopsis longus,Saito,1990,20,0,1,1,Japan,exact,Stigmaeopsis longus
+TET0114,Tetranychidae,Tetranychidae,Stigmaeopsis meghalayensis,Gupta & Gupta,1994,0,0,0,0,,,
+TET0115,Tetranychidae,Tetranychidae,Stylophoronychus baghensis,Prasad,1975,0,0,0,0,,,
+TET0116,Tetranychidae,Tetranychidae,Stylophoronychus lalii,Prasad,1975,0,0,0,0,,,
+TET0117,Tetranychidae,Tetranychidae,Stylophoronychus vannus,Rimando,1968,0,0,0,0,,,
+TET0118,Tetranychidae,Tetranychidae,Swarnanychus bandipurensis,Mallik & Kumar,1998,0,0,0,0,,,
+TET0119,Tetranychidae,Tetranychidae,Tenuipalponychus citri,ChannaBassavanna & Lakkundi,1977,0,0,0,0,,,
+TET0120,Tetranychidae,Tetranychidae,Tetranychus afrindicus,Nassar & Ghai,1981,0,0,0,0,,,
+TET0121,Tetranychidae,Tetranychidae,Tetranychus angolensis,Meyer,1974,0,0,0,0,,,
+TET0122,Tetranychidae,Tetranychidae,Tetranychus bambusae,Wang & Ma,1981,4,1,0,2,India;Japan,exact,Tetranychus bambusae
+TET0123,Tetranychidae,Tetranychidae,Tetranychus bellottii,Flechtmann,1981,0,0,0,0,,,
+TET0125,Tetranychidae,Tetranychidae,Tetranychus fijiensis,Hirst,1924,7,7,1,1,India,exact,Tetranychus fijiensis
+TET0126,Tetranychidae,Tetranychidae,Tetranychus gloveri,Banks,1900,27,10,2,5,Ecuador;India;Japan;USA;Viet Nam,exact,Tetranychus gloveri;Tetranychus okinawanus
+TET0127,Tetranychidae,Tetranychidae,Tetranychus hirsutus,Zeity & Srinivasa,2016,2,2,0,1,India,exact,Tetranychus hirsutus
+TET0128,Tetranychidae,Tetranychidae,Tetranychus hydrangea,Pritchard & Baker,1955,0,0,0,0,,,
+TET0129,Tetranychidae,Tetranychidae,Tetranychus hypogeae,Gupta,1976,0,0,0,0,,,
+TET0130,Tetranychidae,Tetranychidae,Tetranychus kanzawai,Kishida,1927,66,7,2,7,China;India;Japan;Pakistan;South Korea;Taiwan;Viet Nam,exact,Tetranychus kanzawai
+TET0131,Tetranychidae,Tetranychidae,Tetranychus lombardinii,Baker & Pritchard,1960,9,7,0,2,India;South Africa,exact,Tetranychus lombardinii
+TET0132,Tetranychidae,Tetranychidae,Tetranychus ludeni,Zacher,1913,81,3,2,12,Argentina;Australia;Bangladesh;China;Germany;India;Israel;Japan;Pakistan;South Africa;USA;United States,exact,Tetranychus ludeni
+TET0133,Tetranychidae,Tetranychidae,Tetranychus macfarlanei,Baker & Pritchard,1960,16,11,2,3,Bangladesh;China;India,exact;name_map,Tetranychus macfarlanei;Tetranychus malaysiensis
+TET0134,Tetranychidae,Tetranychidae,Tetranychus marianae,McGregor,1950,5,2,0,2,India;USA,exact,Tetranychus marianae
+TET0135,Tetranychidae,Tetranychidae,Tetranychus neocaledonicus,André,1933,24,3,1,6,Australia;India;Ivory Coast;Japan;South Africa;United States,exact,Tetranychus neocaledonicus
+TET0136,Tetranychidae,Tetranychidae,Tetranychus papayae,Nassar & Ghai,1981,0,0,0,0,,,
+TET0137,Tetranychidae,Tetranychidae,Tetranychus puschelii,Meyer,1974,9,8,0,2,India;Unrecoverable,exact,Tetranychus puschelii
+TET0138,Tetranychidae,Tetranychidae,Tetranychus sayedi,Baker & Pritchard,1960,0,0,0,0,,,
+TET0139,Tetranychidae,Tetranychidae,Tetranychus taiwanicus,Ehara,1969,1,0,0,0,,exact,Tetranychus taiwanicus
+TET0140,Tetranychidae,Tetranychidae,Tetranychus truncatus,Ehara,1956,123,41,1,8,Bangladesh;Burkina Faso;China;India;Japan;South Korea;Unrecoverable;Viet Nam,exact,Tetranychus truncatus
+TET0141,Tetranychidae,Tetranychidae,Tetranychus turkestani,Ugarov & Nikolski,1937,49,4,7,11,Canada;China;France;India;Iran;Netherlands;Poland;Russia;Saudi Arabia;Spain;USA,exact,Tetranychus turkestani
+TET0142,Tetranychidae,Tetranychidae,Tetranychus udaipurensis,Gupta & Gupta,1994,17,15,1,2,India;Unrecoverable,exact,Tetranychus udaipurensis
+TET0143,Tetranychidae,Tetranychidae,Tetranychus urticae,Koch,1836,407,34,8,32,Australia;Belarus;Brazil;Canada;China;Egypt;France;Germany;Greece;India;Iran;Iraq;Italy;Japan;Kazakhstan;Mexico;Netherlands;New Zealand;Pakistan;Philippines;Portugal;Russia;Saudi Arabia;South Korea;Spain;Taiwan;Tunisia;Turkey;USA;United States;Unrecoverable;Viet Nam,exact;name_map,Tetranychus cinnabarinus;Tetranychus urticae
+TET0144,Tetranychidae,Tetranychidae,Tetranychus zaheri,Nassar & Ghai,1981,0,0,0,0,,,
 TEN0001,Tenuipalpidae,Tenuipalpidae,Aegyptobia menoni,Maninder and Ghai,1980,0,0,0,0,,,
 TEN0002,Tenuipalpidae,Tenuipalpidae,Aegyptobia nummulus,Chaudhri,1972,0,0,0,0,,,
 TEN0003,Tenuipalpidae,Tenuipalpidae,Aegyptobia salubris,Chaudhri,1972,0,0,0,0,,,

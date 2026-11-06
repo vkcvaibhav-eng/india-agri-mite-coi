@@ -1920,214 +1920,215 @@ TET0059,Mixonychus (Tylonychus) jayaraji,Mixonychus (Tylonicus) jayaraji,listed_
 TET0059,Mixonychus (Tylonychus) jayaraji,Mixonychus jayaraji,listed_as,gm2023
 TET0059,Mixonychus (Tylonychus) jayaraji,Tetranychus jayaraji,listed_as,gm2023
 TET0059,Mixonychus (Tylonychus) jayaraji,Tylonychus jayaraji,cited_synonym_or_combination,chalil2024;gm2023
-TET0060,Neopetrobia (Neopetrobia) simlaensis,Neopetrobia (Neopetrobia) simlaensis,valid,chalil2024;gm2023;g1985
-TET0060,Neopetrobia (Neopetrobia) simlaensis,Neopetrobia simlaensis,listed_as,g1985;gm2023
-TET0061,Oligonychus bambusae,Oligonychus bambusae,valid,chalil2024;gm2023
-TET0062,Oligonychus biharensis,Oligonychus biharensis,valid,chalil2024;gm2023;g1985
-TET0062,Oligonychus biharensis,Paratetranychus biharensis,cited_synonym_or_combination,chalil2024;gm2023
-TET0062,Oligonychus biharensis,Porotetranychus biharensis,cited_synonym_or_combination,g1985
-TET0063,Oligonychus coffeae,Oligonychus coffeae,valid,chalil2024;gm2023;g1985
-TET0063,Oligonychus coffeae,Acarus coffeae,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0063,Oligonychus coffeae,Oligonychus merwei,cited_synonym_or_combination,chalil2024
-TET0063,Oligonychus coffeae,Paratetranychus bioculatus,cited_synonym_or_combination,chalil2024
-TET0063,Oligonychus coffeae,Tetranychus bioculatus,cited_synonym_or_combination,chalil2024
-TET0064,Oligonychus coniferarum,Oligonychus coniferarum,valid,chalil2024;gm2023
-TET0064,Oligonychus coniferarum,Paratetranychus coniferarum,cited_synonym_or_combination,chalil2024
-TET0065,Oligonychus duncombei,Oligonychus duncombei,valid,chalil2024;gm2023
-TET0066,Oligonychus gossypii,Oligonychus gossypii,valid,gm2023
-TET0066,Oligonychus gossypii,Paratetranychus gossypii,cited_synonym_or_combination,gm2023
-TET0067,Oligonychus grypus,Oligonychus grypus,valid,chalil2024
-TET0068,Oligonychus indicus,Oligonychus indicus,valid,chalil2024;gm2023;gb2017;g1985
-TET0068,Oligonychus indicus,Paratetranychus indicus,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0069,Oligonychus iseilemae,Oligonychus iseilemae,valid,chalil2024;gm2023;g1985
-TET0069,Oligonychus iseilemae,Oligonychus isellemae,listed_as,g1985
-TET0069,Oligonychus iseilemae,Paratetranychus iseilemae,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0070,Oligonychus mangiferus,Oligonychus mangiferus,valid,chalil2024;gm2023;gb2017;g1985
-TET0070,Oligonychus mangiferus,Oligonychus mangiferos,listed_as,g1985
-TET0070,Oligonychus mangiferus,Oligonychus terminalis,cited_synonym_or_combination,chalil2024
-TET0070,Oligonychus mangiferus,Paratetranychus insularis,cited_synonym_or_combination,chalil2024
-TET0070,Oligonychus mangiferus,Paratetranychus mangiferus,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0070,Oligonychus mangiferus,Paratetranychus terminalis,cited_synonym_or_combination,chalil2024
-TET0071,Oligonychus manishi,Oligonychus manishi,valid,chalil2024;gm2023;g1985
-TET0072,Oligonychus martensis,Oligonychus martensis,valid,chalil2024
-TET0073,Oligonychus neotylus,Oligonychus neotylus,valid,chalil2024;gm2023
-TET0074,Oligonychus oryzae,Oligonychus oryzae,valid,chalil2024;gm2023;gb2017;g1985
-TET0074,Oligonychus oryzae,Paratetranychus oryzae,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0075,Oligonychus plegas,Oligonychus plegas,valid,chalil2024
-TET0076,Oligonychus ponmanaiensis,Oligonychus ponmanaiensis,valid,chalil2024;gm2023
-TET0077,Oligonychus pratensis,Oligonychus pratensis,valid,gm2023
-TET0077,Oligonychus pratensis,Tetranychus pratensis,cited_synonym_or_combination,gm2023
-TET0078,Oligonychus punicae,Oligonychus punicae,valid,chalil2024;gm2023;gb2017;g1985
-TET0078,Oligonychus punicae,Oligonychus punieae,listed_as,g1985
-TET0078,Oligonychus punicae,Oligonychus viridis,cited_synonym_or_combination,chalil2024
-TET0078,Oligonychus punicae,Paratetranychus coiti,cited_synonym_or_combination,chalil2024
-TET0078,Oligonychus punicae,Paratetranychus punicae,cited_synonym_or_combination,chalil2024;gm2023
-TET0078,Oligonychus punicae,Paratetranychus punlcae,cited_synonym_or_combination,g1985
-TET0079,Oligonychus sacchari,Oligonychus sacchari,valid,chalil2024;gm2023;g1985
-TET0079,Oligonychus sacchari,Paratetranychus sacchari,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0080,Oligonychus saccharinus,Oligonychus saccharinus,valid,gm2023
-TET0081,Oligonychus sapienticolus,Oligonychus sapienticolus,valid,chalil2024;gm2023;g1985
-TET0081,Oligonychus sapienticolus,Ojigonychus sapienticolus,cited_synonym_or_combination,g1985
-TET0082,Oligonychus thelytokus,Oligonychus thelytokus,valid,chalil2024;gm2023
-TET0082,Oligonychus thelytokus,Oligonychus thelytokous,listed_as,gm2023
-TET0082,Oligonychus thelytokus,Olionychus thelytokous,cited_synonym_or_combination,gm2023
-TET0083,Oligonychus tylus,Oligonychus tylus,valid,chalil2024;gm2023
-TET0084,Oligonychus vitis,Oligonychus vitis,valid,chalil2024;gm2023;g1985
-TET0085,Panonychus citri,Panonychus citri,valid,chalil2024;gm2023;gb2017;g1985
-TET0085,Panonychus citri,Panonychus citrl,listed_as,g1985
-TET0085,Panonychus citri,Paratetranychus citri,cited_synonym_or_combination,gm2023
-TET0085,Panonychus citri,Tetranychus citr,cited_synonym_or_combination,g1985
-TET0085,Panonychus citri,Tetranychus citri,cited_synonym_or_combination,chalil2024;gm2023
-TET0086,Panonychus elongatus,Panonychus elongatus,valid,chalil2024;gm2023
-TET0087,Panonychus ulmi,Panonychus ulmi,valid,chalil2024;gm2023;g1985
-TET0087,Panonychus ulmi,Metatetranychus canestrinii,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Oligonychus alni,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Oligonychus muscorum,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Oligonychus potentillae,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Panonychus olmi,listed_as,g1985
-TET0087,Panonychus ulmi,Paratetranychus pilosus,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Tetranychus pilosus,cited_synonym_or_combination,chalil2024
-TET0087,Panonychus ulmi,Tetranychus ulmi,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Petrobia (Petrobia) latens,valid,chalil2024;gm2023;g1985
-TET0088,Petrobia (Petrobia) latens,Acarus latens,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0088,Petrobia (Petrobia) latens,Acarus petrarum,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Acarus praegnans,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Petrobia cepae,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Petrobia erevanica,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Petrobia lapidum,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Petrobia latens,listed_as,gm2023
-TET0088,Petrobia (Petrobia) latens,Tetranobia decepta,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Tetranychina tritici,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Tetranychopsis simplex,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Tetranychus anauniensis,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Tetranychus longipes,cited_synonym_or_combination,chalil2024
-TET0088,Petrobia (Petrobia) latens,Trombidium lapidum,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Petrobia (Tetranychina) harti,valid,chalil2024;gm2023;gb2017;g1985
-TET0089,Petrobia (Tetranychina) harti,Neobryobia spectabilis,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Neophyllobius harti,cited_synonym_or_combination,chalil2024;g1985;gm2023
-TET0089,Petrobia (Tetranychina) harti,Petrobia harti,listed_as,gb2017;gm2023
-TET0089,Petrobia (Tetranychina) harti,Tenuicrus errabundus,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Tetranychina agerati,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Tetranychina macdonoughi,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Tetranychina spectabilis,cited_synonym_or_combination,chalil2024
-TET0089,Petrobia (Tetranychina) harti,Tetranychina tuberculata,cited_synonym_or_combination,chalil2024
-TET0090,Porcupinychus abutiloni,Porcupinychus abutiloni,valid,chalil2024;gm2023;gb2017;g1985
-TET0090,Porcupinychus abutiloni,Porcupinychus abutilooi,listed_as,g1985
-TET0091,Schizotetranychus andropogoni,Schizotetranychus andropogoni,valid,chalil2024;gm2023;g1985
-TET0091,Schizotetranychus andropogoni,Tetranychus (Schizotetranychus) andropogoni,cited_synonym_or_combination,chalil2024;g1985
-TET0092,Schizotetranychus approximatus,Schizotetranychus approximatus,valid,chalil2024
-TET0093,Schizotetranychus asparagi,Schizotetranychus asparagi,valid,chalil2024;gm2023
-TET0093,Schizotetranychus asparagi,Divarinychus floridensis,cited_synonym_or_combination,chalil2024
-TET0093,Schizotetranychus asparagi,Epitetranychus asparagi,cited_synonym_or_combination,chalil2024;gm2023
-TET0093,Schizotetranychus asparagi,Schizotetranychus floridensis,cited_synonym_or_combination,chalil2024
-TET0093,Schizotetranychus asparagi,Scizotetranychus asparagi,cited_synonym_or_combination,gm2023
-TET0094,Schizotetranychus baltazari,Schizotetranychus baltazari,valid,chalil2024;gm2023;gb2017;g1985
-TET0094,Schizotetranychus baltazari,Schizotetranychus baltazarai,listed_as,chalil2024
-TET0095,Schizotetranychus cajani,Schizotetranychus cajani,valid,chalil2024;gm2023;gb2017;g1985
-TET0096,Schizotetranychus chiangmaiensis,Schizotetranychus chiangmaiensis,valid,chalil2024;gm2023
-TET0096,Schizotetranychus chiangmaiensis,Scizotetranychus chiangmaiensis,listed_as,gm2023
-TET0097,Schizotetranychus fluvialis,Schizotetranychus fluvialis,valid,chalil2024;gm2023;g1985
-TET0097,Schizotetranychus fluvialis,Schizotetranychus ftuviaiis,listed_as,g1985
-TET0098,Schizotetranychus hindustanicus,Schizotetranychus hindustanicus,valid,chalil2024;gm2023;g1985
-TET0098,Schizotetranychus hindustanicus,Schizotetranychus hindustanieus,listed_as,g1985
-TET0098,Schizotetranychus hindustanicus,Tetranychus (Schizotelranychus) hindustanicus,cited_synonym_or_combination,g1985
-TET0098,Schizotetranychus hindustanicus,Tetranychus (Schizotetranychus) hindustanicus,cited_synonym_or_combination,chalil2024;gm2023
-TET0099,Schizotetranychus indicus,Schizotetranychus indicus,valid,chalil2024;gm2023
-TET0100,Schizotetranychus kochummeni,Schizotetranychus kochummeni,valid,chalil2024;gm2023
-TET0101,Schizotetranychus krungthepensis,Schizotetranychus krungthepensis,valid,chalil2024
-TET0102,Schizotetranychus laevidorsatus,Schizotetranychus laevidorsatus,valid,chalil2024;gm2023
-TET0103,Schizotetranychus lespedezae,Schizotetranychus lespedezae,valid,chalil2024;gm2023
-TET0104,Schizotetranychus mansoni,Schizotetranychus mansoni,valid,chalil2024;gm2023;g1985
-TET0104,Schizotetranychus mansoni,Schizotetranychus mansonl,listed_as,g1985
-TET0105,Schizotetranychus recki,Schizotetranychus recki,valid,chalil2024
-TET0106,Schizotetranychus reticulatus,Schizotetranychus reticulatus,valid,chalil2024;gm2023
-TET0106,Schizotetranychus reticulatus,Schizotetranvchus reticulatus,cited_synonym_or_combination,gm2023
-TET0107,Schizotetranychus schizopus,Schizotetranychus schizopus,valid,chalil2024
-TET0107,Schizotetranychus schizopus,Tetranychus schizopus,cited_synonym_or_combination,chalil2024
-TET0108,Schizotetranychus spiculus,Schizotetranychus spiculus,valid,chalil2024;gm2023
-TET0109,Schizotetranychus spireafolia,Schizotetranychus spireafolia,valid,chalil2024;gm2023;g1985
-TET0109,Schizotetranychus spireafolia,Schizotetranychus speraefolia,cited_synonym_or_combination,gm2023
-TET0109,Schizotetranychus spireafolia,Schizotetranychus spiraefolia,listed_as,gm2023
-TET0109,Schizotetranychus spireafolia,Schizotetranychus spirealolia,cited_synonym_or_combination,g1985
-TET0110,Schizotetranychus tephrosiae,Schizotetranychus tephrosiae,valid,chalil2024;gm2023;g1985
-TET0110,Schizotetranychus tephrosiae,Schizotetranychus tephorosiae,listed_as,g1985
-TET0111,Schizotetranychus undulatus,Schizotetranychus undulatus,valid,chalil2024;gm2023;g1985
-TET0111,Schizotetranychus undulatus,Neotetranychus undulatus,listed_as,gm2023
-TET0111,Schizotetranychus undulatus,Schizotetranychus undulates,listed_as,chalil2024
-TET0111,Schizotetranychus undulatus,Schizotetranychus undutalus,listed_as,gm2023
-TET0111,Schizotetranychus undulatus,Scizotetranychus undulatus,cited_synonym_or_combination,gm2023
-TET0112,Stigmaeopsis longus,Stigmaeopsis longus,valid,chalil2024
-TET0112,Stigmaeopsis longus,Schizotetranychus longus,cited_synonym_or_combination,chalil2024
-TET0113,Stigmaeopsis meghalayensis,Stigmaeopsis meghalayensis,valid,chalil2024;gm2023
-TET0113,Stigmaeopsis meghalayensis,Schizotetranychus meghalayensis,cited_synonym_or_combination,chalil2024;gm2023
-TET0114,Stylophoronychus baghensis,Stylophoronychus baghensis,valid,chalil2024;gm2023;g1985
-TET0114,Stylophoronychus baghensis,Aponychus baghensis,listed_as,g1985
-TET0115,Stylophoronychus lalii,Stylophoronychus lalii,valid,chalil2024;gm2023;g1985
-TET0115,Stylophoronychus lalii,Aponychus (Slylophoronychus) lalii,cited_synonym_or_combination,g1985
-TET0115,Stylophoronychus lalii,Aponychus (Stylophoronychus) lalii,cited_synonym_or_combination,chalil2024;gm2023
-TET0115,Stylophoronychus lalii,Aponychus lalli,listed_as,g1985
-TET0115,Stylophoronychus lalii,Stylophoronycus lalii,listed_as,gm2023
-TET0116,Stylophoronychus vannus,Stylophoronychus vannus,valid,chalil2024
-TET0116,Stylophoronychus vannus,Aponychus vannus,cited_synonym_or_combination,chalil2024
-TET0117,Swarnanychus bandipurensis,Swarnanychus bandipurensis,valid,chalil2024;gm2023
-TET0118,Tenuipalponychus citri,Tenuipalponychus citri,valid,chalil2024;gm2023;g1985
-TET0118,Tenuipalponychus citri,Tenuipalponychus citr,cited_synonym_or_combination,g1985
-TET0119,Tetranychus afrindicus,Tetranychus afrindicus,valid,chalil2024;gm2023;g1985
-TET0120,Tetranychus angolensis,Tetranychus angolensis,valid,chalil2024;gm2023;g1985
-TET0120,Tetranychus angolensis,Tetranychus angioensis,listed_as,g1985
-TET0120,Tetranychus angolensis,Tetranychus angloensis,listed_as,g1985;gm2023
-TET0121,Tetranychus bambusae,Tetranychus bambusae,valid,chalil2024;gm2023
-TET0122,Tetranychus bellottii,Tetranychus bellottii,valid,chalil2024;gm2023
-TET0123,Tetranychus cinnabarinus,Tetranychus cinnabarinus,valid,g1985
-TET0123,Tetranychus cinnabarinus,Acarus cinnabarinus,cited_synonym_or_combination,g1985
-TET0123,Tetranychus cinnabarinus,Tetranychus einnabarinus,listed_as,g1985
-TET0124,Tetranychus fijiensis,Tetranychus fijiensis,valid,chalil2024;gm2023;g1985
-TET0124,Tetranychus fijiensis,Tetranychus jijiensis,listed_as,g1985
-TET0125,Tetranychus gloveri,Tetranychus gloveri,valid,chalil2024;gm2023
-TET0125,Tetranychus gloveri,Tetranychus okinawanus,listed_as,gm2023
-TET0126,Tetranychus hirsutus,Tetranychus hirsutus,valid,chalil2024;gm2023
-TET0127,Tetranychus hydrangea,Tetranychus hydrangea,valid,gm2023
-TET0128,Tetranychus hypogeae,Tetranychus hypogeae,valid,chalil2024;gm2023;gb2017;g1985
-TET0128,Tetranychus hypogeae,Tetranychus bypogeae,listed_as,g1985
-TET0128,Tetranychus hypogeae,Tetranychus hypogaeae,listed_as,chalil2024
-TET0129,Tetranychus kanzawai,Tetranychus kanzawai,valid,chalil2024;gm2023;g1985
-TET0129,Tetranychus kanzawai,Tetranychus hydrangeae,cited_synonym_or_combination,chalil2024
-TET0129,Tetranychus kanzawai,Tetranychus japonicus,cited_synonym_or_combination,chalil2024
-TET0130,Tetranychus lombardinii,Tetranychus lombardinii,valid,chalil2024;gm2023;g1985
-TET0130,Tetranychus lombardinii,Tetranychus lombardinli,listed_as,g1985
-TET0131,Tetranychus ludeni,Tetranychus ludeni,valid,chalil2024;gm2023;gb2017;g1985
-TET0131,Tetranychus ludeni,Septanychus deviatarsus,cited_synonym_or_combination,chalil2024
-TET0131,Tetranychus ludeni,Tetranychus deviatarsus,cited_synonym_or_combination,chalil2024
-TET0131,Tetranychus ludeni,Tetranychus salviae,cited_synonym_or_combination,chalil2024
-TET0132,Tetranychus macfarlanei,Tetranychus macfarlanei,valid,chalil2024;gm2023;gb2017;g1985
-TET0132,Tetranychus macfarlanei,Tetranvehus macfarlanei,cited_synonym_or_combination,gm2023
-TET0132,Tetranychus macfarlanei,Tetranychus macfarlanel,listed_as,g1985
-TET0132,Tetranychus macfarlanei,Tetranychus maclarlanei,cited_synonym_or_combination,g1985
-TET0133,Tetranychus marianae,Tetranychus marianae,valid,chalil2024;gm2023
-TET0133,Tetranychus marianae,Tetranychus maximae,listed_as,gm2023
-TET0134,Tetranychus neocaledonicus,Tetranychus neocaledonicus,valid,chalil2024;gm2023;gb2017;g1985
-TET0134,Tetranychus neocaledonicus,Eotetranychus neocaledonicus,cited_synonym_or_combination,chalil2024
-TET0134,Tetranychus neocaledonicus,Tetranychus cucurbitae,cited_synonym_or_combination,chalil2024
-TET0134,Tetranychus neocaledonicus,Tetranychus equatorius,cited_synonym_or_combination,chalil2024
-TET0134,Tetranychus neocaledonicus,Tetranychus neoealedonieus,listed_as,g1985
-TET0135,Tetranychus papayae,Tetranychus papayae,valid,chalil2024;gm2023;g1985
-TET0135,Tetranychus papayae,Tetranychus papaya,cited_synonym_or_combination,gm2023
-TET0136,Tetranychus puschelii,Tetranychus puschelii,valid,chalil2024;gm2023;gb2017
-TET0137,Tetranychus sayedi,Tetranychus sayedi,valid,chalil2024;gm2023;g1985
-TET0138,Tetranychus taiwanicus,Tetranychus taiwanicus,valid,chalil2024;gm2023
-TET0139,Tetranychus truncatus,Tetranychus truncatus,valid,chalil2024;gm2023
-TET0139,Tetranychus truncatus,Tetranychus truncates,cited_synonym_or_combination,gm2023
-TET0140,Tetranychus turkestani,Tetranychus turkestani,valid,chalil2024;gm2023
-TET0141,Tetranychus udaipurensis,Tetranychus udaipurensis,valid,chalil2024;gm2023
-TET0142,Tetranychus urticae,Tetranychus urticae,valid,chalil2024;gm2023;gb2017;g1985
-TET0142,Tetranychus urticae,Tetranychus aduncus,cited_synonym_or_combination,chalil2024
-TET0142,Tetranychus urticae,Tetranychus altheae,cited_synonym_or_combination,chalil2024
-TET0142,Tetranychus urticae,Tetranychus arabicus,cited_synonym_or_combination,chalil2024
-TET0142,Tetranychus urticae,Tetranychus aratica,cited_synonym_or_combination,chalil2024
-TET0142,Tetranychus urticae,Tetranychus aspidistrae,cited_synonym_or_combination,chalil2024
-TET0142,Tetranychus urticae,Tetranychus reetalius,cited_synonym_or_combination,chalil2024
-TET0143,Tetranychus zaheri,Tetranychus zaheri,valid,chalil2024;gm2023;g1985
-TET0143,Tetranychus zaheri,Tetranychus zaberi,listed_as,g1985
+TET0060,Mononychellus mcgregori,Mononychellus mcgregori,valid,add2026
+TET0061,Neopetrobia (Neopetrobia) simlaensis,Neopetrobia (Neopetrobia) simlaensis,valid,chalil2024;gm2023;g1985
+TET0061,Neopetrobia (Neopetrobia) simlaensis,Neopetrobia simlaensis,listed_as,g1985;gm2023
+TET0062,Oligonychus bambusae,Oligonychus bambusae,valid,chalil2024;gm2023
+TET0063,Oligonychus biharensis,Oligonychus biharensis,valid,chalil2024;gm2023;g1985
+TET0063,Oligonychus biharensis,Paratetranychus biharensis,cited_synonym_or_combination,chalil2024;gm2023
+TET0063,Oligonychus biharensis,Porotetranychus biharensis,cited_synonym_or_combination,g1985
+TET0064,Oligonychus coffeae,Oligonychus coffeae,valid,chalil2024;gm2023;g1985
+TET0064,Oligonychus coffeae,Acarus coffeae,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0064,Oligonychus coffeae,Oligonychus merwei,cited_synonym_or_combination,chalil2024
+TET0064,Oligonychus coffeae,Paratetranychus bioculatus,cited_synonym_or_combination,chalil2024
+TET0064,Oligonychus coffeae,Tetranychus bioculatus,cited_synonym_or_combination,chalil2024
+TET0065,Oligonychus coniferarum,Oligonychus coniferarum,valid,chalil2024;gm2023
+TET0065,Oligonychus coniferarum,Paratetranychus coniferarum,cited_synonym_or_combination,chalil2024
+TET0066,Oligonychus duncombei,Oligonychus duncombei,valid,chalil2024;gm2023
+TET0067,Oligonychus gossypii,Oligonychus gossypii,valid,gm2023
+TET0067,Oligonychus gossypii,Paratetranychus gossypii,cited_synonym_or_combination,gm2023
+TET0068,Oligonychus grypus,Oligonychus grypus,valid,chalil2024
+TET0069,Oligonychus indicus,Oligonychus indicus,valid,chalil2024;gm2023;gb2017;g1985
+TET0069,Oligonychus indicus,Paratetranychus indicus,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0070,Oligonychus iseilemae,Oligonychus iseilemae,valid,chalil2024;gm2023;g1985
+TET0070,Oligonychus iseilemae,Oligonychus isellemae,listed_as,g1985
+TET0070,Oligonychus iseilemae,Paratetranychus iseilemae,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0071,Oligonychus mangiferus,Oligonychus mangiferus,valid,chalil2024;gm2023;gb2017;g1985
+TET0071,Oligonychus mangiferus,Oligonychus mangiferos,listed_as,g1985
+TET0071,Oligonychus mangiferus,Oligonychus terminalis,cited_synonym_or_combination,chalil2024
+TET0071,Oligonychus mangiferus,Paratetranychus insularis,cited_synonym_or_combination,chalil2024
+TET0071,Oligonychus mangiferus,Paratetranychus mangiferus,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0071,Oligonychus mangiferus,Paratetranychus terminalis,cited_synonym_or_combination,chalil2024
+TET0072,Oligonychus manishi,Oligonychus manishi,valid,chalil2024;gm2023;g1985
+TET0073,Oligonychus martensis,Oligonychus martensis,valid,chalil2024
+TET0074,Oligonychus neotylus,Oligonychus neotylus,valid,chalil2024;gm2023
+TET0075,Oligonychus oryzae,Oligonychus oryzae,valid,chalil2024;gm2023;gb2017;g1985
+TET0075,Oligonychus oryzae,Paratetranychus oryzae,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0076,Oligonychus plegas,Oligonychus plegas,valid,chalil2024
+TET0077,Oligonychus ponmanaiensis,Oligonychus ponmanaiensis,valid,chalil2024;gm2023
+TET0078,Oligonychus pratensis,Oligonychus pratensis,valid,gm2023
+TET0078,Oligonychus pratensis,Tetranychus pratensis,cited_synonym_or_combination,gm2023
+TET0079,Oligonychus punicae,Oligonychus punicae,valid,chalil2024;gm2023;gb2017;g1985
+TET0079,Oligonychus punicae,Oligonychus punieae,listed_as,g1985
+TET0079,Oligonychus punicae,Oligonychus viridis,cited_synonym_or_combination,chalil2024
+TET0079,Oligonychus punicae,Paratetranychus coiti,cited_synonym_or_combination,chalil2024
+TET0079,Oligonychus punicae,Paratetranychus punicae,cited_synonym_or_combination,chalil2024;gm2023
+TET0079,Oligonychus punicae,Paratetranychus punlcae,cited_synonym_or_combination,g1985
+TET0080,Oligonychus sacchari,Oligonychus sacchari,valid,chalil2024;gm2023;g1985
+TET0080,Oligonychus sacchari,Paratetranychus sacchari,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0081,Oligonychus saccharinus,Oligonychus saccharinus,valid,gm2023
+TET0082,Oligonychus sapienticolus,Oligonychus sapienticolus,valid,chalil2024;gm2023;g1985
+TET0082,Oligonychus sapienticolus,Ojigonychus sapienticolus,cited_synonym_or_combination,g1985
+TET0083,Oligonychus thelytokus,Oligonychus thelytokus,valid,chalil2024;gm2023
+TET0083,Oligonychus thelytokus,Oligonychus thelytokous,listed_as,gm2023
+TET0083,Oligonychus thelytokus,Olionychus thelytokous,cited_synonym_or_combination,gm2023
+TET0084,Oligonychus tylus,Oligonychus tylus,valid,chalil2024;gm2023
+TET0085,Oligonychus vitis,Oligonychus vitis,valid,chalil2024;gm2023;g1985
+TET0086,Panonychus citri,Panonychus citri,valid,chalil2024;gm2023;gb2017;g1985
+TET0086,Panonychus citri,Panonychus citrl,listed_as,g1985
+TET0086,Panonychus citri,Paratetranychus citri,cited_synonym_or_combination,gm2023
+TET0086,Panonychus citri,Tetranychus citr,cited_synonym_or_combination,g1985
+TET0086,Panonychus citri,Tetranychus citri,cited_synonym_or_combination,chalil2024;gm2023
+TET0087,Panonychus elongatus,Panonychus elongatus,valid,chalil2024;gm2023
+TET0088,Panonychus ulmi,Panonychus ulmi,valid,chalil2024;gm2023;g1985
+TET0088,Panonychus ulmi,Metatetranychus canestrinii,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Oligonychus alni,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Oligonychus muscorum,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Oligonychus potentillae,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Panonychus olmi,listed_as,g1985
+TET0088,Panonychus ulmi,Paratetranychus pilosus,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Tetranychus pilosus,cited_synonym_or_combination,chalil2024
+TET0088,Panonychus ulmi,Tetranychus ulmi,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Petrobia (Petrobia) latens,valid,chalil2024;gm2023;g1985
+TET0089,Petrobia (Petrobia) latens,Acarus latens,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0089,Petrobia (Petrobia) latens,Acarus petrarum,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Acarus praegnans,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Petrobia cepae,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Petrobia erevanica,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Petrobia lapidum,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Petrobia latens,listed_as,gm2023
+TET0089,Petrobia (Petrobia) latens,Tetranobia decepta,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Tetranychina tritici,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Tetranychopsis simplex,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Tetranychus anauniensis,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Tetranychus longipes,cited_synonym_or_combination,chalil2024
+TET0089,Petrobia (Petrobia) latens,Trombidium lapidum,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Petrobia (Tetranychina) harti,valid,chalil2024;gm2023;gb2017;g1985
+TET0090,Petrobia (Tetranychina) harti,Neobryobia spectabilis,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Neophyllobius harti,cited_synonym_or_combination,chalil2024;g1985;gm2023
+TET0090,Petrobia (Tetranychina) harti,Petrobia harti,listed_as,gb2017;gm2023
+TET0090,Petrobia (Tetranychina) harti,Tenuicrus errabundus,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Tetranychina agerati,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Tetranychina macdonoughi,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Tetranychina spectabilis,cited_synonym_or_combination,chalil2024
+TET0090,Petrobia (Tetranychina) harti,Tetranychina tuberculata,cited_synonym_or_combination,chalil2024
+TET0091,Porcupinychus abutiloni,Porcupinychus abutiloni,valid,chalil2024;gm2023;gb2017;g1985
+TET0091,Porcupinychus abutiloni,Porcupinychus abutilooi,listed_as,g1985
+TET0092,Schizotetranychus andropogoni,Schizotetranychus andropogoni,valid,chalil2024;gm2023;g1985
+TET0092,Schizotetranychus andropogoni,Tetranychus (Schizotetranychus) andropogoni,cited_synonym_or_combination,chalil2024;g1985
+TET0093,Schizotetranychus approximatus,Schizotetranychus approximatus,valid,chalil2024
+TET0094,Schizotetranychus asparagi,Schizotetranychus asparagi,valid,chalil2024;gm2023
+TET0094,Schizotetranychus asparagi,Divarinychus floridensis,cited_synonym_or_combination,chalil2024
+TET0094,Schizotetranychus asparagi,Epitetranychus asparagi,cited_synonym_or_combination,chalil2024;gm2023
+TET0094,Schizotetranychus asparagi,Schizotetranychus floridensis,cited_synonym_or_combination,chalil2024
+TET0094,Schizotetranychus asparagi,Scizotetranychus asparagi,cited_synonym_or_combination,gm2023
+TET0095,Schizotetranychus baltazari,Schizotetranychus baltazari,valid,chalil2024;gm2023;gb2017;g1985
+TET0095,Schizotetranychus baltazari,Schizotetranychus baltazarai,listed_as,chalil2024
+TET0096,Schizotetranychus cajani,Schizotetranychus cajani,valid,chalil2024;gm2023;gb2017;g1985
+TET0097,Schizotetranychus chiangmaiensis,Schizotetranychus chiangmaiensis,valid,chalil2024;gm2023
+TET0097,Schizotetranychus chiangmaiensis,Scizotetranychus chiangmaiensis,listed_as,gm2023
+TET0098,Schizotetranychus fluvialis,Schizotetranychus fluvialis,valid,chalil2024;gm2023;g1985
+TET0098,Schizotetranychus fluvialis,Schizotetranychus ftuviaiis,listed_as,g1985
+TET0099,Schizotetranychus hindustanicus,Schizotetranychus hindustanicus,valid,chalil2024;gm2023;g1985
+TET0099,Schizotetranychus hindustanicus,Schizotetranychus hindustanieus,listed_as,g1985
+TET0099,Schizotetranychus hindustanicus,Tetranychus (Schizotelranychus) hindustanicus,cited_synonym_or_combination,g1985
+TET0099,Schizotetranychus hindustanicus,Tetranychus (Schizotetranychus) hindustanicus,cited_synonym_or_combination,chalil2024;gm2023
+TET0100,Schizotetranychus indicus,Schizotetranychus indicus,valid,chalil2024;gm2023
+TET0101,Schizotetranychus kochummeni,Schizotetranychus kochummeni,valid,chalil2024;gm2023
+TET0102,Schizotetranychus krungthepensis,Schizotetranychus krungthepensis,valid,chalil2024
+TET0103,Schizotetranychus laevidorsatus,Schizotetranychus laevidorsatus,valid,chalil2024;gm2023
+TET0104,Schizotetranychus lespedezae,Schizotetranychus lespedezae,valid,chalil2024;gm2023
+TET0105,Schizotetranychus mansoni,Schizotetranychus mansoni,valid,chalil2024;gm2023;g1985
+TET0105,Schizotetranychus mansoni,Schizotetranychus mansonl,listed_as,g1985
+TET0106,Schizotetranychus recki,Schizotetranychus recki,valid,chalil2024
+TET0107,Schizotetranychus reticulatus,Schizotetranychus reticulatus,valid,chalil2024;gm2023
+TET0107,Schizotetranychus reticulatus,Schizotetranvchus reticulatus,cited_synonym_or_combination,gm2023
+TET0108,Schizotetranychus schizopus,Schizotetranychus schizopus,valid,chalil2024
+TET0108,Schizotetranychus schizopus,Tetranychus schizopus,cited_synonym_or_combination,chalil2024
+TET0109,Schizotetranychus spiculus,Schizotetranychus spiculus,valid,chalil2024;gm2023
+TET0110,Schizotetranychus spireafolia,Schizotetranychus spireafolia,valid,chalil2024;gm2023;g1985
+TET0110,Schizotetranychus spireafolia,Schizotetranychus speraefolia,cited_synonym_or_combination,gm2023
+TET0110,Schizotetranychus spireafolia,Schizotetranychus spiraefolia,listed_as,gm2023
+TET0110,Schizotetranychus spireafolia,Schizotetranychus spirealolia,cited_synonym_or_combination,g1985
+TET0111,Schizotetranychus tephrosiae,Schizotetranychus tephrosiae,valid,chalil2024;gm2023;g1985
+TET0111,Schizotetranychus tephrosiae,Schizotetranychus tephorosiae,listed_as,g1985
+TET0112,Schizotetranychus undulatus,Schizotetranychus undulatus,valid,chalil2024;gm2023;g1985
+TET0112,Schizotetranychus undulatus,Neotetranychus undulatus,listed_as,gm2023
+TET0112,Schizotetranychus undulatus,Schizotetranychus undulates,listed_as,chalil2024
+TET0112,Schizotetranychus undulatus,Schizotetranychus undutalus,listed_as,gm2023
+TET0112,Schizotetranychus undulatus,Scizotetranychus undulatus,cited_synonym_or_combination,gm2023
+TET0113,Stigmaeopsis longus,Stigmaeopsis longus,valid,chalil2024
+TET0113,Stigmaeopsis longus,Schizotetranychus longus,cited_synonym_or_combination,chalil2024
+TET0114,Stigmaeopsis meghalayensis,Stigmaeopsis meghalayensis,valid,chalil2024;gm2023
+TET0114,Stigmaeopsis meghalayensis,Schizotetranychus meghalayensis,cited_synonym_or_combination,chalil2024;gm2023
+TET0115,Stylophoronychus baghensis,Stylophoronychus baghensis,valid,chalil2024;gm2023;g1985
+TET0115,Stylophoronychus baghensis,Aponychus baghensis,listed_as,g1985
+TET0116,Stylophoronychus lalii,Stylophoronychus lalii,valid,chalil2024;gm2023;g1985
+TET0116,Stylophoronychus lalii,Aponychus (Slylophoronychus) lalii,cited_synonym_or_combination,g1985
+TET0116,Stylophoronychus lalii,Aponychus (Stylophoronychus) lalii,cited_synonym_or_combination,chalil2024;gm2023
+TET0116,Stylophoronychus lalii,Aponychus lalli,listed_as,g1985
+TET0116,Stylophoronychus lalii,Stylophoronycus lalii,listed_as,gm2023
+TET0117,Stylophoronychus vannus,Stylophoronychus vannus,valid,chalil2024
+TET0117,Stylophoronychus vannus,Aponychus vannus,cited_synonym_or_combination,chalil2024
+TET0118,Swarnanychus bandipurensis,Swarnanychus bandipurensis,valid,chalil2024;gm2023
+TET0119,Tenuipalponychus citri,Tenuipalponychus citri,valid,chalil2024;gm2023;g1985
+TET0119,Tenuipalponychus citri,Tenuipalponychus citr,cited_synonym_or_combination,g1985
+TET0120,Tetranychus afrindicus,Tetranychus afrindicus,valid,chalil2024;gm2023;g1985
+TET0121,Tetranychus angolensis,Tetranychus angolensis,valid,chalil2024;gm2023;g1985
+TET0121,Tetranychus angolensis,Tetranychus angioensis,listed_as,g1985
+TET0121,Tetranychus angolensis,Tetranychus angloensis,listed_as,g1985;gm2023
+TET0122,Tetranychus bambusae,Tetranychus bambusae,valid,chalil2024;gm2023
+TET0123,Tetranychus bellottii,Tetranychus bellottii,valid,chalil2024;gm2023
+TET0124,Tetranychus cinnabarinus,Tetranychus cinnabarinus,valid,g1985
+TET0124,Tetranychus cinnabarinus,Acarus cinnabarinus,cited_synonym_or_combination,g1985
+TET0124,Tetranychus cinnabarinus,Tetranychus einnabarinus,listed_as,g1985
+TET0125,Tetranychus fijiensis,Tetranychus fijiensis,valid,chalil2024;gm2023;g1985
+TET0125,Tetranychus fijiensis,Tetranychus jijiensis,listed_as,g1985
+TET0126,Tetranychus gloveri,Tetranychus gloveri,valid,chalil2024;gm2023
+TET0126,Tetranychus gloveri,Tetranychus okinawanus,listed_as,gm2023
+TET0127,Tetranychus hirsutus,Tetranychus hirsutus,valid,chalil2024;gm2023
+TET0128,Tetranychus hydrangea,Tetranychus hydrangea,valid,gm2023
+TET0129,Tetranychus hypogeae,Tetranychus hypogeae,valid,chalil2024;gm2023;gb2017;g1985
+TET0129,Tetranychus hypogeae,Tetranychus bypogeae,listed_as,g1985
+TET0129,Tetranychus hypogeae,Tetranychus hypogaeae,listed_as,chalil2024
+TET0130,Tetranychus kanzawai,Tetranychus kanzawai,valid,chalil2024;gm2023;g1985
+TET0130,Tetranychus kanzawai,Tetranychus hydrangeae,cited_synonym_or_combination,chalil2024
+TET0130,Tetranychus kanzawai,Tetranychus japonicus,cited_synonym_or_combination,chalil2024
+TET0131,Tetranychus lombardinii,Tetranychus lombardinii,valid,chalil2024;gm2023;g1985
+TET0131,Tetranychus lombardinii,Tetranychus lombardinli,listed_as,g1985
+TET0132,Tetranychus ludeni,Tetranychus ludeni,valid,chalil2024;gm2023;gb2017;g1985
+TET0132,Tetranychus ludeni,Septanychus deviatarsus,cited_synonym_or_combination,chalil2024
+TET0132,Tetranychus ludeni,Tetranychus deviatarsus,cited_synonym_or_combination,chalil2024
+TET0132,Tetranychus ludeni,Tetranychus salviae,cited_synonym_or_combination,chalil2024
+TET0133,Tetranychus macfarlanei,Tetranychus macfarlanei,valid,chalil2024;gm2023;gb2017;g1985
+TET0133,Tetranychus macfarlanei,Tetranvehus macfarlanei,cited_synonym_or_combination,gm2023
+TET0133,Tetranychus macfarlanei,Tetranychus macfarlanel,listed_as,g1985
+TET0133,Tetranychus macfarlanei,Tetranychus maclarlanei,cited_synonym_or_combination,g1985
+TET0134,Tetranychus marianae,Tetranychus marianae,valid,chalil2024;gm2023
+TET0134,Tetranychus marianae,Tetranychus maximae,listed_as,gm2023
+TET0135,Tetranychus neocaledonicus,Tetranychus neocaledonicus,valid,chalil2024;gm2023;gb2017;g1985
+TET0135,Tetranychus neocaledonicus,Eotetranychus neocaledonicus,cited_synonym_or_combination,chalil2024
+TET0135,Tetranychus neocaledonicus,Tetranychus cucurbitae,cited_synonym_or_combination,chalil2024
+TET0135,Tetranychus neocaledonicus,Tetranychus equatorius,cited_synonym_or_combination,chalil2024
+TET0135,Tetranychus neocaledonicus,Tetranychus neoealedonieus,listed_as,g1985
+TET0136,Tetranychus papayae,Tetranychus papayae,valid,chalil2024;gm2023;g1985
+TET0136,Tetranychus papayae,Tetranychus papaya,cited_synonym_or_combination,gm2023
+TET0137,Tetranychus puschelii,Tetranychus puschelii,valid,chalil2024;gm2023;gb2017
+TET0138,Tetranychus sayedi,Tetranychus sayedi,valid,chalil2024;gm2023;g1985
+TET0139,Tetranychus taiwanicus,Tetranychus taiwanicus,valid,chalil2024;gm2023
+TET0140,Tetranychus truncatus,Tetranychus truncatus,valid,chalil2024;gm2023
+TET0140,Tetranychus truncatus,Tetranychus truncates,cited_synonym_or_combination,gm2023
+TET0141,Tetranychus turkestani,Tetranychus turkestani,valid,chalil2024;gm2023
+TET0142,Tetranychus udaipurensis,Tetranychus udaipurensis,valid,chalil2024;gm2023
+TET0143,Tetranychus urticae,Tetranychus urticae,valid,chalil2024;gm2023;gb2017;g1985
+TET0143,Tetranychus urticae,Tetranychus aduncus,cited_synonym_or_combination,chalil2024
+TET0143,Tetranychus urticae,Tetranychus altheae,cited_synonym_or_combination,chalil2024
+TET0143,Tetranychus urticae,Tetranychus arabicus,cited_synonym_or_combination,chalil2024
+TET0143,Tetranychus urticae,Tetranychus aratica,cited_synonym_or_combination,chalil2024
+TET0143,Tetranychus urticae,Tetranychus aspidistrae,cited_synonym_or_combination,chalil2024
+TET0143,Tetranychus urticae,Tetranychus reetalius,cited_synonym_or_combination,chalil2024
+TET0144,Tetranychus zaheri,Tetranychus zaheri,valid,chalil2024;gm2023;g1985
+TET0144,Tetranychus zaheri,Tetranychus zaberi,listed_as,g1985
 TUC0001,Tuckerella channabasavannai,Tuckerella channabasavannai,valid,gm2023
 TUC0002,Tuckerella delhiensis,Tuckerella delhiensis,valid,gm2023;g1985
 TUC0003,Tuckerella indica,Tuckerella indica,valid,gm2023;g1985

@@ -245,3 +245,10 @@ tables of Srinivasa, Chinnamade Gowda, Rakesh & Khadri (2021), *Acarine Molecula
 are in the download and already flagged as Indian; the other (KP993524, *T. urticae*) has no country in GenBank and is
 set as Indian through `data/checklist/india_record_overrides.csv`. The other 198 accessions in the scan are ITS2 or
 barcode-section entries outside the COI download.
+
+Six names on Indian COI records were not on the checklist. Two are settled: *Mononychellus mcgregori* has a published
+first Indian record (Dyamanagouda et al. 2024, Acarologia 64(3):879-890) and is added to the checklist, and
+*Tetranychus malaysiensis* is a junior synonym of *T. macfarlanei* (Zeity, Srinivasa & Gowda 2017, Systematic and
+Applied Acarology 22(4)) and is mapped to it in `coi_name_map.csv`. The other four (*T. piercei*, *Oligonychus perseae*,
+*Euseius nicholsi*, *Floracarus perrepae*) have Indian sequences but no published Indian record found yet; they are in
+`open_items.csv`.

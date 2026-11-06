@@ -1,8 +1,8 @@
 group,species_in_list,with_any_coi,with_indian_coi,coi_records,records_matched,india_records,india_records_matched,india_records_no_species_name,india_records_name_not_in_list,pct_with_any_coi,pct_with_indian_coi
-Tetranychidae,142,61,34,4308,1261,277,237,31,9,43.0,23.9
+Tetranychidae,143,62,35,4308,1272,277,244,31,2,43.4,24.5
 Tenuipalpidae,114,13,3,467,218,20,8,12,0,11.4,2.6
 Eriophyoidea,580,30,8,2842,170,21,13,6,2,5.2,1.4
 Tarsonemidae,43,2,2,337,41,20,13,7,0,4.7,4.7
 Tuckerellidae,4,0,0,0,0,0,0,0,0,0.0,0.0
 Phytoseiidae,334,29,6,4311,261,22,8,12,2,8.7,1.8
-All,1217,135,53,12265,1951,360,279,68,13,11.1,4.4
+All,1218,136,54,12265,1962,360,286,68,6,11.2,4.4
