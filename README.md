@@ -147,3 +147,13 @@ and are not in this repository yet.
 `scripts/parse_mitra2025.py` → `data/checklist/mitra2025_tenuipalpidae_india.csv`: Mitra (2025), *International Journal of Tropical Insect Science* 45: 1041–1055, the current national Tenuipalpidae checklist. 101 species in 15 genera with Indian states, other countries and host plants; all genus counts match the abstract. This supersedes the partial Tenuipalpidae sources above for the denominator.
 
 Tarsonemidae update: `tarsonemidae_west_bengal.csv` now has 25 named species (was 22) with authority and year for 15, taken from the Plazi treatments of the describing papers (Zootaxa 5072, 4942, 5023, 5138, 5182; Journal of Natural History 2021). Authorities are still blank for *Floridotarsonemus kathali/kukri*, three *Fungitarsonemus*, three *Metatarsonemus* (connexus, diplojuga, infundibulum), *Xenotarsonemus krishnai*, *Daidalotarsonemus duolamella* and the four Karmakar 2016 species' years. The count is still below the 32 Indian species stated by Karmakar et al. (2022), whose species list is not public.
+
+## Gupta & Mondal (2023), Plant Mites of India (national list to 2022)
+
+`scripts/parse_gupta_mondal2023.py` -> `data/checklist/gupta_mondal2023_all.csv` (1,249 numbered accounts:
+Tetranychidae 134, Tuckerellidae 4, Tenuipalpidae 103, Eriophyoidea 535, Tarsonemidae 28, other predatory
+families 150, Phytoseiidae 295; 30 are unidentified `sp.` records). Source is the user's OCR transcription of the
+handbook (unproofread, kept outside this repository). Only name, authority, family, Indian states, hosts and page
+are kept. Covers literature up to 2022, so 2023-2026 descriptions are absent. Compared with the earlier lists
+(exact, spelling-variant and genus-change matches pooled), the union is about: Tetranychidae 148, Tenuipalpidae 111,
+Phytoseiidae 315, Eriophyoidea 546, Tarsonemidae 29. Not yet merged into `species_list.csv`.
