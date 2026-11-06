@@ -4,7 +4,7 @@ Updated: 6 November 2026 (Asia/Kolkata). Checklist snapshot: [a8a0c5e](https://g
 
 ## Current checklist
 
-The current [species list](data/checklist/species_list.csv) contains **1,217 counted species**, six historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
+The current [species list](data/checklist/species_list.csv) contains **1,217 counted species**, five historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
 
 | Group | Counted species | Missing authority | Missing year |
 | --- | --- | --- | --- |
@@ -225,3 +225,8 @@ After supported corrections, rebuild with `python scripts/build_species_list.py`
 - **Stage 3 — cleaning:** not started in this update. Complete the checklist review first, then clean and quality-check COI records, map synonyms, and verify/relabel eriophyoid families. Preserve raw archive labels.
 - **Stage 4:** detailed scope remains to be defined. The README anticipates coverage counts here; agree the denominator, record/specimen treatment and reporting units before implementing them.
 - **Stage 5 — alignment and species delimitation:** not started in this update. MAFFT, IQ-TREE, ASAP and bPTP are the planned tools; analysis design and suitable data subsets remain to be specified.
+
+## Update: two Gupta (1985)-only rows resolved from Gupta (1985) itself
+
+- *Calacarus saliyarensis* was a parse and OCR error. Entry 271 reads *Procalacarus aliyarensis* Mohanasundaram, 1983 (Acarologia 24(1):14); it is now joined to the counted row of that name. Historical-only rows are now five.
+- *Eriophyes ladakbensis* is *Eriophyes ladakhensis* Rishi & Rather, 1982 (Indian Journal of Acarology 6:14-16), as the citation line of entry 229 gives it. It is not in Gupta & Mondal (2023) or the later lists, so it stays uncounted until the original paper or a catalogue confirms it is still valid and not a synonym.
