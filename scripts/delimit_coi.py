@@ -147,8 +147,12 @@ def clusters(ids, d, t):
 
 clrows = []
 DROPPED = []
+# sequences flagged by screen_coi.py (stop codons in all frames, or far from everything) are left out
+SCREEN = os.path.join(OUT, "screen.csv")
+FLAGGED = {r["record_id"] for r in rows(SCREEN) if r["flags"]} if os.path.exists(SCREEN) else set()
 for g, rs in chosen.items():
-    rs = [r for r in rs if r["record_id"] in seqs and 200 <= len(seqs[r["record_id"]]) <= 2000]
+    rs = [r for r in rs if r["record_id"] in seqs and 200 <= len(seqs[r["record_id"]]) <= 2000
+]
     if len(rs) < 2:
         continue
     by = {r["record_id"]: r for r in rs}
@@ -171,6 +175,7 @@ for g, rs in chosen.items():
     with open(os.path.join(OUT, f"{g}_on_reference.fasta"), "w") as f:
         for k, v in aln.items():
             f.write(f">{k}|{label(by[k]).replace(' ', '_')}\n{v}\n")
+    aln = {k: v for k, v in aln.items() if k not in FLAGGED}
     ids, d = pdist(aln)
     cl = {t: clusters(ids, d, t) for t in THRESHOLDS}
     for k, rid in enumerate(ids):

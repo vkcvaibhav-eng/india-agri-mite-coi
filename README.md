@@ -275,3 +275,17 @@ p-distances are taken over shared sites (at least 300). Each Indian sequence is 
 
 Distances above about 25% between sequences of one name are too large for COI within a species and point to
 mislabelled records, numts or a different gene; they are listed for checking, not interpreted.
+
+## Stage 5b: screening and ASAP input
+
+```
+python scripts/delimit_coi.py && python scripts/screen_coi.py && python scripts/delimit_coi.py
+```
+
+`screen_coi.py` flags sequences whose six reading frames all contain a stop codon under the invertebrate
+mitochondrial code (table 5), and sequences with no other sequence in their group within 20%. Flagged sequences
+(`data/processed/delimitation/screen.csv`) are kept in the files but left out of the distances when
+`delimit_coi.py` is run again. Clean, trimmed alignments for each genus with Indian sequences are written as
+`data/processed/delimitation/asap_<genus>.fasta` (names carry `_IN_` for Indian and `_XX_` for other records), ready
+for the ASAP web server (https://bioinfo.mnhn.fr/abi/public/asap/; Puillandre, Brouillet & Achaz 2021, Molecular
+Ecology Resources 21:609-620). ASAP could not be compiled in the analysis environment.

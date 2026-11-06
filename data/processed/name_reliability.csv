@@ -1,31 +1,29 @@
 group,name,n_india,n_foreign_compared,india_seqs_overlapping_foreign,min_dist_india_to_foreign,max_dist_within_name,bcm_correct,bcm_ambiguous,bcm_incorrect,bcm_no_match,closest_other_names,nearest_other_name,min_dist_to_other_name,india_clusters_3pct,verdict
 Eriophyoidea,Aceria granati,1,0,0,,,0,0,0,1,,Aceria guerreronis,0.1810,1,no foreign sequences of this name
-Eriophyoidea,Aceria guerreronis,4,4,4,0.0027,0.3993,4,0,0,0,,Aceria granati,0.1810,1,matches the same name abroad (within 3%)
+Eriophyoidea,Aceria guerreronis,4,2,4,0.0027,0.0172,4,0,0,0,,Aceria granati,0.1810,1,matches the same name abroad (within 3%)
 Eriophyoidea,Aceria kenyae,1,3,1,0.1867,0.1899,0,0,0,1,,Aceria mori,0.2152,1,more than 3% from the same name abroad
 Eriophyoidea,Aceria litchii,1,5,1,0.0000,0.0115,1,0,0,0,,Aceria saccharini,0.1667,1,matches the same name abroad (within 3%)
 Eriophyoidea,Aceria mori,1,0,0,,,0,0,0,1,,Aceria granati,0.1831,1,no foreign sequences of this name
 Eriophyoidea,Aceria saccharini,1,1,0,,,0,0,0,1,,Aceria litchii,0.1608,1,foreign sequences do not overlap (other COI region)
-Eriophyoidea,Aceria sp.,5,0,0,,0.2918,0,0,0,5,,Aceria mori,0.1791,5,no species name
-Eriophyoidea,Aculops lycopersici,1,37,0,,,0,0,0,1,,Aceria litchii,0.2272,1,foreign sequences do not overlap (other COI region)
-Eriophyoidea,Floracarus perrepae,2,18,2,0.0497,0.2406,2,0,0,0,,Aculops lycopersici,0.2733,1,more than 3% from the same name abroad
-Eriophyoidea,Phyllocoptruta oleivora,3,0,0,,0.0000,2,0,0,1,,Aculops lycopersici,0.2448,2,no foreign sequences of this name
-Phytoseiidae,,5,0,0,,0.2730,0,0,0,5,,Euseius ovalis,0.1826,3,no species name
+Eriophyoidea,Aceria sp.,4,0,0,,0.2148,0,0,0,4,,Aceria mori,0.1791,4,no species name
+Eriophyoidea,Floracarus perrepae,2,17,2,0.0497,0.1014,2,0,0,0,,Aceria saccharini,0.2883,1,more than 3% from the same name abroad
+Eriophyoidea,Phyllocoptruta oleivora,2,0,0,,0.0000,2,0,0,0,,Aceria kenyae,0.2539,1,no foreign sequences of this name
+Phytoseiidae,,3,0,0,,0.0078,0,0,0,3,,Euseius ovalis,0.1826,1,no species name
 Phytoseiidae,Amblyseius adhatodae,1,0,0,,,0,0,0,1,,Neoseiulus baraki,0.1921,1,no foreign sequences of this name
 Phytoseiidae,Amblyseius coffeae,1,0,0,,,0,0,0,1,,Paraphytoseius orientalis,0.1656,1,no foreign sequences of this name
 Phytoseiidae,Euseius nicholsi,2,38,2,0.2232,0.2620,0,0,0,2,,Neoseiulus baraki,0.2047,2,more than 3% from the same name abroad
 Phytoseiidae,Euseius ovalis,1,2,1,0.0313,0.0313,0,0,0,1,,Euseius nicholsi,0.1540,1,more than 3% from the same name abroad
 Phytoseiidae,Euseius sp.,2,0,0,,,0,0,0,2,,Euseius nicholsi,0.0503,2,no species name
-Phytoseiidae,Neoseiulus baraki,2,20,1,0.0301,0.1193,0,0,0,2,,Euseius nicholsi,0.1701,2,more than 3% from the same name abroad
-Phytoseiidae,Neoseiulus longispinosus,2,4,2,0.2145,0.2784,2,0,0,0,,Neoseiulus baraki,0.1584,1,more than 3% from the same name abroad
+Phytoseiidae,Neoseiulus baraki,2,19,1,0.0301,0.1193,0,0,0,2,,Euseius nicholsi,0.1701,2,more than 3% from the same name abroad
+Phytoseiidae,Neoseiulus longispinosus,2,3,2,0.2145,0.2784,2,0,0,0,,Neoseiulus baraki,0.1584,1,more than 3% from the same name abroad
 Phytoseiidae,Paraphytoseius orientalis,1,8,1,0.1742,0.1808,0,0,0,1,,Amblyseius coffeae,0.2103,1,more than 3% from the same name abroad
 Phytoseiidae,Proprioseiopsis,3,0,0,,0.0123,0,0,0,3,,Paraphytoseius orientalis,0.2014,1,no species name
 Phytoseiidae,Typhlodromips sp.,1,0,0,,,0,0,0,1,,Euseius nicholsi,0.1955,1,no species name
-Phytoseiidae,Typhlodromus,1,0,0,,,0,0,0,1,,Paraphytoseius orientalis,0.2358,1,no species name
 Tarsonemidae,Polyphagotarsonemus latus,9,10,9,0.0098,0.1968,8,0,0,1,,Steneotarsonemus spinki,0.1906,4,only some Indian sequences match abroad
-Tarsonemidae,Steneotarsonemus spinki,4,18,2,0.0089,0.0389,4,0,0,0,,Polyphagotarsonemus latus,0.1701,2,matches the same name abroad (within 3%)
+Tarsonemidae,Steneotarsonemus spinki,4,17,2,0.0089,0.0389,4,0,0,0,,Polyphagotarsonemus latus,0.1701,2,matches the same name abroad (within 3%)
 Tarsonemidae,Tarsonemus,7,0,0,,0.0017,0,0,0,7,,Steneotarsonemus spinki,0.1585,1,no species name
 Tenuipalpidae,Brevipalpus sp.,1,0,0,,,0,0,0,1,,Raoiella indica,0.1453,1,no species name
-Tenuipalpidae,Dolichotetranychus sp.,11,0,0,,0.3937,0,0,0,11,,Larvacarus transitans,0.1390,7,no species name
+Tenuipalpidae,Dolichotetranychus sp.,8,0,0,,0.0941,0,0,0,8,,Larvacarus transitans,0.1390,4,no species name
 Tenuipalpidae,Larvacarus transitans,1,0,0,,,0,0,0,1,,Raoiella indica,0.1978,1,no foreign sequences of this name
 Tenuipalpidae,Raoiella indica,6,40,6,0.0000,0.0547,6,0,0,0,,Larvacarus transitans,0.2006,2,matches the same name abroad (within 3%)
 Tenuipalpidae,Raoiella macfarlanei,1,0,0,,,0,0,0,1,,Raoiella indica,0.1990,1,no foreign sequences of this name
@@ -33,13 +31,13 @@ Tetranychidae,,20,0,0,,0.1963,0,0,0,20,,Tetranychus urticae,0.0909,11,no species
 Tetranychidae,Eotetranychus broodryki,2,0,0,,0.0000,2,0,0,0,,Tetranychus urticae,0.0863,1,no foreign sequences of this name
 Tetranychidae,Eotetranychus sp.,2,0,0,,0.1375,0,0,0,2,,Tetranychus turkestani,0.0921,2,no species name
 Tetranychidae,Mononychellus mcgregori,3,1,3,0.0101,0.0117,3,0,0,0,,Panonychus ulmi,0.1160,1,matches the same name abroad (within 3%)
-Tetranychidae,Oligonychus biharensis,8,5,8,0.0133,0.1117,8,0,0,0,,Oligonychus grypus,0.0907,3,only some Indian sequences match abroad
+Tetranychidae,Oligonychus biharensis,7,5,7,0.0133,0.1117,7,0,0,0,,Oligonychus grypus,0.0907,3,only some Indian sequences match abroad
 Tetranychidae,Oligonychus coffeae,2,2,2,0.0795,0.0808,2,0,0,0,,Oligonychus mangiferus,0.0851,1,more than 3% from the same name abroad
 Tetranychidae,Oligonychus grypus,2,1,1,0.0079,0.0079,0,1,1,0,Oligonychus oryzae,Oligonychus oryzae,0.0079,2,some Indian sequences closest to another name
 Tetranychidae,Oligonychus indicus,6,1,6,0.0396,0.1448,5,0,1,0,Oligonychus tylus,Oligonychus tylus,0.0067,3,some Indian sequences closest to another name
 Tetranychidae,Oligonychus mangiferus,4,0,0,,0.0334,3,0,0,1,,Oligonychus coffeae,0.0798,2,no foreign sequences of this name
 Tetranychidae,Oligonychus oryzae,2,0,0,,,0,0,2,0,Oligonychus grypus,Oligonychus grypus,0.0026,2,some Indian sequences closest to another name
-Tetranychidae,Oligonychus perseae,1,27,1,0.0000,0.4676,1,0,0,0,,Panonychus ulmi,0.1114,1,matches the same name abroad (within 3%)
+Tetranychidae,Oligonychus perseae,1,23,1,0.0000,0.0877,1,0,0,0,,Panonychus ulmi,0.1114,1,matches the same name abroad (within 3%)
 Tetranychidae,Oligonychus plegas,1,0,0,,,0,0,0,1,,Oligonychus grypus,0.0919,1,no foreign sequences of this name
 Tetranychidae,Oligonychus sp.,5,0,0,,0.1479,0,0,2,3,Oligonychus plegas; Oligonychus tylus,Oligonychus tylus,0.0018,5,no species name
 Tetranychidae,Oligonychus thelytokus,5,0,0,,0.0058,3,0,0,2,,Eotetranychus broodryki,0.0901,3,no foreign sequences of this name
@@ -47,7 +45,7 @@ Tetranychidae,Oligonychus tylus,16,3,14,0.0000,0.0833,14,0,0,2,,Oligonychus indi
 Tetranychidae,Panonychus ulmi,1,39,1,0.0000,0.0546,1,0,0,0,,Eotetranychus broodryki,0.0923,1,matches the same name abroad (within 3%)
 Tetranychidae,Petrobia (Petrobia) latens,1,4,1,0.0212,0.0479,1,0,0,0,,Petrobia (Tetranychina) harti,0.1034,1,matches the same name abroad (within 3%)
 Tetranychidae,Petrobia (Tetranychina) harti,2,5,2,0.0000,0.0194,2,0,0,0,,Petrobia (Petrobia) latens,0.1040,1,matches the same name abroad (within 3%)
-Tetranychidae,Schizotetranychus andropogoni,9,0,0,,0.3085,7,0,0,2,,Eotetranychus broodryki,0.1071,5,no foreign sequences of this name
+Tetranychidae,Schizotetranychus andropogoni,8,0,0,,0.0854,7,0,0,1,,Eotetranychus broodryki,0.1071,4,no foreign sequences of this name
 Tetranychidae,Schizotetranychus asparagi,1,0,0,,,0,0,0,1,,Tetranychus truncatus,0.0778,1,no foreign sequences of this name
 Tetranychidae,Schizotetranychus baltazari,3,0,0,,0.1934,2,0,0,1,,Tetranychus truncatus,0.0748,2,no foreign sequences of this name
 Tetranychidae,Schizotetranychus krungthepensis,19,0,0,,0.0481,19,0,0,0,,Tetranychus udaipurensis,0.1102,1,no foreign sequences of this name
@@ -56,18 +54,18 @@ Tetranychidae,Schizotetranychus mansoni,1,1,1,0.2005,0.2005,0,0,0,1,,Tetranychus
 Tetranychidae,Schizotetranychus sp.,1,0,0,,,0,0,0,1,,Tetranychus urticae,0.0965,1,no species name
 Tetranychidae,Tetranychus bambusae,1,1,1,0.1191,0.1191,0,0,0,1,,Tetranychus ludeni,0.0859,1,more than 3% from the same name abroad
 Tetranychidae,Tetranychus fijiensis,7,0,0,,0.0794,6,0,0,1,,Tetranychus turkestani,0.1003,2,no foreign sequences of this name
-Tetranychidae,Tetranychus gloveri,10,15,10,0.0000,0.1178,8,0,1,1,Tetranychus udaipurensis,Tetranychus udaipurensis,0.0248,3,some Indian sequences closest to another name
+Tetranychidae,Tetranychus gloveri,10,13,10,0.0000,0.1178,8,0,1,1,Tetranychus udaipurensis,Tetranychus udaipurensis,0.0248,3,some Indian sequences closest to another name
 Tetranychidae,Tetranychus hirsutus,2,0,0,,0.0111,2,0,0,0,,Tetranychus bambusae,0.0952,1,no foreign sequences of this name
 Tetranychidae,Tetranychus kanzawai,7,39,7,0.0024,0.0743,6,1,0,0,Tetranychus urticae,Tetranychus urticae,0.0000,1,matches the same name abroad (within 3%)
-Tetranychidae,Tetranychus lombardinii,7,1,7,0.4294,0.4980,6,0,0,1,,Tetranychus urticae,0.0430,2,more than 3% from the same name abroad
+Tetranychidae,Tetranychus lombardinii,7,0,0,,0.1118,6,0,0,1,,Tetranychus urticae,0.0430,2,no foreign sequences of this name
 Tetranychidae,Tetranychus ludeni,3,39,3,0.0000,0.0984,2,0,0,1,,Tetranychus neocaledonicus,0.0720,2,only some Indian sequences match abroad
-Tetranychidae,Tetranychus macfarlanei,11,4,11,0.0000,0.4893,10,0,0,1,,Tetranychus kanzawai,0.0838,4,only some Indian sequences match abroad
-Tetranychidae,Tetranychus marianae,2,3,2,0.0000,0.0087,2,0,0,0,,Tetranychus neocaledonicus,0.0797,1,matches the same name abroad (within 3%)
-Tetranychidae,Tetranychus neocaledonicus,3,19,3,0.0085,0.1911,2,0,0,1,,Tetranychus udaipurensis,0.0431,2,only some Indian sequences match abroad
+Tetranychidae,Tetranychus macfarlanei,11,3,11,0.0000,0.0686,10,0,0,1,,Tetranychus kanzawai,0.0838,4,only some Indian sequences match abroad
+Tetranychidae,Tetranychus marianae,1,3,1,0.0000,0.0000,1,0,0,0,,Tetranychus udaipurensis,0.0873,1,matches the same name abroad (within 3%)
+Tetranychidae,Tetranychus neocaledonicus,3,18,3,0.0085,0.1911,2,0,0,1,,Tetranychus udaipurensis,0.0431,2,only some Indian sequences match abroad
 Tetranychidae,Tetranychus piercei,1,10,1,0.0279,0.0538,1,0,0,0,,Tetranychus kanzawai,0.0812,1,matches the same name abroad (within 3%)
 Tetranychidae,Tetranychus puschelii,8,1,4,0.1101,0.1297,8,0,0,0,,Tetranychus neocaledonicus,0.0862,1,more than 3% from the same name abroad
 Tetranychidae,Tetranychus sp.,3,0,0,,0.1193,0,0,1,2,Tetranychus macfarlanei,Tetranychus macfarlanei,0.0034,3,no species name
-Tetranychidae,Tetranychus truncatus,41,39,41,0.0000,0.1484,19,21,0,1,Tetranychus puschelii; Tetranychus udaipurensis,Tetranychus puschelii,0.0000,3,only some Indian sequences match abroad
+Tetranychidae,Tetranychus truncatus,40,39,40,0.0000,0.1484,18,21,0,1,Tetranychus puschelii; Tetranychus udaipurensis,Tetranychus puschelii,0.0000,3,only some Indian sequences match abroad
 Tetranychidae,Tetranychus turkestani,4,38,4,0.0048,0.1882,0,2,1,1,Tetranychus udaipurensis; Tetranychus urticae,Tetranychus urticae,0.0000,3,some Indian sequences closest to another name
-Tetranychidae,Tetranychus udaipurensis,15,2,8,0.0000,0.0403,13,0,1,1,Tetranychus truncatus,Tetranychus truncatus,0.0000,3,some Indian sequences closest to another name
+Tetranychidae,Tetranychus udaipurensis,14,2,8,0.0000,0.0403,13,0,1,0,Tetranychus truncatus,Tetranychus truncatus,0.0000,2,some Indian sequences closest to another name
 Tetranychidae,Tetranychus urticae,34,40,34,0.0000,0.3392,29,1,3,1,Tetranychus kanzawai; Tetranychus truncatus; Tetranychus turkestani,Tetranychus kanzawai,0.0000,5,some Indian sequences closest to another name
