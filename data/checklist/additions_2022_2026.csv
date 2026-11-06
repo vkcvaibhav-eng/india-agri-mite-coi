@@ -1,0 +1,19 @@
+species,family,authority,year,hosts,india_states,doi,source,notes
+Abacarus indogangeticus,Eriophyidae,Sarkar,2025,Mitragyna parvifolia,West Bengal,10.14419/1t622g75,"Sarkar 2025, International Journal of Biological Research 12(1):1-6",
+Neodicrothrix bengalensis,Eriophyidae,Sarkar,2025,Tiliacora racemosa,West Bengal,10.22271/23940522.2025.v12.i2a.1082,"Sarkar 2025, International Journal of Fauna and Biological Studies 12(2):39-43",
+Tetra dalbergicola,Eriophyidae,Sarkar,2025,Dalbergia sissoo,West Bengal,10.22271/23940522.2025.v12.i4a.1109,"Sarkar 2025, International Journal of Fauna and Biological Studies 12(4):18-22","Same description repeated in Sarkar 2026, International Journal of Entomology Research 11(3):82-85 (10.66856/ijer.2026.11.3.11235); count once"
+Diptilomiopus streblusis,Diptilomiopidae,Sarkar,2025,Streblus asper,West Bengal,10.56975/ijrar.v12i2.315885,"Sarkar 2025, International Journal of Research and Analytical Reviews 12(2)",
+Daidalotarsonemus tambulae,Tarsonemidae,Mondal & Karmakar,2023,Piper betle,West Bengal,10.1007/s11756-022-01245-x,"Mondal & Karmakar 2023, Biologia 78:129-140",already in tarsonemidae_west_bengal.csv
+Daidalotarsonemus duolamella,Tarsonemidae,"Lin, Chen & Zhang",1998,Rhododendron indicum,West Bengal,10.1007/s11756-022-01245-x,"Re-described by Mondal & Karmakar 2023, Biologia 78:129-140",authority now known; originally described outside India
+Tarsonemus dakshinbharaticus,Tarsonemidae,Karmakar & Kayal,2023,Mimusops elengi; Syzygium cumini; Psidium guajava,Karnataka,,"Kayal et al. 2023, Biologia",DOI not yet checked; abstract only
+Tarsonemus sertum,Tarsonemidae,Karmakar & Kayal,2023,Mimusops elengi; Syzygium cumini; Psidium guajava,Karnataka,,"Kayal et al. 2023, Biologia",DOI not yet checked; abstract only
+Fungitarsonemus jasminae,Tarsonemidae,Karmakar & Kayal,2023,Jasminum sambac,West Bengal,10.1080/01647954.2023.2233518,"Kayal & Karmakar 2023, International Journal of Acarology 49(3-4):203-213",DOI verified in Crossref
+Xenotarsonemus chinsurahensis,Tarsonemidae,Karmakar & Kayal,2023,Ficus carica,West Bengal,10.1080/01647954.2023.2233518,"Kayal & Karmakar 2023, International Journal of Acarology 49(3-4):203-213",DOI verified in Crossref
+Tarsonemus bengalicus,Tarsonemidae,Karmakar & Bera,2024,Bambusa vulgaris,West Bengal,10.11158/saa.29.7.2,"Karmakar, Bera & Kayal 2024, Systematic and Applied Acarology 29(7)",DOI verified in Crossref
+Tarsonemus kajuae,Tarsonemidae,Karmakar & Bera,2024,Anacardium occidentale,West Bengal,10.11158/saa.29.7.2,"Karmakar, Bera & Kayal 2024, Systematic and Applied Acarology 29(7)",DOI verified in Crossref
+Daidalotarsonemus kalyanicus,Tarsonemidae,Karmakar & Kayal,2024,Ziziphus mauritiana,West Bengal,10.11158/saa.29.1.9,"Kayal & Karmakar 2024, Systematic and Applied Acarology 29(1)",DOI verified in Crossref
+Floridotarsonemus boroiae,Tarsonemidae,Karmakar & Kayal,2024,Ziziphus mauritiana,West Bengal,10.11158/saa.29.1.9,"Kayal & Karmakar 2024, Systematic and Applied Acarology 29(1)",DOI verified in Crossref
+Tarsonemus parijatae,Tarsonemidae,Karmakar & Kayal,2025,Nyctanthes arbor-tristis,West Bengal,10.11158/saa.30.3.4,"Kayal, Bera & Karmakar 2025, Systematic and Applied Acarology 30(3)",DOI verified in Crossref
+Tarsonemus parulae,Tarsonemidae,Karmakar & Kayal,2025,Spathodea campanulata,Karnataka,10.11158/saa.30.3.4,"Kayal, Bera & Karmakar 2025, Systematic and Applied Acarology 30(3)",DOI verified in Crossref
+Daidalotarsonemus flamingobeccus,Tarsonemidae,Karmakar & Bera,2026,Lagerstroemia speciosa,West Bengal,10.1080/01647954.2026.2722239,"Bera & Karmakar 2026, International Journal of Acarology 52(3-4):244-256",DOI verified in Crossref
+Xenotarsonemus keukandae,Tarsonemidae,Karmakar & Bera,2026,Costus speciosus,West Bengal,10.1080/01647954.2026.2722239,"Bera & Karmakar 2026, International Journal of Acarology 52(3-4):244-256",DOI verified in Crossref

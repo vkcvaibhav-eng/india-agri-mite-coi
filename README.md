@@ -157,3 +157,11 @@ handbook (unproofread, kept outside this repository). Only name, authority, fami
 are kept. Covers literature up to 2022, so 2023-2026 descriptions are absent. Compared with the earlier lists
 (exact, spelling-variant and genus-change matches pooled), the union is about: Tetranychidae 148, Tenuipalpidae 111,
 Phytoseiidae 315, Eriophyoidea 546, Tarsonemidae 29. Not yet merged into `species_list.csv`.
+
+## Additions since 2022 and name corrections
+
+`data/checklist/additions_2022_2026.csv` lists 18 names from papers after the 2022 cut-off of Gupta & Mondal (2023):
+four eriophyoids (Sarkar 2025; *Tetra dalbergicola* is repeated in a 2026 paper and counted once) and fourteen
+tarsonemids. `name_corrections.csv` records three spellings in older lists that differ from the published abstracts.
+The Biologia 2023 *Xenotarsonemus* paper (10.1007/s11756-023-01373-y) is still to be read for its two species names.
+Rows with an empty DOI are known from abstracts only.
