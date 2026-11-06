@@ -1,0 +1,11 @@
+affects,item,current_state,what_closes_it
+count,"Eriophyes ladakhensis Rishi & Rather, 1982",Not counted; in Gupta 1985 only,Original paper or catalogue showing it is valid and not a synonym
+count,"Amblyseius havu Pritchard & Baker, 1962 (India record)",Not counted; absent from Gupta & Karmakar 2015,Phytoseiidae Database: is the India record accepted
+count,"Paraamblyseius formosanus (Ehara, 1970) (India record)",Not counted; absent from Gupta & Karmakar 2015,Phytoseiidae Database: is the India record accepted
+count,"Garhwalicus himalayensis Gupta & Ray, 1981",Not counted; absent from Gupta & Karmakar 2015,Phytoseiidae Database: synonymised or omitted
+data,52 counted species without a year,"See species_list.csv, year blank",Original description or catalogue citation
+data,17 counted species without an authority,"See species_list.csv, authority blank",Original description or catalogue citation
+data,Euseius indica: author of the replacement name,"Shown as (Chatterjee & Gupta), 2003",Gupta & Karmakar 2015 entry 116 or later catalogue
+data,"Years from pasted citations: Brevipalpus absens 1965, Amblyseius sundi 1962, Steneotarsonemus spinki 1967","Applied, marked not seen",See the original papers
+data,"Flags: 7 authority_differs, 4 year_differs_between_sources",In species_list.csv flags,Check each against the original description
+data,Tuckerellidae: compare four species with the Tuckerella review paper,Not done,User's review paper

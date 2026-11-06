@@ -217,3 +217,24 @@ Other outputs: `species_list_names.csv` maps every name seen in the sources, and
 cite, to its `species_id` (for matching COI record names in stage 3); `species_list_review.csv` lists each join that
 is not an exact match and each join the rules refused; `species_list_summary.csv` gives the counts per group and
 per source. Species ids are reassigned when the list is rebuilt.
+
+## Stage 3: COI records matched to the species list
+
+```
+python scripts/match_coi.py
+```
+
+Matches every COI record in `data/processed/coi_metadata.csv` (snapshot of 3 November 2026) to the species list by
+genus and epithet, using every spelling, old combination and synonym in `species_list_names.csv`, plus
+`data/checklist/coi_name_map.csv` (archive names to map, for example *Tetranychus cinnabarinus* to *T. urticae*).
+Only representative records are counted, so a sequence in both GenBank and BOLD counts once. Names with cf., aff.,
+nr. or sp. are not matched.
+
+| file | content |
+|---|---|
+| `data/processed/coi_matched.csv` | every COI record with its species_id and how it was matched |
+| `data/processed/coverage_by_species.csv` | the counted species with numbers of COI records, Indian records, BINs and countries |
+| `data/processed/coi_names_not_in_list.csv` | archive names with no Indian species, most Indian records first |
+| `logs/coverage_summary.csv` | species with any COI and with Indian COI, per group |
+
+`data/checklist/open_items.csv` lists what is still open on the species list.
