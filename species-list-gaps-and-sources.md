@@ -4,21 +4,21 @@ Updated: 6 November 2026 (Asia/Kolkata). Checklist snapshot: [a8a0c5e](https://g
 
 ## Current checklist
 
-The current [species list](data/checklist/species_list.csv) contains **1,219 counted species**, six historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
+The current [species list](data/checklist/species_list.csv) contains **1,217 counted species**, six historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
 
 | Group | Counted species | Missing authority | Missing year |
 | --- | --- | --- | --- |
 | Tetranychidae | 142 | 0 | 0 |
 | Tenuipalpidae | 114 | 0 | 4 |
-| Eriophyoidea | 581 | 10 | 35 |
+| Eriophyoidea | 580 | 10 | 33 |
 | Tarsonemidae | 43 | 3 | 6 |
 | Tuckerellidae | 4 | 0 | 1 |
-| Phytoseiidae | 335 | 6 | 17 |
-| Total | 1219 | 19 | 63 |
+| Phytoseiidae | 334 | 6 | 17 |
+| Total | 1217 | 19 | 61 |
 
-Eriophyoidea currently comprises Eriophyidae 514, Diptilomiopidae 65 and Phytoptidae 2. Stage 3 must check family assignments against the selected classification.
+Eriophyoidea currently comprises Eriophyidae 513, Diptilomiopidae 65 and Phytoptidae 2. Stage 3 must check family assignments against the selected classification.
 
-The earlier handover's 64 missing years is now **63**. The 2003 year for *Euseius mangiferae* is already in both the checklist and [authority corrections](data/checklist/authority_corrections.csv). Three of the four Tuckerellidae already have years; only *T. channabasavannai* remains blank.
+Missing years are now **61**. *Euseius mangiferae* Chatterjee & Gupta, 2003 is now shown as *Euseius indica* (replacement name for that junior homonym, Gupta & Karmakar 2015, entry 116) and joined to the existing *E. indica* row; *Tegolophus gmelinae* is joined to *T. mohanasundarami* Amrine & Stasny, 1994; *Eriophyes alangii* is Nalepa, 1914; and the subgenus is spelt *Tylonychus*. These are in [authority corrections](data/checklist/authority_corrections.csv) and [duplicate review](data/checklist/duplicate_review.csv). Three of the four Tuckerellidae already have years; only *T. channabasavannai* remains blank.
 
 Filling an author or year alone does not change the species count. Confirming additional distinct Indian taxa, synonymy, replacement names, or duplicate identities can change it.
 
@@ -26,7 +26,7 @@ Filling an author or year alone does not change the species count. Confirming ad
 
 1. Resolve the six historical-only names below, starting with *Tetranychus cinnabarinus* for the COI name mapping.
 2. Verify the 19 missing authorities against the describing papers. Check doubtful spellings before filling them.
-3. Resolve the remaining review corrections, especially the two currently counted *Tegolophus* rows that may represent an original name and its replacement.
+3. Check who is credited with the replacement name *Euseius indica* (the 2015 checklist prints the original authors and year).
 4. Fill the remaining years, compare the four Tuckerellidae with the user's review paper, and clear the conflict flags.
 
 Use the original description or revision to settle nomenclature. A regional checklist can support an Indian occurrence but does not by itself establish an original authorship, year, synonymy or current combination. Retain conflicting source usages and a citation for every accepted correction. Do not treat the six historical-only rows as six automatic additions.

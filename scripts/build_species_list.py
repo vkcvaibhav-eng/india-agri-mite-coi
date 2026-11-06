@@ -117,7 +117,8 @@ def group_of(fam):
     return fam if fam in GROUPS else None
 
 
-AUTHCORR = {r["species"]: (r["authority"], r["year"]) for r in rows("authority_corrections.csv")}
+CORRECTED = {}
+AUTHCORR = {r["species"]: (r["shown_name"], r["authority"], r["year"]) for r in rows("authority_corrections.csv")}
 CORR = {}
 for r in rows("name_corrections.csv"):
     p = parse(r["name_in_older_list"])
@@ -704,7 +705,11 @@ for root, m in mem.items():
     year = max(yvotes, key=lambda y: (yvotes[y], -next(i for i, r in enumerate(by_auth) if r["year"] == y))) if yvotes else ""
     genus_shown = best["g"]
     if valid in AUTHCORR:
-        auth, year = AUTHCORR[valid]
+        new, auth, year = AUTHCORR[valid]
+        if new != valid:
+            q = parse(new)
+            valid, genus_shown = display(*q), q[0]
+            CORRECTED[root] = new
     acc = next((v for k, v in ACCEPT.items() if find(k) == root), None)
     if acc:
         q = parse(acc[0])
