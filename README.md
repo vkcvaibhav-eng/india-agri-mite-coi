@@ -168,6 +168,14 @@ names turned out to be in the book as well; the build joins them. `name_correcti
 the sources that differ from the published names. `unverified_names.csv` holds names seen only in pasted answers (none at present);
 `leads_to_verify.csv` lists what is still open (none at present). The four *Typhlodromus* (*Anthoseius*) of Biswas & Karmakar 2026 were read from the paper itself.
 
+`data/checklist/duplicate_review.csv` holds the 20 decisions on the former `check_vs` pairs (10 same species, 10
+different), made by V. K. Chaudhari after reading a literature review of each pair. The build applies them as a
+fifth joining step ("reviewed by hand" in `species_list_review.csv`). The `reviewer_note` column keeps the evidence
+and the name corrections that the review suggested but the build does not yet apply (for example
+*Tetranychus maximae* McGregor being *T. marianae*, the replacement authority of *Eriophyes antiquorum*, and
+*Tegolophus gmelinae* being *T. mohanasundarami*). Only the accepted name, authority and year for the sugarcane
+blister mite and *Aculus leguminae* are changed in the output.
+
 ## species_list.csv (stage 1 output)
 
 ```

@@ -640,6 +640,26 @@ for grp in GROUPS:
         log("joined", "recombination", 0, A, B, ev)
         union(A, B, "recombination")
 
+
+# pass 5: decisions taken by hand on pairs the earlier passes left apart (duplicate_review.csv)
+DIFF_PAIRS = set()
+ACCEPT = {}
+_by_name = defaultdict(list)
+for r in RECS:
+    _by_name[(r["group"], r["name"])].append(r["id"])
+for d in rows("duplicate_review.csv"):
+    ia, ib = _by_name.get((d["group"], d["species_a"])), _by_name.get((d["group"], d["species_b"]))
+    if not ia or not ib:
+        raise SystemExit(f"duplicate_review.csv: cannot find {d['species_a']} or {d['species_b']}")
+    if d["decision"] == "same":
+        log("joined", "reviewed by hand", 0, ia[0], ib[0], "decided same species after checking the literature (duplicate_review.csv)")
+        root = union(ia[0], ib[0], "reviewed by hand")
+        if d.get("accepted_name"):
+            ACCEPT[root] = (d["accepted_name"], d["accepted_authority"], d["accepted_year"])
+    else:
+        DIFF_PAIRS.add(frozenset((d["species_a"], d["species_b"])))
+        log("kept apart", "reviewed by hand", 0, ia[0], ib[0], "decided different species after checking the literature (duplicate_review.csv)")
+
 # ---- one row per species -------------------------------------------------------------------
 mem = members()
 genus_family = defaultdict(Counter)
@@ -681,6 +701,11 @@ for root, m in mem.items():
         next((r["auth"] for r in by_auth if r["auth"]), "")
     yvotes = Counter(r["year"] for r in recs if r["year"])
     year = max(yvotes, key=lambda y: (yvotes[y], -next(i for i, r in enumerate(by_auth) if r["year"] == y))) if yvotes else ""
+    genus_shown = best["g"]
+    acc = next((v for k, v in ACCEPT.items() if find(k) == root), None)
+    if acc:
+        q = parse(acc[0])
+        valid, auth, year, genus_shown = display(*q), acc[1], acc[2], q[0]
     srcs = [s for s in SOURCES if any(r["src"] == s for r in recs)]
     family = grp
     if grp == "Eriophyoidea":
@@ -718,7 +743,7 @@ for root, m in mem.items():
                 variants[n].add(r["src"])
     notes = sorted({r["note"] for r in recs if r["note"]})
     auth = auth.strip(" |;,")
-    out.append(dict(group=grp, family=family, genus=best["g"], species=valid, authority=auth, year=year,
+    out.append(dict(group=grp, family=family, genus=genus_shown, species=valid, authority=auth, year=year,
                     status=status, counted=1 if status == "confirmed" else 0, n_sources=len(srcs),
                     sources=";".join(srcs), india_states=";".join(states), n_states=len(states),
                     other_names_in_sources="; ".join(f"{n} [{','.join(sorted(s))}]" for n, s in sorted(variants.items())),
@@ -745,6 +770,10 @@ for r in out:
     ids[r["_root"]] = (r["species_id"], r["species"])
 row_of = {r["_root"]: r for r in out}
 
+def ids_names(root):
+    return {RECS[i]['name'] for i in ids_of(root)}
+
+
 # Two rows left apart by a refused join are flagged for a look when a single source
 # kept them apart and the epithets agree (a possible double count), or when they
 # are homonyms.
@@ -763,6 +792,10 @@ for rv in REVIEW:
         continue
     ka, kb = rv["_ka"], rv["_kb"]
     if ka and kb and stem(ka.split()[1]) != stem(kb.split()[1]):
+        continue
+    if rv["basis"] == "reviewed by hand":
+        continue
+    if any(frozenset((x, y)) in DIFF_PAIRS for x in ids_names(A) for y in ids_names(B)):
         continue
     row_of[A]["flags"].add(f"check_vs:{ids[B][0]}")
     row_of[B]["flags"].add(f"check_vs:{ids[A][0]}")
