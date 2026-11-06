@@ -162,11 +162,11 @@ the book's taxonomic citations, as Name|Author|Year).
 
 ## Additions since 2022 and name corrections
 
-`data/checklist/additions_2022_2026.csv` lists 51 names from papers read after the 2022 cut-off of Gupta & Mondal
-(2023): 27 Phytoseiidae, 16 Tarsonemidae and 8 Eriophyoidea, each with its source and, where found, DOI. Some 2022
+`data/checklist/additions_2022_2026.csv` lists 55 names from papers read after the 2022 cut-off of Gupta & Mondal
+(2023): 31 Phytoseiidae, 16 Tarsonemidae and 8 Eriophyoidea, each with its source and, where found, DOI. Some 2022
 names turned out to be in the book as well; the build joins them. `name_corrections.csv` records eight spellings in
-the sources that differ from the published names. `unverified_names.csv` holds names seen only in pasted answers
-(three *Typhlodromus* (*Anthoseius*) from Biswas & Karmakar 2026); `leads_to_verify.csv` lists what is still open.
+the sources that differ from the published names. `unverified_names.csv` holds names seen only in pasted answers (none at present);
+`leads_to_verify.csv` lists what is still open (none at present). The four *Typhlodromus* (*Anthoseius*) of Biswas & Karmakar 2026 were read from the paper itself.
 
 ## species_list.csv (stage 1 output)
 

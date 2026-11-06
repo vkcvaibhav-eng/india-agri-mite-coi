@@ -1467,7 +1467,7 @@ PHY0303,Typhlodromus (Anthoseius) himaliniae,Typhlodromus (Anthoseius) himalinia
 PHY0304,Typhlodromus (Anthoseius) homalii,Typhlodromus (Anthoseius) homalii,valid,gm2023;gk2015;g1985
 PHY0304,Typhlodromus (Anthoseius) homalii,Typhlodromus (Amblydromella) homalii,listed_as,g1985
 PHY0304,Typhlodromus (Anthoseius) homalii,Typhlodromus homalii,listed_as,gk2015
-PHY0305,Typhlodromus (Anthoseius) kanchangarhensis,Typhlodromus (Anthoseius) kanchangarhensis,valid,unverified
+PHY0305,Typhlodromus (Anthoseius) kanchangarhensis,Typhlodromus (Anthoseius) kanchangarhensis,valid,add2026
 PHY0306,Typhlodromus (Anthoseius) kanchanjanghai,Typhlodromus (Anthoseius) kanchanjanghai,valid,gm2023
 PHY0307,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Anthoseius) kodaikanelensis,valid,gm2023;gk2015;g1985
 PHY0307,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Amblydromella) kodaikanslensis,listed_as,g1985
@@ -1504,7 +1504,7 @@ PHY0316,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Anthoseius) orissaen
 PHY0316,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Orientiseius) orissaensis,listed_as,g1985
 PHY0316,Typhlodromus (Anthoseius) orissaensis,Typhlodromus orissaensis,listed_as,gk2015
 PHY0317,Typhlodromus (Anthoseius) parandae,Typhlodromus (Anthoseius) parandae,valid,gm2023
-PHY0318,Typhlodromus (Anthoseius) parnangiae,Typhlodromus (Anthoseius) parnangiae,valid,unverified
+PHY0318,Typhlodromus (Anthoseius) parnangiae,Typhlodromus (Anthoseius) parnangiae,valid,add2026
 PHY0319,Typhlodromus (Anthoseius) persicus,Typhlodromus (Anthoseius) persicus,valid,gm2023;gk2015
 PHY0319,Typhlodromus (Anthoseius) persicus,Typhlodromus persicus,listed_as,gk2015
 PHY0320,Typhlodromus (Anthoseius) pruni,Typhlodromus (Anthoseius) pruni,valid,gm2023;gk2015;g1985
@@ -1525,38 +1525,39 @@ PHY0324,Typhlodromus (Anthoseius) rickeri,Typhlodromus (Orientiseius) rickeri,li
 PHY0324,Typhlodromus (Anthoseius) rickeri,Typhlodromus ricker,cited_synonym_or_combination,g1985
 PHY0324,Typhlodromus (Anthoseius) rickeri,Typhlodromus rickeri,listed_as,gk2015
 PHY0325,Typhlodromus (Anthoseius) sagaricus,Typhlodromus (Anthoseius) sagaricus,valid,gm2023
-PHY0326,Typhlodromus (Anthoseius) sijiensis,Typhlodromus (Anthoseius) sijiensis,valid,gm2023;gk2015
-PHY0326,Typhlodromus (Anthoseius) sijiensis,Typhlodromus sijiensis,listed_as,gk2015
-PHY0327,Typhlodromus (Anthoseius) sodaliae,Typhlodromus (Anthoseius) sodaliae,valid,unverified
-PHY0328,Typhlodromus (Anthoseius) sonajhuriae,Typhlodromus (Anthoseius) sonajhuriae,valid,gm2023
-PHY0329,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus (Anthoseius) sonprayagensis,valid,gm2023;gk2015
-PHY0329,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus sonprayagensis,listed_as,gk2015
-PHY0330,Typhlodromus (Anthoseius) theae,Typhlodromus (Anthoseius) theae,valid,add2026;gm2023
-PHY0331,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) torbatejamae,valid,gm2023;gk2015
-PHY0331,Typhlodromus (Anthoseius) torbatejamae,Amblydromella tarbateijamae,cited_synonym_or_combination,gm2023
-PHY0331,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) tarbateijamae,listed_as,gm2023
-PHY0331,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus torbatejamae,listed_as,gk2015
-PHY0332,Typhlodromus (Anthoseius) umbratus,Typhlodromus (Anthoseius) umbratus,valid,gm2023;gk2015
-PHY0332,Typhlodromus (Anthoseius) umbratus,Amblydromella umbratus,cited_synonym_or_combination,gm2023
-PHY0332,Typhlodromus (Anthoseius) umbratus,Typhlodromus umbratus,listed_as,gk2015
-PHY0333,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) viniferae,valid,gm2023;gk2015
-PHY0333,Typhlodromus (Anthoseius) viniferae,Amblydromella vinifera,cited_synonym_or_combination,gm2023
-PHY0333,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) vinifera,listed_as,gm2023
-PHY0333,Typhlodromus (Anthoseius) viniferae,Typhlodromus viniferae,listed_as,gk2015
-PHY0334,Typhlodromus (Anthoseius) zafari,Typhlodromus (Anthoseius) zafari,valid,gm2023;gk2015
-PHY0334,Typhlodromus (Anthoseius) zafari,Tvphlodromus zafari,cited_synonym_or_combination,gm2023
-PHY0334,Typhlodromus (Anthoseius) zafari,Typhlodromus zafari,listed_as,gk2015
-PHY0335,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) confusus,valid,gm2023;gk2015;g1985
-PHY0335,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Brethria) confusus,listed_as,g1985
-PHY0335,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) conlusus,cited_synonym_or_combination,g1985
-PHY0335,Typhlodromus (Typhlodromus) confusus,Typhlodromus confusus,listed_as,gk2015
-PHY0336,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Typhlodromus) roshanlali,valid,gm2023;gk2015;g1985
-PHY0336,Typhlodromus (Typhlodromus) roshanlali,Typhlodromous (Typhlodromus) roshanlali,cited_synonym_or_combination,g1985
-PHY0336,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Brethria) roshanlali,listed_as,g1985
-PHY0336,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus roshanlali,listed_as,gk2015
-PHY0337,Typhlodromus kashmiricus,Typhlodromus kashmiricus,valid,gk2015;g1985
-PHY0337,Typhlodromus kashmiricus,Typhlodromus (Orientiseius) kashmiricus,listed_as,g1985
-PHY0338,Ueckermannseius samudricus,Ueckermannseius samudricus,valid,add2026
+PHY0326,Typhlodromus (Anthoseius) saptaparniae,Typhlodromus (Anthoseius) saptaparniae,valid,add2026
+PHY0327,Typhlodromus (Anthoseius) sijiensis,Typhlodromus (Anthoseius) sijiensis,valid,gm2023;gk2015
+PHY0327,Typhlodromus (Anthoseius) sijiensis,Typhlodromus sijiensis,listed_as,gk2015
+PHY0328,Typhlodromus (Anthoseius) sodaliae,Typhlodromus (Anthoseius) sodaliae,valid,add2026
+PHY0329,Typhlodromus (Anthoseius) sonajhuriae,Typhlodromus (Anthoseius) sonajhuriae,valid,gm2023
+PHY0330,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus (Anthoseius) sonprayagensis,valid,gm2023;gk2015
+PHY0330,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus sonprayagensis,listed_as,gk2015
+PHY0331,Typhlodromus (Anthoseius) theae,Typhlodromus (Anthoseius) theae,valid,add2026;gm2023
+PHY0332,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) torbatejamae,valid,gm2023;gk2015
+PHY0332,Typhlodromus (Anthoseius) torbatejamae,Amblydromella tarbateijamae,cited_synonym_or_combination,gm2023
+PHY0332,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) tarbateijamae,listed_as,gm2023
+PHY0332,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus torbatejamae,listed_as,gk2015
+PHY0333,Typhlodromus (Anthoseius) umbratus,Typhlodromus (Anthoseius) umbratus,valid,gm2023;gk2015
+PHY0333,Typhlodromus (Anthoseius) umbratus,Amblydromella umbratus,cited_synonym_or_combination,gm2023
+PHY0333,Typhlodromus (Anthoseius) umbratus,Typhlodromus umbratus,listed_as,gk2015
+PHY0334,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) viniferae,valid,gm2023;gk2015
+PHY0334,Typhlodromus (Anthoseius) viniferae,Amblydromella vinifera,cited_synonym_or_combination,gm2023
+PHY0334,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) vinifera,listed_as,gm2023
+PHY0334,Typhlodromus (Anthoseius) viniferae,Typhlodromus viniferae,listed_as,gk2015
+PHY0335,Typhlodromus (Anthoseius) zafari,Typhlodromus (Anthoseius) zafari,valid,gm2023;gk2015
+PHY0335,Typhlodromus (Anthoseius) zafari,Tvphlodromus zafari,cited_synonym_or_combination,gm2023
+PHY0335,Typhlodromus (Anthoseius) zafari,Typhlodromus zafari,listed_as,gk2015
+PHY0336,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) confusus,valid,gm2023;gk2015;g1985
+PHY0336,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Brethria) confusus,listed_as,g1985
+PHY0336,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) conlusus,cited_synonym_or_combination,g1985
+PHY0336,Typhlodromus (Typhlodromus) confusus,Typhlodromus confusus,listed_as,gk2015
+PHY0337,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Typhlodromus) roshanlali,valid,gm2023;gk2015;g1985
+PHY0337,Typhlodromus (Typhlodromus) roshanlali,Typhlodromous (Typhlodromus) roshanlali,cited_synonym_or_combination,g1985
+PHY0337,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Brethria) roshanlali,listed_as,g1985
+PHY0337,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus roshanlali,listed_as,gk2015
+PHY0338,Typhlodromus kashmiricus,Typhlodromus kashmiricus,valid,gk2015;g1985
+PHY0338,Typhlodromus kashmiricus,Typhlodromus (Orientiseius) kashmiricus,listed_as,g1985
+PHY0339,Ueckermannseius samudricus,Ueckermannseius samudricus,valid,add2026
 TAR0001,Bongotarsonemus bicornus,Bongotarsonemus bicornus,valid,gm2023;tarswb2023
 TAR0002,Bongotarsonemus unicornus,Bongotarsonemus unicornus,valid,gm2023;tarswb2023
 TAR0003,Ceratotarsonemus bengalicus,Ceratotarsonemus bengalicus,valid,tarswb2023
