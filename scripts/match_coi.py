@@ -86,6 +86,10 @@ def match(grp, name):
 
 
 recs = rows(os.path.join(PR, "coi_metadata.csv"))
+INDIA = {r["accession"] for r in rows(os.path.join(CK, "india_record_overrides.csv"))}
+for r in recs:
+    if r["accession"].split(".")[0] in INDIA:
+        r["india_record"] = "1"
 out = []
 for r in recs:
     grp = GROUP_OF_FAMILY.get(r["family_as_given"], r["family_as_given"])

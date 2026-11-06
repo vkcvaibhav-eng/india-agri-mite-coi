@@ -2478,7 +2478,7 @@ NCBI_KU342783.1,ncbi,KU342783.1,,,Tetranychidae,Tetranychidae,Panonychus citri,T
 NCBI_KU342782.1,ncbi,KU342782.1,,,Tetranychidae,Tetranychidae,Panonychus citri,TET0085,Panonychus citri,exact,,,0,0,1282
 NCBI_KU342781.1,ncbi,KU342781.1,,,Tetranychidae,Tetranychidae,Panonychus citri,TET0085,Panonychus citri,exact,,,0,0,1282
 NCBI_KP993523.2,ncbi,KP993523.2,GACAC6443-19,,Tetranychidae,Tetranychidae,Tetranychus urticae,TET0142,Tetranychus urticae,exact,,,0,1,758
-NCBI_KP993524.1,ncbi,KP993524.1,GACAC6465-19,,Tetranychidae,Tetranychidae,Tetranychus urticae,TET0142,Tetranychus urticae,exact,,,0,1,860
+NCBI_KP993524.1,ncbi,KP993524.1,GACAC6465-19,,Tetranychidae,Tetranychidae,Tetranychus urticae,TET0142,Tetranychus urticae,exact,,,1,1,860
 NCBI_KX944298.1,ncbi,KX944298.1,,,Tetranychidae,Tetranychidae,Oligonychus thelytokus,TET0082,Oligonychus thelytokus,exact,,India,1,1,488
 NCBI_KX681448.1,ncbi,KX681448.1,,,Tetranychidae,Tetranychidae,Oligonychus thelytokus,TET0082,Oligonychus thelytokus,exact,,India,1,1,358
 NCBI_MF459614.1,ncbi,MF459614.1,GACAC6475-19,,Tetranychidae,Tetranychidae,Tetranychus okinawanus,TET0125,Tetranychus gloveri,exact,,India,1,1,346

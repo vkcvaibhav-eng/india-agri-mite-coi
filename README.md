@@ -238,3 +238,10 @@ nr. or sp. are not matched.
 | `logs/coverage_summary.csv` | species with any COI and with Indian COI, per group |
 
 `data/checklist/open_items.csv` lists what is still open on the species list.
+
+`data/external/srinivasa2021_accessions.csv` holds the GenBank accession numbers read (by OCR) from the scanned
+tables of Srinivasa, Chinnamade Gowda, Rakesh & Khadri (2021), *Acarine Molecular Systematics - Indian perspective*
+(AINP on Agricultural Acarology, University of Agricultural Sciences, Bengaluru). Of the 91 COI accessions read, 90
+are in the download and already flagged as Indian; the other (KP993524, *T. urticae*) has no country in GenBank and is
+set as Indian through `data/checklist/india_record_overrides.csv`. The other 198 accessions in the scan are ITS2 or
+barcode-section entries outside the COI download.
