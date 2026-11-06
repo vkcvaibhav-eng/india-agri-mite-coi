@@ -162,7 +162,7 @@ the book's taxonomic citations, as Name|Author|Year).
 
 ## Additions since 2022 and name corrections
 
-`data/checklist/additions_2022_2026.csv` lists 55 names from papers read after the 2022 cut-off of Gupta & Mondal
+`data/checklist/additions_2022_2026.csv` lists 55 names from papers (plus three Karnataka 2025 rows repeated there to supply family and authority) read after the 2022 cut-off of Gupta & Mondal
 (2023): 31 Phytoseiidae, 16 Tarsonemidae and 8 Eriophyoidea, each with its source and, where found, DOI. Some 2022
 names turned out to be in the book as well; the build joins them. `name_corrections.csv` records eight spellings in
 the sources that differ from the published names. `unverified_names.csv` holds names seen only in pasted answers (none at present);
