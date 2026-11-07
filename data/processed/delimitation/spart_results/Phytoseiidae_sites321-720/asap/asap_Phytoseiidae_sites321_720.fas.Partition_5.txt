@@ -1,0 +1,49 @@
+Partition 5 
+Asap-Score: 7.000000
+Proba: 2.035928e-01
+Nb subsets with recursion:43 (without recursion: 29)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PP152335.1_IN_Euseius_nicholsi 
+Subset[ 2 ] n: 1 ;id: NCBI_PP147805.1_IN_Amblyseius_adhatodae 
+Subset[ 3 ] n: 1 ;id: NCBI_OP484770.1_IN_Typhlodromips_sp. 
+Subset[ 4 ] n: 1 ;id: NCBI_OL675200.1_IN_Amblyseius_coffeae 
+Subset[ 5 ] n: 1 ;id: NCBI_OK624431.1_IN_Paraphytoseius_orientalis 
+Subset[ 6 ] n: 1 ;id: NCBI_MF542356.1_IN_Neoseiulus_baraki 
+Subset[ 7 ] n: 1 ;id: BOLD_GNBAA707-25_IN_Proprioseiopsis 
+Subset[ 8 ] n: 3 ;id: BOLD_GNBAB1449-26_IN_ BOLD_GNKAA6854-25_IN_ BOLD_GNKAA33885-26_IN_ 
+Subset[ 9 ] n: 1 ;id: BOLD_GNKAA6592-25_IN_Proprioseiopsis 
+Subset[ 10 ] n: 1 ;id: BOLD_GNKAA6817-25_IN_Proprioseiopsis 
+Subset[ 11 ] n: 2 ;id: NCBI_KM999989.1_XX_Euseius_nicholsi BOLD_GBMTG4745-16_XX_Euseius_nicholsi 
+Subset[ 12 ] n: 1 ;id: NCBI_JQ864562.1_XX_Euseius_nicholsi 
+Subset[ 13 ] n: 1 ;id: NCBI_JQ864558.1_XX_Euseius_nicholsi 
+Subset[ 14 ] n: 2 ;id: NCBI_JQ864561.1_XX_Euseius_nicholsi NCBI_JQ864560.1_XX_Euseius_nicholsi 
+Subset[ 15 ] n: 1 ;id: NCBI_OR610850.1_XX_Euseius_nicholsi 
+Subset[ 16 ] n: 1 ;id: NCBI_OR610849.1_XX_Euseius_nicholsi 
+Subset[ 17 ] n: 1 ;id: NCBI_JQ864559.1_XX_Euseius_nicholsi 
+Subset[ 18 ] n: 3 ;id: NCBI_JQ864557.1_XX_Euseius_nicholsi NCBI_JQ864556.1_XX_Euseius_nicholsi NCBI_JQ864555.1_XX_Euseius_nicholsi 
+Subset[ 19 ] n: 1 ;id: NCBI_JQ864554.1_XX_Euseius_nicholsi 
+Subset[ 20 ] n: 1 ;id: NCBI_JQ864553.1_XX_Euseius_nicholsi 
+Subset[ 21 ] n: 1 ;id: NCBI_JQ864552.1_XX_Euseius_nicholsi 
+Subset[ 22 ] n: 1 ;id: NCBI_JQ864551.1_XX_Euseius_nicholsi 
+Subset[ 23 ] n: 1 ;id: NCBI_JQ864550.1_XX_Euseius_nicholsi 
+Subset[ 24 ] n: 1 ;id: NCBI_JQ864549.1_XX_Euseius_nicholsi 
+Subset[ 25 ] n: 1 ;id: NCBI_JQ864548.1_XX_Euseius_nicholsi 
+Subset[ 26 ] n: 1 ;id: NCBI_JQ864547.1_XX_Euseius_nicholsi 
+Subset[ 27 ] n: 1 ;id: NCBI_JQ864546.1_XX_Euseius_nicholsi 
+Subset[ 28 ] n: 1 ;id: NCBI_JQ864545.1_XX_Euseius_nicholsi 
+Subset[ 29 ] n: 1 ;id: NCBI_JQ864544.1_XX_Euseius_nicholsi 
+Subset[ 30 ] n: 2 ;id: NCBI_JQ864543.1_XX_Euseius_nicholsi NCBI_JQ864540.1_XX_Euseius_nicholsi 
+Subset[ 31 ] n: 1 ;id: NCBI_JQ864541.1_XX_Euseius_nicholsi 
+Subset[ 32 ] n: 1 ;id: NCBI_JQ864542.1_XX_Euseius_nicholsi 
+Subset[ 33 ] n: 1 ;id: NCBI_JQ864539.1_XX_Euseius_nicholsi 
+Subset[ 34 ] n: 1 ;id: NCBI_JQ864538.1_XX_Euseius_nicholsi 
+Subset[ 35 ] n: 1 ;id: NCBI_JQ864537.1_XX_Euseius_nicholsi 
+Subset[ 36 ] n: 2 ;id: NCBI_JQ864536.1_XX_Euseius_nicholsi NCBI_JQ864535.1_XX_Euseius_nicholsi 
+Subset[ 37 ] n: 1 ;id: NCBI_JQ864534.1_XX_Euseius_nicholsi 
+Subset[ 38 ] n: 1 ;id: NCBI_JQ864533.1_XX_Euseius_nicholsi 
+Subset[ 39 ] n: 2 ;id: NCBI_JQ864532.1_XX_Euseius_nicholsi NCBI_JQ864530.1_XX_Euseius_nicholsi 
+Subset[ 40 ] n: 1 ;id: NCBI_JQ864531.1_XX_Euseius_nicholsi 
+Subset[ 41 ] n: 2 ;id: NCBI_KU318197.1_XX_Euseius_ovalis NCBI_KU318198.1_XX_Euseius_ovalis 
+Subset[ 42 ] n: 1 ;id: BOLD_CIDTA17887-25_XX_Paraphytoseius_orientalis 
+Subset[ 43 ] n: 2 ;id: BOLD_GMPJA9256-21_XX_Paraphytoseius_orientalis BOLD_GMPJA3794-21_XX_Paraphytoseius_orientalis 

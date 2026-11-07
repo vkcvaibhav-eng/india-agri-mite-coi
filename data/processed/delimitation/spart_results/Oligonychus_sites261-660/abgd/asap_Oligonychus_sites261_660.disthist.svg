@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="765" height="565" >
+<g>
+<line x1="40" y1="40"  x2="40" y2="500" style=" stroke: black;"/>
+<line x1="40" y1="500"  x2="700" y2="500" style=" stroke: black;"/>
+<line x1="37" y1="453"  x2="40" y2="453" style=" stroke: black;"/>
+<text x="5" y="453" style="font-family: monospace; font-size: 10px;">7</text>
+<line x1="37" y1="407"  x2="40" y2="407" style=" stroke: black;"/>
+<text x="5" y="407" style="font-family: monospace; font-size: 10px;">15</text>
+<line x1="37" y1="361"  x2="40" y2="361" style=" stroke: black;"/>
+<text x="5" y="361" style="font-family: monospace; font-size: 10px;">23</text>
+<line x1="37" y1="315"  x2="40" y2="315" style=" stroke: black;"/>
+<text x="5" y="315" style="font-family: monospace; font-size: 10px;">30</text>
+<line x1="37" y1="269"  x2="40" y2="269" style=" stroke: black;"/>
+<text x="5" y="269" style="font-family: monospace; font-size: 10px;">38</text>
+<line x1="37" y1="223"  x2="40" y2="223" style=" stroke: black;"/>
+<text x="5" y="223" style="font-family: monospace; font-size: 10px;">46</text>
+<line x1="37" y1="177"  x2="40" y2="177" style=" stroke: black;"/>
+<text x="5" y="177" style="font-family: monospace; font-size: 10px;">53</text>
+<line x1="37" y1="131"  x2="40" y2="131" style=" stroke: black;"/>
+<text x="5" y="131" style="font-family: monospace; font-size: 10px;">61</text>
+<line x1="37" y1="85"  x2="40" y2="85" style=" stroke: black;"/>
+<text x="5" y="85" style="font-family: monospace; font-size: 10px;">69</text>
+<line x1="37" y1="39"  x2="40" y2="39" style=" stroke: black;"/>
+<text x="5" y="39" style="font-family: monospace; font-size: 10px;">77</text>
+<text x="5" y="15" style="font-family: monospace; font-size: 10px;">nbr</text>
+<rect x="40" y="249" width="33" height="250"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="40" y1="500"  x2="40" y2="505" style=" stroke: black;"/>
+<text x="40" y="505" transform="rotate(90,40,505)" style="font-family: monospace; font-size: 10px;">0.00</text>
+<rect x="73" y="314" width="33" height="185"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="73" y1="500"  x2="73" y2="505" style=" stroke: black;"/>
+<text x="73" y="505" transform="rotate(90,73,505)" style="font-family: monospace; font-size: 10px;">0.01</text>
+<rect x="106" y="500" width="33" height="0"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="106" y1="500"  x2="106" y2="505" style=" stroke: black;"/>
+<text x="106" y="505" transform="rotate(90,106,505)" style="font-family: monospace; font-size: 10px;">0.02</text>
+<rect x="139" y="500" width="33" height="0"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="139" y1="500"  x2="139" y2="505" style=" stroke: black;"/>
+<text x="139" y="505" transform="rotate(90,139,505)" style="font-family: monospace; font-size: 10px;">0.04</text>
+<rect x="172" y="452" width="33" height="47"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="172" y1="500"  x2="172" y2="505" style=" stroke: black;"/>
+<text x="172" y="505" transform="rotate(90,172,505)" style="font-family: monospace; font-size: 10px;">0.05</text>
+<rect x="205" y="446" width="33" height="53"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="205" y1="500"  x2="205" y2="505" style=" stroke: black;"/>
+<text x="205" y="505" transform="rotate(90,205,505)" style="font-family: monospace; font-size: 10px;">0.06</text>
+<rect x="238" y="488" width="33" height="11"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="238" y1="500"  x2="238" y2="505" style=" stroke: black;"/>
+<text x="238" y="505" transform="rotate(90,238,505)" style="font-family: monospace; font-size: 10px;">0.07</text>
+<rect x="271" y="500" width="33" height="0"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="271" y1="500"  x2="271" y2="505" style=" stroke: black;"/>
+<text x="271" y="505" transform="rotate(90,271,505)" style="font-family: monospace; font-size: 10px;">0.08</text>
+<rect x="304" y="500" width="33" height="0"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="304" y1="500"  x2="304" y2="505" style=" stroke: black;"/>
+<text x="304" y="505" transform="rotate(90,304,505)" style="font-family: monospace; font-size: 10px;">0.10</text>
+<rect x="337" y="500" width="33" height="0"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="337" y1="500"  x2="337" y2="505" style=" stroke: black;"/>
+<text x="337" y="505" transform="rotate(90,337,505)" style="font-family: monospace; font-size: 10px;">0.11</text>
+<rect x="370" y="476" width="33" height="23"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="370" y1="500"  x2="370" y2="505" style=" stroke: black;"/>
+<text x="370" y="505" transform="rotate(90,370,505)" style="font-family: monospace; font-size: 10px;">0.12</text>
+<rect x="403" y="398" width="33" height="101"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="403" y1="500"  x2="403" y2="505" style=" stroke: black;"/>
+<text x="403" y="505" transform="rotate(90,403,505)" style="font-family: monospace; font-size: 10px;">0.13</text>
+<rect x="436" y="362" width="33" height="137"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="436" y1="500"  x2="436" y2="505" style=" stroke: black;"/>
+<text x="436" y="505" transform="rotate(90,436,505)" style="font-family: monospace; font-size: 10px;">0.14</text>
+<rect x="469" y="314" width="33" height="185"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="469" y1="500"  x2="469" y2="505" style=" stroke: black;"/>
+<text x="469" y="505" transform="rotate(90,469,505)" style="font-family: monospace; font-size: 10px;">0.16</text>
+<rect x="502" y="338" width="33" height="161"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="502" y1="500"  x2="502" y2="505" style=" stroke: black;"/>
+<text x="502" y="505" transform="rotate(90,502,505)" style="font-family: monospace; font-size: 10px;">0.17</text>
+<rect x="535" y="39" width="33" height="460"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="535" y1="500"  x2="535" y2="505" style=" stroke: black;"/>
+<text x="535" y="505" transform="rotate(90,535,505)" style="font-family: monospace; font-size: 10px;">0.18</text>
+<rect x="568" y="93" width="33" height="406"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="568" y1="500"  x2="568" y2="505" style=" stroke: black;"/>
+<text x="568" y="505" transform="rotate(90,568,505)" style="font-family: monospace; font-size: 10px;">0.19</text>
+<rect x="601" y="267" width="33" height="232"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="601" y1="500"  x2="601" y2="505" style=" stroke: black;"/>
+<text x="601" y="505" transform="rotate(90,601,505)" style="font-family: monospace; font-size: 10px;">0.20</text>
+<rect x="634" y="356" width="33" height="143"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="634" y1="500"  x2="634" y2="505" style=" stroke: black;"/>
+<text x="634" y="505" transform="rotate(90,634,505)" style="font-family: monospace; font-size: 10px;">0.22</text>
+<rect x="667" y="482" width="33" height="17"  fill= "#EBE448"  style=" stroke: black;" />
+<line x1="667" y1="500"  x2="667" y2="505" style=" stroke: black;"/>
+<text x="667" y="505" transform="rotate(90,667,505)" style="font-family: monospace; font-size: 10px;">0.23</text>
+<text x="685" y="510" style="font-family: monospace; font-size: 10px;">Dist. value</text>
+</g>
+</svg>

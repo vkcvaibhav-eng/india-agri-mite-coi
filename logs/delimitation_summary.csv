@@ -1,0 +1,15 @@
+run,method,distance,samples,subsets,threshold,asap_score,asap_pvalue
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,29,8,0.093129,2.00,9.340659e-02
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,29,9,P=0.012915,,
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,21,11,0.031177,2.50,2.395210e-01
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,54,11,0.113943,1.00,4.375054e-03
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,54,11,P=0.012915,,
+Raoiella_sites111-510,ASAP,JC69_Jukes-Cantor,38,5,0.016522,2.00,2.275449e-01
+Raoiella_sites111-510,ABGD,JC69 Jukes-Cantor,38,5,P=0.012915,,
+Schizotetranychus_sites281-680,ASAP,JC69_Jukes-Cantor,13,3,0.126338,1.50,7.084317e-03
+Schizotetranychus_sites281-680,ABGD,JC69 Jukes-Cantor,13,5,P=0.012915,,
+Steneotarsonemus_sites251-650,ASAP,JC69_Jukes-Cantor,19,2,0.025561,2.00,3.213573e-01
+Steneotarsonemus_sites251-650,ABGD,JC69 Jukes-Cantor,19,1,P=0.012915: no usable partition,,
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,253,37,0.012621,2.00,1.164118e-02
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,253,31,P=0.012915,,
+Tetranychus_sites741-1140,ASAP,Simple_Dist,69,25,0.030058,2.50,2.774451e-01

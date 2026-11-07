@@ -1,0 +1,15 @@
+Partition 2 
+Asap-Score: 2.000000
+Proba: 1.477046e-01
+Nb subsets with recursion:9 (without recursion: 8)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 5 ;id: NCBI_PX419194.1_IN_Oligonychus_perseae NCBI_KF011470.1_XX_Oligonychus_perseae NCBI_KF011471.1_XX_Oligonychus_perseae NCBI_KF011472.1_XX_Oligonychus_perseae NCBI_KF011473.1_XX_Oligonychus_perseae 
+Subset[ 2 ] n: 2 ;id: NCBI_PX415460.1_IN_Oligonychus_oryzae NCBI_MW898015.1_IN_Oligonychus_grypus 
+Subset[ 3 ] n: 11 ;id: NCBI_OP704190.1_IN_Oligonychus_tylus NCBI_OP703592.1_IN_Oligonychus_tylus NCBI_OP615102.1_IN_Oligonychus_tylus NCBI_OP615070.1_IN_Oligonychus_tylus NCBI_MT506028.1_IN_Oligonychus_sp. NCBI_MT066161.1_IN_Oligonychus_tylus NCBI_PQ273722.1_XX_Oligonychus_indicus NCBI_OP623518.1_IN_Oligonychus_tylus NCBI_OP615200.1_IN_Oligonychus_tylus NCBI_MF320737.1_IN_Oligonychus_indicus NCBI_OP615093.1_IN_Oligonychus_tylus 
+Subset[ 4 ] n: 1 ;id: NCBI_MT477910.1_IN_Oligonychus_tylus 
+Subset[ 5 ] n: 6 ;id: NCBI_OP623496.1_IN_Oligonychus_biharensis NCBI_OP363224.1_IN_Oligonychus_biharensis NCBI_OP622877.1_IN_Oligonychus_biharensis BOLD_GMBDE3466-23_XX_Oligonychus_biharensis NCBI_MN327705.1_XX_Oligonychus_biharensis NCBI_PV162787.1_XX_Oligonychus_biharensis 
+Subset[ 6 ] n: 1 ;id: NCBI_MT472382.1_IN_Oligonychus_sp. 
+Subset[ 7 ] n: 1 ;id: NCBI_MT445766.1_IN_Oligonychus_indicus 
+Subset[ 8 ] n: 1 ;id: NCBI_MN255801.1_IN_Oligonychus_thelytokus 
+Subset[ 9 ] n: 1 ;id: NCBI_MH260569.1_IN_Oligonychus_sp. 

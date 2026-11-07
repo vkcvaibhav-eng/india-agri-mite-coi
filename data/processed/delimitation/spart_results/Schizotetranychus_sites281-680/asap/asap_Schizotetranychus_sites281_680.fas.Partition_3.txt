@@ -1,0 +1,11 @@
+Partition 3 
+Asap-Score: 3.000000
+Proba: 1.951033e-02
+Nb subsets with recursion:5 (without recursion: 4)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PV366943.1_IN_Schizotetranychus_mansoni 
+Subset[ 2 ] n: 8 ;id: NCBI_OP704127.1_IN_Schizotetranychus_krungthepensis NCBI_OP703654.1_IN_Schizotetranychus_krungthepensis NCBI_MT237188.1_IN_Schizotetranychus_krungthepensis NCBI_MT233403.1_IN_Schizotetranychus_krungthepensis NCBI_MH940222.1_IN_Schizotetranychus_krungthepensis NCBI_KX681450.1_IN_Schizotetranychus_krungthepensis NCBI_MT776315.1_IN_Schizotetranychus_krungthepensis NCBI_KX346706.1_IN_Schizotetranychus_krungthepensis 
+Subset[ 3 ] n: 1 ;id: NCBI_KX681449.1_IN_Schizotetranychus_krungthepensis 
+Subset[ 4 ] n: 2 ;id: NCBI_MN904505.1_IN_Schizotetranychus_andropogoni NCBI_MN181465.1_IN_Schizotetranychus_andropogoni 
+Subset[ 5 ] n: 1 ;id: NCBI_MF929081.1_IN_Schizotetranychus_andropogoni 

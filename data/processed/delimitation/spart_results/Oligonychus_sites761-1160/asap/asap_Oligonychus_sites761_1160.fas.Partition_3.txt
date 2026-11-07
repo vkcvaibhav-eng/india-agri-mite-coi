@@ -1,0 +1,16 @@
+Partition 3 
+Asap-Score: 4.000000
+Proba: 4.411178e-01
+Nb subsets with recursion:10 (without recursion: 9)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 4 ;id: NCBI_MZ496533.1_IN_Oligonychus_tylus NCBI_KU323485.1_IN_Oligonychus_tylus NCBI_PZ484972.1_XX_Oligonychus_tylus NCBI_MN337796.1_IN_Oligonychus_tylus 
+Subset[ 2 ] n: 1 ;id: NCBI_MH647654.1_IN_Oligonychus_tylus 
+Subset[ 3 ] n: 3 ;id: NCBI_MW791265.1_IN_Oligonychus_grypus NCBI_KY593991.1_IN_Oligonychus_oryzae NCBI_MW491838.1_XX_Oligonychus_grypus 
+Subset[ 4 ] n: 3 ;id: NCBI_MT821525.1_IN_Oligonychus_indicus NCBI_KC009700.1_IN_Oligonychus_indicus NCBI_KR870321.1_IN_Oligonychus_indicus 
+Subset[ 5 ] n: 1 ;id: NCBI_MT815743.1_IN_Oligonychus_thelytokus 
+Subset[ 6 ] n: 2 ;id: NCBI_MT492157.1_IN_Oligonychus_plegas NCBI_MG916906.1_IN_Oligonychus_sp. 
+Subset[ 7 ] n: 2 ;id: NCBI_KR870322.1_IN_Oligonychus_coffeae NCBI_KC009699.1_IN_Oligonychus_coffeae 
+Subset[ 8 ] n: 1 ;id: NCBI_KC283027.1_IN_Oligonychus_biharensis 
+Subset[ 9 ] n: 2 ;id: NCBI_AB683679.1_XX_Oligonychus_biharensis NCBI_AB683678.1_XX_Oligonychus_biharensis 
+Subset[ 10 ] n: 2 ;id: NCBI_AB683671.1_XX_Oligonychus_coffeae NCBI_AB683670.1_XX_Oligonychus_coffeae 

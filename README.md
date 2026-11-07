@@ -289,3 +289,20 @@ mitochondrial code (table 5), and sequences with no other sequence in their grou
 `data/processed/delimitation/asap_<genus>_sites<a>-<b>.fas`, one per genus and COI region: every sequence in a file covers at least 95% of the same 400-site window of the reference, so each pair shares sites, as ASAP and ABGD require (names carry `_IN_` for Indian and `_XX_` for other records), ready
 for the ASAP web server (https://bioinfo.mnhn.fr/abi/public/asap/; Puillandre, Brouillet & Achaz 2021, Molecular
 Ecology Resources 21:609-620). ASAP could not be compiled in the analysis environment.
+
+## Stage 5c: ASAP and ABGD results
+
+The `.fas` files from stage 5b were run on Spart Explorer (https://spartexplorer.mnhn.fr, MNHN) with ASAP and ABGD
+(split probability 0.001, 10 best scores, seed 1; ABGD X = 1.5, Pmin 0.001, Pmax 0.1, 10 steps, 20 bins). Seven runs
+used Jukes-Cantor (JC69) distances and one (*Tetranychus*, sites 741-1140) simple p-distances, as recorded in each
+Spart file. The downloaded results are in `data/processed/delimitation/spart_results/` (score plots left out).
+
+```
+python scripts/read_asap.py
+```
+
+reads the best-ranked ASAP partition and the recursive ABGD partition at prior P = 0.0129 for each run, and lists for
+every name how many subsets its sequences fall in and which other names share them
+(`data/processed/name_delimitation.csv`, `logs/delimitation_summary.csv`). For *Tetranychus* (sites 271-670) the
+best-ranked ASAP partition cuts at 1.3% and splits *T. urticae* into 12 subsets; the third-ranked partition (24
+subsets, 3.9%) should be reported alongside it.

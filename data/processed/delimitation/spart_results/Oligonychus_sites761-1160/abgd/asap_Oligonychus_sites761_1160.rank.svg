@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="745" height="545" >
+<g>
+<line x1="40" y1="40"  x2="40" y2="500" style=" stroke: black;"/>
+<line x1="40" y1="500"  x2="700" y2="500" style=" stroke: black;"/>
+<line x1="37" y1="454"  x2="40" y2="454" style=" stroke: black;"/>
+<text x="8" y="454" style="font-family: monospace; font-size: 10px;">0.02</text>
+<line x1="37" y1="408"  x2="40" y2="408" style=" stroke: black;"/>
+<text x="8" y="408" style="font-family: monospace; font-size: 10px;">0.04</text>
+<line x1="37" y1="362"  x2="40" y2="362" style=" stroke: black;"/>
+<text x="8" y="362" style="font-family: monospace; font-size: 10px;">0.06</text>
+<line x1="37" y1="316"  x2="40" y2="316" style=" stroke: black;"/>
+<text x="8" y="316" style="font-family: monospace; font-size: 10px;">0.08</text>
+<line x1="37" y1="270"  x2="40" y2="270" style=" stroke: black;"/>
+<text x="8" y="270" style="font-family: monospace; font-size: 10px;">0.10</text>
+<line x1="37" y1="224"  x2="40" y2="224" style=" stroke: black;"/>
+<text x="8" y="224" style="font-family: monospace; font-size: 10px;">0.12</text>
+<line x1="37" y1="178"  x2="40" y2="178" style=" stroke: black;"/>
+<text x="8" y="178" style="font-family: monospace; font-size: 10px;">0.14</text>
+<line x1="37" y1="132"  x2="40" y2="132" style=" stroke: black;"/>
+<text x="8" y="132" style="font-family: monospace; font-size: 10px;">0.15</text>
+<line x1="37" y1="86"  x2="40" y2="86" style=" stroke: black;"/>
+<text x="8" y="86" style="font-family: monospace; font-size: 10px;">0.17</text>
+<line x1="37" y1="40"  x2="40" y2="40" style=" stroke: black;"/>
+<text x="8" y="40" style="font-family: monospace; font-size: 10px;">0.19</text>
+<line x1="106" y1="500"  x2="106" y2="505" style=" stroke: black;"/>
+<text x="106" y="505" transform="rotate(90,106,505)" style="font-family: monospace; font-size: 10px;">21</text>
+<line x1="172" y1="500"  x2="172" y2="505" style=" stroke: black;"/>
+<text x="172" y="505" transform="rotate(90,172,505)" style="font-family: monospace; font-size: 10px;">42</text>
+<line x1="238" y1="500"  x2="238" y2="505" style=" stroke: black;"/>
+<text x="238" y="505" transform="rotate(90,238,505)" style="font-family: monospace; font-size: 10px;">63</text>
+<line x1="304" y1="500"  x2="304" y2="505" style=" stroke: black;"/>
+<text x="304" y="505" transform="rotate(90,304,505)" style="font-family: monospace; font-size: 10px;">84</text>
+<line x1="370" y1="500"  x2="370" y2="505" style=" stroke: black;"/>
+<text x="370" y="505" transform="rotate(90,370,505)" style="font-family: monospace; font-size: 10px;">105</text>
+<line x1="436" y1="500"  x2="436" y2="505" style=" stroke: black;"/>
+<text x="436" y="505" transform="rotate(90,436,505)" style="font-family: monospace; font-size: 10px;">126</text>
+<line x1="502" y1="500"  x2="502" y2="505" style=" stroke: black;"/>
+<text x="502" y="505" transform="rotate(90,502,505)" style="font-family: monospace; font-size: 10px;">147</text>
+<line x1="568" y1="500"  x2="568" y2="505" style=" stroke: black;"/>
+<text x="568" y="505" transform="rotate(90,568,505)" style="font-family: monospace; font-size: 10px;">168</text>
+<line x1="634" y1="500"  x2="634" y2="505" style=" stroke: black;"/>
+<text x="634" y="505" transform="rotate(90,634,505)" style="font-family: monospace; font-size: 10px;">189</text>
+<line x1="700" y1="500"  x2="700" y2="505" style=" stroke: black;"/>
+<text x="700" y="505" transform="rotate(90,700,505)" style="font-family: monospace; font-size: 10px;">210</text>
+<text x="705" y="490" style="font-family: monospace; font-size: 10px;">Rank</text>
+<text x="5" y="15" style="font-family: monospace; font-size: 10px;">Dist. value</text>
+<polyline style="stroke: #D82424; stroke-width:1;fill: none;"  points="40 500,43 500,46 500,49 500,52 500,55 493,58 493,61 481,65 481,68 475,71 437,74 437,77 430,80 426,83 425,87 425,90 346,93 346,96 346,99 295,102 292,105 292,109 292,112 292,115 290,118 286,121 279,124 279,127 279,131 267,134 249,137 249,140 245,143 238,146 238,149 237,153 237,156 237,159 237,162 231,165 230,168 230,171 220,175 220,178 215,181 215,184 215,187 213,190 213,193 213,197 209,200 209,203 208,206 208,209 208,212 208,215 208,219 208,222 208,225 206,228 201,231 201,234 201,237 201,241 199,244 199,247 194,250 194,253 194,256 194,259 194,263 194,266 194,269 194,272 194,275 194,278 192,281 186,285 186,288 186,291 186,294 186,297 179,300 179,303 179,307 179,310 179,313 179,316 179,319 179,322 177,325 172,329 172,332 172,335 172,338 172,341 172,344 170,347 170,351 170,354 170,357 169,360 169,363 164,366 164,369 164,373 164,376 164,379 164,382 163,385 162,388 161,391 157,395 157,398 157,401 157,404 157,407 157,410 157,413 157,417 157,420 157,423 154,426 154,429 152,432 152,435 150,439 150,442 150,445 150,448 150,451 150,454 150,457 150,461 150,464 150,467 145,470 145,473 142,476 142,479 135,483 135,486 133,489 133,492 129,495 127,498 127,501 127,505 127,508 127,511 127,514 127,517 120,520 120,523 118,527 117,530 114,533 112,536 112,539 112,542 112,545 112,549 112,552 112,555 110,558 104,561 104,564 104,567 104,571 104,574 104,577 99,580 99,583 98,586 98,589 97,593 97,596 97,599 97,602 97,605 97,608 91,611 91,615 91,618 89,621 89,624 89,627 89,630 89,633 86,637 86,640 86,643 83,646 83,649 81,652 81,655 81,659 81,662 74,665 67,668 67,671 67,674 66,677 66,681 62,684 60,687 54,690 54,693 54,696 39"/></g>
+</svg>

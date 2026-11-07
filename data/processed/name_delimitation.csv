@@ -1,0 +1,92 @@
+run,method,distance,partition,threshold,name,n_seq,n_india,n_subsets,subset_sizes,other_names_sharing,verdict
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus perseae,5,1,1,5,,"one subset, name alone"
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus thelytokus,1,1,1,1,,"one subset, name alone"
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus oryzae,1,1,1,1,Oligonychus grypus,"one subset, shared with other names"
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus grypus,1,1,1,1,Oligonychus oryzae,"one subset, shared with other names"
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus tylus,9,9,1,9,Oligonychus indicus,"one subset, shared with other names"
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus indicus,3,2,2,2;1,Oligonychus tylus,split and shared with other names
+Oligonychus_sites261-660,ASAP,JC69_Jukes-Cantor,rank 1 (8 subsets),0.093129,Oligonychus biharensis,6,3,1,6,,"one subset, name alone"
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus perseae,5,1,1,5,,"one subset, name alone"
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus oryzae,1,1,1,1,Oligonychus grypus,"one subset, shared with other names"
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus tylus,9,9,2,8;1,Oligonychus indicus,split and shared with other names
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus biharensis,6,3,1,6,,"one subset, name alone"
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus grypus,1,1,1,1,Oligonychus oryzae,"one subset, shared with other names"
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus indicus,3,2,2,2;1,Oligonychus tylus,split and shared with other names
+Oligonychus_sites261-660,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (9 subsets)",,Oligonychus thelytokus,1,1,1,1,,"one subset, name alone"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus tylus,5,4,2,4;1,,"split, no other names"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus grypus,2,1,1,2,Oligonychus oryzae,"one subset, shared with other names"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus oryzae,1,1,1,1,Oligonychus grypus,"one subset, shared with other names"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus plegas,1,1,1,1,,"one subset, name alone"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus biharensis,3,1,2,2;1,,"split, no other names"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus indicus,3,3,2,2;1,,"split, no other names"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus thelytokus,1,1,1,1,,"one subset, name alone"
+Oligonychus_sites761-1160,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.031177,Oligonychus coffeae,4,2,2,2;2,,"split, no other names"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Euseius nicholsi,38,1,2,37;1,,"split, no other names"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Amblyseius adhatodae,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Neoseiulus baraki,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Euseius ovalis,2,0,1,2,,"one subset, name alone"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Amblyseius coffeae,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ASAP,JC69_Jukes-Cantor,rank 1 (11 subsets),0.113943,Paraphytoseius orientalis,4,1,2,3;1,,"split, no other names"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Euseius nicholsi,38,1,2,37;1,,"split, no other names"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Amblyseius adhatodae,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Amblyseius coffeae,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Paraphytoseius orientalis,4,1,2,3;1,,"split, no other names"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Neoseiulus baraki,1,1,1,1,,"one subset, name alone"
+Phytoseiidae_sites321-720,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (11 subsets)",,Euseius ovalis,2,0,1,2,,"one subset, name alone"
+Raoiella_sites111-510,ASAP,JC69_Jukes-Cantor,rank 1 (5 subsets),0.016522,Raoiella indica,37,4,4,28;7;1;1,,"split, no other names"
+Raoiella_sites111-510,ASAP,JC69_Jukes-Cantor,rank 1 (5 subsets),0.016522,Raoiella macfarlanei,1,1,1,1,,"one subset, name alone"
+Raoiella_sites111-510,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (5 subsets)",,Raoiella indica,37,4,4,28;7;1;1,,"split, no other names"
+Raoiella_sites111-510,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (5 subsets)",,Raoiella macfarlanei,1,1,1,1,,"one subset, name alone"
+Schizotetranychus_sites281-680,ASAP,JC69_Jukes-Cantor,rank 1 (3 subsets),0.126338,Schizotetranychus mansoni,1,1,1,1,,"one subset, name alone"
+Schizotetranychus_sites281-680,ASAP,JC69_Jukes-Cantor,rank 1 (3 subsets),0.126338,Schizotetranychus krungthepensis,9,9,1,9,,"one subset, name alone"
+Schizotetranychus_sites281-680,ASAP,JC69_Jukes-Cantor,rank 1 (3 subsets),0.126338,Schizotetranychus andropogoni,3,3,1,3,,"one subset, name alone"
+Schizotetranychus_sites281-680,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (5 subsets)",,Schizotetranychus mansoni,1,1,1,1,,"one subset, name alone"
+Schizotetranychus_sites281-680,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (5 subsets)",,Schizotetranychus krungthepensis,9,9,2,8;1,,"split, no other names"
+Schizotetranychus_sites281-680,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (5 subsets)",,Schizotetranychus andropogoni,3,3,2,2;1,,"split, no other names"
+Steneotarsonemus_sites251-650,ASAP,JC69_Jukes-Cantor,rank 1 (2 subsets),0.025561,Steneotarsonemus spinki,19,2,2,18;1,,"split, no other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus truncatus,69,36,3,59;7;3,Tetranychus neocaledonicus | Tetranychus puschelii | Tetranychus udaipurensis,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus puschelii,4,3,2,3;1,Tetranychus truncatus,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus urticae,60,24,12,18;14;8;5;4;3;2;2;1;1;1;1,Tetranychus bambusae | Tetranychus kanzawai | Tetranychus turkestani,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus turkestani,19,2,5,11;3;3;1;1,Tetranychus urticae,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus kanzawai,14,5,2,7;7,Tetranychus bambusae | Tetranychus urticae,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus lombardinii,2,2,1,2,,"one subset, name alone"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus bambusae,1,0,1,1,Tetranychus kanzawai | Tetranychus urticae,"one subset, shared with other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus ludeni,38,2,2,22;16,,"split, no other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus piercei,3,1,3,1;1;1,,"split, no other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus udaipurensis,9,7,2,7;2,Tetranychus neocaledonicus | Tetranychus truncatus,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus neocaledonicus,11,1,3,8;2;1,Tetranychus truncatus | Tetranychus udaipurensis,split and shared with other names
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus gloveri,9,5,3,7;1;1,,"split, no other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus macfarlanei,7,6,2,4;3,,"split, no other names"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus marianae,2,1,1,2,,"one subset, name alone"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus fijiensis,3,3,1,3,,"one subset, name alone"
+Tetranychus_sites271-670,ASAP,JC69_Jukes-Cantor,rank 1 (37 subsets),0.012621,Tetranychus hirsutus,1,1,1,1,,"one subset, name alone"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus truncatus,69,36,2,66;3,Tetranychus neocaledonicus | Tetranychus puschelii | Tetranychus udaipurensis,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus puschelii,4,3,2,3;1,Tetranychus truncatus,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus piercei,3,1,3,1;1;1,,"split, no other names"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus urticae,60,24,8,27;16;5;5;3;2;1;1,Tetranychus bambusae | Tetranychus kanzawai | Tetranychus turkestani,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus macfarlanei,7,6,2,4;3,,"split, no other names"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus udaipurensis,9,7,2,7;2,Tetranychus neocaledonicus | Tetranychus truncatus,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus gloveri,9,5,3,7;1;1,,"split, no other names"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus ludeni,38,2,2,22;16,,"split, no other names"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus marianae,2,1,1,2,,"one subset, name alone"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus fijiensis,3,3,1,3,,"one subset, name alone"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus turkestani,19,2,5,11;3;3;1;1,Tetranychus urticae,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus lombardinii,2,2,1,2,,"one subset, name alone"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus hirsutus,1,1,1,1,,"one subset, name alone"
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus kanzawai,14,5,2,7;7,Tetranychus bambusae | Tetranychus urticae,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus neocaledonicus,11,1,2,9;2,Tetranychus truncatus | Tetranychus udaipurensis,split and shared with other names
+Tetranychus_sites271-670,ABGD,JC69 Jukes-Cantor,"recursive, P=0.012915 (31 subsets)",,Tetranychus bambusae,1,0,1,1,Tetranychus kanzawai | Tetranychus urticae,"one subset, shared with other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus urticae,7,7,3,5;1;1,Tetranychus turkestani,split and shared with other names
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus truncatus,4,1,1,4,,"one subset, name alone"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus turkestani,4,1,2,3;1,Tetranychus urticae,split and shared with other names
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus kanzawai,22,0,2,18;4,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus lombardinii,2,2,2,1;1,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus piercei,7,0,1,7,,"one subset, name alone"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus macfarlanei,4,2,3,2;1;1,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus gloveri,5,2,2,4;1,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus bambusae,1,1,1,1,,"one subset, name alone"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus ludeni,2,1,2,1;1,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus udaipurensis,3,3,1,3,,"one subset, name alone"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus neocaledonicus,4,1,2,3;1,,"split, no other names"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus puschelii,1,1,1,1,,"one subset, name alone"
+Tetranychus_sites741-1140,ASAP,Simple_Dist,rank 1 (25 subsets),0.030058,Tetranychus fijiensis,1,1,1,1,,"one subset, name alone"
