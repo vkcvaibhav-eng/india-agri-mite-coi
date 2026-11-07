@@ -306,3 +306,17 @@ every name how many subsets its sequences fall in and which other names share th
 (`data/processed/name_delimitation.csv`, `logs/delimitation_summary.csv`). For *Tetranychus* (sites 271-670) the
 best-ranked ASAP partition cuts at 1.3% and splits *T. urticae* into 12 subsets; the third-ranked partition (24
 subsets, 3.9%) should be reported alongside it.
+
+## Results for the paper
+
+```
+python scripts/suspect_names.py && python scripts/make_figures.py
+```
+
+| file | content |
+|---|---|
+| `results/tables/table1_coi_coverage.csv` | COI coverage of the checklist by group |
+| `results/tables/table2_best_close_match.csv` | best-close-match outcome of named Indian sequences by group |
+| `results/tables/table3_names_in_conflict_with_asap.csv` | sequences whose name differs from the majority name of their ASAP group |
+| `results/figures/fig1_coi_coverage.{png,tiff}` | Figure 1, coverage by group (300 dpi) |
+| `results/figures/fig2_best_close_match.{png,tiff}` | Figure 2, best close match by group (300 dpi) |
