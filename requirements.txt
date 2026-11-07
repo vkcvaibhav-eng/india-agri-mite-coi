@@ -1,1 +1,4 @@
-biopython>=1.83
+biopython==1.88
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2

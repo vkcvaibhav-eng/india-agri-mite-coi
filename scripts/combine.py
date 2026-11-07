@@ -14,7 +14,41 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import common  # noqa: E402
 
-EXTRA_FIELDS = ["also_in", "india_record", "dup_group", "is_representative"]
+EXTRA_FIELDS = ["also_in", "geo_status", "india_record", "dup_group", "is_representative", "group_localities"]
+
+from states import STATES  # noqa: E402
+
+INDIAN_STATES = {name.lower() for name in STATES} - {"punjab"}  # Punjab is also a province of Pakistan
+OVERRIDES = Path(__file__).resolve().parent.parent / "data" / "checklist" / "india_record_overrides.csv"
+
+
+NO_COUNTRY = {"unrecoverable", "missing", "not collected", "not applicable", "not provided", "unknown", "na", "n/a"}
+
+
+def geo_status(row, overrides):
+    """india, outside or unknown, from the country field first.
+
+    The word India must stand alone ("Kindia", Guinea, and "Indian Woods", Canada,
+    are not Indian). State or locality text is read only when the country is empty.
+    """
+    if bare(row.get("accession")) in overrides:
+        return "india"
+    country = (row.get("country") or "").strip().lower()
+    if country in NO_COUNTRY:
+        country = ""
+    if country:
+        return "india" if country == "india" else "outside"
+    text = " ".join([row.get("state_province", ""), row.get("locality", "")])
+    if re.search(r"\bIndia\b", text, re.IGNORECASE):
+        return "india"
+    if (row.get("state_province") or "").strip().lower() in INDIAN_STATES:
+        return "india"
+    return "unknown"
+
+
+def provenance_score(row):
+    return sum(bool(row.get(f)) for f in ("country", "state_province", "locality", "latitude",
+                                          "host", "collection_date", "specimen_voucher"))
 
 
 def read_fasta(path):
@@ -81,20 +115,34 @@ def main():
 
     print(f"{folded} BOLD records folded into their GenBank twin")
 
-    # flag identical sequences so stage 5 can collapse them without losing the count
+    # model transcripts (XM_, XR_) are predictions from genome assemblies, not sequenced COI
+    before = len(kept)
+    kept = [r for r in kept if not bare(r.get("accession")).startswith(("XM_", "XR_"))]
+    print(f"{before - len(kept)} predicted transcripts (XM_/XR_) removed")
+
+    overrides = set()
+    if OVERRIDES.exists():
+        with OVERRIDES.open(newline="", encoding="utf-8") as fh:
+            overrides = {bare(r["accession"]) for r in csv.DictReader(fh)}
+    for row in kept:
+        row["geo_status"] = geo_status(row, overrides)
+        row["india_record"] = "1" if row["geo_status"] == "india" else "0"
+
+    # identical sequence, same name and same geography: one representative, chosen as
+    # the member with the fullest collection data; India, outside India and unknown
+    # are never merged, so a record's provenance is not lost to a twin without it
     groups = {}
     for row in kept:
-        key = (row.get("sequence_md5") or "", (row.get("species_as_given") or "").lower())
+        key = (row.get("sequence_md5") or "", (row.get("species_as_given") or "").lower(), row["geo_status"])
         groups.setdefault(key, []).append(row)
     for n, (key, members) in enumerate(groups.items(), start=1):
+        members.sort(key=lambda r: -provenance_score(r))
+        places = sorted({" | ".join(x for x in (r.get("country", ""), r.get("state_province", ""),
+                                                 r.get("locality", "")) if x) for r in members} - {""})
         for i, row in enumerate(members):
             row["dup_group"] = f"G{n:06d}" if len(members) > 1 else ""
             row["is_representative"] = "1" if i == 0 else "0"
-
-    for row in kept:
-        text = " ".join([row.get("country", ""), row.get("state_province", ""),
-                         row.get("locality", "")]).lower()
-        row["india_record"] = "1" if "india" in text else "0"
+            row["group_localities"] = "; ".join(places)
 
     fields = common.METADATA_FIELDS + EXTRA_FIELDS
     out_csv = common.PROCESSED / "coi_metadata.csv"

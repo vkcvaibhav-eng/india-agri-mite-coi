@@ -86,10 +86,25 @@ def match(grp, name):
 
 
 recs = rows(os.path.join(PR, "coi_metadata.csv"))
-INDIA = {r["accession"] for r in rows(os.path.join(CK, "india_record_overrides.csv"))}
-for r in recs:
-    if r["accession"].split(".")[0] in INDIA:
-        r["india_record"] = "1"
+# geography (india / outside / unknown) and the Indian overrides are set in combine.py;
+# only representatives that pass validate_coi.py (placed on a COI reference, open
+# reading frame) are counted
+VALID = {r["record_id"]: r["coi_validated"] for r in rows(os.path.join(PR, "coi_validation.csv"))}
+
+
+SUBMITTER = {r["accession"]: r["institution"] for r in rows(os.path.join(PR, "submitters.csv"))}
+
+
+def series(r):
+    """Submission series: the submitting institution of a GenBank record (submitters.py),
+    else the BOLD project code."""
+    if r["accession"] and SUBMITTER.get(r["accession"]):
+        return "GB:" + SUBMITTER[r["accession"]]
+    if r["bold_processid"]:
+        return "BOLD:" + r["bold_processid"].split("-")[0][:-3]
+    return "GB:" + (r["reference_title"] + " | " + r["reference_journal"]).strip()
+
+
 out = []
 for r in recs:
     grp = GROUP_OF_FAMILY.get(r["family_as_given"], r["family_as_given"])
@@ -100,7 +115,9 @@ for r in recs:
                     family_as_given=r["family_as_given"], species_as_given=name,
                     species_id=sid, valid_name=species[sid]["species"] if sid else "",
                     match_basis=basis, points_to=points, country=r["country"],
-                    india_record=r["india_record"], is_representative=r["is_representative"],
+                    geo_status=r["geo_status"], india_record=r["india_record"],
+                    is_representative=r["is_representative"] if VALID.get(r["record_id"]) == "1" else "0",
+                    coi_validated=VALID.get(r["record_id"], ""), series=series(r),
                     seq_length=r["seq_length"]))
 
 with open(os.path.join(PR, "coi_matched.csv"), "w", newline="", encoding="utf-8") as f:

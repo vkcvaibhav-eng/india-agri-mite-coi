@@ -1,10 +1,13 @@
 """Paper 1 results: tables (CSV) and figures (PNG 300 dpi and TIFF).
 
-Table 1  COI coverage of the Indian checklist, by group
-Table 2  best-close-match outcome of named Indian COI sequences, by group
-Table 3  sequences whose name disagrees with their ASAP group (from suspect_names.csv)
-Figure 1 COI coverage by group (share of species with Indian COI, COI only from abroad, none)
-Figure 2 best-close-match outcome of named Indian COI sequences, by group
+table1_coi_coverage.csv                 Table 1  COI coverage of the Indian checklist, by group
+table2_name_agreement_sensitivity.csv   Table 2  same-name agreement by comparator pool and threshold
+table3_names.csv                        Table 3  per name borne by Indian sequences: agreement and ASAP groups
+table4_asap_abgd_partitions.csv         Table 4  ASAP and ABGD partitions of the eight files analysed
+table5_names_in_conflict_with_asap.csv  Table 5  sequences whose name differs from their ASAP group
+table_best_close_match_by_group.csv     counts behind Figure 1
+fig1_name_agreement.{png,tiff}          Figure 1 nearest-neighbour name agreement by group (all comparators, 3%)
+fig_coi_coverage.{png,tiff}             coverage by group (not in the manuscript; Table 1 holds the numbers)
 """
 import csv
 import os
@@ -40,6 +43,8 @@ def write(name, data):
 
 # ---- Table 1 / Figure 1 -------------------------------------------------------------
 cov = rows(os.path.join(PR, "coverage_by_species.csv"))
+OUTSIDE = Counter(m["species_id"] for m in rows(os.path.join(PR, "coi_matched.csv"))
+                  if m["species_id"] and m["is_representative"] == "1" and m["geo_status"] == "outside")
 t1 = []
 for g in GROUPS + ["All groups"]:
     cs = [c for c in cov if g == "All groups" or c["group"] == g]
@@ -50,7 +55,9 @@ for g in GROUPS + ["All groups"]:
                "Species with COI (any country)": anyc, "% with COI": f"{100 * anyc / n:.1f}",
                "Species with COI from India": ind, "% with Indian COI": f"{100 * ind / n:.1f}",
                "COI records (unique)": sum(int(c["n_coi"]) for c in cs),
-               "Indian COI records": sum(int(c["n_coi_india"]) for c in cs)})
+               "Indian COI records": sum(int(c["n_coi_india"]) for c in cs),
+               "Species with Indian COI and none documented from outside India":
+                   sum(int(c["n_coi_india"]) > 0 and OUTSIDE[c["species_id"]] == 0 for c in cs)})
 write("table1_coi_coverage.csv", t1)
 
 fig, ax = plt.subplots(figsize=(6.8, 2.9), dpi=300)
@@ -83,15 +90,15 @@ ax.legend(handles=[Patch(color=DARK, label="COI sequence from India"),
           loc="lower center", bbox_to_anchor=(0.45, 1.0), ncol=3, frameon=False, fontsize=8)
 fig.tight_layout()
 for ext in ("png", "tiff"):
-    fig.savefig(os.path.join(OUT_F, f"fig1_coi_coverage.{ext}"), dpi=300, facecolor=SURFACE,
+    fig.savefig(os.path.join(OUT_F, f"fig_coi_coverage.{ext}"), dpi=300, facecolor=SURFACE,
                 **({"pil_kwargs": {"compression": "tiff_lzw"}} if ext == "tiff" else {}))
 plt.close(fig)
 
 # ---- Table 2 / Figure 2 -------------------------------------------------------------
 cl = [x for x in rows(os.path.join(PR, "delimitation", "clusters.csv"))
       if x["india_record"] == "1" and x["match_basis"] not in ("no_species_name", "cf_or_aff")]
-CATS = [("correct", "Correct"), ("ambiguous", "Ambiguous"), ("incorrect", "Incorrect"),
-        ("no match within 3%", "No match within 3%")]
+CATS = [("same name", "Same-name match"), ("ambiguous", "Ambiguous"), ("different name", "Different-name match"),
+        ("no match", "No match within 3%")]
 by = defaultdict(Counter)
 names = defaultdict(set)
 for x in cl:
@@ -102,18 +109,19 @@ for g in [g for g in GROUPS if by[g]] + ["All groups"]:
     c = Counter() if g != "All groups" else sum(by.values(), Counter())
     if g != "All groups":
         c = by[g]
-    n = sum(c[k] for k, _ in CATS) + c["no overlapping sequence"]
+    n = sum(c[k] for k, _ in CATS) + c["no comparator"]
     row = {"Group": g, "Named Indian sequences": n,
            "Names": len(names[g]) if g != "All groups" else len(set().union(*names.values()))}
     for k, lab in CATS:
-        v = c[k] + (c["no overlapping sequence"] if k == "no match within 3%" else 0)
+        v = c[k] + (c["no comparator"] if k == "no match" else 0)
         row[lab] = v
         row[f"% {lab.lower()}"] = f"{100 * v / n:.1f}"
     t2.append(row)
-write("table2_best_close_match.csv", t2)
+write("table_best_close_match_by_group.csv", t2)
 
 fig, ax = plt.subplots(figsize=(6.8, 2.5), dpi=300)
-COL = {"Correct": "#2a78d6", "Ambiguous": "#eda100", "Incorrect": "#e34948", "No match within 3%": "#b9b8b3"}
+COL = {"Same-name match": "#2a78d6", "Ambiguous": "#eda100", "Different-name match": "#e34948",
+       "No match within 3%": "#b9b8b3"}
 gs = [r for r in t2 if r["Group"] != "All groups"][::-1]
 for i, r in enumerate(gs):
     left = 0
@@ -122,7 +130,7 @@ for i, r in enumerate(gs):
         ax.barh(i, v, left=left, color=COL[lab], height=0.62, edgecolor=SURFACE, linewidth=1)
         if v >= 3.5:
             ax.text(left + v / 2, i, f"{r[lab]}", ha="center", va="center", fontsize=7,
-                    color="#ffffff" if lab in ("Correct", "Incorrect") else INK)
+                    color="#ffffff" if lab in ("Same-name match", "Different-name match") else INK)
         left += v
     ax.text(101.5, i, f"n = {r['Named Indian sequences']}", va="center", fontsize=8, color=INK2)
 ax.set_yticks(range(len(gs)))
@@ -135,26 +143,100 @@ for s in ("top", "right", "left"):
     ax.spines[s].set_visible(False)
 ax.tick_params(axis="y", length=0)
 ax.legend(handles=[Patch(color=COL[lab], label=lab) for _, lab in CATS], loc="lower center",
-          bbox_to_anchor=(0.45, 1.0), ncol=4, frameon=False, fontsize=8)
+          bbox_to_anchor=(0.45, 1.0), ncol=4, frameon=False, fontsize=7.5)
 fig.tight_layout()
 for ext in ("png", "tiff"):
-    fig.savefig(os.path.join(OUT_F, f"fig2_best_close_match.{ext}"), dpi=300, facecolor=SURFACE,
+    fig.savefig(os.path.join(OUT_F, f"fig1_name_agreement.{ext}"), dpi=300, facecolor=SURFACE,
                 **({"pil_kwargs": {"compression": "tiff_lzw"}} if ext == "tiff" else {}))
 plt.close(fig)
 
-# ---- Table 3 ------------------------------------------------------------------------
+# ---- Table 2: sensitivity -----------------------------------------------------------
+POOLS = [("all", "All comparators"), ("holdout", "Comparators from other institutions"),
+         ("outside", "Comparators documented from outside India")]
+t2s = []
+for pool, plab in POOLS:
+    for t in (1, 2, 3, 4, 5):
+        c = Counter(x[f"bcm_{pool}_{t}"] for x in cl)
+        per = defaultdict(list)
+        for x in cl:
+            per[x["name"]].append(x[f"bcm_{pool}_{t}"] == "same name")
+        t2s.append({"Comparator pool": plab, "Threshold (%)": t, "Same-name match": c["same name"],
+                    "Ambiguous": c["ambiguous"], "Different-name match": c["different name"],
+                    "No match": c["no match"] + c["no comparator"],
+                    "% same-name (sequences)": f"{100 * c['same name'] / len(cl):.1f}",
+                    "% same-name (names weighted equally)": f"{100 * sum(sum(v) / len(v) for v in per.values()) / len(per):.1f}"})
+write("table2_name_agreement_sensitivity.csv", t2s)
+
+# ---- ASAP partitions used --------------------------------------------------------------
+import glob  # noqa: E402
+import re  # noqa: E402
+HERE = os.path.dirname(__file__)
+exec(open(os.path.join(HERE, "read_asap.py")).read().split("rows, summ = [], []")[0])
+RUNS = {"Tetranychus_sites271-670": 24, "Tetranychus_sites741-1140": 25, "Oligonychus_sites261-660": 8,
+        "Oligonychus_sites761-1160": 11, "Schizotetranychus_sites281-680": 3, "Raoiella_sites111-510": 5,
+        "Steneotarsonemus_sites251-650": 2, "Phytoseiidae_sites321-720": 11}
+UNNAMED = re.compile(r"\b(sp|cf|aff)\b")
+asap_of = defaultdict(list)    # name -> [(region, n groups, other names)]
+t4 = []
+for run, target in RUNS.items():
+    _, nsub, assign, dist = read_spart(glob.glob(os.path.join(RES, run, "asap", "*.fas.spart"))[0])
+    idx = nsub.index(target)
+    subs = defaultdict(list)
+    for smp, v in assign.items():
+        subs[v[idx]].append(name_of(smp)[0])
+    by_name = defaultdict(set)
+    for k, ns in subs.items():
+        for n in ns:
+            by_name[n].add(k)
+    for n, ks in by_name.items():
+        if UNNAMED.search(n):
+            continue
+        others = sorted({o for k in ks for o in subs[k] if o != n and not UNNAMED.search(o)})
+        asap_of[n].append((run.split("_")[-1].replace("sites", ""), len(ks), others))
+    ind = sum(name_of(smp)[1] for smp in assign)
+    summ_ = [r for r in rows(os.path.join(ROOT, "logs", "delimitation_summary.csv")) if r["run"] == run]
+    abgd = next((r for r in summ_ if r["method"] == "ABGD"), {})
+    asap1 = next((r for r in summ_ if r["method"] == "ASAP"), {})
+    t4.append({"File (reference sites)": run.replace("_sites", " (") + ")", "Sequences": len(assign),
+               "Indian": ind, "Distance": "p-distance" if "Simple" in dist else "Jukes-Cantor",
+               "ASAP groups, best-ranked (threshold)": f"{asap1.get('subsets', '')} ({100 * float(asap1.get('threshold') or 0):.1f}%)",
+               "ASAP groups used": target,
+               "ABGD groups at P = 0.0129": ("none returned" if not abgd or "no usable" in abgd.get("threshold", "")
+                                             else ("1 (no gap)" if abgd.get("subsets") == "1" else abgd["subsets"]))})
+write("table4_asap_abgd_partitions.csv", t4)
+
+# ---- Table 3: per name -----------------------------------------------------------------
+t3 = []
+for (g, n) in sorted({(x["group"], x["name"]) for x in cl}, key=lambda k: (GROUPS.index(k[0]), k[1])):
+    xs = [x for x in cl if x["name"] == n and x["group"] == g]
+    c = Counter(x["bcm_all_3"] for x in xs)
+    co = Counter(x["bcm_outside_3"] for x in xs)
+    ov = [float(x["min_dist_foreign_same_name"]) for x in xs if x["min_dist_foreign_same_name"]]
+    a = asap_of.get(n, [])
+    t3.append({"Group": g, "Name on Indian records": n, "Indian sequences": len(xs),
+               "With a same-name record documented outside India": len(ov),
+               "Least distance to that record (%)": f"{100 * min(ov):.1f}" if ov else "–",
+               "Same-name match": c["same name"], "Ambiguous": c["ambiguous"],
+               "Different-name match": c["different name"], "No match": c["no match"] + c["no comparator"],
+               "Same-name match, outside-India comparators only": co["same name"],
+               "ASAP groups (other names sharing them)": "; ".join(
+                   f"sites {r}: {k} group{'s' if k > 1 else ''}" + (f" with {', '.join(o)}" if o else "")
+                   for r, k, o in a) or "–"})
+write("table3_names.csv", t3)
+
+# ---- Table 5: conflicts with ASAP groups ------------------------------------------------
 sus = rows(os.path.join(PR, "suspect_names.csv"))
-seen, t3 = set(), []
-for s in sus:
-    k = s["accession"]
+seen, t5 = set(), []
+for s_ in sus:
+    k = s_["accession"]
     if k in seen:
         continue
     seen.add(k)
-    t3.append({"Accession": s["accession"], "Name on record": s["name_on_record"],
-               "ASAP group (majority name)": s["group_majority_name"], "Indian record": s["indian"],
-               "Country": s["country"], "Host": s["host"], "COI region (reference sites)": s["region"].split("_")[-1],
-               "ASAP partition": s["asap_partition"]})
-t3.sort(key=lambda r: (r["ASAP group (majority name)"], r["Indian record"] != "yes", r["Accession"]))
-write("table3_names_in_conflict_with_asap.csv", t3)
-print("tables:", os.listdir(OUT_T))
-print("figures:", os.listdir(OUT_F))
+    t5.append({"Accession": s_["accession"], "Name on record": s_["name_on_record"],
+               "ASAP group": s_["group_majority_name"], "Conflict": s_["conflict"],
+               "Origin": {"india": "India", "outside": s_["country"], "unknown": "not given"}[s_["geo_status"]],
+               "Host": s_["host"], "Reference sites": s_["region"].split("_")[-1].replace("sites", "")})
+t5.sort(key=lambda r: (r["Conflict"], r["ASAP group"], r["Origin"] != "India", r["Accession"]))
+write("table5_names_in_conflict_with_asap.csv", t5)
+print("tables:", sorted(os.listdir(OUT_T)))
+print("figures:", sorted(os.listdir(OUT_F)))

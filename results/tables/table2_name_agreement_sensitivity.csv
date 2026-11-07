@@ -1,0 +1,16 @@
+Comparator pool,Threshold (%),Same-name match,Ambiguous,Different-name match,No match,% same-name (sequences),% same-name (names weighted equally)
+All comparators,1,193,26,8,60,67.2,48.7
+All comparators,2,202,26,10,49,70.4,52.0
+All comparators,3,213,26,12,36,74.2,57.0
+All comparators,4,218,26,12,31,76.0,60.3
+All comparators,5,219,26,14,28,76.3,60.5
+Comparators from other institutions,1,129,20,12,126,44.9,28.1
+Comparators from other institutions,2,150,20,15,102,52.3,31.7
+Comparators from other institutions,3,160,20,17,90,55.7,36.5
+Comparators from other institutions,4,168,20,19,80,58.5,40.1
+Comparators from other institutions,5,174,20,22,71,60.6,41.3
+Comparators documented from outside India,1,100,0,7,180,34.8,20.3
+Comparators documented from outside India,2,113,0,8,166,39.4,22.9
+Comparators documented from outside India,3,120,0,9,158,41.8,27.0
+Comparators documented from outside India,4,123,0,9,155,42.9,28.0
+Comparators documented from outside India,5,126,0,12,149,43.9,29.4

@@ -94,7 +94,7 @@ for g in GROUPS:
             flags.append("far_from_all")
         c = clusters.get(rid, {})
         rows.append(dict(record_id=rid, accession=c.get("accession", ""), group=g, name=name.replace("_", " "),
-                         india_record=c.get("india_record", ""), sites=int(valid[k].sum()), stop_codons=stops,
+                         india_record=c.get("india_record", ""), geo_status=c.get("geo_status", ""), sites=int(valid[k].sum()), stop_codons=stops,
                          nearest_any=f"{nearest:.4f}" if np.isfinite(nearest) else "", flags=";".join(flags)))
         if not flags:
             keep[g][sid] = s
@@ -110,7 +110,9 @@ with open(os.path.join(D, "screen.csv"), "w", newline="") as f:
 # a second window is added for the part of COI the first one misses.
 WIN, COVER, STEP = 400, 0.95, 10
 summary = []
-for g, seqs in keep.items():
+import sys
+EXPORT = "--no-asap" not in sys.argv   # the archived ASAP inputs (and their Spart Explorer runs) are kept as they are
+for g, seqs in (keep.items() if EXPORT else []):
     by_genus = defaultdict(dict)
     for sid, s in seqs.items():
         by_genus[sid.split("|", 1)[1].split("_")[0]][sid] = s
@@ -150,7 +152,7 @@ for g, seqs in keep.items():
                 for kk, v in out.items():
                     f.write(f">{kk}\n{v}\n")
             summary.append((genus, region, len(out), sum("_IN_" in kk for kk in out)))
-for old in os.listdir(D):
+for old in (os.listdir(D) if EXPORT else []):
     if old.startswith("asap_") and old.endswith(".fasta"):
         os.remove(os.path.join(D, old))
 

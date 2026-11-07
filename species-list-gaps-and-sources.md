@@ -4,7 +4,7 @@ Updated: 6 November 2026 (Asia/Kolkata). Checklist snapshot: [a8a0c5e](https://g
 
 ## Current checklist
 
-The current [species list](data/checklist/species_list.csv) contains **1,217 counted species**, five historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
+The current [species list](data/checklist/species_list.csv) contains **1,223 counted species**, five historical-only rows excluded from the count, and no unverified rows. These are reproducible counts of the current file, not a claim that every taxonomic identity has been settled.
 
 | Group | Counted species | Missing authority | Missing year |
 | --- | --- | --- | --- |

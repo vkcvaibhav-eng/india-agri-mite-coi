@@ -35,9 +35,18 @@ def read_spart(path):
     return [l.strip() for l in labels], nsub, assign, dist
 
 
+# geography is read from coi_metadata.csv (geo_status), not from the IN/XX tag written into
+# the input file names, which used the earlier substring rule
+GEO = {r["record_id"].replace(".", "_"): r["geo_status"]
+       for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv"), encoding="utf-8"))}
+
+
 def name_of(sample):
     m = re.search(r"_(IN|XX)_(.*)$", sample)
-    return (m.group(2).replace("_", " "), m.group(1) == "IN") if m else (sample, False)
+    if not m:
+        return sample, False
+    rid = sample[:m.start()]
+    return m.group(2).replace("_", " "), GEO.get(rid) == "india"
 
 
 def compare(assign_one):

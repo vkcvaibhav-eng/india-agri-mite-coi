@@ -1,4 +1,4 @@
-"""Stage 5a: do the names on Indian COI records hold up?
+"""Stage 5a: do the names on Indian COI records agree with other records of the same name?
 
 Sequences are placed on one full-length COI reference per group (pairwise local
 alignment, both strands); those that do not map are listed in not_mapped.csv.
@@ -17,7 +17,7 @@ Writes data/processed/delimitation/<group>.fasta and _aligned.fasta,
 """
 import csv
 import os
-import subprocess
+from multiprocessing import Pool
 from collections import Counter, defaultdict
 
 import numpy as np
@@ -31,9 +31,11 @@ os.makedirs(OUT, exist_ok=True)
 MAX_FOREIGN = 40
 MIN_OVERLAP = 300
 THRESHOLDS = (0.03, 0.02)
+BCM_THRESHOLDS = (0.01, 0.02, 0.03, 0.04, 0.05)
+POOLS = ("all", "outside", "holdout")
 # one full-length COI per group; every sequence is placed on its coordinates (as BOLD does)
 REFERENCE = {"Tetranychidae": "NC_024679.1", "Phytoseiidae": "NC_069213.1", "Tarsonemidae": "KX790788.1",
-             "Eriophyoidea": "NC_029209.1", "Tenuipalpidae": "XM_074747291.1"}
+             "Eriophyoidea": "NC_029209.1", "Tenuipalpidae": "NC_024679.1"}   # no tenuipalpid mitogenome: Tetranychoidea reference
 MIN_MAPPED = 200      # sites placed on the reference
 MIN_IDENTITY = 0.60   # identity to the reference over the mapped sites
 ALIGNER = Align.PairwiseAligner(mode="local", match_score=2, mismatch_score=-1,
@@ -84,19 +86,29 @@ def label(r):
     return r["valid_name"] or r["species_as_given"]
 
 
-# open names (sequence-only Indian names) are compared with their foreign records too
+def genus(r):
+    return label(r).split()[0] if label(r) else ""
+
+
+def named(r):
+    return r["match_basis"] not in ("no_species_name", "cf_or_aff")
+
+
+# Indian records, and as comparators the records from outside India or of unknown origin
+# of every named species in each genus that has a named Indian record (not only the
+# names borne by Indian records, so that a congener the Indian name was confused with
+# can be found). Up to MAX_FOREIGN per name, spread over BINs and countries.
 india = [r for r in match if r["india_record"] == "1"]
-names_in_india = {label(r) for r in india if r["match_basis"] not in ("no_species_name", "cf_or_aff")}
+genera_in_india = {(r["group"], genus(r)) for r in india if named(r)}
 chosen = defaultdict(list)
 for r in india:
     chosen[r["group"]].append(r)
 foreign = defaultdict(list)
 for r in match:
-    if r["india_record"] != "1" and label(r) in names_in_india and r["match_basis"] != "no_species_name":
+    if r["india_record"] != "1" and named(r) and (r["group"], genus(r)) in genera_in_india:
         foreign[(r["group"], label(r))].append(r)
 for (g, n), rs in foreign.items():
-    # spread the sample over BINs and countries first, then by length
-    rs.sort(key=lambda r: (r["bold_bin"] == "", -int(r["seq_length"] or 0)))
+    rs.sort(key=lambda r: (r["geo_status"] != "outside", r["bold_bin"] == "", -int(r["seq_length"] or 0)))
     seen, pick = set(), []
     for r in rs:
         k = (r["bold_bin"], r["country"])
@@ -163,8 +175,9 @@ for g, rs in chosen.items():
     ref_id = next(k for k, v in meta.items() if v["accession"] == REFERENCE[g])
     ref = seqs[ref_id]
     aln, dropped = {}, []
-    for r in rs:
-        placed, n, ident = place(seqs[r["record_id"]], ref)
+    with Pool(os.cpu_count()) as pool:
+        placed_all = pool.starmap(place, [(seqs[r["record_id"]], ref) for r in rs], chunksize=20)
+    for r, (placed, n, ident) in zip(rs, placed_all):
         if n >= MIN_MAPPED and ident >= MIN_IDENTITY:
             aln[r["record_id"]] = placed
         else:
@@ -182,38 +195,51 @@ for g, rs in chosen.items():
         r = by[rid]
         same = [j for j in range(len(ids)) if label(by[ids[j]]) == label(r) and j != k and not np.isnan(d[k, j])]
         other = [j for j in range(len(ids)) if label(by[ids[j]]) != label(r) and not np.isnan(d[k, j])
-                 and by[ids[j]]["match_basis"] not in ("no_species_name", "cf_or_aff")]
+                 and named(by[ids[j]])]
         nn = min(other, key=lambda j: d[k, j]) if other else None
-        # best close match (Meier et al. 2006): the nearest named sequence(s) within 3%
-        named = [j for j in range(len(ids)) if j != k and not np.isnan(d[k, j])
-                 and by[ids[j]]["match_basis"] not in ("no_species_name", "cf_or_aff")]
-        if not named:
-            bcm = "no overlapping sequence"
-        else:
-            dmin = min(d[k, j] for j in named)
-            best = {label(by[ids[j]]) for j in named if d[k, j] <= dmin + 1e-9}
-            if dmin > 0.03:
-                bcm = "no match within 3%"
-            elif best == {label(r)}:
-                bcm = "correct"
-            elif label(r) in best:
-                bcm = "ambiguous"
-            else:
-                bcm = "incorrect"
-        fo_same = [j for j in same if by[ids[j]]["india_record"] != "1"]
+        # best close match (Meier et al. 2006), adapted: nearest named sequence(s) within a
+        # threshold; a tie between the same name and another name is "ambiguous"
+        bcm = {}
+        for pool in POOLS:
+            cand = [j for j in range(len(ids)) if j != k and not np.isnan(d[k, j]) and named(by[ids[j]])]
+            if pool == "outside":
+                cand = [j for j in cand if by[ids[j]]["geo_status"] == "outside"]
+            elif pool == "holdout":
+                cand = [j for j in cand if by[ids[j]]["series"] != r["series"]]
+            for t in BCM_THRESHOLDS:
+                if not cand:
+                    v = "no comparator"
+                else:
+                    dmin = min(d[k, j] for j in cand)
+                    best = {label(by[ids[j]]) for j in cand if d[k, j] <= dmin + 1e-9}
+                    if dmin > t + 1e-9:
+                        v = "no match"
+                    elif best == {label(r)}:
+                        v = "same name"
+                    elif label(r) in best:
+                        v = "ambiguous"
+                    else:
+                        v = "different name"
+                bcm[f"bcm_{pool}_{int(t * 100)}"] = v
+        fo_same = [j for j in same if by[ids[j]]["geo_status"] == "outside"]
+        un_same = [j for j in same if by[ids[j]]["geo_status"] == "unknown"]
         clrows.append(dict(record_id=rid, accession=r["accession"] or r["bold_processid"], group=g, name=label(r),
-                           match_basis=r["match_basis"], india_record=r["india_record"], country=r["country"],
+                           match_basis=r["match_basis"], india_record=r["india_record"], geo_status=r["geo_status"],
+                           country=r["country"], series=r["series"],
                            bold_bin=r["bold_bin"], length=len(seqs[rid]),
                            cluster_3pct=f"{g[:3]}{cl[0.03][k]}", cluster_2pct=f"{g[:3]}{cl[0.02][k]}",
-                           best_close_match=bcm,
+                           best_close_match=bcm["bcm_all_3"], **bcm,
                            n_foreign_same_name_overlapping=len(fo_same),
                            min_dist_foreign_same_name=f"{min(d[k, j] for j in fo_same):.4f}" if fo_same else "",
+                           n_unknown_same_name_overlapping=len(un_same),
+                           min_dist_unknown_same_name=f"{min(d[k, j] for j in un_same):.4f}" if un_same else "",
                            max_dist_same_name=f"{max(d[k, j] for j in same):.4f}" if same else "",
                            nearest_other_name=label(by[ids[nn]]) if nn is not None else "",
                            dist_nearest_other_name=f"{d[k, nn]:.4f}" if nn is not None else ""))
 
 with open(os.path.join(OUT, "not_mapped.csv"), "w", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=list(DROPPED[0]))
+    w = csv.DictWriter(f, fieldnames=["record_id", "accession", "group", "name", "india_record",
+                                      "sites_mapped", "identity_to_reference"])
     w.writeheader()
     w.writerows(DROPPED)
 print("not mapped:", len(DROPPED), "of which Indian:", sum(x["india_record"] == "1" for x in DROPPED))
@@ -229,7 +255,7 @@ for c in clrows:
 rel = []
 for (g, n) in sorted({(c["group"], c["name"]) for c in clrows if c["india_record"] == "1"}):
     ind = [c for c in clrows if c["name"] == n and c["group"] == g and c["india_record"] == "1"]
-    fo = [c for c in clrows if c["name"] == n and c["group"] == g and c["india_record"] != "1"]
+    fo = [c for c in clrows if c["name"] == n and c["group"] == g and c["geo_status"] == "outside"]
     unnamed = any(c["match_basis"] in ("no_species_name", "cf_or_aff") for c in ind)
     icl = Counter(c["cluster_3pct"] for c in ind)
     bc = Counter(c["best_close_match"] for c in ind)
@@ -237,7 +263,7 @@ for (g, n) in sorted({(c["group"], c["name"]) for c in clrows if c["india_record
     near_abroad = [c for c in ov if float(c["min_dist_foreign_same_name"]) <= 0.03]
     if unnamed:
         verdict = "no species name"
-    elif bc["incorrect"]:
+    elif bc["different name"]:
         verdict = "some Indian sequences closest to another name"
     elif not fo:
         verdict = "no foreign sequences of this name"
@@ -253,10 +279,10 @@ for (g, n) in sorted({(c["group"], c["name"]) for c in clrows if c["india_record
                     india_seqs_overlapping_foreign=len(ov),
                     min_dist_india_to_foreign=min((c["min_dist_foreign_same_name"] for c in ov), default=""),
                     max_dist_within_name=max((c["max_dist_same_name"] for c in ind if c["max_dist_same_name"]), default=""),
-                    bcm_correct=bc["correct"], bcm_ambiguous=bc["ambiguous"], bcm_incorrect=bc["incorrect"],
-                    bcm_no_match=bc["no match within 3%"] + bc["no overlapping sequence"],
+                    bcm_same_name=bc["same name"], bcm_ambiguous=bc["ambiguous"], bcm_different_name=bc["different name"],
+                    bcm_no_match=bc["no match"] + bc["no comparator"],
                     closest_other_names="; ".join(sorted({c["nearest_other_name"] for c in ind
-                                                          if c["best_close_match"] in ("incorrect", "ambiguous")})),
+                                                          if c["best_close_match"] in ("different name", "ambiguous")})),
                     nearest_other_name=min(ind, key=lambda c: float(c["dist_nearest_other_name"] or 9))["nearest_other_name"],
                     min_dist_to_other_name=min((c["dist_nearest_other_name"] for c in ind if c["dist_nearest_other_name"]), default=""),
                     india_clusters_3pct=len(icl), verdict=verdict))

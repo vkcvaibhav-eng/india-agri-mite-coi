@@ -201,11 +201,9 @@ list for the group, with the epithet spelling most sources agree on.
 | historical_only | 0 | only in Gupta (1985): a synonym, older combination or OCR-damaged name no newer source prints |
 | unverified | 0 | name seen only in pasted answers |
 
-Counted species at the current rebuild: Tetranychidae 142, Tenuipalpidae 114, Eriophyoidea 580 (Eriophyidae 513,
-Diptilomiopidae 65, Phytoptidae 2), Tarsonemidae 43, Tuckerellidae 4, Phytoseiidae 334; total 1,217.
-This is the current checklist denominator, pending the remaining nomenclatural checks. The six historical-only
-rows are not counted. See [species-list-gaps-and-sources.md](species-list-gaps-and-sources.md) for the current
-verification queue, 19 missing authorities, 63 missing years and source-file links.
+Counted species at the current rebuild: Tetranychidae 148, Tenuipalpidae 114, Eriophyoidea 581, Tarsonemidae 43,
+Tuckerellidae 4, Phytoseiidae 333; total 1,223. Five historical-only rows are not counted. See
+[species-list-gaps-and-sources.md](species-list-gaps-and-sources.md) for the verification queue.
 
 Columns worth knowing: `sources` (which lists hold the species), `other_names_in_sources` (spellings and
 combinations used by them), `joined_by`, and `flags`, among them `not_in_gupta_mondal_2023`,
@@ -218,105 +216,98 @@ cite, to its `species_id` (for matching COI record names in stage 3); `species_l
 is not an exact match and each join the rules refused; `species_list_summary.csv` gives the counts per group and
 per source. Species ids are reassigned when the list is rebuilt.
 
+## Regenerating the analysis
+
+Tested with Python 3.13.18, Biopython 1.88, NumPy 2.5.3, pandas 3.0.5 and Matplotlib 3.11.2 (`requirements.txt`).
+The GenBank and BOLD downloads of 3 November 2026 are in `data/raw/`; everything after them is rebuilt with
+
+```
+python scripts/fetch_ncbi.py --from-raw     # re-parse the saved GenBank files, no network
+python scripts/combine.py                   # merge GenBank and BOLD, geography, duplicates
+python scripts/build_species_list.py        # Indian checklist (stage 1)
+python scripts/validate_coi.py              # marker check of every representative
+python scripts/submitters.py                # submitting institution of each GenBank record
+python scripts/match_coi.py                 # names to checklist, coverage
+python scripts/delimit_coi.py && python scripts/screen_coi.py --no-asap && python scripts/delimit_coi.py
+python scripts/read_asap.py && python scripts/suspect_names.py
+python scripts/make_figures.py              # every table and figure in the manuscript
+```
+
+`screen_coi.py --no-asap` keeps the archived ASAP input files, which are the files run on Spart Explorer; without
+the flag it writes new ones.
+
+### Download accounting
+
+GenBank: the COI and mitogenome queries in `logs/download_log.csv` returned 12,638 records. After the marker rule
+below and the 250 bp minimum, 11,819 were kept. BOLD: 16,781 COI-5P records were read from the TSV files; 10,047
+were copies of GenBank records (same accession) and were folded into them, leaving 6,734. Two predicted transcripts
+(XM_) were removed, giving 18,551 records and 11,989 representatives. GenBank held no Tuckerellidae record; BOLD was
+not searched for that family.
+
+### Marker identity
+
+A GenBank record is used only through an annotated COI feature, or whole when it has no feature but its definition
+line names COI and no other locus. The search terms also return 18S, 28S and ITS2 records that only cite COI in the
+paper title; these are dropped (418 representatives in the first build). `validate_coi.py` then places every
+representative on a complete mitochondrial COI of its group and requires at least 200 placed sites, at least 60%
+identity and one stop-free reading frame under NCBI table 5 (`data/processed/coi_validation.csv`; 13 records fail).
+Tenuipalpidae, with no complete mitochondrial COI in GenBank, are placed on the Tetranychidae reference
+(*Tetranychus phaselus* NC_024679).
+
+### Geography and duplicates
+
+`combine.py` sets `geo_status` to india, outside or unknown from the country field; the word India must stand alone,
+so Kindia (Guinea) and Indian Woods (Ontario) are not Indian. State or locality text is read only when the country is
+empty, and `data/checklist/india_record_overrides.csv` holds records shown to be Indian by other sources (KP993524,
+Srinivasa et al. 2021). Identical sequences are collapsed only within the same name and the same geography, so an
+Indian record is never merged into a twin of unknown origin; the representative is the member with the fullest
+collection data, and `group_localities` keeps every member's locality.
+
 ## Stage 3: COI records matched to the species list
 
 ```
 python scripts/match_coi.py
 ```
 
-Matches every COI record in `data/processed/coi_metadata.csv` (snapshot of 3 November 2026) to the species list by
-genus and epithet, using every spelling, old combination and synonym in `species_list_names.csv`, plus
-`data/checklist/coi_name_map.csv` (archive names to map, for example *Tetranychus cinnabarinus* to *T. urticae*).
-Only representative records are counted, so a sequence in both GenBank and BOLD counts once. Names with cf., aff.,
-nr. or sp. are not matched.
+Matches every validated representative to the species list by genus and epithet, using every spelling, old
+combination and synonym in `species_list_names.csv`, plus `data/checklist/coi_name_map.csv` (*T. cinnabarinus* to
+*T. urticae*, *T. malaysiensis* to *T. macfarlanei*). Names with cf., aff., nr. or sp. are not matched.
 
 | file | content |
 |---|---|
-| `data/processed/coi_matched.csv` | every COI record with its species_id and how it was matched |
-| `data/processed/coverage_by_species.csv` | the counted species with numbers of COI records, Indian records, BINs and countries |
-| `data/processed/coi_names_not_in_list.csv` | archive names with no Indian species, most Indian records first |
+| `data/processed/coi_matched.csv` | every record with species_id, geography, validation and submission series |
+| `data/processed/coverage_by_species.csv` | counted species with numbers of COI records, Indian records, BINs and countries |
+| `data/processed/coi_names_not_in_list.csv` | archive names with no checklist species |
 | `logs/coverage_summary.csv` | species with any COI and with Indian COI, per group |
 
-`data/checklist/open_items.csv` lists what is still open on the species list.
+## Stage 5a: agreement between names
 
-`data/external/srinivasa2021_accessions.csv` holds the GenBank accession numbers read (by OCR) from the scanned
-tables of Srinivasa, Chinnamade Gowda, Rakesh & Khadri (2021), *Acarine Molecular Systematics - Indian perspective*
-(AINP on Agricultural Acarology, University of Agricultural Sciences, Bengaluru). Of the 91 COI accessions read, 90
-are in the download and already flagged as Indian; the other (KP993524, *T. urticae*) has no country in GenBank and is
-set as Indian through `data/checklist/india_record_overrides.csv`. The other 198 accessions in the scan are ITS2 or
-barcode-section entries outside the COI download.
+`delimit_coi.py` compares every Indian representative with records from outside India or of unknown origin of every
+named species in each genus that has a named Indian record (up to 40 per name, spread over BINs and countries), all
+placed on the group reference. Uncorrected p-distances are taken over at least 300 shared sites. Each named Indian
+sequence is scored by nearest-neighbour name agreement, adapted from the best close match of Meier et al. (2006):
+same-name match, ambiguous (a tie between the same and another name), different-name match, or no match, at
+thresholds of 1-5% and with three comparator pools: all records, records from other submitting institutions
+(`submitters.py`), and records documented from outside India (`bcm_<pool>_<threshold>` in `clusters.csv`).
 
-Six names on Indian COI records were not on the checklist. Two are settled: *Mononychellus mcgregori* has a published
-first Indian record (Dyamanagouda et al. 2024, Acarologia 64(3):879-890) and is added to the checklist, and
-*Tetranychus malaysiensis* is a junior synonym of *T. macfarlanei* (Zeity, Srinivasa & Gowda 2017, Systematic and
-Applied Acarology 22(4)) and is mapped to it in `coi_name_map.csv`. The other four (*T. piercei*, *Oligonychus perseae*,
-*Euseius nicholsi*, *Floracarus perrepae*) have Indian sequences but no published Indian record found yet; they are in
-`open_items.csv`.
+## Stages 5b and 5c: screening, ASAP and ABGD
 
-## Stage 5a: are the names on Indian COI records reliable?
-
-```
-python scripts/delimit_coi.py      # needs MAFFT only for older runs; now uses Biopython pairwise alignment
-```
-
-Every Indian COI record, plus up to 40 records of the same name from other countries (spread over BINs and
-countries), is placed on one full-length COI reference per group (*Tetranychus phaselus* NC_024679,
-*Neoseiulus californicus* NC_069213, *Acarapis woodi* KX790788, *Phyllocoptes taishanensis* NC_029209,
-*Brevipalpus obovatus* XM_074747291) by local pairwise alignment on both strands, as BOLD does. Sequences that place
-fewer than 200 sites or are under 60% identical to the reference are left out (`not_mapped.csv`). Uncorrected
-p-distances are taken over shared sites (at least 300). Each Indian sequence is then scored by best close match
-(Meier et al. 2006, Systematic Biology 55:715-728): correct, ambiguous, incorrect, or no match within 3%.
-
-| file | content |
-|---|---|
-| `data/processed/delimitation/clusters.csv` | each sequence: best close match, distance to the same name abroad, nearest other name, 2% and 3% single-linkage clusters |
-| `data/processed/name_reliability.csv` | each Indian name: best-close-match counts and a verdict |
-| `logs/name_reliability_summary.csv` | verdicts per group |
-
-Distances above about 25% between sequences of one name are too large for COI within a species and point to
-mislabelled records, numts or a different gene; they are listed for checking, not interpreted.
-
-## Stage 5b: screening and ASAP input
-
-```
-python scripts/delimit_coi.py && python scripts/screen_coi.py && python scripts/delimit_coi.py
-```
-
-`screen_coi.py` flags sequences whose six reading frames all contain a stop codon under the invertebrate
-mitochondrial code (table 5), and sequences with no other sequence in their group within 20%. Flagged sequences
-(`data/processed/delimitation/screen.csv`) are kept in the files but left out of the distances when
-`delimit_coi.py` is run again. Clean alignments are written as
-`data/processed/delimitation/asap_<genus>_sites<a>-<b>.fas`, one per genus and COI region: every sequence in a file covers at least 95% of the same 400-site window of the reference, so each pair shares sites, as ASAP and ABGD require (names carry `_IN_` for Indian and `_XX_` for other records), ready
-for the ASAP web server (https://bioinfo.mnhn.fr/abi/public/asap/; Puillandre, Brouillet & Achaz 2021, Molecular
-Ecology Resources 21:609-620). ASAP could not be compiled in the analysis environment.
-
-## Stage 5c: ASAP and ABGD results
-
-The `.fas` files from stage 5b were run on Spart Explorer (https://spartexplorer.mnhn.fr, MNHN) with ASAP and ABGD
-(split probability 0.001, 10 best scores, seed 1; ABGD X = 1.5, Pmin 0.001, Pmax 0.1, 10 steps, 20 bins). Seven runs
-used Jukes-Cantor (JC69) distances and one (*Tetranychus*, sites 741-1140) simple p-distances, as recorded in each
-Spart file. The downloaded results are in `data/processed/delimitation/spart_results/` (score plots left out).
-
-```
-python scripts/read_asap.py
-```
-
-reads the best-ranked ASAP partition and the recursive ABGD partition at prior P = 0.0129 for each run, and lists for
-every name how many subsets its sequences fall in and which other names share them
-(`data/processed/name_delimitation.csv`, `logs/delimitation_summary.csv`). For *Tetranychus* (sites 271-670) the
-best-ranked ASAP partition cuts at 1.3% and splits *T. urticae* into 12 subsets; the third-ranked partition (24
-subsets, 3.9%) should be reported alongside it.
+`screen_coi.py` flags sequences with no other sequence in their group within 20% or with stop codons in all six
+frames; flagged sequences are left out of the distances. The archived ASAP input files
+(`data/processed/delimitation/asap_*.fas`) were run on Spart Explorer (https://spartexplorer.mnhn.fr) with ASAP and
+ABGD; the results are in `spart_results/`. Fifteen files met the rules (every sequence covering 95% of one 400-site
+window; at least two Indian and six sequences in all); eight have been run. `read_asap.py` reads the partitions and
+takes geography from `coi_metadata.csv`, not from the `_IN_`/`_XX_` tags in the file names, which were written under
+the earlier substring rule. `suspect_names.py` lists sequences whose name differs from the majority name of their
+ASAP group and reports ties (two names equally represented) separately.
 
 ## Results for the paper
 
-```
-python scripts/suspect_names.py && python scripts/make_figures.py
-```
-
 | file | content |
 |---|---|
-| `results/tables/table1_coi_coverage.csv` | COI coverage of the checklist by group |
-| `results/tables/table2_best_close_match.csv` | best-close-match outcome of named Indian sequences by group |
-| `results/tables/table3_names_in_conflict_with_asap.csv` | sequences whose name differs from the majority name of their ASAP group |
-| `results/figures/fig1_coi_coverage.{png,tiff}` | Figure 1, coverage by group (300 dpi) |
-| `results/figures/fig2_best_close_match.{png,tiff}` | Figure 2, best close match by group (300 dpi) |
+| `results/tables/table1_coi_coverage.csv` | Table 1, coverage by group |
+| `results/tables/table2_name_agreement_sensitivity.csv` | Table 2, agreement by comparator pool and threshold |
+| `results/tables/table3_names.csv` | Table 3, each name borne by Indian sequences |
+| `results/tables/table4_asap_abgd_partitions.csv` | Table 4, ASAP and ABGD partitions |
+| `results/tables/table5_names_in_conflict_with_asap.csv` | Table 5, sequences in conflict with their ASAP group |
+| `results/figures/fig1_name_agreement.{png,tiff}` | Figure 1, name agreement by group (300 dpi) |

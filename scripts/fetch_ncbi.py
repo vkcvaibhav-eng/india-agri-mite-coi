@@ -11,6 +11,7 @@ Usage:
   python scripts/fetch_ncbi.py --email you@host --min-length 300
 """
 import argparse
+import re
 import sys
 import time
 import urllib.parse
@@ -106,6 +107,11 @@ def _q(feature, *names):
     return ""
 
 
+NON_COI_PATTERN = re.compile(
+    r"(rRNA|ribosomal|internal transcribed spacer|\bITS ?[12]?\b|\b(12|16|18|28)S\b|elongation factor)",
+    re.IGNORECASE)
+
+
 def extract_coi(record):
     """Return (sequence, how) for the COI part of a GenBank record."""
     best = None
@@ -126,7 +132,12 @@ def extract_coi(record):
                 best = seq
     if best:
         return best, "annotated_feature"
-    if len(record.seq) <= 3000:
+    # no COI feature: keep the whole record only when its definition names COI and no
+    # other locus (the search terms also return 18S, 28S and ITS2 records that merely
+    # mention COI in the title of the paper)
+    definition = record.description or ""
+    if (len(record.seq) <= 3000 and common.COI_PATTERN.search(definition)
+            and not NON_COI_PATTERN.search(definition)):
         return str(record.seq), "whole_record"
     return "", "no_coi_found"
 
@@ -202,6 +213,28 @@ def _parse_latlon(text):
         return "", ""
 
 
+def reparse_raw(args):
+    """Rebuild data/interim from the saved GenBank files (same parser, no network)."""
+    all_rows, all_seqs = [], {}
+    for fam in common.load_families(args.family):
+        for query_name in build_queries(fam["ncbi_taxon"]):
+            path = common.RAW / "ncbi" / f"{fam['key']}_{query_name}.gb"
+            if not path.exists():
+                continue
+            rows, seqs, dropped = parse_records(path.read_text(encoding="utf-8"), fam["ncbi_taxon"],
+                                                fam["ncbi_taxon"], query_name, args.min_length)
+            print(f"[{fam['key']}] {query_name}: kept {len(rows)}, dropped {len(dropped)}")
+            all_rows.extend(rows)
+            all_seqs.update(seqs)
+    unique = {}
+    for row in all_rows:
+        unique.setdefault(row["record_id"], row)
+    rows = list(unique.values())
+    common.write_metadata(common.INTERIM / "ncbi_metadata.csv", rows)
+    common.write_fasta(common.INTERIM / "ncbi_coi.fasta", rows, all_seqs)
+    print(f"{len(rows)} NCBI records written to data/interim/")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--family", nargs="*", help="family keys from config/families.json")
@@ -210,8 +243,12 @@ def main():
     ap.add_argument("--min-length", type=int, default=250,
                     help="drop sequences shorter than this (hard cleaning comes in stage 3)")
     ap.add_argument("--batch", type=int, default=150)
+    ap.add_argument("--from-raw", action="store_true",
+                    help="re-parse the GenBank files already saved in data/raw/ncbi without downloading")
     args = ap.parse_args()
 
+    if args.from_raw:
+        return reparse_raw(args)
     client = Entrez(args.email, common.env_api_key())
     if client.api_key:
         print("using NCBI_API_KEY from the environment")

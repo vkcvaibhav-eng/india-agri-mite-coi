@@ -1,0 +1,26 @@
+Accession,Name on record,ASAP group,Conflict,Origin,Host,Reference sites
+KY593991.1,Oligonychus oryzae,Oligonychus grypus,majority disagreement,India,Oryza sativa (rice),761-1160
+MF320737.1,Oligonychus indicus,Oligonychus tylus,majority disagreement,India,Musa sp.,261-660
+PQ273722.1,Oligonychus indicus,Oligonychus tylus,majority disagreement,not given,,261-660
+MK213561.1,Tetranychus urticae,Tetranychus kanzawai,majority disagreement,Philippines,,271-670
+NC_014399.1,Tetranychus urticae,Tetranychus kanzawai,majority disagreement,not given,,271-670
+PQ822241.1,Tetranychus bambusae,Tetranychus kanzawai,majority disagreement,not given,,271-670
+PQ616018.1,Tetranychus puschelii,Tetranychus truncatus,majority disagreement,not given,,271-670
+MN348791.1,Tetranychus urticae,Tetranychus turkestani,majority disagreement,Canada,,271-670
+MF774631.1,Tetranychus truncatus,Tetranychus udaipurensis,majority disagreement,India,Mulberry,271-670
+MF774636.1,Tetranychus truncatus,Tetranychus udaipurensis,majority disagreement,India,Okra,271-670
+MF774629.1,Tetranychus truncatus,Tetranychus udaipurensis,majority disagreement,not given,,271-670
+MZ268249.1,Tetranychus neocaledonicus,Tetranychus udaipurensis,majority disagreement,not given,,271-670
+MZ268250.1,Tetranychus neocaledonicus,Tetranychus udaipurensis,majority disagreement,not given,,271-670
+KF160881.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,India,Vitis vinifera,271-670
+MW940975.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,India,Lab culture-Mulberry,271-670
+AJ316600.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,France,Euphorbia sp.,271-670
+AJ316601.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,France,Fragaria sp.,271-670
+AJ316603.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,Poland,Convolvulus arvensis,271-670
+AJ414583.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,France,,271-670
+GQ141913.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,China,bean,741-1140
+OZ464892.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,not given,,271-670
+PX894970.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,Saudi Arabia,,741-1140
+PX894972.1,Tetranychus turkestani,Tetranychus urticae,majority disagreement,Saudi Arabia,,741-1140
+MW898015.1,Oligonychus grypus,tie: Oligonychus oryzae = Oligonychus grypus,tie,India,sorghum,261-660
+PX415460.1,Oligonychus oryzae,tie: Oligonychus oryzae = Oligonychus grypus,tie,India,rice,261-660

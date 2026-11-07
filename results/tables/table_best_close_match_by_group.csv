@@ -1,0 +1,7 @@
+Group,Named Indian sequences,Names,Same-name match,% same-name match,Ambiguous,% ambiguous,Different-name match,% different-name match,No match within 3%,% no match within 3%
+Tetranychidae,241,37,183,75.9,26,10.8,11,4.6,21,8.7
+Tenuipalpidae,8,3,6,75.0,0,0.0,0,0.0,2,25.0
+Eriophyoidea,14,9,9,64.3,0,0.0,0,0.0,5,35.7
+Tarsonemidae,13,2,12,92.3,0,0.0,0,0.0,1,7.7
+Phytoseiidae,11,7,3,27.3,0,0.0,1,9.1,7,63.6
+All groups,287,58,213,74.2,26,9.1,12,4.2,36,12.5
