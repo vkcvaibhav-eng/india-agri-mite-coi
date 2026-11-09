@@ -201,8 +201,11 @@ list for the group, with the epithet spelling most sources agree on.
 | historical_only | 0 | only in Gupta (1985): a synonym, older combination or OCR-damaged name no newer source prints |
 | unverified | 0 | name seen only in pasted answers |
 
-Counted species at the current rebuild: Tetranychidae 148, Tenuipalpidae 114, Eriophyoidea 581, Tarsonemidae 43,
-Tuckerellidae 4, Phytoseiidae 333; total 1,223. Five historical-only rows are not counted. See
+Counted species at the current rebuild: Tetranychidae 148, Tenuipalpidae 114, Eriophyoidea 580, Tarsonemidae 43,
+Tuckerellidae 4, Phytoseiidae 332; total 1,221. Five historical-only rows are not counted. *Amblyseiulella
+nicobarensis* is counted as *Paraphytoseius cracentis* (Prasad & Karmakar 2015), *A. multidentatus* is joined to
+*P. orientalis* (Matthysse & Denmark 1981), and *Eriophyes euphorbiae* Mohanasundaram of the Tamil Nadu list is joined
+to its replacement name *E. antiquorum* Amrine & Stasny (`authority_corrections.csv`, `duplicate_review.csv`). See
 [species-list-gaps-and-sources.md](species-list-gaps-and-sources.md) for the verification queue.
 
 Columns worth knowing: `sources` (which lists hold the species), `other_names_in_sources` (spellings and

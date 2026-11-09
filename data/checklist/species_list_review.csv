@@ -68,7 +68,7 @@ refused,spelling,0.86,Tenuipalpidae,TEN0106,Terminalichus dehlonensis,gm2023;mes
 refused,spelling,0.82,Tenuipalpidae,TEN0106,Terminalichus dehlonensis,gm2023;mesa2009;mitra2025,TEN0107,Terminalichus delhiensis / Terminalichus delhinensis,g1985;gm2023;mesa2009;mitra2025,"terminalichus dehlonensis ~ terminalichus delhinensis; gm2023, mesa2009, mitra2025 list both"
 joined,cited name (g1985),,Eriophyoidea,ERI0371,Phytoptus canthii,g1985,ERI0371,Eriophyes canthii,gm2023;tn2020,g1985 cites Eriophyes canthii under Phytoptus canthii
 joined,cited name (g1985),,Eriophyoidea,ERI0376,Phytoptus cyperi,g1985,ERI0376,Eriophyes cyperi,gm2023;tn2020,g1985 cites Eriophyes cyperi under Phytoptus cyperi
-joined,cited name (g1985),,Eriophyoidea,ERI0397,Phytoptus terminaliae,g1985,ERI0397,Eriophyes terminaliae,gm2023;mandal2026;som2025;tn2020,g1985 cites Eriophyes terminaliae under Phytoptus terminaliae
+joined,cited name (g1985),,Eriophyoidea,ERI0396,Phytoptus terminaliae,g1985,ERI0396,Eriophyes terminaliae,gm2023;mandal2026;som2025;tn2020,g1985 cites Eriophyes terminaliae under Phytoptus terminaliae
 joined,cited name (gm2023),,Eriophyoidea,ERI0130,Aceria cernuus,gm2023;mandal2026;tn2020,ERI0130,Eriophyes cernoos,g1985,gm2023 cites Eriophyes cernuus under Aceria cernuus
 joined,cited name (gm2023),,Eriophyoidea,ERI0140,Aceria cymbopogonis,gm2023;tn2020,ERI0140,Eriophyes cymbopogonis,g1985,gm2023 cites Eriophyes cymbopogonis under Aceria cymbopogonis
 joined,cited name (gm2023),,Eriophyoidea,ERI0100,Aceria indiensis,gm2023,ERI0100,Aceria acaicae,tn2020,gm2023 cites Aceria acaicae under Aceria indiensis
@@ -83,33 +83,33 @@ joined,cited name (gm2023),,Eriophyoidea,ERI0262,Aculus pittosporae,gm2023;tn202
 joined,cited name (gm2023),,Eriophyoidea,ERI0370,Eriophyes breyniae,gm2023;tn2020,ERI0370,Phytoptus breyniae,g1985,gm2023 cites Phytoptus breyniae under Eriophyes breyniae
 joined,cited name (gm2023),,Eriophyoidea,ERI0372,Eriophyes carissae,gm2023;tn2020,ERI0372,Phytoptus carissae,g1985,gm2023 cites Phytoptus carissae under Eriophyes carissae
 joined,cited name (gm2023),,Eriophyoidea,ERI0377,Eriophyes eletariae,gm2023;tn2020,ERI0377,Phytoptus eletariae,g1985,gm2023 cites Phytoptus eletariae under Eriophyes eletariae
-joined,cited name (gm2023),,Eriophyoidea,ERI0382,Eriophyes glycomisae / Eriophyes glycosmisae,gm2023;tn2020,ERI0382,Phytoptus aglycosmisae,g1985,gm2023 cites Phytoptus glycosmisae under Eriophyes glycosmisae
-joined,cited name (gm2023),,Eriophyoidea,ERI0384,Eriophyes karnatakaensis,gm2023;tn2020,ERI0384,Phytoptus karnatakaensis,g1985,gm2023 cites Phytoptus karnatakaensis under Eriophyes karnatakaensis
-joined,cited name (gm2023),,Eriophyoidea,ERI0386,Eriophyes lantanae,gm2023;karn2025;mandal2026;som2025;tn2020,ERI0386,Phytoptus lantanae,g1985,gm2023 cites Phytoptus lantanae under Eriophyes lantanae
-joined,cited name (gm2023),,Eriophyoidea,ERI0387,Eriophyes laurae,gm2023;tn2020,ERI0387,Phytoptus laurae,g1985,gm2023 cites Phytoptus laurae under Eriophyes laurae
-joined,cited name (gm2023),,Eriophyoidea,ERI0389,Eriophyes morindae,gm2023;karn2025;tn2020,ERI0389,Phytoptus morindae,g1985,gm2023 cites Phytoptus morindae under Eriophyes morindae
-joined,cited name (gm2023),,Eriophyoidea,ERI0393,Eriophyes rosae,gm2023;tn2020,ERI0393,Phytoptus rosae,g1985,gm2023 cites Phytoptus rosae under Eriophyes rosae
-joined,cited name (gm2023),,Eriophyoidea,ERI0486,Phyllocoptes epimeredi,gm2023,ERI0486,Phyllocoptes indicae,g1985;tn2020,gm2023 cites Phyllocoptes indicae under Phyllocoptes epimeredi
-joined,cited name (gm2023),,Eriophyoidea,ERI0492,Phyllocoptruta himalayana,gm2023;mandal2026,ERI0492,Paratetra bimalayana,g1985,gm2023 cites Paratetra himalayana under Phyllocoptruta himalayana
+joined,cited name (gm2023),,Eriophyoidea,ERI0381,Eriophyes glycomisae / Eriophyes glycosmisae,gm2023;tn2020,ERI0381,Phytoptus aglycosmisae,g1985,gm2023 cites Phytoptus glycosmisae under Eriophyes glycosmisae
+joined,cited name (gm2023),,Eriophyoidea,ERI0383,Eriophyes karnatakaensis,gm2023;tn2020,ERI0383,Phytoptus karnatakaensis,g1985,gm2023 cites Phytoptus karnatakaensis under Eriophyes karnatakaensis
+joined,cited name (gm2023),,Eriophyoidea,ERI0385,Eriophyes lantanae,gm2023;karn2025;mandal2026;som2025;tn2020,ERI0385,Phytoptus lantanae,g1985,gm2023 cites Phytoptus lantanae under Eriophyes lantanae
+joined,cited name (gm2023),,Eriophyoidea,ERI0386,Eriophyes laurae,gm2023;tn2020,ERI0386,Phytoptus laurae,g1985,gm2023 cites Phytoptus laurae under Eriophyes laurae
+joined,cited name (gm2023),,Eriophyoidea,ERI0388,Eriophyes morindae,gm2023;karn2025;tn2020,ERI0388,Phytoptus morindae,g1985,gm2023 cites Phytoptus morindae under Eriophyes morindae
+joined,cited name (gm2023),,Eriophyoidea,ERI0392,Eriophyes rosae,gm2023;tn2020,ERI0392,Phytoptus rosae,g1985,gm2023 cites Phytoptus rosae under Eriophyes rosae
+joined,cited name (gm2023),,Eriophyoidea,ERI0485,Phyllocoptes epimeredi,gm2023,ERI0485,Phyllocoptes indicae,g1985;tn2020,gm2023 cites Phyllocoptes indicae under Phyllocoptes epimeredi
+joined,cited name (gm2023),,Eriophyoidea,ERI0491,Phyllocoptruta himalayana,gm2023;mandal2026,ERI0491,Paratetra bimalayana,g1985,gm2023 cites Paratetra himalayana under Phyllocoptruta himalayana
 joined,cited name (gm2023),,Eriophyoidea,ERI0052,Pseudodiptacus litseae,gm2023,ERI0052,Levonga litseae,mandal2026,gm2023 cites Levonga litseae under Pseudodiptacus litseae
-joined,cited name (gm2023),,Eriophyoidea,ERI0513,Shevtchenkella cardiavagrans,gm2023;tn2020,ERI0513,Tegonotus cardiavagrans,g1985,gm2023 cites Tegonotus cardiavagrans under Shevtchenkella cardiavagrans
-joined,cited name (gm2023),,Eriophyoidea,ERI0514,Shevtchenkella coimbatorensis,gm2023;tn2020,ERI0514,Tegonotus coimbatorensis,g1985,gm2023 cites Tegonotus coimbatorensis under Shevtchenkella coimbatorensis
-joined,cited name (gm2023),,Eriophyoidea,ERI0516,Shevtchenkella parviflorae,gm2023;mandal2026;tn2020,ERI0516,Tegonotus parviflorae,g1985,gm2023 cites Tegonotus parviflorae under Shevtchenkella parviflorae
-joined,cited name (gm2023),,Eriophyoidea,ERI0524,Tegolophus dhodabettaensis,gm2023;tn2020,ERI0524,Vasates dhodabettaensis,g1985,gm2023 cites Vasates dhodabettaensis under Tegolophus dhodabettaensis
-joined,cited name (gm2023),,Eriophyoidea,ERI0578,Vasates odinae,gm2023;mandal2026;tn2020,ERI0578,Phyllocoptruta odinae,g1985,gm2023 cites Phyllocoptruta odinae under Vasates odinae
+joined,cited name (gm2023),,Eriophyoidea,ERI0512,Shevtchenkella cardiavagrans,gm2023;tn2020,ERI0512,Tegonotus cardiavagrans,g1985,gm2023 cites Tegonotus cardiavagrans under Shevtchenkella cardiavagrans
+joined,cited name (gm2023),,Eriophyoidea,ERI0513,Shevtchenkella coimbatorensis,gm2023;tn2020,ERI0513,Tegonotus coimbatorensis,g1985,gm2023 cites Tegonotus coimbatorensis under Shevtchenkella coimbatorensis
+joined,cited name (gm2023),,Eriophyoidea,ERI0515,Shevtchenkella parviflorae,gm2023;mandal2026;tn2020,ERI0515,Tegonotus parviflorae,g1985,gm2023 cites Tegonotus parviflorae under Shevtchenkella parviflorae
+joined,cited name (gm2023),,Eriophyoidea,ERI0523,Tegolophus dhodabettaensis,gm2023;tn2020,ERI0523,Vasates dhodabettaensis,g1985,gm2023 cites Vasates dhodabettaensis under Tegolophus dhodabettaensis
+joined,cited name (gm2023),,Eriophyoidea,ERI0577,Vasates odinae,gm2023;mandal2026;tn2020,ERI0577,Phyllocoptruta odinae,g1985,gm2023 cites Phyllocoptruta odinae under Vasates odinae
 joined,recombination,,Eriophyoidea,ERI0077,Abacarus mutica,mandal2026,ERI0077,Mesalox mutica,gm2023,Abacarus mutica Sur & Chakrabarti 2017 = Mesalox mutica Sur & Chakrabarti 2017
 joined,recombination,,Eriophyoidea,ERI0151,Aceria erythrensis,g1985;mandal2026,ERI0151,Eriophyes erythrensis,gm2023,Aceria erythrensis Chakrabarti & Ghosh 1981 = Eriophyes erythrensis Chakrabarti & Ghosh 1981
 joined,recombination,,Eriophyoidea,ERI0260,Aculus niphlocladae,gm2023,ERI0260,Aculops nipbocladae,g1985,Aculus niphlocladae (Keifer) 1966 = Aculops nipbocladae Keifer 1966
 joined,recombination,,Eriophyoidea,ERI0263,Aculus pseudostriae,mandal2026,ERI0263,Abacarus pseudostriae,gm2023;tn2020,Aculus pseudostriae Mohanasundaram 1984 = Abacarus pseudostriae Mohanasundaram 1984
 joined,recombination,,Eriophyoidea,ERI0006,Cathetacarus spontaneae,mandal2026,ERI0006,Catarhinus spontaneae,gm2023;tn2020,Cathetacarus spontaneae Mohanasundaram 1984 = Catarhinus spontaneae Mohanasundaram 1984
 joined,recombination,,Eriophyoidea,ERI0374,Eriophyes cheriani,g1985;gm2023,ERI0374,Aceria cheriani,tn2020,Eriophyes cheriani Massee 1933 = Aceria cheriani Massee 1933
-joined,recombination,,Eriophyoidea,ERI0381,Eriophyes ficivorus,gm2023;tn2020,ERI0381,Phytoptus ficivorus,g1985,Eriophyes ficivorus Channabasavanna 1966 = Phytoptus ficivorus (ChannaBasavanna) 1966
-joined,recombination,,Eriophyoidea,ERI0395,Eriophyes rubifolii,gm2023;mandal2026,ERI0395,Phytoptus rubifoliae,g1985,Eriophyes rubifolii Channabasavanna 1966 = Phytoptus rubifoliae (ChannaBasavanna) 
-joined,recombination,,Eriophyoidea,ERI0396,Eriophyes subbaroi,gm2023;tn2020,ERI0396,Phytoptus subbaraoi,g1985,Eriophyes subbaroi (Mohanasundaram) 1981 = Phytoptus subbaraoi Mohansundaram 1981
-joined,recombination,,Eriophyoidea,ERI0412,Indiaphyes ocimis,mandal2026,ERI0412,Bakeriella ocimis,g1985;gm2023,Indiaphyes ocimis Chakrabart & Mondal 1982 = Bakeriella ocimis Chakrabarti & Mondal 1982
+joined,recombination,,Eriophyoidea,ERI0380,Eriophyes ficivorus,gm2023;tn2020,ERI0380,Phytoptus ficivorus,g1985,Eriophyes ficivorus Channabasavanna 1966 = Phytoptus ficivorus (ChannaBasavanna) 1966
+joined,recombination,,Eriophyoidea,ERI0394,Eriophyes rubifolii,gm2023;mandal2026,ERI0394,Phytoptus rubifoliae,g1985,Eriophyes rubifolii Channabasavanna 1966 = Phytoptus rubifoliae (ChannaBasavanna) 
+joined,recombination,,Eriophyoidea,ERI0395,Eriophyes subbaroi,gm2023;tn2020,ERI0395,Phytoptus subbaraoi,g1985,Eriophyes subbaroi (Mohanasundaram) 1981 = Phytoptus subbaraoi Mohansundaram 1981
+joined,recombination,,Eriophyoidea,ERI0411,Indiaphyes ocimis,mandal2026,ERI0411,Bakeriella ocimis,g1985;gm2023,Indiaphyes ocimis Chakrabart & Mondal 1982 = Bakeriella ocimis Chakrabarti & Mondal 1982
 joined,recombination,,Eriophyoidea,ERI0051,Levonga combretis,gm2023;mandal2026,ERI0051,Neorhynacus combretis,g1985,Levonga combretis Ghosh & Chakrabarti 1982 = Neorhynacus combretis Ghosh & Chakrabarti 
-joined,recombination,,Eriophyoidea,ERI0478,Phaicus bambusae,mandal2026,ERI0478,Tegolophus bambusae,g1985;gm2023;som2025,Phaicus bambusae ChannaBasavanna 1966 = Tegolophus bambusae Channabasavanna 1966
-joined,recombination,,Eriophyoidea,ERI0575,Vareeboona fisus,mandal2026,ERI0575,Tegonotus fisus,gm2023,Vareeboona fisus Chakrabar & Sarkar 2011 = Tegonotus fisus Chakrabarti & Sarkar 2011
+joined,recombination,,Eriophyoidea,ERI0477,Phaicus bambusae,mandal2026,ERI0477,Tegolophus bambusae,g1985;gm2023;som2025,Phaicus bambusae ChannaBasavanna 1966 = Tegolophus bambusae Channabasavanna 1966
+joined,recombination,,Eriophyoidea,ERI0574,Vareeboona fisus,mandal2026,ERI0574,Tegonotus fisus,gm2023,Vareeboona fisus Chakrabar & Sarkar 2011 = Tegonotus fisus Chakrabarti & Sarkar 2011
 joined,recombination,,Eriophyoidea,ERI0064,Vimola artocarpae,mandal2026,ERI0064,Diptilomiopus artocarpae,g1985;gm2023;som2025;tn2020,Vimola artocarpae Mohanasundaram 1981 = Diptilomiopus artocarpae Mohanasundaram 1981
 joined,reviewed by hand,,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0201,Aceria sacchari,gm2023;tn2020,ERI0201,Aceria saccharini,g1985;gm2023,decided same species after checking the literature (duplicate_review.csv)
@@ -117,9 +117,10 @@ joined,reviewed by hand,,Eriophyoidea,ERI0253,Aculops leguminae,g1985;gm2023,ERI
 joined,reviewed by hand,,Eriophyoidea,ERI0266,Aculus shoreum,gm2023;mandal2026,ERI0266,Phyllocoptes shoreum,gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0368,Eriophyes alangii,g1985;tn2020,ERI0368,Phytoptus alangii,g1985,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0373,Eriophyes casoarinae / Eriophyes casuarinae,g1985;gm2023;tn2020,ERI0373,Phytoptus casuarinae,g1985,decided same species after checking the literature (duplicate_review.csv)
+joined,reviewed by hand,,Eriophyoidea,ERI0369,Eriophyes euphorbiae,tn2020,ERI0369,Eriophyes antiquorum,gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0201,Eriophyes saccharini,gm2023;tn2020,ERI0201,Aceria sacchari / Aceria saccharini,g1985;gm2023;tn2020,decided same species after checking the literature (duplicate_review.csv)
-joined,reviewed by hand,,Eriophyoidea,ERI0424,Mesalox odayarae,gm2023;tn2020,ERI0424,Phyllocoptruta odayarae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
-joined,reviewed by hand,,Eriophyoidea,ERI0531,Tegolophus mohanasundarami,gm2023,ERI0531,Tegolophus gmelinae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
+joined,reviewed by hand,,Eriophyoidea,ERI0423,Mesalox odayarae,gm2023;tn2020,ERI0423,Phyllocoptruta odayarae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
+joined,reviewed by hand,,Eriophyoidea,ERI0530,Tegolophus mohanasundarami,gm2023,ERI0530,Tegolophus gmelinae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
 joined,spelling,0.95,Eriophyoidea,ERI0066,Aaphyllisa parindiae,gm2023,ERI0066,Acaphyllisa parindiae,g1985;tn2020,aaphyllisa parindiae ~ acaphyllisa parindiae
 joined,spelling,0.94,Eriophyoidea,ERI0067,Abacarus arjunalis,g1985;gm2023;mandal2026,ERI0067,Abacus arjunalis,som2025,abacarus arjunalis ~ abacus arjunalis
 joined,spelling,0.95,Eriophyoidea,ERI0226,Abcarus anacardiae,karn2025,ERI0226,Abacarus anacardiae,g1985;tn2020,abcarus anacardiae ~ abacarus anacardiae
@@ -152,7 +153,7 @@ joined,spelling,0.99,Eriophyoidea,ERI0252,Aculus kumari,gm2023,ERI0252,Aculus ku
 joined,spelling,0.95,Eriophyoidea,ERI0255,Aculus mackenziei,gm2023,ERI0255,Aculus mekenziei,g1985,aculus mackenziei ~ aculus mckenziei
 joined,spelling,0.94,Eriophyoidea,ERI0259,Aculus moringae,gm2023,ERI0259,Aculus moringeae,g1985,aculus moringae ~ aculus moringeae
 joined,spelling,0.95,Eriophyoidea,ERI0265,Aculus sarcococcae,gm2023,ERI0265,Aculus sarococcae,tn2020,aculus sarcococcae ~ aculus sarococcae
-joined,spelling,0.95,Eriophyoidea,ERI0581,Anchiphytoptus gianticus,gm2023,ERI0581,Anchiphytoptus giganticus,g1985;tn2020,anchiphytoptus gianticus ~ anchiphytoptus giganticus
+joined,spelling,0.95,Eriophyoidea,ERI0580,Anchiphytoptus gianticus,gm2023,ERI0580,Anchiphytoptus giganticus,g1985;tn2020,anchiphytoptus gianticus ~ anchiphytoptus giganticus
 joined,spelling,0.95,Eriophyoidea,ERI0268,Anothopoda fici,mandal2026;tn2020,ERI0268,Anthopoda fici,g1985;gm2023;som2025,anothopoda fici ~ anthopoda fici
 joined,spelling,0.95,Eriophyoidea,ERI0278,Anthopoda deviarensis,g1985;gm2023,ERI0278,Anothopoda deviarensis,tn2020,anthopoda deviarensis ~ anothopoda deviarensis
 joined,spelling,0.95,Eriophyoidea,ERI0280,Anthopoda wightianae,g1985;gm2023,ERI0280,Anothopoda wightiana,tn2020,anthopoda wightianae ~ anothopoda wightiana
@@ -171,34 +172,34 @@ joined,spelling,0.86,Eriophyoidea,ERI0020,Diptilomiopus camarae,mandal2026,ERI00
 joined,spelling,0.99,Eriophyoidea,ERI0031,Diptilomiopus indogangetic,mandal2026,ERI0031,Diptilomiopus indogangeticus,gm2023,diptilomiopus indogangetic ~ diptilomiopus indogangeticus
 joined,spelling,0.91,Eriophyoidea,ERI0033,Diptilomiopus jevremovici,g1985;gm2023,ERI0033,Diptilomiopus javremovici,tn2020,diptilomiopus jevremovici ~ diptilomiopus javremovici
 joined,spelling,0.99,Eriophyoidea,ERI0350,Disella cuminis,gm2023;mandal2026,ERI0350,Disella cumini,som2025,disella cuminis ~ disella cumini
-joined,spelling,0.95,Eriophyoidea,ERI0382,Eriophyes glycosmisae,gm2023,ERI0382,Eriophyes glycomisae,tn2020,eriophyes glycosmisae ~ eriophyes glycomisae
+joined,spelling,0.95,Eriophyoidea,ERI0381,Eriophyes glycosmisae,gm2023,ERI0381,Eriophyes glycomisae,tn2020,eriophyes glycosmisae ~ eriophyes glycomisae
 joined,spelling,0.88,Eriophyoidea,ERI0047,Hyboderus globosus,gm2023,ERI0047,Hyboderus globulus,g1985,hyboderus globosus ~ hyboderus globulus
 joined,spelling,0.88,Eriophyoidea,ERI0047,Hyboderus globules,tn2020,ERI0047,Hyboderus globosus / Hyboderus globulus,g1985;gm2023,hyboderus globules ~ hyboderus globulus
-joined,spelling,0.95,Eriophyoidea,ERI0419,Keiferana neolitsieae,gm2023,ERI0419,Keiferana neolitseae,g1985,keiferana neolitsieae ~ keiferana neolitseae
-joined,spelling,0.92,Eriophyoidea,ERI0442,Neodicrothrix piprae,gm2023,ERI0442,Neodicrothrix piperae,tn2020,neodicrothrix piprae ~ neodicrothrix piperae
-joined,spelling,0.84,Eriophyoidea,ERI0450,Neotegonotus fastigans,gm2023,ERI0450,Neotegonotus fastigatus,g1985,neotegonotus fastigans ~ neotegonotus fastigatus
-joined,spelling,0.97,Eriophyoidea,ERI0468,Paraphytoptus crotalariphagus,gm2023,ERI0468,Paraphytoptus crotalariphagous,tn2020,paraphytoptus crotalariphagus ~ paraphytoptus crotalariphagous
-joined,spelling,0.99,Eriophyoidea,ERI0471,Paraphytoptus jujubae,gm2023;mandal2026;tn2020,ERI0471,Paraphytoptus jujube,som2025,paraphytoptus jujubae ~ paraphytoptus jujube
-joined,spelling,0.95,Eriophyoidea,ERI0471,Paraphytoptus jujubae / Paraphytoptus jujube,gm2023;mandal2026;som2025;tn2020,ERI0471,Paraphytophus jujube,som2025,paraphytoptus jujubae ~ paraphytophus jujube
-joined,spelling,0.94,Eriophyoidea,ERI0473,Paratetra albizziae,g1985;gm2023,ERI0473,Paratetra albiziae,tn2020,paratetra albizziae ~ paratetra albiziae
-joined,spelling,0.99,Eriophyoidea,ERI0481,Phyllocoptes aliyamagarens,mandal2026,ERI0481,Phyllocoptes aliyamagarensis,g1985;gm2023;tn2020,phyllocoptes aliyamagarens ~ phyllocoptes aliyamagarensis
-joined,spelling,0.88,Eriophyoidea,ERI0482,Phyllocoptes anisomelesis,mandal2026,ERI0482,Phyllocoptes anisomeliasis,gm2023,phyllocoptes anisomelesis ~ phyllocoptes anisomeliasis
-joined,spelling,0.92,Eriophyoidea,ERI0497,Porcupinotus acaciae,gm2023,ERI0497,Porcupinotus acaiae,tn2020,porcupinotus acaciae ~ porcupinotus acaiae
+joined,spelling,0.95,Eriophyoidea,ERI0418,Keiferana neolitsieae,gm2023,ERI0418,Keiferana neolitseae,g1985,keiferana neolitsieae ~ keiferana neolitseae
+joined,spelling,0.92,Eriophyoidea,ERI0441,Neodicrothrix piprae,gm2023,ERI0441,Neodicrothrix piperae,tn2020,neodicrothrix piprae ~ neodicrothrix piperae
+joined,spelling,0.84,Eriophyoidea,ERI0449,Neotegonotus fastigans,gm2023,ERI0449,Neotegonotus fastigatus,g1985,neotegonotus fastigans ~ neotegonotus fastigatus
+joined,spelling,0.97,Eriophyoidea,ERI0467,Paraphytoptus crotalariphagus,gm2023,ERI0467,Paraphytoptus crotalariphagous,tn2020,paraphytoptus crotalariphagus ~ paraphytoptus crotalariphagous
+joined,spelling,0.99,Eriophyoidea,ERI0470,Paraphytoptus jujubae,gm2023;mandal2026;tn2020,ERI0470,Paraphytoptus jujube,som2025,paraphytoptus jujubae ~ paraphytoptus jujube
+joined,spelling,0.95,Eriophyoidea,ERI0470,Paraphytoptus jujubae / Paraphytoptus jujube,gm2023;mandal2026;som2025;tn2020,ERI0470,Paraphytophus jujube,som2025,paraphytoptus jujubae ~ paraphytophus jujube
+joined,spelling,0.94,Eriophyoidea,ERI0472,Paratetra albizziae,g1985;gm2023,ERI0472,Paratetra albiziae,tn2020,paratetra albizziae ~ paratetra albiziae
+joined,spelling,0.99,Eriophyoidea,ERI0480,Phyllocoptes aliyamagarens,mandal2026,ERI0480,Phyllocoptes aliyamagarensis,g1985;gm2023;tn2020,phyllocoptes aliyamagarens ~ phyllocoptes aliyamagarensis
+joined,spelling,0.88,Eriophyoidea,ERI0481,Phyllocoptes anisomelesis,mandal2026,ERI0481,Phyllocoptes anisomeliasis,gm2023,phyllocoptes anisomelesis ~ phyllocoptes anisomeliasis
+joined,spelling,0.92,Eriophyoidea,ERI0496,Porcupinotus acaciae,gm2023,ERI0496,Porcupinotus acaiae,tn2020,porcupinotus acaciae ~ porcupinotus acaiae
 joined,spelling,0.99,Eriophyoidea,ERI0058,Prodiptilomiopus auriculat,mandal2026,ERI0058,Prodiptilomiopus auriculatae,gm2023;tn2020,prodiptilomiopus auriculat ~ prodiptilomiopus auriculatae
-joined,spelling,0.90,Eriophyoidea,ERI0505,Protumescoptes antidesmae,mandal2026,ERI0505,Protumescoptes antedesmae,gm2023,protumescoptes antidesmae ~ protumescoptes antedesmae
+joined,spelling,0.90,Eriophyoidea,ERI0504,Protumescoptes antidesmae,mandal2026,ERI0504,Protumescoptes antedesmae,gm2023,protumescoptes antidesmae ~ protumescoptes antedesmae
 joined,spelling,0.94,Eriophyoidea,ERI0059,Rhyncaphytoptus ficifoliae,g1985;gm2023;mandal2026,ERI0059,Rhynaphytophus ficifoliae,som2025,rhyncaphytoptus ficifoliae ~ rhynaphytophus ficifoliae
-joined,spelling,0.99,Eriophyoidea,ERI0530,Tegolophus kalyani,mandal2026,ERI0530,Tegolophus kalyanii,g1985;gm2023,tegolophus kalyani ~ tegolophus kalyanii
-joined,spelling,0.91,Eriophyoidea,ERI0534,Tegolophus parviflorii,mandal2026,ERI0534,Tegolophus perviflorii,gm2023,tegolophus parviflorii ~ tegolophus perviflorii
-joined,spelling,0.86,Eriophyoidea,ERI0536,Tegolophus spondiallus,g1985;gm2023;mandal2026,ERI0536,Tegolophus spondiasis,som2025,tegolophus spondiallus ~ tegolophus spondiasis
-joined,spelling,0.93,Eriophyoidea,ERI0550,Tergamplum callicarpi,mandal2026,ERI0550,Tergamplam calicarpi,gm2023,tergamplum callicarpi ~ tergamplam calicarpi
-joined,spelling,0.99,Eriophyoidea,ERI0555,Tetra bauhiniae,gm2023;karn2025,ERI0555,Tetra bauhinae,g1985,tetra bauhiniae ~ tetra bauhinae
-joined,synonym in newer source (gm2023),,Eriophyoidea,ERI0520,Tegolophus betonicae,gm2023;tn2020,ERI0520,Aculops betonicae,g1985;tn2020,gm2023 cites Aculops betonicae under Tegolophus betonicae; tn2020 list both
+joined,spelling,0.99,Eriophyoidea,ERI0529,Tegolophus kalyani,mandal2026,ERI0529,Tegolophus kalyanii,g1985;gm2023,tegolophus kalyani ~ tegolophus kalyanii
+joined,spelling,0.91,Eriophyoidea,ERI0533,Tegolophus parviflorii,mandal2026,ERI0533,Tegolophus perviflorii,gm2023,tegolophus parviflorii ~ tegolophus perviflorii
+joined,spelling,0.86,Eriophyoidea,ERI0535,Tegolophus spondiallus,g1985;gm2023;mandal2026,ERI0535,Tegolophus spondiasis,som2025,tegolophus spondiallus ~ tegolophus spondiasis
+joined,spelling,0.93,Eriophyoidea,ERI0549,Tergamplum callicarpi,mandal2026,ERI0549,Tergamplam calicarpi,gm2023,tergamplum callicarpi ~ tergamplam calicarpi
+joined,spelling,0.99,Eriophyoidea,ERI0554,Tetra bauhiniae,gm2023;karn2025,ERI0554,Tetra bauhinae,g1985,tetra bauhiniae ~ tetra bauhinae
+joined,synonym in newer source (gm2023),,Eriophyoidea,ERI0519,Tegolophus betonicae,gm2023;tn2020,ERI0519,Aculops betonicae,g1985;tn2020,gm2023 cites Aculops betonicae under Tegolophus betonicae; tn2020 list both
 kept apart,homonym,,Eriophyoidea,ERI0138,Aceria cordiae,gm2023;mandal2026,ERI0138,Aceria cordiae,g1985,Aceria cordiae Nalepa 1914 (mandal2026) vs Aceria cordiae ChannaBasavanna 1966 (g1985)
-kept apart,homonym,,Eriophyoidea,ERI0451,Neotegonotus fastigatus,gm2023;tn2020,ERI0450,Neotegonotus fastigatus,g1985,Neotegonotus fastigatus Keifer 1961 (gm2023) vs Neotegonotus fastigatus (Nalepa) 1890 (g1985)
-kept apart,reviewed by hand,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0478,Phaicus bambusae / Tegolophus bambusae,g1985;gm2023;mandal2026;som2025,decided different species after checking the literature (duplicate_review.csv)
-kept apart,reviewed by hand,,Eriophyoidea,ERI0369,Eriophyes antiquorum,gm2023,ERI0502,Proneotegonotus antiquorae,g1985;gm2023;tn2020,decided different species after checking the literature (duplicate_review.csv)
+kept apart,homonym,,Eriophyoidea,ERI0450,Neotegonotus fastigatus,gm2023;tn2020,ERI0449,Neotegonotus fastigatus,g1985,Neotegonotus fastigatus Keifer 1961 (gm2023) vs Neotegonotus fastigatus (Nalepa) 1890 (g1985)
+kept apart,reviewed by hand,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0477,Phaicus bambusae / Tegolophus bambusae,g1985;gm2023;mandal2026;som2025,decided different species after checking the literature (duplicate_review.csv)
+kept apart,reviewed by hand,,Eriophyoidea,ERI0369,Eriophyes antiquorum,gm2023,ERI0501,Proneotegonotus antiquorae,g1985;gm2023;tn2020,decided different species after checking the literature (duplicate_review.csv)
 kept apart,reviewed by hand,,Eriophyoidea,ERI0051,Levonga combretis / Neorhynacus combretis,g1985;gm2023;mandal2026,ERI0331,Colopodacus combretus,g1985;gm2023;mandal2026,decided different species after checking the literature (duplicate_review.csv)
-kept apart,reviewed by hand,,Eriophyoidea,ERI0531,Tegolophus gmelinae,g1985;tn2020,ERI0527,Tegolophus gmelinus,g1985;gm2023,decided different species after checking the literature (duplicate_review.csv)
+kept apart,reviewed by hand,,Eriophyoidea,ERI0530,Tegolophus gmelinae,g1985;tn2020,ERI0526,Tegolophus gmelinus,g1985;gm2023,decided different species after checking the literature (duplicate_review.csv)
 refused,cited name (g1985),,Eriophyoidea,ERI0368,Phytoptus alangii,g1985,ERI0368,Eriophyes alangii,g1985;tn2020,g1985 cites Eriophyes alangii under Phytoptus alangii; g1985 list both as species
 refused,cited name (g1985),,Eriophyoidea,ERI0373,Phytoptus casuarinae,g1985,ERI0373,Eriophyes casoarinae / Eriophyes casuarinae,g1985;gm2023;tn2020,g1985 cites Eriophyes casuarinae under Phytoptus casuarinae; g1985 list both as species
 refused,cited name (gm2023),,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,gm2023 cites Aceria ruelliae under Acalitus ruelliae; gm2023 list both as species
@@ -207,31 +208,31 @@ refused,cited name (gm2023),,Eriophyoidea,ERI0201,Aceria saccharini,g1985;gm2023
 refused,cited name (gm2023),,Eriophyoidea,ERI0253,Aculus leguminae,gm2023;tn2020,ERI0253,Aculops leguminae,g1985;gm2023,gm2023 cites Aculops leguminae under Aculus leguminae; gm2023 list both as species
 refused,recombination,,Eriophyoidea,ERI0079,Abacarus sacchari,g1985;gm2023;mandal2026;tn2020,ERI0201,Aceria sacchari,gm2023;tn2020,"Abacarus sacchari ChannaBasavanna 1966 = Aceria sacchari Channabasavanna 1966; gm2023, tn2020 list both"
 refused,recombination,,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,Acalitus ruelliae ChannaBasavanna 1966 = Aceria ruelliae Channabasavanna 1966; gm2023 list both
-refused,recombination,,Eriophyoidea,ERI0100,Aceria acaicae / Aceria indiensis,gm2023;tn2020,ERI0497,Porcupinotus acaciae / Porcupinotus acaiae,gm2023;tn2020,"Aceria indiensis (Mohanasundaram)  = Porcupinotus acaciae Mohanasundaram 1984; gm2023, tn2020 list both"
-refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0478,Phaicus bambusae,mandal2026,Aceria bambusae Channabasavanna 1966 = Phaicus bambusae ChannaBasavanna 1966; mandal2026 list both
-refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0478,Tegolophus bambusae,g1985;gm2023;som2025,"Aceria bambusae Channabasavanna 1966 = Tegolophus bambusae Channabasavanna 1966; g1985, gm2023 list both"
+refused,recombination,,Eriophyoidea,ERI0100,Aceria acaicae / Aceria indiensis,gm2023;tn2020,ERI0496,Porcupinotus acaciae / Porcupinotus acaiae,gm2023;tn2020,"Aceria indiensis (Mohanasundaram)  = Porcupinotus acaciae Mohanasundaram 1984; gm2023, tn2020 list both"
+refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0477,Phaicus bambusae,mandal2026,Aceria bambusae Channabasavanna 1966 = Phaicus bambusae ChannaBasavanna 1966; mandal2026 list both
+refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0477,Tegolophus bambusae,g1985;gm2023;som2025,"Aceria bambusae Channabasavanna 1966 = Tegolophus bambusae Channabasavanna 1966; g1985, gm2023 list both"
 refused,recombination,,Eriophyoidea,ERI0253,Aculops leguminae,g1985;gm2023,ERI0253,Aculus leguminae,gm2023;tn2020,Aculops leguminae Mohanasundaram 1982 = Aculus leguminae (Mohanasundaram) 1982; gm2023 list both
 refused,recombination,,Eriophyoidea,ERI0266,Aculus shoreum,gm2023;mandal2026,ERI0266,Phyllocoptes shoreum,gm2023,"Aculus shoreum Ghosh, Mondal & Chakrabarti 1986 = Phyllocoptes shoreum Ghosh, Mondal & Chakrabarti ; gm2023 list both"
 refused,recombination,,Eriophyoidea,ERI0331,Colopodacus combretus,g1985;gm2023;mandal2026,ERI0051,Levonga combretis,gm2023;mandal2026,"Colopodacus combretus Ghosh & Chakrabarti 1982 = Levonga combretis Ghosh & Chakrabarti 1982; gm2023, mandal2026 list both"
 refused,recombination,,Eriophyoidea,ERI0331,Colopodacus combretus,g1985;gm2023;mandal2026,ERI0051,Neorhynacus combretis,g1985,Colopodacus combretus Ghosh & Chakrabarti 1982 = Neorhynacus combretis Ghosh & Chakrabarti ; g1985 list both
 refused,recombination,,Eriophyoidea,ERI0337,Colopodacus walayarensis,g1985;gm2023;tn2020,ERI0277,Anthocoptes walayarensis,g1985;gm2023;tn2020,"Colopodacus walayarensis Mohanasundaram 1981 = Anthocoptes walayarensis Mohanasundaram 1981; g1985, gm2023, tn2020 list both"
-refused,recombination,,Eriophyoidea,ERI0360,Epicecidophyes indica,g1985;gm2023;mandal2026,ERI0452,Neotegonotus indicus,g1985;gm2023;mandal2026;som2025,"Epicecidophyes indica Mondal, Ghosh & Chakrabarti 1982 = Neotegonotus indicus Mondal & Chakrabarti 1982; g1985, gm2023, mandal2026 list both"
+refused,recombination,,Eriophyoidea,ERI0360,Epicecidophyes indica,g1985;gm2023;mandal2026,ERI0451,Neotegonotus indicus,g1985;gm2023;mandal2026;som2025,"Epicecidophyes indica Mondal, Ghosh & Chakrabarti 1982 = Neotegonotus indicus Mondal & Chakrabarti 1982; g1985, gm2023, mandal2026 list both"
 refused,recombination,,Eriophyoidea,ERI0368,Eriophyes alangii,g1985;tn2020,ERI0368,Phytoptus alangii,g1985,Eriophyes alangii Nalepa  = Phytoptus alangii (Nalepa) 1929; g1985 list both
-refused,recombination,,Eriophyoidea,ERI0369,Eriophyes antiquorum,gm2023,ERI0502,Proneotegonotus antiquorae,g1985;gm2023;tn2020,Eriophyes antiquorum (Mohanasundaram)  = Proneotegonotus antiquorae Mohanasundaram 1983; gm2023 list both
+refused,recombination,,Eriophyoidea,ERI0369,Eriophyes antiquorum,gm2023,ERI0501,Proneotegonotus antiquorae,g1985;gm2023;tn2020,Eriophyes antiquorum (Mohanasundaram)  = Proneotegonotus antiquorae Mohanasundaram 1983; gm2023 list both
 refused,recombination,,Eriophyoidea,ERI0373,Eriophyes casoarinae / Eriophyes casuarinae,g1985;gm2023;tn2020,ERI0373,Phytoptus casuarinae,g1985,Eriophyes casuarinae Channabasavanna 1966 = Phytoptus casuarinae (ChannaBasavanna) 1966; g1985 list both
-refused,recombination,,Eriophyoidea,ERI0375,Eriophyes coimbatoriensis,gm2023,ERI0559,Tetra coimbatorensis,gm2023,Eriophyes coimbatoriensis (Mohanasundaram) 1994 = Tetra coimbatorensis Mohanasundaram 1994; gm2023 list both
-refused,recombination,,Eriophyoidea,ERI0424,Mesalox odayarae,gm2023;tn2020,ERI0424,Phyllocoptruta odayarae,g1985;tn2020,Mesalox odayarae (Mohanasundaram) 1980 = Phyllocoptruta odayarae Mohansundaram ; tn2020 list both
+refused,recombination,,Eriophyoidea,ERI0375,Eriophyes coimbatoriensis,gm2023,ERI0558,Tetra coimbatorensis,gm2023,Eriophyes coimbatoriensis (Mohanasundaram) 1994 = Tetra coimbatorensis Mohanasundaram 1994; gm2023 list both
+refused,recombination,,Eriophyoidea,ERI0423,Mesalox odayarae,gm2023;tn2020,ERI0423,Phyllocoptruta odayarae,g1985;tn2020,Mesalox odayarae (Mohanasundaram) 1980 = Phyllocoptruta odayarae Mohansundaram ; tn2020 list both
 refused,spelling,0.82,Eriophyoidea,ERI0102,Aceria acanthae,gm2023;tn2020,ERI0106,Aceria ailanthae,gm2023;tn2020,"aceria acanthae ~ aceria ailanthae; gm2023, tn2020 list both"
 refused,spelling,0.80,Eriophyoidea,ERI0142,Aceria dalbergiae,g1985;gm2023;tn2020,ERI0220,Aceria waltheriae,gm2023;tn2020,"aceria dalbergiae ~ aceria waltheriae; gm2023, tn2020 list both"
 refused,spelling,0.84,Eriophyoidea,ERI0100,Aceria indiensis,gm2023,ERI0189,Aceria nandiensis,g1985;gm2023,aceria indiensis ~ aceria nandiensis; gm2023 list both
 refused,spelling,0.89,Eriophyoidea,ERI0201,Aceria sacchari,gm2023;tn2020,ERI0201,Aceria saccharini,g1985;gm2023,aceria sacchari ~ aceria saccharini; gm2023 list both
-refused,spelling,0.99,Eriophyoidea,ERI0451,Neotegonotus fastigatus,gm2023;tn2020,ERI0450,Neotegonotus fastigatus,g1985,neotegonotus fastigatus ~ neotegonotus fastigatus; authors differ (keifer vs nalepa)
-refused,spelling,0.84,Eriophyoidea,ERI0451,Neotegonotus fastigatus,gm2023;tn2020,ERI0450,Neotegonotus fastigans,gm2023,neotegonotus fastigatus ~ neotegonotus fastigans; gm2023 list both
-refused,spelling,0.94,Eriophyoidea,ERI0464,Paraphytoptus alangiae,gm2023;tn2020,ERI0368,Phytoptus alangii,g1985,paraphytoptus alangiae ~ phytoptus alangii; authors differ (mohanasundaram vs nalepa)
-refused,spelling,0.94,Eriophyoidea,ERI0464,Paraphytoptus alangiae,gm2023;tn2020,ERI0368,Phytoptus alangii,g1985,paraphytoptus alangiae ~ phytoptus alangii; authors differ (mohanasundaram vs nalepa)
-refused,spelling,0.84,Eriophyoidea,ERI0476,Paratetra murrayacola,add2026,ERI0477,Paratetra murrayae,g1985;gm2023;mandal2026;som2025,paratetra murrayacola ~ paratetra murrayae; authors differ (sarkar vs channabasavanna)
-refused,spelling,0.84,Eriophyoidea,ERI0476,Paratetra murrayacola,add2026,ERI0477,Paratetra murrayae,g1985;gm2023;mandal2026;som2025,paratetra murrayacola ~ paratetra murrayae; authors differ (sarkar vs channabasavanna)
-refused,spelling,0.99,Eriophyoidea,ERI0527,Tegolophus gmelinus,g1985;gm2023,ERI0531,Tegolophus gmelinae,g1985;tn2020,tegolophus gmelinus ~ tegolophus gmelinae; g1985 list both
+refused,spelling,0.99,Eriophyoidea,ERI0450,Neotegonotus fastigatus,gm2023;tn2020,ERI0449,Neotegonotus fastigatus,g1985,neotegonotus fastigatus ~ neotegonotus fastigatus; authors differ (keifer vs nalepa)
+refused,spelling,0.84,Eriophyoidea,ERI0450,Neotegonotus fastigatus,gm2023;tn2020,ERI0449,Neotegonotus fastigans,gm2023,neotegonotus fastigatus ~ neotegonotus fastigans; gm2023 list both
+refused,spelling,0.94,Eriophyoidea,ERI0463,Paraphytoptus alangiae,gm2023;tn2020,ERI0368,Phytoptus alangii,g1985,paraphytoptus alangiae ~ phytoptus alangii; authors differ (mohanasundaram vs nalepa)
+refused,spelling,0.94,Eriophyoidea,ERI0463,Paraphytoptus alangiae,gm2023;tn2020,ERI0368,Phytoptus alangii,g1985,paraphytoptus alangiae ~ phytoptus alangii; authors differ (mohanasundaram vs nalepa)
+refused,spelling,0.84,Eriophyoidea,ERI0475,Paratetra murrayacola,add2026,ERI0476,Paratetra murrayae,g1985;gm2023;mandal2026;som2025,paratetra murrayacola ~ paratetra murrayae; authors differ (sarkar vs channabasavanna)
+refused,spelling,0.84,Eriophyoidea,ERI0475,Paratetra murrayacola,add2026,ERI0476,Paratetra murrayae,g1985;gm2023;mandal2026;som2025,paratetra murrayacola ~ paratetra murrayae; authors differ (sarkar vs channabasavanna)
+refused,spelling,0.99,Eriophyoidea,ERI0526,Tegolophus gmelinus,g1985;gm2023,ERI0530,Tegolophus gmelinae,g1985;tn2020,tegolophus gmelinus ~ tegolophus gmelinae; g1985 list both
 refused,spelling,0.82,Tarsonemidae,TAR0001,Bongotarsonemus bicornus,gm2023;tarswb2023,TAR0002,Bongotarsonemus unicornus,gm2023;tarswb2023,"bongotarsonemus bicornus ~ bongotarsonemus unicornus; gm2023, tarswb2023 list both"
 refused,spelling,0.84,Tarsonemidae,TAR0024,Steneotarsonemus furcatus,gm2023;tarswb2023,TAR0028,Steneotarsonemus subfurcatus,tarswb2023,steneotarsonemus furcatus ~ steneotarsonemus subfurcatus; tarswb2023 list both
 joined,cited name (gm2023),,Phytoseiidae,PHY0008,Amblyseiulella nucifera,gm2023,PHY0008,Amblyseius (Asperoseius) ducifera,g1985,gm2023 cites Amblyseius (Asperoseius) nucifera under Amblyseiulella nucifera
@@ -279,7 +280,7 @@ joined,old subgenus,,Phytoseiidae,PHY0104,Amblyseius (Euseius) kodaikanalensis,g
 joined,old subgenus,,Phytoseiidae,PHY0140,Amblyseius (Neoseiulus) aceriae,g1985,PHY0140,Neoseiulus aceriae,gk2015;gm2023,Amblyseius (Neoseiulus) aceriae (g1985): subgenus Neoseiulus is now a genus
 joined,old subgenus,,Phytoseiidae,PHY0152,Amblyseius (Neoseiulus) indicus,g1985,PHY0152,Neoseiulus indicus,gb2017;gk2015;gm2023,Amblyseius (Neoseiulus) indicus (g1985): subgenus Neoseiulus is now a genus
 joined,recombination,,Phytoseiidae,PHY0002,Amblydromalus swaga,gk2015;gm2023,PHY0002,Amblyseius (Typhlodromalus) swaga,g1985,Amblydromalus swaga Pritchard & Baker 1962 = Amblyseius (Typhlodromalus) swaga Pritchard & Baker 1962
-joined,recombination,,Phytoseiidae,PHY0182,Amblyseiulella multidentatus,gk2015,PHY0182,Amblyseius (Paraphytoseius) multidentatus,g1985,Amblyseiulella multidentatus Swirski and Shechter 1961 = Amblyseius (Paraphytoseius) multidentatus (Swirski & Shechter) 1961
+joined,recombination,,Phytoseiidae,PHY0183,Amblyseiulella multidentatus,gk2015,PHY0183,Amblyseius (Paraphytoseius) multidentatus,g1985,Amblyseiulella multidentatus Swirski and Shechter 1961 = Amblyseius (Paraphytoseius) multidentatus (Swirski & Shechter) 1961
 joined,recombination,,Phytoseiidae,PHY0008,Amblyseiulella nucifera / Amblyseius (Asperoseius) ducifera,g1985;gm2023,PHY0008,Okiseius nucifera,gk2015,Amblyseiulella nucifera (Gupta)  = Okiseius nucifera Gupta 1979
 joined,recombination,,Phytoseiidae,PHY0109,Amblyseius (Euseius) neococcineae / Euseius neococcineae,g1985;gm2023,PHY0109,Phytoseius neococcineae,gk2015,Euseius neococcineae (Gupta) 1978 = Phytoseius neococcineae Gupta 1978
 joined,recombination,,Phytoseiidae,PHY0141,Amblyseius (Neoseiulus) assamensis / Neoseiulus assamensis,g1985;gm2023,PHY0141,Scapulaseius assamensis,gk2015,Neoseiulus assamensis (Chant) 1960 = Scapulaseius assamensis Chant 1960
@@ -300,7 +301,7 @@ joined,recombination,,Phytoseiidae,PHY0254,Scapulaseius hapoli,gm2023,PHY0254,Tr
 joined,recombination,,Phytoseiidae,PHY0261,Scapulaseius sorghumae,gk2015;gm2023,PHY0261,Amblyseius (Typhlodromalus) sorghumae,g1985,Scapulaseius sorghumae Gupta 1977 = Amblyseius (Typhlodromalus) sorghumae Gupta 1977
 joined,recombination,,Phytoseiidae,PHY0264,Transeius tetranychivorus,gk2015;gm2023,PHY0264,Amblyseius (Typhlodromips) tetranychivoros,g1985,Transeius tetranychivorus (Gupta) 1978 = Amblyseius (Typhlodromips) tetranychivoros (Gupta) 
 joined,recombination,,Phytoseiidae,PHY0307,Typhlodromus (Anthoseius) meerutensis / Typhlodromus meerutensis,gk2015;gm2023,PHY0307,Indodromus meerutensis,g1985,Typhlodromus (Anthoseius) meerutensis Ghai & Menon 1969 = Indodromus meerutensis Ghai & Menon 1969
-joined,reviewed by hand,,Phytoseiidae,PHY0182,Amblyseiulella nicobarensis,gk2015;gm2023,PHY0182,Amblyseiulella multidentatus / Amblyseius (Paraphytoseius) multidentatus,g1985;gk2015,decided same species after checking the literature (duplicate_review.csv)
+joined,reviewed by hand,,Phytoseiidae,PHY0183,Amblyseiulella multidentatus / Amblyseius (Paraphytoseius) multidentatus,g1985;gk2015,PHY0183,Amblyseiulella orientalis / Paraphytoseius orientalis,gb2017;gk2015;gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Phytoseiidae,PHY0168,Amblyseius laaensis / Okiseius laaensis,gk2015;gm2023,PHY0168,Paraphytoseius laaensis,gk2015,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Phytoseiidae,PHY0098,Euseius indica,gk2015,PHY0098,Euseius mangiferae,gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,spelling,0.91,Phytoseiidae,PHY0029,Amblyseius (Typhlodromips) crotalariae / Amblyseius crotalariae,g1985;gm2023,PHY0029,Amblyseius crotolariae,gk2015,amblyseius crotalariae ~ amblyseius crotolariae
