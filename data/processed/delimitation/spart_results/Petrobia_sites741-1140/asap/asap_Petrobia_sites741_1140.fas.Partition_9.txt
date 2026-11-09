@@ -1,0 +1,9 @@
+Partition 9 
+Asap-Score: 9.000000
+Proba: 1.000000e+00
+Nb subsets with recursion:11 (without recursion: 9)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_KC283026.1_IN_Petrobia_(Tetranychina)_harti 
+Subset[ 2 ] n: 1 ;id: NCBI_GQ141919.1_XX_Petrobia_(Tetranychina)_harti 
+Subset[ 3 ] n: 1 ;id: NCBI_KP828056.1_XX_Petrobia_(Tetranychina)_harti 

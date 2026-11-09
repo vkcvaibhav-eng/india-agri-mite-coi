@@ -1,0 +1,20 @@
+Partition 6 
+Asap-Score: 6.500000
+Proba: 2.514970e-01
+Nb subsets with recursion:14 (without recursion: 9)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_OM720121.1_IN_Steneotarsonemus_spinki 
+Subset[ 2 ] n: 1 ;id: NCBI_JX289537.1_IN_Steneotarsonemus_spinki 
+Subset[ 3 ] n: 1 ;id: NCBI_PX666633.1_XX_Steneotarsonemus_arcuatus 
+Subset[ 4 ] n: 1 ;id: NCBI_PX666630.1_XX_Steneotarsonemus_phragmitidis 
+Subset[ 5 ] n: 6 ;id: NCBI_KY022759.1_XX_Steneotarsonemus_spinki NCBI_MW587273.1_XX_Steneotarsonemus_spinki NCBI_KY022760.1_XX_Steneotarsonemus_spinki NCBI_KY022758.1_XX_Steneotarsonemus_spinki NCBI_ON186779.1_XX_Steneotarsonemus_spinki NCBI_ON186777.1_XX_Steneotarsonemus_spinki 
+Subset[ 6 ] n: 3 ;id: NCBI_MW587272.1_XX_Steneotarsonemus_spinki NCBI_ON186781.1_XX_Steneotarsonemus_spinki NCBI_ON186780.1_XX_Steneotarsonemus_spinki 
+Subset[ 7 ] n: 1 ;id: NCBI_ON186778.1_XX_Steneotarsonemus_spinki 
+Subset[ 8 ] n: 1 ;id: NCBI_ON186786.1_XX_Steneotarsonemus_spinki 
+Subset[ 9 ] n: 1 ;id: NCBI_ON186785.1_XX_Steneotarsonemus_spinki 
+Subset[ 10 ] n: 1 ;id: NCBI_ON186783.1_XX_Steneotarsonemus_spinki 
+Subset[ 11 ] n: 1 ;id: NCBI_MW587271.1_XX_Steneotarsonemus_spinki 
+Subset[ 12 ] n: 2 ;id: NCBI_ON186787.1_XX_Steneotarsonemus_spinki NCBI_ON186782.1_XX_Steneotarsonemus_spinki 
+Subset[ 13 ] n: 1 ;id: NCBI_ON186784.1_XX_Steneotarsonemus_spinki 
+Subset[ 14 ] n: 1 ;id: NCBI_MH470062.1_XX_Steneotarsonemus_laticeps 

@@ -1,0 +1,8 @@
+Partition 6 
+Asap-Score: 5.000000
+Proba: 1.000000e+00
+Nb subsets with recursion:8 (without recursion: 7)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_MH686294.1_IN_Schizotetranychus_andropogoni 
+Subset[ 2 ] n: 1 ;id: NCBI_KM580508.1_IN_Schizotetranychus_andropogoni 

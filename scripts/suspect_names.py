@@ -11,15 +11,15 @@ import re
 HERE = os.path.dirname(__file__)
 exec(open(os.path.join(HERE, "read_asap.py")).read().split("rows, summ = [], []")[0])
 ROOT = os.path.join(HERE, "..")
-meta = {r["record_id"].replace(".", "_"): r for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv")))}
+meta = {skey(r["record_id"]): r for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv")))}
 RUNS = [(os.path.basename(p), asap_groups(os.path.basename(p)),
          f"rank {ASAP_RANK.get(os.path.basename(p), 1)} ({asap_groups(os.path.basename(p))} groups)")
         for p in sorted(glob.glob(os.path.join(RES, "*")))]
 UNNAMED = re.compile(r"\b(sp|cf|aff)\b")
 out = []
 for run, target, label in RUNS:
-    _, nsub, assign, _ = read_spart(glob.glob(os.path.join(RES, run, "asap", "*.fas.spart"))[0])
-    idx = nsub.index(target)
+    labels, nsub, assign, _ = read_spart(glob.glob(os.path.join(RES, run, "asap", "*.fas.spart"))[0])
+    idx = asap_index(labels, nsub, asap_row(run))
     subs = collections.defaultdict(list)
     for s, v in assign.items():
         subs[v[idx]].append(s)

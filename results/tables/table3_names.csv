@@ -1,59 +1,59 @@
 Group,Name on Indian records,Indian sequences,With a same-name record documented outside India,Least distance to that record (%),Same-name match,Ambiguous,Different-name match,No match,"Same-name match, outside-India comparators only",ASAP groups (other names sharing them)
 Tetranychidae,Eotetranychus broodryki,2,0,–,2,0,0,0,0,–
-Tetranychidae,Mononychellus mcgregori,3,0,–,3,0,0,0,0,–
-Tetranychidae,Oligonychus biharensis,7,7,1.3,7,0,0,0,2,–
-Tetranychidae,Oligonychus coffeae,2,2,8.0,2,0,0,0,0,–
-Tetranychidae,Oligonychus grypus,2,0,–,0,1,1,0,0,–
-Tetranychidae,Oligonychus indicus,6,0,–,5,0,1,0,0,–
+Tetranychidae,Mononychellus mcgregori,3,0,–,3,0,0,0,0,sites 51-450: 1 group
+Tetranychidae,Oligonychus biharensis,7,7,1.3,7,0,0,0,2,sites 261-660: 1 group; sites 761-1160: 2 groups
+Tetranychidae,Oligonychus coffeae,2,2,8.0,2,0,0,0,0,sites 761-1160: 2 groups
+Tetranychidae,Oligonychus grypus,2,0,–,0,1,1,0,0,sites 261-660: 1 group with Oligonychus oryzae; sites 761-1160: 1 group with Oligonychus oryzae
+Tetranychidae,Oligonychus indicus,6,0,–,5,0,1,0,0,sites 261-660: 2 groups with Oligonychus tylus; sites 761-1160: 2 groups
 Tetranychidae,Oligonychus mangiferus,4,0,–,2,0,1,1,0,–
-Tetranychidae,Oligonychus oryzae,2,0,–,0,0,2,0,0,–
-Tetranychidae,Oligonychus perseae,1,1,0.4,1,0,0,0,1,–
-Tetranychidae,Oligonychus plegas,1,0,–,0,0,0,1,0,–
-Tetranychidae,Oligonychus thelytokus,5,0,–,3,0,0,2,0,–
-Tetranychidae,Oligonychus tylus,16,14,0.0,14,0,0,2,13,–
+Tetranychidae,Oligonychus oryzae,2,0,–,0,0,2,0,0,sites 261-660: 1 group with Oligonychus grypus; sites 761-1160: 1 group with Oligonychus grypus
+Tetranychidae,Oligonychus perseae,1,1,0.4,1,0,0,0,1,sites 261-660: 1 group
+Tetranychidae,Oligonychus plegas,1,0,–,0,0,0,1,0,sites 761-1160: 1 group
+Tetranychidae,Oligonychus thelytokus,5,0,–,3,0,0,2,0,sites 261-660: 1 group; sites 761-1160: 1 group
+Tetranychidae,Oligonychus tylus,16,14,0.0,14,0,0,2,13,sites 261-660: 1 group with Oligonychus indicus; sites 761-1160: 2 groups
 Tetranychidae,Panonychus ulmi,1,1,0.0,1,0,0,0,1,–
-Tetranychidae,Petrobia (Petrobia) latens,1,1,2.1,1,0,0,0,1,–
-Tetranychidae,Petrobia (Tetranychina) harti,2,2,0.0,2,0,0,0,2,–
-Tetranychidae,Schizotetranychus andropogoni,8,0,–,7,0,0,1,0,–
-Tetranychidae,Schizotetranychus asparagi,1,0,–,0,0,0,1,0,–
-Tetranychidae,Schizotetranychus baltazari,3,0,–,2,0,0,1,0,–
-Tetranychidae,Schizotetranychus krungthepensis,19,0,–,19,0,0,0,0,–
-Tetranychidae,Schizotetranychus laevidorsatus,1,0,–,0,0,0,1,0,–
-Tetranychidae,Schizotetranychus mansoni,1,0,–,0,0,0,1,0,–
-Tetranychidae,Tetranychus bambusae,1,0,–,0,0,0,1,0,–
-Tetranychidae,Tetranychus fijiensis,7,0,–,6,0,0,1,0,–
-Tetranychidae,Tetranychus gloveri,10,10,0.0,8,0,1,1,8,–
-Tetranychidae,Tetranychus hirsutus,2,0,–,2,0,0,0,0,–
-Tetranychidae,Tetranychus kanzawai,7,7,0.2,6,1,0,0,7,–
-Tetranychidae,Tetranychus lombardinii,7,0,–,6,0,0,1,0,–
-Tetranychidae,Tetranychus ludeni,3,3,0.0,2,0,0,1,2,–
-Tetranychidae,Tetranychus macfarlanei,11,5,0.0,10,0,0,1,1,–
-Tetranychidae,Tetranychus marianae,1,1,0.0,1,0,0,0,1,–
-Tetranychidae,Tetranychus neocaledonicus,3,3,0.9,2,0,0,1,2,–
-Tetranychidae,Tetranychus piercei,1,1,2.8,1,0,0,0,1,–
-Tetranychidae,Tetranychus puschelii,8,0,–,8,0,0,0,0,–
-Tetranychidae,Tetranychus truncatus,40,40,0.0,18,21,0,1,37,–
-Tetranychidae,Tetranychus turkestani,4,4,2.6,0,2,1,1,0,–
-Tetranychidae,Tetranychus udaipurensis,14,0,–,13,0,1,0,0,–
-Tetranychidae,Tetranychus urticae,34,34,0.0,29,1,3,1,27,–
+Tetranychidae,Petrobia (Petrobia) latens,1,1,2.1,1,0,0,0,1,sites 741-1140: 1 group
+Tetranychidae,Petrobia (Tetranychina) harti,2,2,0.0,2,0,0,0,2,sites 741-1140: 1 group
+Tetranychidae,Schizotetranychus andropogoni,8,0,–,7,0,0,1,0,sites 281-680: 1 group; sites 751-1150: 2 groups
+Tetranychidae,Schizotetranychus asparagi,1,0,–,0,0,0,1,0,"sites 751-1150: 1 group with Schizotetranychus baltazari, Schizotetranychus laevidorsatus"
+Tetranychidae,Schizotetranychus baltazari,3,0,–,2,0,0,1,0,"sites 751-1150: 1 group with Schizotetranychus asparagi, Schizotetranychus laevidorsatus"
+Tetranychidae,Schizotetranychus krungthepensis,19,0,–,19,0,0,0,0,sites 281-680: 1 group; sites 751-1150: 1 group
+Tetranychidae,Schizotetranychus laevidorsatus,1,0,–,0,0,0,1,0,"sites 751-1150: 1 group with Schizotetranychus asparagi, Schizotetranychus baltazari"
+Tetranychidae,Schizotetranychus mansoni,1,0,–,0,0,0,1,0,sites 281-680: 1 group
+Tetranychidae,Tetranychus bambusae,1,0,–,0,0,0,1,0,"sites 271-670: 1 group with Tetranychus kanzawai, Tetranychus urticae; sites 741-1140: 1 group"
+Tetranychidae,Tetranychus fijiensis,7,0,–,6,0,0,1,0,sites 271-670: 1 group; sites 741-1140: 1 group
+Tetranychidae,Tetranychus gloveri,10,10,0.0,8,0,1,1,8,sites 271-670: 2 groups; sites 741-1140: 2 groups
+Tetranychidae,Tetranychus hirsutus,2,0,–,2,0,0,0,0,sites 271-670: 1 group
+Tetranychidae,Tetranychus kanzawai,7,7,0.2,6,1,0,0,7,"sites 271-670: 2 groups with Tetranychus bambusae, Tetranychus urticae; sites 741-1140: 5 groups with Tetranychus ezoensis, Tetranychus ludeni, Tetranychus parakanzawai, Tetranychus phaselus, Tetranychus pueraricola, Tetranychus truncatus"
+Tetranychidae,Tetranychus lombardinii,7,0,–,6,0,0,1,0,sites 271-670: 1 group; sites 741-1140: 2 groups
+Tetranychidae,Tetranychus ludeni,3,3,0.0,2,0,0,1,2,sites 271-670: 2 groups; sites 741-1140: 2 groups with Tetranychus kanzawai
+Tetranychidae,Tetranychus macfarlanei,11,5,0.0,10,0,0,1,1,sites 271-670: 2 groups; sites 741-1140: 3 groups
+Tetranychidae,Tetranychus marianae,1,1,0.0,1,0,0,0,1,sites 271-670: 1 group
+Tetranychidae,Tetranychus neocaledonicus,3,3,0.9,2,0,0,1,2,"sites 271-670: 2 groups with Tetranychus truncatus, Tetranychus udaipurensis; sites 741-1140: 2 groups"
+Tetranychidae,Tetranychus piercei,1,1,2.8,1,0,0,0,1,sites 271-670: 3 groups; sites 741-1140: 1 group
+Tetranychidae,Tetranychus puschelii,8,0,–,8,0,0,0,0,sites 271-670: 2 groups with Tetranychus truncatus; sites 741-1140: 1 group
+Tetranychidae,Tetranychus truncatus,40,40,0.0,18,21,0,1,37,"sites 271-670: 3 groups with Tetranychus neocaledonicus, Tetranychus puschelii, Tetranychus udaipurensis; sites 741-1140: 3 groups with Tetranychus kanzawai, Tetranychus phaselus, Tetranychus pueraricola"
+Tetranychidae,Tetranychus turkestani,4,4,2.6,0,2,1,1,0,"sites 271-670: 5 groups with Tetranychus sawzdargi, Tetranychus urticae; sites 741-1140: 2 groups with Tetranychus urticae"
+Tetranychidae,Tetranychus udaipurensis,14,0,–,13,0,1,0,0,"sites 271-670: 2 groups with Tetranychus neocaledonicus, Tetranychus truncatus; sites 741-1140: 1 group"
+Tetranychidae,Tetranychus urticae,34,34,0.0,29,1,3,1,27,"sites 271-670: 10 groups with Tetranychus bambusae, Tetranychus kanzawai, Tetranychus sawzdargi, Tetranychus turkestani; sites 741-1140: 4 groups with Tetranychus turkestani"
 Tenuipalpidae,Larvacarus transitans,1,0,–,0,0,0,1,0,–
-Tenuipalpidae,Raoiella indica,6,6,0.0,6,0,0,0,6,–
-Tenuipalpidae,Raoiella macfarlanei,1,0,–,0,0,0,1,0,–
-Eriophyoidea,Aceria granati,1,0,–,0,0,0,1,0,–
-Eriophyoidea,Aceria guerreronis,4,4,0.3,4,0,0,0,4,–
-Eriophyoidea,Aceria kenyae,1,1,18.7,0,0,0,1,0,–
-Eriophyoidea,Aceria litchii,1,1,0.0,1,0,0,0,1,–
-Eriophyoidea,Aceria mori,1,0,–,0,0,0,1,0,–
-Eriophyoidea,Aceria saccharini,1,0,–,0,0,0,1,0,–
+Tenuipalpidae,Raoiella indica,6,6,0.0,6,0,0,0,6,sites 131-530: 2 groups
+Tenuipalpidae,Raoiella macfarlanei,1,0,–,0,0,0,1,0,sites 131-530: 1 group
+Eriophyoidea,Aceria granati,1,0,–,0,0,0,1,0,sites 201-600: 1 group
+Eriophyoidea,Aceria guerreronis,4,4,0.3,4,0,0,0,4,sites 201-600: 1 group
+Eriophyoidea,Aceria kenyae,1,1,18.7,0,0,0,1,0,sites 201-600: 2 groups
+Eriophyoidea,Aceria litchii,1,1,0.0,1,0,0,0,1,sites 701-1100: 1 group
+Eriophyoidea,Aceria mori,1,0,–,0,0,0,1,0,sites 201-600: 1 group
+Eriophyoidea,Aceria saccharini,1,0,–,0,0,0,1,0,sites 201-600: 1 group; sites 701-1100: 1 group
 Eriophyoidea,Aculops lycopersici,1,0,–,0,0,0,1,0,–
 Eriophyoidea,Floracarus perrepae,2,2,5.0,2,0,0,0,0,–
 Eriophyoidea,Phyllocoptruta oleivora,2,0,–,2,0,0,0,0,–
-Tarsonemidae,Polyphagotarsonemus latus,9,9,1.0,8,0,0,1,1,–
-Tarsonemidae,Steneotarsonemus spinki,4,2,1.1,4,0,0,0,2,–
-Phytoseiidae,Amblyseius adhatodae,1,0,–,0,0,1,0,0,–
-Phytoseiidae,Amblyseius coffeae,1,0,–,0,0,0,1,0,–
-Phytoseiidae,Euseius nicholsi,2,2,21.2,0,0,0,2,0,–
-Phytoseiidae,Euseius ovalis,1,0,–,0,0,0,1,0,–
-Phytoseiidae,Neoseiulus baraki,2,1,3.0,0,0,0,2,0,–
-Phytoseiidae,Neoseiulus longispinosus,3,0,–,3,0,0,0,0,–
-Phytoseiidae,Paraphytoseius orientalis,1,1,17.4,0,0,0,1,0,–
+Tarsonemidae,Polyphagotarsonemus latus,9,9,1.0,8,0,0,1,1,sites 141-540: 5 groups
+Tarsonemidae,Steneotarsonemus spinki,4,2,1.1,4,0,0,0,2,sites 251-650: 1 group
+Phytoseiidae,Amblyseius adhatodae,1,0,–,0,0,1,0,0,sites 321-720: 1 group with Amblyseius herbicolus
+Phytoseiidae,Amblyseius coffeae,1,0,–,0,0,0,1,0,sites 321-720: 1 group
+Phytoseiidae,Euseius nicholsi,2,2,21.2,0,0,0,2,0,sites 321-720: 2 groups with Euseius oolong; sites 791-1190: 3 groups
+Phytoseiidae,Euseius ovalis,1,0,–,0,0,0,1,0,sites 321-720: 1 group with Euseius sacchari
+Phytoseiidae,Neoseiulus baraki,2,1,3.0,0,0,0,2,0,sites 321-720: 1 group; sites 791-1190: 1 group
+Phytoseiidae,Neoseiulus longispinosus,3,0,–,3,0,0,0,0,sites 321-720: 1 group; sites 791-1190: 1 group
+Phytoseiidae,Paraphytoseius orientalis,1,1,17.4,0,0,0,1,0,sites 321-720: 2 groups

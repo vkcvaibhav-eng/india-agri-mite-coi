@@ -1,0 +1,55 @@
+Partition 2 
+Asap-Score: 3.500000
+Proba: 2.478134e-02
+Nb subsets with recursion:49 (without recursion: 48)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PX093069.1_IN_Aceria_sp. 
+Subset[ 2 ] n: 4 ;id: NCBI_MW396748.1_XX_Aceria_erinea NCBI_MW691981.1_XX_Aceria_erinea NCBI_MW396745.1_XX_Aceria_erinea NCBI_MW396744.1_XX_Aceria_erinea 
+Subset[ 3 ] n: 1 ;id: NCBI_MW491351.1_IN_Aceria_kenyae 
+Subset[ 4 ] n: 1 ;id: NCBI_MW471136.1_IN_Aceria_granati 
+Subset[ 5 ] n: 1 ;id: NCBI_MW302123.1_IN_Aceria_mori 
+Subset[ 6 ] n: 4 ;id: NCBI_MT019905.1_IN_Aceria_guerreronis NCBI_MT253711.1_IN_Aceria_guerreronis NCBI_MT227313.1_IN_Aceria_guerreronis NCBI_JX289538.1_IN_Aceria_guerreronis 
+Subset[ 7 ] n: 1 ;id: NCBI_KM114210.1_IN_Aceria_sp. 
+Subset[ 8 ] n: 9 ;id: NCBI_PV123168.1_XX_Aceria_ficus NCBI_PV123167.1_XX_Aceria_ficus NCBI_PV123173.1_XX_Aceria_ficus NCBI_PV123170.1_XX_Aceria_ficus NCBI_PV123165.1_XX_Aceria_ficus NCBI_PV123172.1_XX_Aceria_ficus NCBI_PV123171.1_XX_Aceria_ficus NCBI_PZ043203.1_XX_Aceria_ficus NCBI_PV123169.1_XX_Aceria_ficus 
+Subset[ 9 ] n: 3 ;id: NCBI_PX794735.1_XX_Aceria_kenyae NCBI_PX794736.1_XX_Aceria_kenyae NCBI_PX794734.1_XX_Aceria_kenyae 
+Subset[ 10 ] n: 2 ;id: NCBI_PX794733.1_XX_Aceria_aegyptindicae NCBI_PX794732.1_XX_Aceria_aegyptindicae 
+Subset[ 11 ] n: 10 ;id: NCBI_ON720277.1_XX_Aceria_tosichella NCBI_ON586828.1_XX_Aceria_tosichella NCBI_JQ248923.1_XX_Aceria_tosichella NCBI_JF920092.1_XX_Aceria_tosichella NCBI_JQ248914.1_XX_Aceria_tosichella NCBI_KC412866.1_XX_Aceria_tosichella NCBI_MG194411.1_XX_Aceria_tosichella NCBI_KX028796.1_XX_Aceria_tosichella NCBI_ON586826.1_XX_Aceria_tosichella NCBI_JF920079.1_XX_Aceria_tosichella 
+Subset[ 12 ] n: 2 ;id: NCBI_MG208850.1_XX_Aceria_tosichella NCBI_KX430320.1_XX_Aceria_tosichella 
+Subset[ 13 ] n: 1 ;id: NCBI_MG208846.1_XX_Aceria_tosichella 
+Subset[ 14 ] n: 6 ;id: NCBI_MG208813.1_XX_Aceria_tosichella NCBI_MG208812.1_XX_Aceria_tosichella NCBI_MG208808.1_XX_Aceria_tosichella NCBI_MG208806.1_XX_Aceria_tosichella NCBI_MG208802.1_XX_Aceria_tosichella NCBI_JF920091.1_XX_Aceria_tosichella 
+Subset[ 15 ] n: 4 ;id: NCBI_MG208770.1_XX_Aceria_tosichella NCBI_MG208764.1_XX_Aceria_tosichella NCBI_MG208767.1_XX_Aceria_tosichella NCBI_MG208766.1_XX_Aceria_tosichella 
+Subset[ 16 ] n: 1 ;id: NCBI_MG208842.1_XX_Aceria_tosichella 
+Subset[ 17 ] n: 2 ;id: NCBI_FJ387564.1_XX_Aceria_tosichella NCBI_JF920089.1_XX_Aceria_tosichella 
+Subset[ 18 ] n: 3 ;id: NCBI_JQ248928.1_XX_Aceria_tosichella NCBI_JF920087.1_XX_Aceria_tosichella NCBI_MG208772.1_XX_Aceria_tosichella 
+Subset[ 19 ] n: 3 ;id: NCBI_JQ248925.1_XX_Aceria_tosichella NCBI_JF920094.1_XX_Aceria_tosichella NCBI_ON586825.1_XX_Aceria_tosichella 
+Subset[ 20 ] n: 13 ;id: NCBI_JQ248922.1_XX_Aceria_tosichella NCBI_JF920090.1_XX_Aceria_tosichella NCBI_ON586827.1_XX_Aceria_tulipae NCBI_KC907079.1_XX_Aceria_tulipae NCBI_KC907078.1_XX_Aceria_tulipae NCBI_KY610214.1_XX_Aceria_tulipae NCBI_KY610210.1_XX_Aceria_tulipae NCBI_JF920095.1_XX_Aceria_tulipae NCBI_FJ387563.1_XX_Aceria_tulipae NCBI_KY610215.1_XX_Aceria_tulipae NCBI_EF409416.1_XX_Aceria_tulipae NCBI_KY610211.1_XX_Aceria_tulipae NCBI_JF920096.1_XX_Aceria_tulipae 
+Subset[ 21 ] n: 1 ;id: NCBI_MG208848.1_XX_Aceria_tosichella 
+Subset[ 22 ] n: 1 ;id: NCBI_MG208847.1_XX_Aceria_tosichella 
+Subset[ 23 ] n: 1 ;id: NCBI_MG208823.1_XX_Aceria_tosichella 
+Subset[ 24 ] n: 1 ;id: NCBI_MG208820.1_XX_Aceria_tosichella 
+Subset[ 25 ] n: 1 ;id: NCBI_KM280939.1_XX_Aceria_tosichella 
+Subset[ 26 ] n: 1 ;id: NCBI_KT070220.1_XX_Aceria_tuberculata 
+Subset[ 27 ] n: 4 ;id: NCBI_OQ725911.1_XX_Aceria_angustifoliae NCBI_OQ725910.1_XX_Aceria_angustifoliae NCBI_KY888667.1_XX_Aceria_angustifoliae NCBI_KT070217.1_XX_Aceria_angustifoliae 
+Subset[ 28 ] n: 1 ;id: NCBI_KT070216.1_XX_Aceria_acroptiloni 
+Subset[ 29 ] n: 4 ;id: NCBI_MZ482168.1_XX_Aceria_lespedezae NCBI_MZ274862.1_XX_Aceria_lespedezae NCBI_MZ482167.1_XX_Aceria_lespedezae NCBI_MZ482166.1_XX_Aceria_lespedezae 
+Subset[ 30 ] n: 1 ;id: NCBI_MZ482180.1_XX_Aceria_fraxiniflora 
+Subset[ 31 ] n: 5 ;id: NCBI_MZ482165.1_XX_Aceria_fraxiniflora NCBI_MZ274811.1_XX_Aceria_fraxiniflora BOLD_JCSA003-19_XX_Aceria_fraxiniflora BOLD_JCSA008-19_XX_Aceria_fraxiniflora NCBI_MZ482163.1_XX_Aceria_fraxiniflora 
+Subset[ 32 ] n: 2 ;id: NCBI_MZ482182.1_XX_Aceria_pallida NCBI_MZ274771.1_XX_Aceria_pallida 
+Subset[ 33 ] n: 1 ;id: NCBI_PZ576296.1_XX_Aceria_pallida 
+Subset[ 34 ] n: 36 ;id: NCBI_KR258856.1_XX_Aceria_pallida NCBI_KR258835.1_XX_Aceria_pallida NCBI_KR258822.1_XX_Aceria_pallida NCBI_KR258855.1_XX_Aceria_pallida NCBI_KR258854.1_XX_Aceria_pallida NCBI_KR258853.1_XX_Aceria_pallida NCBI_KR258852.1_XX_Aceria_pallida NCBI_KR258850.1_XX_Aceria_pallida NCBI_KR258849.1_XX_Aceria_pallida NCBI_KR258847.1_XX_Aceria_pallida NCBI_KR258838.1_XX_Aceria_pallida NCBI_KR258827.1_XX_Aceria_pallida NCBI_KR258821.1_XX_Aceria_pallida NCBI_KR258845.1_XX_Aceria_pallida NCBI_KR258843.1_XX_Aceria_pallida NCBI_KR258836.1_XX_Aceria_pallida NCBI_KR258828.1_XX_Aceria_pallida NCBI_KR258825.1_XX_Aceria_pallida NCBI_KR258848.1_XX_Aceria_pallida NCBI_KR258846.1_XX_Aceria_pallida NCBI_KR258844.1_XX_Aceria_pallida NCBI_KR258842.1_XX_Aceria_pallida NCBI_KR258840.1_XX_Aceria_pallida NCBI_KR258839.1_XX_Aceria_pallida NCBI_KR258834.1_XX_Aceria_pallida NCBI_KR258833.1_XX_Aceria_pallida NCBI_KR258832.1_XX_Aceria_pallida NCBI_KR258831.1_XX_Aceria_pallida NCBI_KR258829.1_XX_Aceria_pallida NCBI_KR258824.1_XX_Aceria_pallida NCBI_KR258851.1_XX_Aceria_pallida NCBI_KR258837.1_XX_Aceria_pallida NCBI_KR258830.1_XX_Aceria_pallida NCBI_KR258826.1_XX_Aceria_pallida NCBI_KR258823.1_XX_Aceria_pallida NCBI_KR258841.1_XX_Aceria_pallida 
+Subset[ 35 ] n: 2 ;id: NCBI_MZ482189.1_XX_Aceria_pseudoligustri NCBI_MZ482188.1_XX_Aceria_pseudoligustri 
+Subset[ 36 ] n: 2 ;id: NCBI_MZ482179.1_XX_Aceria_nanjingensis NCBI_MZ482178.1_XX_Aceria_nanjingensis 
+Subset[ 37 ] n: 2 ;id: NCBI_MZ482176.1_XX_Aceria_microcis NCBI_MZ482175.1_XX_Aceria_microcis 
+Subset[ 38 ] n: 4 ;id: NCBI_MZ482173.1_XX_Aceria_litseae NCBI_MZ482172.1_XX_Aceria_litseae NCBI_MZ482169.1_XX_Aceria_litseae NCBI_MZ482171.1_XX_Aceria_litseae 
+Subset[ 39 ] n: 1 ;id: NCBI_MZ482158.1_XX_Aceria_aloinis 
+Subset[ 40 ] n: 1 ;id: NCBI_MW691982.1_XX_Aceria_tristriata 
+Subset[ 41 ] n: 1 ;id: NCBI_MW691979.1_XX_Aceria_peucedani 
+Subset[ 42 ] n: 1 ;id: NCBI_MW691978.1_XX_Aceria_salviae 
+Subset[ 43 ] n: 2 ;id: NCBI_MT452306.1_XX_Aceria_pistaciae NCBI_MT452304.1_XX_Aceria_pistaciae 
+Subset[ 44 ] n: 2 ;id: NCBI_LR131168.1_XX_Aceria_massalongoi NCBI_LR131167.1_XX_Aceria_massalongoi 
+Subset[ 45 ] n: 5 ;id: NCBI_MH885467.1_XX_Aceria_genistae NCBI_MH885468.1_XX_Aceria_genistae NCBI_MH885466.1_XX_Aceria_genistae NCBI_MH885463.1_XX_Aceria_genistae NCBI_MH885464.1_XX_Aceria_genistae 
+Subset[ 46 ] n: 4 ;id: NCBI_MF150173.1_XX_Aceria_alhagi NCBI_MF150170.1_XX_Aceria_alhagi NCBI_MF150172.1_XX_Aceria_alhagi NCBI_MF150171.1_XX_Aceria_alhagi 
+Subset[ 47 ] n: 2 ;id: NCBI_KU315234.1_XX_Aceria_fennica NCBI_KU315233.1_XX_Aceria_fennica 
+Subset[ 48 ] n: 1 ;id: NCBI_EF409415.1_XX_Aceria_eximia 
+Subset[ 49 ] n: 1 ;id: NCBI_KJ461966.1_XX_Aceria_saccharini 

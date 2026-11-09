@@ -1,0 +1,77 @@
+Partition 5 
+Asap-Score: 9.000000
+Proba: 1.343166e-02
+Nb subsets with recursion:71 (without recursion: 70)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PP152335.1_IN_Euseius_nicholsi 
+Subset[ 2 ] n: 2 ;id: NCBI_PP147805.1_IN_Amblyseius_adhatodae NCBI_KU318187.1_XX_Amblyseius_herbicolus 
+Subset[ 3 ] n: 33 ;id: NCBI_OP484770.1_IN_Typhlodromips_sp. NCBI_MT827889.1_XX_Amblyseius_swirskii BOLD_SENTO1637-18_XX_Amblyseius_swirskii NCBI_MW405565.1_XX_Amblyseius_swirskii NCBI_MT827881.1_XX_Amblyseius_swirskii NCBI_KF966642.1_XX_Amblyseius_swirskii NCBI_MW729377.1_XX_Amblyseius_swirskii NCBI_MW405563.1_XX_Amblyseius_swirskii NCBI_MW405562.1_XX_Amblyseius_swirskii NCBI_MT827877.1_XX_Amblyseius_swirskii NCBI_MT827883.1_XX_Amblyseius_swirskii NCBI_MT827882.1_XX_Amblyseius_swirskii NCBI_MW074351.1_XX_Amblyseius_swirskii NCBI_PX672974.1_XX_Amblyseius_swirskii NCBI_PX672973.1_XX_Amblyseius_swirskii NCBI_MT819959.1_XX_Amblyseius_swirskii NCBI_MT819962.1_XX_Amblyseius_swirskii NCBI_MT819961.1_XX_Amblyseius_swirskii NCBI_MT819960.1_XX_Amblyseius_swirskii NCBI_MT827919.1_XX_Amblyseius_swirskii NCBI_MT827904.1_XX_Amblyseius_swirskii NCBI_MW074350.1_XX_Amblyseius_swirskii NCBI_MT827900.1_XX_Amblyseius_swirskii NCBI_MT827885.1_XX_Amblyseius_swirskii NCBI_MT827901.1_XX_Amblyseius_swirskii NCBI_MW074356.1_XX_Amblyseius_swirskii NCBI_MW074354.1_XX_Amblyseius_swirskii NCBI_MW074352.1_XX_Amblyseius_swirskii NCBI_MT827903.1_XX_Amblyseius_swirskii NCBI_MT827884.1_XX_Amblyseius_swirskii NCBI_MT827897.1_XX_Amblyseius_swirskii NCBI_MT827896.1_XX_Amblyseius_swirskii NCBI_MT827898.1_XX_Amblyseius_swirskii 
+Subset[ 4 ] n: 1 ;id: NCBI_KM035534.1_XX_Amblyseius_swirskii 
+Subset[ 5 ] n: 1 ;id: NCBI_OL675200.1_IN_Amblyseius_coffeae 
+Subset[ 6 ] n: 1 ;id: NCBI_OK624431.1_IN_Paraphytoseius_orientalis 
+Subset[ 7 ] n: 1 ;id: NCBI_MF542356.1_IN_Neoseiulus_baraki 
+Subset[ 8 ] n: 6 ;id: NCBI_PX257877.1_XX_Amblyseius_obtuserellus BOLD_PERAJ9709-25_XX_Amblyseius_tamatavensis BOLD_CIKPC23611-26_XX_Amblyseius_tamatavensis BOLD_GHABA28497-25_XX_Amblyseius_tamatavensis BOLD_GHDUB9650-25_XX_Amblyseius_tamatavensis BOLD_GMBDC2479-23_XX_Amblyseius_tamatavensis 
+Subset[ 9 ] n: 1 ;id: NCBI_OR897074.1_XX_Amblyseius_obtuserellus 
+Subset[ 10 ] n: 1 ;id: NCBI_OR839184.1_XX_Amblyseius_brevicervix 
+Subset[ 11 ] n: 38 ;id: NCBI_JQ864562.1_XX_Euseius_nicholsi NCBI_JQ864558.1_XX_Euseius_nicholsi NCBI_JQ864561.1_XX_Euseius_nicholsi NCBI_JQ864560.1_XX_Euseius_nicholsi NCBI_JQ864559.1_XX_Euseius_nicholsi NCBI_OR610850.1_XX_Euseius_nicholsi NCBI_JQ864552.1_XX_Euseius_nicholsi NCBI_JQ864551.1_XX_Euseius_nicholsi NCBI_JQ864537.1_XX_Euseius_nicholsi NCBI_JQ864539.1_XX_Euseius_nicholsi NCBI_JQ864538.1_XX_Euseius_nicholsi NCBI_JQ864550.1_XX_Euseius_nicholsi NCBI_JQ864549.1_XX_Euseius_nicholsi NCBI_JQ864548.1_XX_Euseius_nicholsi NCBI_JQ864546.1_XX_Euseius_nicholsi NCBI_JQ864545.1_XX_Euseius_nicholsi NCBI_JQ864544.1_XX_Euseius_nicholsi NCBI_JQ864543.1_XX_Euseius_nicholsi NCBI_JQ864540.1_XX_Euseius_nicholsi NCBI_JQ864541.1_XX_Euseius_nicholsi NCBI_JQ864536.1_XX_Euseius_nicholsi NCBI_JQ864535.1_XX_Euseius_nicholsi NCBI_JQ864534.1_XX_Euseius_nicholsi NCBI_JQ864533.1_XX_Euseius_nicholsi NCBI_OQ809344.1_XX_Euseius_oolong NCBI_OR610851.1_XX_Euseius_oolong NCBI_JQ864532.1_XX_Euseius_nicholsi NCBI_JQ864530.1_XX_Euseius_nicholsi NCBI_JQ864531.1_XX_Euseius_nicholsi NCBI_JQ864557.1_XX_Euseius_nicholsi NCBI_JQ864556.1_XX_Euseius_nicholsi NCBI_JQ864555.1_XX_Euseius_nicholsi NCBI_JQ864554.1_XX_Euseius_nicholsi NCBI_JQ864553.1_XX_Euseius_nicholsi NCBI_JQ864542.1_XX_Euseius_nicholsi NCBI_KM999989.1_XX_Euseius_nicholsi NCBI_OR610849.1_XX_Euseius_nicholsi NCBI_JQ864547.1_XX_Euseius_nicholsi 
+Subset[ 12 ] n: 1 ;id: NCBI_OR911952.1_XX_Neoseiulus_dissipatus 
+Subset[ 13 ] n: 9 ;id: NCBI_OP960231.1_XX_Euseius_ucrainicus NCBI_OP960230.1_XX_Euseius_ucrainicus NCBI_OP960229.1_XX_Euseius_ucrainicus NCBI_OR892728.1_XX_Euseius_ucrainicus NCBI_OP960228.1_XX_Euseius_ucrainicus NCBI_OL863222.1_XX_Euseius_ucrainicus NCBI_OR892727.1_XX_Euseius_ucrainicus NCBI_OR892724.1_XX_Euseius_ucrainicus NCBI_MW367937.1_XX_Euseius_ucrainicus 
+Subset[ 14 ] n: 3 ;id: NCBI_OR892723.1_XX_Euseius_alangii NCBI_JX080314.1_XX_Euseius_alangii NCBI_JX080313.1_XX_Euseius_alangii 
+Subset[ 15 ] n: 1 ;id: NCBI_OR892718.1_XX_Neoseiulus_barkeri 
+Subset[ 16 ] n: 3 ;id: NCBI_OR892755.1_XX_Amblyseius_tsugawai NCBI_JX080325.1_XX_Amblyseius_tsugawai NCBI_MW729376.1_XX_Amblyseius_tsugawai 
+Subset[ 17 ] n: 1 ;id: NCBI_OQ208954.1_XX_Euseius_mesembrinus 
+Subset[ 18 ] n: 8 ;id: NCBI_MW346306.1_XX_Neoseiulus_californicus NCBI_MK577648.1_XX_Neoseiulus_californicus NCBI_KF966631.1_XX_Neoseiulus_californicus NCBI_OR195436.2_XX_Neoseiulus_californicus NCBI_NC_069213.1_XX_Neoseiulus_californicus NCBI_JX080310.1_XX_Neoseiulus_fallacis NCBI_KU318181.1_XX_Neoseiulus_californicus NCBI_KU318180.1_XX_Neoseiulus_californicus 
+Subset[ 19 ] n: 1 ;id: NCBI_OP960227.1_XX_Euseius_ghilarovi 
+Subset[ 20 ] n: 5 ;id: NCBI_OP960226.1_XX_Euseius_amissibilis NCBI_OP960224.1_XX_Euseius_amissibilis NCBI_MW367947.1_XX_Euseius_amissibilis NCBI_KU318184.1_XX_Euseius_gallicus NCBI_KU318185.1_XX_Euseius_gallicus 
+Subset[ 21 ] n: 1 ;id: NCBI_OP960217.1_XX_Neoseiulus_reticulatus 
+Subset[ 22 ] n: 18 ;id: NCBI_OP960216.1_XX_Amblyseius_herbicolus NCBI_MW346236.1_XX_Amblyseius_eharai NCBI_MW346298.1_XX_Amblyseius_eharai NCBI_JX080342.1_XX_Amblyseius_eharai NCBI_JX080345.1_XX_Amblyseius_eharai NCBI_JX080341.1_XX_Amblyseius_eharai NCBI_JX080337.1_XX_Amblyseius_eharai NCBI_JX080334.1_XX_Amblyseius_eharai NCBI_JX080338.1_XX_Amblyseius_eharai NCBI_JX080335.1_XX_Amblyseius_eharai NCBI_JX080340.1_XX_Amblyseius_eharai NCBI_JX080339.1_XX_Amblyseius_eharai NCBI_JX080333.1_XX_Amblyseius_eharai NCBI_JX080336.1_XX_Amblyseius_eharai NCBI_JX080343.1_XX_Amblyseius_eharai NCBI_JX080344.1_XX_Amblyseius_eharai NCBI_JX080332.1_XX_Amblyseius_eharai NCBI_JX080331.1_XX_Amblyseius_eharai 
+Subset[ 23 ] n: 4 ;id: NCBI_JX080330.1_XX_Amblyseius_herbicolus NCBI_JX080328.1_XX_Amblyseius_herbicolus NCBI_JX080326.1_XX_Amblyseius_herbicolus NCBI_JX080329.1_XX_Amblyseius_herbicolus 
+Subset[ 24 ] n: 1 ;id: NCBI_OP960213.1_XX_Amblyseius_adjaricus 
+Subset[ 25 ] n: 5 ;id: NCBI_OP960212.1_XX_Neoseiulus_agrestis NCBI_OK491213.1_XX_Neoseiulus_agrestis NCBI_OK491215.1_XX_Neoseiulus_agrestis NCBI_OK491216.1_XX_Neoseiulus_agrestis NCBI_OK491214.1_XX_Neoseiulus_agrestis 
+Subset[ 26 ] n: 1 ;id: NCBI_OP960210.1_XX_Amblyseius_ishizuchiensis 
+Subset[ 27 ] n: 1 ;id: NCBI_OP960209.1_XX_Amblyseius_ishizuchiensis 
+Subset[ 28 ] n: 1 ;id: NCBI_OL863210.1_XX_Neoseiulus_zwoelferi 
+Subset[ 29 ] n: 1 ;id: NCBI_OP957030.1_XX_Neoseiulus_zwoelferi 
+Subset[ 30 ] n: 5 ;id: NCBI_ON461911.1_XX_Euseius_scutalis NCBI_ON461909.1_XX_Euseius_scutalis NCBI_ON461904.1_XX_Euseius_scutalis NCBI_ON461906.1_XX_Euseius_scutalis NCBI_ON461910.1_XX_Euseius_scutalis 
+Subset[ 31 ] n: 2 ;id: NCBI_KU318204.1_XX_Euseius_scutalis NCBI_KU318203.1_XX_Euseius_scutalis 
+Subset[ 32 ] n: 18 ;id: NCBI_MW346237.1_XX_Euseius_stipulatus NCBI_MW346280.1_XX_Euseius_stipulatus NCBI_MW346304.1_XX_Euseius_stipulatus NCBI_MW346288.1_XX_Euseius_stipulatus NCBI_MW346290.1_XX_Euseius_stipulatus BOLD_GMSCK8068-23_XX_Euseius_stipulatus NCBI_MW405511.1_XX_Euseius_stipulatus NCBI_MW346241.1_XX_Euseius_stipulatus NCBI_MW346287.1_XX_Euseius_stipulatus NCBI_MW346286.1_XX_Euseius_stipulatus NCBI_MW346279.1_XX_Euseius_stipulatus NCBI_MW346294.1_XX_Euseius_stipulatus NCBI_MW346300.1_XX_Euseius_stipulatus NCBI_MW346291.1_XX_Euseius_stipulatus NCBI_MW346293.1_XX_Euseius_stipulatus NCBI_MW346292.1_XX_Euseius_stipulatus NCBI_MW346299.1_XX_Euseius_stipulatus NCBI_MW405510.1_XX_Euseius_stipulatus 
+Subset[ 33 ] n: 2 ;id: NCBI_MW346301.1_XX_Euseius_stipulatus NCBI_MW346302.1_XX_Euseius_stipulatus 
+Subset[ 34 ] n: 3 ;id: NCBI_OL863177.1_XX_Euseius_finlandicus NCBI_OL863178.1_XX_Euseius_finlandicus NCBI_MW405509.1_XX_Euseius_finlandicus 
+Subset[ 35 ] n: 2 ;id: NCBI_MW346263.1_XX_Neoseiulus_umbraticus NCBI_MW346253.1_XX_Neoseiulus_umbraticus 
+Subset[ 36 ] n: 9 ;id: BOLD_GMPTA15670-23_XX_Neoseiulus_cucumeris BOLD_GMPTA17293-23_XX_Neoseiulus_cucumeris BOLD_GMPTA12651-23_XX_Neoseiulus_cucumeris NCBI_KF966624.1_XX_Neoseiulus_cucumeris BOLD_TZBCA039-06_XX_Neoseiulus_cucumeris BOLD_TZBCA001-06_XX_Neoseiulus_cucumeris BOLD_TZBCA043-06_XX_Neoseiulus_cucumeris BOLD_TZBCA002-06_XX_Neoseiulus_cucumeris NCBI_OM019349.1_XX_Neoseiulus_cucumeris 
+Subset[ 37 ] n: 1 ;id: NCBI_OK491220.1_XX_Neoseiulus_bicaudus 
+Subset[ 38 ] n: 1 ;id: NCBI_OK491219.1_XX_Neoseiulus_vasoides 
+Subset[ 39 ] n: 2 ;id: NCBI_OK491218.1_XX_Neoseiulus_alpinus NCBI_OK491217.1_XX_Neoseiulus_alpinus 
+Subset[ 40 ] n: 1 ;id: NCBI_OK491212.1_XX_Neoseiulus_subsolidus 
+Subset[ 41 ] n: 1 ;id: NCBI_OK491211.1_XX_Neoseiulus_reductus 
+Subset[ 42 ] n: 1 ;id: NCBI_MT439329.1_XX_Neoseiulus_reductus 
+Subset[ 43 ] n: 3 ;id: NCBI_OL863218.1_XX_Amblyseius_orientalis NCBI_OL863220.1_XX_Amblyseius_orientalis NCBI_OL863212.1_XX_Amblyseius_orientalis 
+Subset[ 44 ] n: 1 ;id: NCBI_KF966633.1_XX_Amblyseius_orientalis 
+Subset[ 45 ] n: 1 ;id: NCBI_OL863198.1_XX_Neoseiulus_tervus 
+Subset[ 46 ] n: 2 ;id: NCBI_MW367948.1_XX_Neoseiulus_tervus NCBI_MW367943.1_XX_Neoseiulus_tervus 
+Subset[ 47 ] n: 1 ;id: NCBI_OL863191.1_XX_Amblyseius_rademacheri 
+Subset[ 48 ] n: 1 ;id: NCBI_PQ469840.1_XX_Amblyseius_rademacheri 
+Subset[ 49 ] n: 2 ;id: NCBI_MW367938.1_XX_Amblyseius_obtusus NCBI_OL863186.1_XX_Amblyseius_obtusus 
+Subset[ 50 ] n: 1 ;id: NCBI_OL863180.1_XX_Amblyseius_omaloensis 
+Subset[ 51 ] n: 1 ;id: NCBI_MW367954.1_XX_Amblyseius_krantzi 
+Subset[ 52 ] n: 1 ;id: NCBI_MW367952.1_XX_Amblyseius_meridionalis 
+Subset[ 53 ] n: 1 ;id: NCBI_MW367945.1_XX_Amblyseius_myrtilli 
+Subset[ 54 ] n: 1 ;id: NCBI_MW367942.1_XX_Neoseiulus_ellesmerei 
+Subset[ 55 ] n: 1 ;id: NCBI_MW367941.1_XX_Amblyseius_silvaticus 
+Subset[ 56 ] n: 1 ;id: NCBI_MW367940.1_XX_Neoseiulus_extricatus 
+Subset[ 57 ] n: 1 ;id: NCBI_MK577647.1_XX_Neoseiulus_longispinosus 
+Subset[ 58 ] n: 3 ;id: NCBI_JX080349.1_XX_Amblyseius_largoensis NCBI_JX080347.1_XX_Amblyseius_largoensis NCBI_JX080346.1_XX_Amblyseius_largoensis 
+Subset[ 59 ] n: 7 ;id: BOLD_CIDTA14117-25_XX_Amblyseius_largoensis BOLD_GHABA10239-25_XX_Amblyseius_largoensis BOLD_GHPIB4439-25_XX_Amblyseius_largoensis NCBI_KU318188.1_XX_Amblyseius_largoensis NCBI_KU318189.1_XX_Amblyseius_largoensis NCBI_PQ437266.1_XX_Amblyseius_largoensis NCBI_MK577645.1_XX_Amblyseius_largoensis 
+Subset[ 60 ] n: 8 ;id: BOLD_MYCP026-14_XX_Neoseiulus_fallacis BOLD_MYCP027-14_XX_Neoseiulus_fallacis BOLD_MYCP103-14_XX_Neoseiulus_fallacis BOLD_MYCP104-14_XX_Neoseiulus_fallacis BOLD_MYCP028-14_XX_Neoseiulus_fallacis BOLD_MYCP029-14_XX_Neoseiulus_fallacis BOLD_SBCFA6990-21_XX_Neoseiulus_fallacis BOLD_PLMC136-11_XX_Neoseiulus_fallacis 
+Subset[ 61 ] n: 2 ;id: NCBI_KU318176.1_XX_Amblyseius_andersoni NCBI_KU318177.1_XX_Amblyseius_andersoni 
+Subset[ 62 ] n: 3 ;id: NCBI_KU318197.1_XX_Euseius_ovalis NCBI_KU318198.1_XX_Euseius_ovalis NCBI_OR906641.1_XX_Euseius_sacchari 
+Subset[ 63 ] n: 3 ;id: NCBI_KF966634.1_XX_Neoseiulus_womersleyi NCBI_KF966621.1_XX_Neoseiulus_womersleyi NCBI_MW762685.1_XX_Neoseiulus_womersleyi 
+Subset[ 64 ] n: 3 ;id: NCBI_JX080312.1_XX_Neoseiulus_imbricatus NCBI_PQ631130.1_XX_Neoseiulus_imbricatus NCBI_JX080311.1_XX_Neoseiulus_imbricatus 
+Subset[ 65 ] n: 1 ;id: NCBI_OR876362.1_XX_Amblyseius_tamatavensis 
+Subset[ 66 ] n: 1 ;id: NCBI_PQ564476.1_XX_Euseius_querci 
+Subset[ 67 ] n: 1 ;id: NCBI_PQ586090.1_XX_Euseius_aizawai 
+Subset[ 68 ] n: 1 ;id: NCBI_PP503003.1_XX_Amblyseius_subpassiflorae 
+Subset[ 69 ] n: 1 ;id: NCBI_NC_087756.1_XX_Neoseiulus_chebalingensis 
+Subset[ 70 ] n: 3 ;id: BOLD_CIDTA17887-25_XX_Paraphytoseius_orientalis BOLD_GMPJA9256-21_XX_Paraphytoseius_orientalis BOLD_GMPJA3794-21_XX_Paraphytoseius_orientalis 
+Subset[ 71 ] n: 5 ;id: BOLD_GHABA28484-25_XX_Amblyseius_degenerans BOLD_GHATA1071-25_XX_Amblyseius_degenerans BOLD_GHPIC10057-25_XX_Amblyseius_degenerans BOLD_GHPIC4338-25_XX_Amblyseius_degenerans BOLD_TZBCA378-07_XX_Amblyseius_degenerans 

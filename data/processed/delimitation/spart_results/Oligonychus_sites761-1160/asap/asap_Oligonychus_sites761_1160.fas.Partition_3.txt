@@ -1,0 +1,31 @@
+Partition 3 
+Asap-Score: 4.500000
+Proba: 5.369261e-01
+Nb subsets with recursion:25 (without recursion: 24)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 5 ;id: NCBI_MZ496533.1_IN_Oligonychus_tylus NCBI_KU323485.1_IN_Oligonychus_tylus NCBI_PZ484972.1_XX_Oligonychus_tylus NCBI_MN337796.1_IN_Oligonychus_tylus NCBI_MH647654.1_IN_Oligonychus_tylus 
+Subset[ 2 ] n: 3 ;id: NCBI_MW791265.1_IN_Oligonychus_grypus NCBI_KY593991.1_IN_Oligonychus_oryzae NCBI_MW491838.1_XX_Oligonychus_grypus 
+Subset[ 3 ] n: 3 ;id: NCBI_MT821525.1_IN_Oligonychus_indicus NCBI_KC009700.1_IN_Oligonychus_indicus NCBI_KR870321.1_IN_Oligonychus_indicus 
+Subset[ 4 ] n: 1 ;id: NCBI_MT815743.1_IN_Oligonychus_thelytokus 
+Subset[ 5 ] n: 2 ;id: NCBI_MT492157.1_IN_Oligonychus_plegas NCBI_MG916906.1_IN_Oligonychus_sp. 
+Subset[ 6 ] n: 2 ;id: NCBI_KR870322.1_IN_Oligonychus_coffeae NCBI_KC009699.1_IN_Oligonychus_coffeae 
+Subset[ 7 ] n: 1 ;id: NCBI_KC283027.1_IN_Oligonychus_biharensis 
+Subset[ 8 ] n: 1 ;id: NCBI_AB683656.1_XX_Oligonychus_karamatus 
+Subset[ 9 ] n: 2 ;id: NCBI_AB683679.1_XX_Oligonychus_biharensis NCBI_AB683678.1_XX_Oligonychus_biharensis 
+Subset[ 10 ] n: 1 ;id: NCBI_AB683664.1_XX_Oligonychus_ununguis 
+Subset[ 11 ] n: 1 ;id: NCBI_MW517748.1_XX_Oligonychus_vitis 
+Subset[ 12 ] n: 1 ;id: NCBI_AB683667.1_XX_Oligonychus_castaneae 
+Subset[ 13 ] n: 2 ;id: NCBI_AB683681.1_XX_Oligonychus_rubicundus NCBI_AB683680.1_XX_Oligonychus_rubicundus 
+Subset[ 14 ] n: 2 ;id: NCBI_AB683677.1_XX_Oligonychus_modestus NCBI_AB683676.1_XX_Oligonychus_modestus 
+Subset[ 15 ] n: 2 ;id: NCBI_AB683675.1_XX_Oligonychus_orthius NCBI_AB683674.1_XX_Oligonychus_orthius 
+Subset[ 16 ] n: 2 ;id: NCBI_AB683673.1_XX_Oligonychus_amiensis NCBI_AB683672.1_XX_Oligonychus_amiensis 
+Subset[ 17 ] n: 2 ;id: NCBI_AB683671.1_XX_Oligonychus_coffeae NCBI_AB683670.1_XX_Oligonychus_coffeae 
+Subset[ 18 ] n: 2 ;id: NCBI_AB683669.1_XX_Oligonychus_gotohi NCBI_AB683668.1_XX_Oligonychus_gotohi 
+Subset[ 19 ] n: 1 ;id: NCBI_AB683665.1_XX_Oligonychus_perditus 
+Subset[ 20 ] n: 2 ;id: NCBI_AB683663.1_XX_Oligonychus_camelliae NCBI_AB683662.1_XX_Oligonychus_camelliae 
+Subset[ 21 ] n: 1 ;id: NCBI_AB683661.1_XX_Oligonychus_ilicis 
+Subset[ 22 ] n: 1 ;id: NCBI_AB683659.1_XX_Oligonychus_tsudomei 
+Subset[ 23 ] n: 2 ;id: NCBI_AB683658.1_XX_Oligonychus_hondoensis NCBI_AB683657.1_XX_Oligonychus_hondoensis 
+Subset[ 24 ] n: 1 ;id: NCBI_AB683655.1_XX_Oligonychus_pustulosus 
+Subset[ 25 ] n: 1 ;id: NCBI_AB683654.1_XX_Oligonychus_clavatus 

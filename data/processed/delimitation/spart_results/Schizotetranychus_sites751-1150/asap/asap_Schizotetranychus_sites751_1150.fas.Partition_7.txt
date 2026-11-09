@@ -1,0 +1,13 @@
+Partition 7 
+Asap-Score: 6.500000
+Proba: 1.000000e+00
+Nb subsets with recursion:7 (without recursion: 6)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_MT776314.1_IN_Schizotetranychus_krungthepensis 
+Subset[ 2 ] n: 1 ;id: NCBI_MT422536.1_IN_Schizotetranychus_andropogoni 
+Subset[ 3 ] n: 2 ;id: NCBI_MH686294.1_IN_Schizotetranychus_andropogoni NCBI_KM580508.1_IN_Schizotetranychus_andropogoni 
+Subset[ 4 ] n: 1 ;id: NCBI_KU310625.1_IN_Schizotetranychus_krungthepensis 
+Subset[ 5 ] n: 1 ;id: NCBI_KM580505.1_IN_Schizotetranychus_laevidorsatus 
+Subset[ 6 ] n: 1 ;id: NCBI_KM580504.1_IN_Schizotetranychus_asparagi 
+Subset[ 7 ] n: 1 ;id: NCBI_KM823504.1_IN_Schizotetranychus_baltazari 

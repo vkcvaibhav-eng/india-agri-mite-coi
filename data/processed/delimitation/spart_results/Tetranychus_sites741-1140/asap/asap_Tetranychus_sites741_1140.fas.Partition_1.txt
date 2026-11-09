@@ -1,0 +1,45 @@
+Partition 1 
+Asap-Score: 4.000000
+Proba: 1.856287e-01
+Nb subsets with recursion:39 (without recursion: 38)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PV422801.1_IN_Tetranychus_urticae 
+Subset[ 2 ] n: 29 ;id: NCBI_KM435067.1_IN_Tetranychus_truncatus NCBI_AB736075.1_XX_Tetranychus_truncatus NCBI_AB257317.1_XX_Tetranychus_truncatus NCBI_MK628572.1_XX_Tetranychus_truncatus NCBI_JX094376.1_XX_Tetranychus_truncatus NCBI_JX094361.1_XX_Tetranychus_truncatus NCBI_MK628575.1_XX_Tetranychus_truncatus NCBI_GQ141912.1_XX_Tetranychus_truncatus NCBI_JX094375.1_XX_Tetranychus_truncatus NCBI_MK628568.1_XX_Tetranychus_truncatus NCBI_MK628582.1_XX_Tetranychus_truncatus NCBI_MK628567.1_XX_Tetranychus_truncatus NCBI_MK628576.1_XX_Tetranychus_truncatus NCBI_MK628581.1_XX_Tetranychus_truncatus NCBI_MK628589.1_XX_Tetranychus_truncatus NCBI_JX094363.1_XX_Tetranychus_truncatus NCBI_MK628590.1_XX_Tetranychus_truncatus NCBI_JX094374.1_XX_Tetranychus_truncatus NCBI_MG231438.1_XX_Tetranychus_truncatus NCBI_MK628574.1_XX_Tetranychus_truncatus NCBI_JX094360.1_XX_Tetranychus_truncatus NCBI_MG231437.1_XX_Tetranychus_truncatus NCBI_MG231434.1_XX_Tetranychus_truncatus NCBI_JX094362.1_XX_Tetranychus_truncatus NCBI_PV776704.1_XX_Tetranychus_truncatus NCBI_MK628571.1_XX_Tetranychus_truncatus NCBI_JX094365.1_XX_Tetranychus_truncatus NCBI_JX094364.1_XX_Tetranychus_truncatus NCBI_MG231439.1_XX_Tetranychus_truncatus 
+Subset[ 3 ] n: 10 ;id: NCBI_OR690637.1_IN_Tetranychus_urticae NCBI_OP019388.1_IN_Tetranychus_urticae NCBI_GQ141913.1_XX_Tetranychus_turkestani NCBI_PX894972.1_XX_Tetranychus_turkestani NCBI_PX894970.1_XX_Tetranychus_turkestani NCBI_PX894968.1_XX_Tetranychus_turkestani NCBI_KR870317.1_IN_Tetranychus_urticae NCBI_AB736081.1_XX_Tetranychus_urticae NCBI_KM435068.1_IN_Tetranychus_urticae NCBI_MW535086.1_XX_Tetranychus_turkestani 
+Subset[ 4 ] n: 1 ;id: NCBI_MN275889.1_IN_Tetranychus_urticae 
+Subset[ 5 ] n: 1 ;id: NCBI_MN275888.1_IN_Tetranychus_urticae 
+Subset[ 6 ] n: 3 ;id: NCBI_MH664307.1_IN_Tetranychus_udaipurensis NCBI_MH664306.1_IN_Tetranychus_udaipurensis NCBI_KU310624.1_IN_Tetranychus_udaipurensis 
+Subset[ 7 ] n: 1 ;id: NCBI_KU738613.1_IN_Tetranychus_puschelii 
+Subset[ 8 ] n: 1 ;id: NCBI_KU297231.1_IN_Tetranychus_lombardinii 
+Subset[ 9 ] n: 1 ;id: NCBI_KR870318.1_IN_Tetranychus_macfarlanei 
+Subset[ 10 ] n: 1 ;id: NCBI_KR269716.1_IN_Tetranychus_bambusae 
+Subset[ 11 ] n: 1 ;id: NCBI_KM823507.1_IN_Tetranychus_sp. 
+Subset[ 12 ] n: 1 ;id: NCBI_KM823506.1_IN_Tetranychus_lombardinii 
+Subset[ 13 ] n: 1 ;id: NCBI_KM823505.1_IN_Tetranychus_sp. 
+Subset[ 14 ] n: 1 ;id: NCBI_KM435063.1_IN_Tetranychus_neocaledonicus 
+Subset[ 15 ] n: 1 ;id: NCBI_KM435062.1_IN_Tetranychus_ludeni 
+Subset[ 16 ] n: 1 ;id: NCBI_KM435061.1_IN_Tetranychus_fijiensis 
+Subset[ 17 ] n: 1 ;id: NCBI_KM580509.1_IN_Tetranychus_turkestani 
+Subset[ 18 ] n: 4 ;id: NCBI_KJ685915.1_IN_Tetranychus_gloveri NCBI_AB736059.1_XX_Tetranychus_gloveri NCBI_AB736058.1_XX_Tetranychus_gloveri NCBI_PV776692.1_XX_Tetranychus_gloveri 
+Subset[ 19 ] n: 1 ;id: NCBI_KJ017972.1_IN_Tetranychus_gloveri 
+Subset[ 20 ] n: 1 ;id: NCBI_KC667145.1_IN_Tetranychus_macfarlanei 
+Subset[ 21 ] n: 3 ;id: NCBI_PV991117.1_XX_Tetranychus_merganser NCBI_KM596707.1_XX_Tetranychus_merganser NCBI_KM596705.1_XX_Tetranychus_merganser 
+Subset[ 22 ] n: 3 ;id: NCBI_AB736057.1_XX_Tetranychus_neocaledonicus NCBI_AB736056.1_XX_Tetranychus_neocaledonicus NCBI_AB736055.1_XX_Tetranychus_neocaledonicus 
+Subset[ 23 ] n: 3 ;id: NCBI_AB736053.1_XX_Tetranychus_ludeni NCBI_KP828059.1_XX_Tetranychus_ludeni NCBI_GQ141911.1_XX_Tetranychus_kanzawai 
+Subset[ 24 ] n: 8 ;id: NCBI_AB736040.1_XX_Tetranychus_evansi NCBI_PV776701.1_XX_Tetranychus_evansi NCBI_PX894986.1_XX_Tetranychus_evansi NCBI_AB736039.1_XX_Tetranychus_evansi NCBI_MH978904.1_XX_Tetranychus_evansi NCBI_PX894985.1_XX_Tetranychus_evansi NCBI_MF428442.1_XX_Tetranychus_evansi NCBI_GU565325.1_XX_Tetranychus_evansi 
+Subset[ 25 ] n: 1 ;id: NCBI_MF428443.1_XX_Tetranychus_evansi 
+Subset[ 26 ] n: 10 ;id: NCBI_MG231436.1_XX_Tetranychus_truncatus NCBI_PV776698.1_XX_Tetranychus_pueraricola NCBI_KP828064.1_XX_Tetranychus_pueraricola NCBI_MK628573.1_XX_Tetranychus_kanzawai NCBI_JX094370.1_XX_Tetranychus_pueraricola NCBI_JX094366.1_XX_Tetranychus_pueraricola NCBI_JX094372.1_XX_Tetranychus_phaselus NCBI_JX094367.1_XX_Tetranychus_pueraricola NCBI_JX094371.1_XX_Tetranychus_phaselus NCBI_AB736073.1_XX_Tetranychus_pueraricola 
+Subset[ 27 ] n: 1 ;id: NCBI_MG231435.1_XX_Tetranychus_truncatus 
+Subset[ 28 ] n: 7 ;id: NCBI_AB736070.1_XX_Tetranychus_piercei NCBI_AB736069.1_XX_Tetranychus_piercei NCBI_PV776696.1_XX_Tetranychus_piercei NCBI_PV776695.1_XX_Tetranychus_piercei NCBI_KP828061.1_XX_Tetranychus_piercei NCBI_AB736068.1_XX_Tetranychus_piercei NCBI_AB257314.1_XX_Tetranychus_piercei 
+Subset[ 29 ] n: 14 ;id: NCBI_AB736050.1_XX_Tetranychus_kanzawai NCBI_AB736044.1_XX_Tetranychus_kanzawai NCBI_AB736049.1_XX_Tetranychus_kanzawai NCBI_AB079105.2_XX_Tetranychus_kanzawai NCBI_AB079048.2_XX_Tetranychus_kanzawai NCBI_KP828065.1_XX_Tetranychus_kanzawai NCBI_AB736043.1_XX_Tetranychus_kanzawai NCBI_AB079042.2_XX_Tetranychus_kanzawai NCBI_AB079111.2_XX_Tetranychus_kanzawai NCBI_PV776694.1_XX_Tetranychus_kanzawai NCBI_AB079036.2_XX_Tetranychus_kanzawai NCBI_AB736046.1_XX_Tetranychus_kanzawai NCBI_AB736047.1_XX_Tetranychus_kanzawai NCBI_AB079049.2_XX_Tetranychus_kanzawai 
+Subset[ 30 ] n: 7 ;id: NCBI_AB736048.1_XX_Tetranychus_kanzawai NCBI_AB736045.1_XX_Tetranychus_kanzawai NCBI_AB736042.1_XX_Tetranychus_ezoensis NCBI_AB079033.2_XX_Tetranychus_kanzawai NCBI_AB736060.1_XX_Tetranychus_parakanzawai NCBI_AB736062.1_XX_Tetranychus_parakanzawai NCBI_AB736065.1_XX_Tetranychus_parakanzawai 
+Subset[ 31 ] n: 1 ;id: NCBI_AB079034.2_XX_Tetranychus_kanzawai 
+Subset[ 32 ] n: 1 ;id: NCBI_MT983202.1_XX_Tetranychus_lambi 
+Subset[ 33 ] n: 1 ;id: NCBI_MW496109.1_XX_Tetranychus_taiwanicus 
+Subset[ 34 ] n: 3 ;id: NCBI_MK628593.1_XX_Tetranychus_viennensis NCBI_MK628580.1_XX_Tetranychus_viennensis NCBI_JQ438840.1_XX_Tetranychus_viennensis 
+Subset[ 35 ] n: 2 ;id: NCBI_MH469617.1_XX_Tetranychus_macfarlanei NCBI_KP828058.1_XX_Tetranychus_macfarlanei 
+Subset[ 36 ] n: 1 ;id: NCBI_AB736067.1_XX_Tetranychus_phaselus 
+Subset[ 37 ] n: 2 ;id: NCBI_KP828060.1_XX_Tetranychus_phaselus NCBI_AB736066.1_XX_Tetranychus_phaselus 
+Subset[ 38 ] n: 3 ;id: NCBI_AB736064.1_XX_Tetranychus_parakanzawai NCBI_AB736061.1_XX_Tetranychus_parakanzawai NCBI_AB736063.1_XX_Tetranychus_parakanzawai 
+Subset[ 39 ] n: 1 ;id: NCBI_AB736054.1_XX_Tetranychus_misumaiensis 

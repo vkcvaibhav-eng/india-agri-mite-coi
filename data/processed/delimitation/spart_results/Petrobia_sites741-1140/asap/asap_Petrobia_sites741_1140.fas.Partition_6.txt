@@ -1,0 +1,8 @@
+Partition 6 
+Asap-Score: 5.000000
+Proba: 9.321357e-01
+Nb subsets with recursion:2 (without recursion: 1)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 6 ;id: NCBI_KM435060.1_IN_Petrobia_(Petrobia)_latens NCBI_PX894949.1_XX_Petrobia_(Petrobia)_latens NCBI_PX894951.1_XX_Petrobia_(Petrobia)_latens NCBI_PX894950.1_XX_Petrobia_(Petrobia)_latens NCBI_EU487119.1_XX_Petrobia_tunisiae NCBI_EU487118.1_XX_Petrobia_tunisiae 
+Subset[ 2 ] n: 5 ;id: NCBI_KC283026.1_IN_Petrobia_(Tetranychina)_harti NCBI_GQ141919.1_XX_Petrobia_(Tetranychina)_harti NCBI_KP828056.1_XX_Petrobia_(Tetranychina)_harti NCBI_GQ141920.1_XX_Petrobia_(Tetranychina)_harti NCBI_EU487120.1_XX_Petrobia_(Tetranychina)_harti 

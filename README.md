@@ -236,8 +236,8 @@ python scripts/read_asap.py && python scripts/suspect_names.py
 python scripts/make_figures.py              # every table and figure in the manuscript
 ```
 
-`screen_coi.py --no-asap` keeps the archived ASAP input files, which are the files run on Spart Explorer; without
-the flag it writes new ones.
+`screen_coi.py --no-asap` keeps the ASAP input files that were run on Spart Explorer; without the flag it writes them
+again from the current comparison sets.
 
 ### Download accounting
 
@@ -296,13 +296,15 @@ thresholds of 1-5% and with three comparator pools: all records, records from ot
 ## Stages 5b and 5c: screening, ASAP and ABGD
 
 `screen_coi.py` flags sequences with no other sequence in their group within 20% or with stop codons in all six
-frames; flagged sequences are left out of the distances. The archived ASAP input files
-(`data/processed/delimitation/asap_*.fas`) were run on Spart Explorer (https://spartexplorer.mnhn.fr) with ASAP and
-ABGD; the results are in `spart_results/`. Fifteen files met the rules (every sequence covering 95% of one 400-site
-window; at least two Indian and six sequences in all); eight have been run. `read_asap.py` reads the partitions and
-takes geography from `coi_metadata.csv`, not from the `_IN_`/`_XX_` tags in the file names, which were written under
-the earlier substring rule. `suspect_names.py` lists sequences whose name differs from the majority name of their
-ASAP group and reports ties (two names equally represented) separately.
+frames; flagged sequences are left out of the distances. The ASAP input files
+(`data/processed/delimitation/asap_*.fas`, 15 files: every sequence covering 95% of one 400-site window; at least two
+Indian and six sequences in all) were run on Spart Explorer (https://spartexplorer.mnhn.fr) on 10 November 2026 with
+Jukes–Cantor distances; ASAP: split probability 0.001, 10 best scores, seed 1; ABGD: X = 1.5, P 0.001–0.1 in 10 steps,
+20 bins. The downloaded results are in `delimitation/spart_results/<genus>_sites<a>-<b>/{asap,abgd}/`; the runs of an
+earlier pass, with different input files, are kept in `delimitation/first_pass/`. `read_asap.py` reads the best-ranked
+ASAP partition (matched to the `.spart` by subset count and ASAP score) and the recursive ABGD partition at P = 0.0129,
+and takes geography from `coi_metadata.csv`. `suspect_names.py` lists sequences whose name differs from the majority
+name of their ASAP group and reports ties (two or more names equally represented) separately.
 
 ## Results for the paper
 
@@ -311,6 +313,6 @@ ASAP group and reports ties (two names equally represented) separately.
 | `results/tables/table1_coi_coverage.csv` | Table 1, coverage by group |
 | `results/tables/table2_name_agreement_sensitivity.csv` | Table 2, agreement by comparator pool and threshold |
 | `results/tables/table3_names.csv` | Table 3, each name borne by Indian sequences |
-| `results/tables/table4_asap_abgd_partitions.csv` | Table 4, ASAP and ABGD partitions |
-| `results/tables/table5_names_in_conflict_with_asap.csv` | Table 5, sequences in conflict with their ASAP group |
-| `results/figures/fig1_name_agreement.{png,tiff}` | Figure 1, name agreement by group (300 dpi) |
+| `results/tables/table4_asap_abgd_partitions.csv` | Table 4, ASAP and ABGD partitions of the 15 files |
+| `results/tables/table5_names_in_conflict_with_asap.csv` | Table 5, ASAP groups holding more than one name |
+| `results/figures/fig1_name_agreement.{png,tiff,svg}` | Figure 1, name agreement by group (600 dpi) |

@@ -1,0 +1,10 @@
+Partition 4 
+Asap-Score: 4.500000
+Proba: 7.884232e-01
+Nb subsets with recursion:4 (without recursion: 3)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 29 ;id: NCBI_EU682427.1_IN_Raoiella_indica NCBI_EU682426.1_IN_Raoiella_indica NCBI_EU682425.1_IN_Raoiella_indica NCBI_EU682424.1_IN_Raoiella_indica NCBI_MH205662.1_XX_Raoiella_indica NCBI_MH205612.1_XX_Raoiella_indica NCBI_EU682444.1_XX_Raoiella_indica BOLD_GMMND364-18_XX_Raoiella_indica NCBI_MH205652.1_XX_Raoiella_indica NCBI_EU682443.1_XX_Raoiella_indica NCBI_EU682445.1_XX_Raoiella_indica NCBI_KY273098.1_XX_Raoiella_indica NCBI_OR880644.1_XX_Raoiella_indica NCBI_MH205651.1_XX_Raoiella_indica NCBI_MH205656.1_XX_Raoiella_indica NCBI_MH205653.1_XX_Raoiella_indica NCBI_MH205654.1_XX_Raoiella_indica NCBI_OR880642.1_XX_Raoiella_indica NCBI_OR880643.1_XX_Raoiella_indica NCBI_EU682442.1_XX_Raoiella_indica NCBI_MH205647.1_XX_Raoiella_indica BOLD_GHPIC2754-25_XX_Raoiella_indica NCBI_EU682439.1_XX_Raoiella_indica NCBI_MH205650.1_XX_Raoiella_indica NCBI_MH205649.1_XX_Raoiella_indica NCBI_MH205627.1_XX_Raoiella_indica NCBI_MH205628.1_XX_Raoiella_indica NCBI_MH205661.1_XX_Raoiella_indica BOLD_GHPIC4383-25_XX_Raoiella_indica 
+Subset[ 2 ] n: 1 ;id: NCBI_JQ924189.1_IN_Raoiella_macfarlanei 
+Subset[ 3 ] n: 6 ;id: NCBI_ON386174.1_XX_Raoiella_indica NCBI_MK288028.1_XX_Raoiella_indica NCBI_ON386173.1_XX_Raoiella_indica NCBI_ON386172.1_XX_Raoiella_indica NCBI_EU682434.1_XX_Raoiella_indica NCBI_ON630336.1_XX_Raoiella_indica 
+Subset[ 4 ] n: 2 ;id: NCBI_EU682438.1_XX_Raoiella_indica NCBI_EU682441.1_XX_Raoiella_indica 

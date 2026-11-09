@@ -1,0 +1,8 @@
+Partition 4 
+Asap-Score: 3.500000
+Proba: 1.000000e+00
+Nb subsets with recursion:7 (without recursion: 6)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_MT027818.1_XX_Aceria_litchii 
+Subset[ 2 ] n: 1 ;id: NCBI_MT027820.1_XX_Aceria_litchii 

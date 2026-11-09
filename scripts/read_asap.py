@@ -37,7 +37,12 @@ def read_spart(path):
 
 # geography is read from coi_metadata.csv (geo_status), not from the IN/XX tag written into
 # the input file names, which used the earlier substring rule
-GEO = {r["record_id"].replace(".", "_"): r["geo_status"]
+def skey(record_id):
+    """Record id as Spart Explorer writes it: every character other than a letter or digit becomes _."""
+    return re.sub(r"[^A-Za-z0-9]", "_", record_id)
+
+
+GEO = {skey(r["record_id"]): r["geo_status"]
        for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv"), encoding="utf-8"))}
 
 
@@ -46,12 +51,28 @@ GEO = {r["record_id"].replace(".", "_"): r["geo_status"]
 ASAP_RANK = {}
 
 
-def asap_groups(run, rank=None):
-    """Number of subsets in the ASAP partition of the given rank (default ASAP_RANK or 1)."""
+def asap_row(run, rank=None):
+    """Row of the ASAP results table (.res.cvs) for the given rank (default ASAP_RANK or 1)."""
     rank = rank or ASAP_RANK.get(run, 1)
     res = glob.glob(os.path.join(RES, run, "asap", "*.res.cvs"))[0]
     table = [r for r in csv.reader(open(res), delimiter="\t")][1:]
-    return int(table[rank - 1][1])
+    return table[rank - 1]
+
+
+def asap_groups(run, rank=None):
+    """Number of subsets in the ASAP partition of the given rank (default ASAP_RANK or 1)."""
+    return int(asap_row(run, rank)[1])
+
+
+def asap_index(labels, nsub, row):
+    """Position in the .spart of the partition in a .res.cvs row: same number of subsets and
+    same ASAP score (the .spart does not list partitions in rank order)."""
+    target, score = int(row[1]), float(row[2])
+    hits = [i for i, (l, k) in enumerate(zip(labels, nsub))
+            if k == target and abs(float(l.rsplit(",", 1)[1]) - score) < 1e-6]
+    if len(hits) != 1:
+        raise SystemExit(f"cannot place ASAP partition {row[:3]} in the .spart ({len(hits)} matches)")
+    return hits[0]
 
 
 def name_of(sample):
@@ -59,7 +80,9 @@ def name_of(sample):
     if not m:
         return sample, False
     rid = sample[:m.start()]
-    return m.group(2).replace("_", " "), GEO.get(rid) == "india"
+    # Spart Explorer writes "(" and ")" as "_": Petrobia__Petrobia__latens is Petrobia (Petrobia) latens
+    n = re.sub(r"^(\S+)  (\S+)  (\S+)", r"\1 (\2) \3", m.group(2).replace("_", " ")).strip()
+    return n, GEO.get(rid) == "india"
 
 
 def compare(assign_one):
@@ -96,17 +119,16 @@ for run in sorted(glob.glob(os.path.join(RES, "*"))):
     a_res = glob.glob(os.path.join(run, "asap", "*.res.cvs"))
     if a_sp:
         labels, nsub, assign, dist = read_spart(a_sp[0])
-        best = next(csv.reader(open(a_res[0]), delimiter="\t"))  # header
-        rank1 = [r for r in csv.reader(open(a_res[0]), delimiter="\t")][1]
-        # the spart lists partitions in ASAP's own order; pick the one with rank 1's subset count
+        rk = ASAP_RANK.get(rname, 1)
+        rank1 = asap_row(rname, rk)
         target = int(rank1[1])
-        idx = nsub.index(target)
+        idx = asap_index(labels, nsub, rank1)
         per, n = compare({s: v[idx] for s, v in assign.items()})
         for p in per:
-            rows.append(dict(run=rname, method="ASAP", distance=dist, partition=f"rank 1 ({target} subsets)",
+            rows.append(dict(run=rname, method="ASAP", distance=dist, partition=f"rank {rk} ({target} subsets)",
                              threshold=rank1[7], **p))
         summ.append(dict(run=rname, method="ASAP", distance=dist, samples=len(assign), subsets=n,
-                         threshold=rank1[7], asap_score=rank1[2], asap_pvalue=rank1[3]))
+                         threshold=rank1[7], asap_score=rank1[2], asap_pvalue=rank1[3], asap_rank=rk))
     if b_sp and b_res:
         labels, nsub, assign, dist = read_spart(b_sp[0])
         res = list(csv.reader(open(b_res[0]), delimiter="\t"))
@@ -118,10 +140,10 @@ for run in sorted(glob.glob(os.path.join(RES, "*"))):
                 rows.append(dict(run=rname, method="ABGD", distance=dist,
                                  partition=f"recursive, P={ABGD_PRIOR} ({want} subsets)", threshold="", **p))
             summ.append(dict(run=rname, method="ABGD", distance=dist, samples=len(assign), subsets=n,
-                             threshold=f"P={ABGD_PRIOR}", asap_score="", asap_pvalue=""))
+                             threshold=f"P={ABGD_PRIOR}", asap_score="", asap_pvalue="", asap_rank=""))
         else:
             summ.append(dict(run=rname, method="ABGD", distance=dist, samples=len(assign), subsets=want or 1,
-                             threshold=f"P={ABGD_PRIOR}: no usable partition", asap_score="", asap_pvalue=""))
+                             threshold=f"P={ABGD_PRIOR}: no usable partition", asap_score="", asap_pvalue="", asap_rank=""))
 
 with open(os.path.join(ROOT, "data", "processed", "name_delimitation.csv"), "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(rows[0]))

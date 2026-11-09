@@ -1,0 +1,9 @@
+Partition 6 
+Asap-Score: 4.500000
+Proba: 1.000000e+00
+Nb subsets with recursion:10 (without recursion: 8)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PP124899.1_IN_Mononychellus_mcgregori 
+Subset[ 2 ] n: 1 ;id: NCBI_PP074174.1_IN_Mononychellus_mcgregori 
+Subset[ 3 ] n: 1 ;id: BOLD_SMCK006-26_IN_Mononychellus_mcgregori 

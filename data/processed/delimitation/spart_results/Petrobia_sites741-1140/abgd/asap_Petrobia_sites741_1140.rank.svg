@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="745" height="545" >
+<g>
+<line x1="40" y1="40"  x2="40" y2="500" style=" stroke: black;"/>
+<line x1="40" y1="500"  x2="700" y2="500" style=" stroke: black;"/>
+<line x1="37" y1="454"  x2="40" y2="454" style=" stroke: black;"/>
+<text x="8" y="454" style="font-family: monospace; font-size: 10px;">0.01</text>
+<line x1="37" y1="408"  x2="40" y2="408" style=" stroke: black;"/>
+<text x="8" y="408" style="font-family: monospace; font-size: 10px;">0.02</text>
+<line x1="37" y1="362"  x2="40" y2="362" style=" stroke: black;"/>
+<text x="8" y="362" style="font-family: monospace; font-size: 10px;">0.04</text>
+<line x1="37" y1="316"  x2="40" y2="316" style=" stroke: black;"/>
+<text x="8" y="316" style="font-family: monospace; font-size: 10px;">0.05</text>
+<line x1="37" y1="270"  x2="40" y2="270" style=" stroke: black;"/>
+<text x="8" y="270" style="font-family: monospace; font-size: 10px;">0.06</text>
+<line x1="37" y1="224"  x2="40" y2="224" style=" stroke: black;"/>
+<text x="8" y="224" style="font-family: monospace; font-size: 10px;">0.07</text>
+<line x1="37" y1="178"  x2="40" y2="178" style=" stroke: black;"/>
+<text x="8" y="178" style="font-family: monospace; font-size: 10px;">0.09</text>
+<line x1="37" y1="132"  x2="40" y2="132" style=" stroke: black;"/>
+<text x="8" y="132" style="font-family: monospace; font-size: 10px;">0.10</text>
+<line x1="37" y1="86"  x2="40" y2="86" style=" stroke: black;"/>
+<text x="8" y="86" style="font-family: monospace; font-size: 10px;">0.11</text>
+<line x1="37" y1="40"  x2="40" y2="40" style=" stroke: black;"/>
+<text x="8" y="40" style="font-family: monospace; font-size: 10px;">0.12</text>
+<line x1="106" y1="500"  x2="106" y2="505" style=" stroke: black;"/>
+<text x="106" y="505" transform="rotate(90,106,505)" style="font-family: monospace; font-size: 10px;">5</text>
+<line x1="172" y1="500"  x2="172" y2="505" style=" stroke: black;"/>
+<text x="172" y="505" transform="rotate(90,172,505)" style="font-family: monospace; font-size: 10px;">10</text>
+<line x1="238" y1="500"  x2="238" y2="505" style=" stroke: black;"/>
+<text x="238" y="505" transform="rotate(90,238,505)" style="font-family: monospace; font-size: 10px;">15</text>
+<line x1="304" y1="500"  x2="304" y2="505" style=" stroke: black;"/>
+<text x="304" y="505" transform="rotate(90,304,505)" style="font-family: monospace; font-size: 10px;">20</text>
+<line x1="370" y1="500"  x2="370" y2="505" style=" stroke: black;"/>
+<text x="370" y="505" transform="rotate(90,370,505)" style="font-family: monospace; font-size: 10px;">25</text>
+<line x1="436" y1="500"  x2="436" y2="505" style=" stroke: black;"/>
+<text x="436" y="505" transform="rotate(90,436,505)" style="font-family: monospace; font-size: 10px;">30</text>
+<line x1="502" y1="500"  x2="502" y2="505" style=" stroke: black;"/>
+<text x="502" y="505" transform="rotate(90,502,505)" style="font-family: monospace; font-size: 10px;">35</text>
+<line x1="568" y1="500"  x2="568" y2="505" style=" stroke: black;"/>
+<text x="568" y="505" transform="rotate(90,568,505)" style="font-family: monospace; font-size: 10px;">40</text>
+<line x1="634" y1="500"  x2="634" y2="505" style=" stroke: black;"/>
+<text x="634" y="505" transform="rotate(90,634,505)" style="font-family: monospace; font-size: 10px;">45</text>
+<line x1="700" y1="500"  x2="700" y2="505" style=" stroke: black;"/>
+<text x="700" y="505" transform="rotate(90,700,505)" style="font-family: monospace; font-size: 10px;">50</text>
+<text x="705" y="490" style="font-family: monospace; font-size: 10px;">Rank</text>
+<text x="5" y="15" style="font-family: monospace; font-size: 10px;">Dist. value</text>
+<polyline style="stroke: #D82424; stroke-width:1;fill: none;"  points="40 500,52 500,64 500,76 490,88 490,100 490,112 480,124 471,136 471,148 470,160 461,172 441,184 420,196 362,208 341,220 337,232 316,244 160,256 150,268 139,280 139,292 138,304 128,316 120,328 117,340 116,352 105,364 97,376 97,388 97,400 95,412 95,424 87,436 86,448 84,460 84,472 83,484 82,496 76,508 76,520 75,532 74,544 73,556 73,568 73,580 65,592 63,604 63,616 62,628 61,640 59,652 54,664 54,676 42,688 39"/></g>
+</svg>

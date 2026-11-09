@@ -1,0 +1,19 @@
+Partition 5 
+Asap-Score: 7.000000
+Proba: 9.101796e-01
+Nb subsets with recursion:13 (without recursion: 12)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_PP153422.1_IN_Euseius_nicholsi 
+Subset[ 2 ] n: 2 ;id: NCBI_MT627388.1_IN_Neoseiulus_longispinosus NCBI_MT627171.1_IN_Neoseiulus_longispinosus 
+Subset[ 3 ] n: 3 ;id: NCBI_MF542355.1_IN_Neoseiulus_baraki NCBI_JQ609093.1_XX_Neoseiulus_baraki NCBI_JQ609094.1_XX_Neoseiulus_baraki 
+Subset[ 4 ] n: 1 ;id: NCBI_GU565317.1_XX_Amblyseius_swirskii 
+Subset[ 5 ] n: 6 ;id: NCBI_KF308682.1_XX_Euseius_nicholsi NCBI_PQ482635.1_XX_Euseius_nicholsi NCBI_KF308681.1_XX_Euseius_nicholsi NCBI_OP958239.1_XX_Euseius_amissibilis NCBI_FJ404590.1_XX_Euseius_gallicus NCBI_FJ404589.1_XX_Euseius_gallicus 
+Subset[ 6 ] n: 1 ;id: NCBI_KP642056.1_XX_Euseius_scutalis 
+Subset[ 7 ] n: 1 ;id: NCBI_KF308680.1_XX_Euseius_nicholsi 
+Subset[ 8 ] n: 1 ;id: NCBI_KU342794.1_XX_Neoseiulus_barkeri 
+Subset[ 9 ] n: 2 ;id: NCBI_KP642059.1_XX_Neoseiulus_californicus NCBI_KX610069.1_XX_Neoseiulus_idaeus 
+Subset[ 10 ] n: 6 ;id: NCBI_GU565320.1_XX_Euseius_stipulatus NCBI_FJ404588.1_XX_Euseius_stipulatus NCBI_FJ404583.1_XX_Euseius_stipulatus NCBI_FJ404584.1_XX_Euseius_stipulatus NCBI_KP642057.1_XX_Euseius_stipulatus NCBI_OM057994.1_XX_Euseius_stipulatus 
+Subset[ 11 ] n: 9 ;id: NCBI_FJ404593.1_XX_Euseius_finlandicus NCBI_FJ404592.1_XX_Euseius_finlandicus NCBI_OM057998.1_XX_Euseius_finlandicus NCBI_OM057996.1_XX_Euseius_finlandicus NCBI_OM058001.1_XX_Euseius_finlandicus NCBI_OM057999.1_XX_Euseius_finlandicus NCBI_OM058000.1_XX_Euseius_finlandicus NCBI_OM057995.1_XX_Euseius_finlandicus NCBI_FJ404591.1_XX_Euseius_finlandicus 
+Subset[ 12 ] n: 1 ;id: NCBI_KU342793.1_XX_Neoseiulus_cucumeris 
+Subset[ 13 ] n: 1 ;id: NCBI_KU342792.1_XX_Amblyseius_andersoni 

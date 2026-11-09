@@ -1,0 +1,14 @@
+Partition 4 
+Asap-Score: 4.000000
+Proba: 6.014840e-01
+Nb subsets with recursion:8 (without recursion: 5)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 3 ;id: NCBI_PP124899.1_IN_Mononychellus_mcgregori NCBI_PP074174.1_IN_Mononychellus_mcgregori BOLD_SMCK006-26_IN_Mononychellus_mcgregori 
+Subset[ 2 ] n: 1 ;id: BOLD_CIBFC13048-25_XX_Mononychellus_tanajoa 
+Subset[ 3 ] n: 1 ;id: BOLD_CIBFC15421-25_XX_Mononychellus_tanajoa 
+Subset[ 4 ] n: 1 ;id: BOLD_CIDTA20645-25_XX_Mononychellus_tanajoa 
+Subset[ 5 ] n: 1 ;id: BOLD_CISKC17191-26_XX_Mononychellus_tanajoa 
+Subset[ 6 ] n: 1 ;id: NCBI_MN913384.1_XX_Mononychellus_tanajoa 
+Subset[ 7 ] n: 1 ;id: NCBI_MN913383.1_XX_Mononychellus_mcgregori 
+Subset[ 8 ] n: 1 ;id: NCBI_MN913382.1_XX_Mononychellus_caribbeanae 

@@ -1,0 +1,17 @@
+Partition 10 
+Asap-Score: 9.000000
+Proba: 1.000000e+00
+Nb subsets with recursion:22 (without recursion: 14)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 1 ;id: NCBI_KY022759.1_XX_Steneotarsonemus_spinki 
+Subset[ 2 ] n: 1 ;id: NCBI_MW587273.1_XX_Steneotarsonemus_spinki 
+Subset[ 3 ] n: 1 ;id: NCBI_KY022760.1_XX_Steneotarsonemus_spinki 
+Subset[ 4 ] n: 1 ;id: NCBI_KY022758.1_XX_Steneotarsonemus_spinki 
+Subset[ 5 ] n: 1 ;id: NCBI_ON186779.1_XX_Steneotarsonemus_spinki 
+Subset[ 6 ] n: 1 ;id: NCBI_ON186777.1_XX_Steneotarsonemus_spinki 
+Subset[ 7 ] n: 1 ;id: NCBI_MW587272.1_XX_Steneotarsonemus_spinki 
+Subset[ 8 ] n: 1 ;id: NCBI_ON186781.1_XX_Steneotarsonemus_spinki 
+Subset[ 9 ] n: 1 ;id: NCBI_ON186780.1_XX_Steneotarsonemus_spinki 
+Subset[ 10 ] n: 1 ;id: NCBI_ON186787.1_XX_Steneotarsonemus_spinki 
+Subset[ 11 ] n: 1 ;id: NCBI_ON186782.1_XX_Steneotarsonemus_spinki 

@@ -1,0 +1,12 @@
+Partition 5 
+Asap-Score: 5.000000
+Proba: 1.000000e+00
+Nb subsets with recursion:6 (without recursion: 5)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 2 ;id: NCBI_QB095548.1_IN_Polyphagotarsonemus_latus NCBI_PZ860971.1_IN_Polyphagotarsonemus_latus 
+Subset[ 2 ] n: 3 ;id: NCBI_ON103156.1_IN_Polyphagotarsonemus_latus NCBI_MN888962.1_IN_Polyphagotarsonemus_latus NCBI_MN885642.1_IN_Polyphagotarsonemus_latus 
+Subset[ 3 ] n: 1 ;id: NCBI_LC605048.1_IN_Polyphagotarsonemus_latus 
+Subset[ 4 ] n: 1 ;id: NCBI_LC605047.1_IN_Polyphagotarsonemus_latus 
+Subset[ 5 ] n: 1 ;id: NCBI_JQ928935.1_IN_Polyphagotarsonemus_latus 
+Subset[ 6 ] n: 2 ;id: NCBI_PV806347.1_XX_Polyphagotarsonemus_latus NCBI_PV806346.1_XX_Polyphagotarsonemus_latus 

@@ -3,8 +3,8 @@
 table1_coi_coverage.csv                 Table 1  COI coverage of the Indian checklist, by group
 table2_name_agreement_sensitivity.csv   Table 2  same-name agreement by comparator pool and threshold
 table3_names.csv                        Table 3  per name borne by Indian sequences: agreement and ASAP groups
-table4_asap_abgd_partitions.csv         Table 4  ASAP and ABGD partitions of the eight files analysed
-table5_names_in_conflict_with_asap.csv  Table 5  sequences whose name differs from their ASAP group
+table4_asap_abgd_partitions.csv         Table 4  ASAP and ABGD partitions of the 15 files analysed
+table5_names_in_conflict_with_asap.csv  Table 5  ASAP groups holding more than one name
 table_best_close_match_by_group.csv     counts behind Figure 1
 fig1_name_agreement.{png,tiff}          Figure 1 nearest-neighbour name agreement by group (all comparators, 3%)
 fig_coi_coverage.{png,tiff}             coverage by group (not in the manuscript; Table 1 holds the numbers)
@@ -188,8 +188,8 @@ UNNAMED = re.compile(r"\b(sp|cf|aff)\b")
 asap_of = defaultdict(list)    # name -> [(region, n groups, other names)]
 t4 = []
 for run, target in RUNS.items():
-    _, nsub, assign, dist = read_spart(glob.glob(os.path.join(RES, run, "asap", "*.fas.spart"))[0])
-    idx = nsub.index(target)
+    labels, nsub, assign, dist = read_spart(glob.glob(os.path.join(RES, run, "asap", "*.fas.spart"))[0])
+    idx = asap_index(labels, nsub, asap_row(run))
     subs = defaultdict(list)
     for smp, v in assign.items():
         subs[v[idx]].append(name_of(smp)[0])
@@ -206,12 +206,15 @@ for run, target in RUNS.items():
     summ_ = [r for r in rows(os.path.join(ROOT, "logs", "delimitation_summary.csv")) if r["run"] == run]
     abgd = next((r for r in summ_ if r["method"] == "ABGD"), {})
     asap1 = next((r for r in summ_ if r["method"] == "ASAP"), {})
-    t4.append({"File (reference sites)": run.replace("_sites", " (") + ")", "Sequences": len(assign),
-               "Indian": ind, "Distance": "p-distance" if "Simple" in dist else "Jukes-Cantor",
-               "ASAP groups, best-ranked (threshold)": f"{asap1.get('subsets', '')} ({100 * float(asap1.get('threshold') or 0):.1f}%)",
-               "ASAP groups used": target if ASAP_RANK.get(run, 1) == 1 else f"{target} (rank {ASAP_RANK[run]})",
-               "ABGD groups at P = 0.0129": ("none returned" if not abgd or "no usable" in abgd.get("threshold", "")
-                                             else ("1 (no gap)" if abgd.get("subsets") == "1" else abgd["subsets"]))})
+    def label(r):
+        g, s = r.split("_sites")
+        return f"{g} ({s.replace('-', '–')})"
+    t4.append({"File (reference sites)": label(run), "Sequences": len(assign), "Indian sequences": ind,
+               "Names": len({n for ns in subs.values() for n in ns if not UNNAMED.search(n)}),
+               "ASAP groups": target,
+               "ASAP threshold (%)": f"{100 * float(asap1.get('threshold') or 0):.1f}",
+               "ABGD groups at P = 0.0129": ("none" if not abgd or "no usable" in abgd.get("threshold", "")
+                                             else abgd["subsets"])})
 if t4:
     write("table4_asap_abgd_partitions.csv", t4)
 
@@ -234,19 +237,48 @@ for (g, n) in sorted({(x["group"], x["name"]) for x in cl}, key=lambda k: (GROUP
                    for r, k, o in a) or "–"})
 write("table3_names.csv", t3)
 
-# ---- Table 5: conflicts with ASAP groups ------------------------------------------------
+# ---- Table 5: ASAP groups that hold more than one name -----------------------------------
 sus = rows(os.path.join(PR, "suspect_names.csv")) if HAVE_ASAP else []
-seen, t5 = set(), []
+ORIGIN = {"india": "India", "unknown": "origin not given"}
+HOST = {"okra": "okra", "mulberry": "mulberry", "lab culture-mulberry": "mulberry culture", "vitis vinifera": "grape",
+        "musa sp.": "banana", "oryza sativa (rice)": "rice", "rice": "rice", "sorghum": "sorghum", "bamboo": "bamboo",
+        "asparagus sp.": "asparagus", "citrus sp.": "citrus", "carnation": "carnation", "cucumber": "cucumber",
+        "solanum lycopersicum": "tomato", "tomato": "tomato", "ixora chinensis": "Ixora chinensis"}
+by_group = defaultdict(list)
 for s_ in sus:
-    k = s_["accession"]
-    if k in seen:
-        continue
-    seen.add(k)
-    t5.append({"Accession": s_["accession"], "Name on record": s_["name_on_record"],
-               "ASAP group": s_["group_majority_name"], "Conflict": s_["conflict"],
-               "Origin": {"india": "India", "outside": s_["country"], "unknown": "not given"}[s_["geo_status"]],
-               "Host": s_["host"], "Reference sites": s_["region"].split("_")[-1].replace("sites", "")})
-t5.sort(key=lambda r: (r["Conflict"], r["ASAP group"], r["Origin"] != "India", r["Accession"]))
+    by_group[(s_["region"], s_["asap_group"])].append(s_)
+
+
+def short(name, genus_seen):
+    g, rest = name.split(" ", 1)
+    if g in genus_seen:
+        return f"{g[0]}. {rest}"
+    genus_seen.add(g)
+    return name
+
+
+t5 = []
+for (region, grp), ss in by_group.items():
+    seen_g = set()
+    comp = "; ".join(f"{short(c.rsplit(' ', 1)[0], seen_g)} {c.rsplit(' ', 1)[1]}"
+                     for c in ss[0]["group_composition"].split("; "))
+    tie = ss[0]["conflict"] == "tie"
+    parts = defaultdict(list)
+    for s_ in ss:
+        o = ORIGIN.get(s_["geo_status"], s_["country"])
+        h = HOST.get(s_["host"].strip().lower(), s_["host"].strip())
+        parts[s_["name_on_record"]].append(f"{s_['accession'].split('.')[0]} ({o}{', ' + h if h and s_['geo_status'] == 'india' else ''})")
+    seen_g = set()
+    detail = "; ".join(f"{short(n, seen_g)}: {', '.join(v)}" for n, v in parts.items())
+    g, sites = region.split("_sites")
+    t5.append({"File (reference sites)": f"{g} ({sites.replace('-', '–')})",
+               "Names in the ASAP group (sequences)": comp,
+               "Majority name": "tie" if tie else ss[0]["group_majority_name"],
+               "Sequences in conflict": detail,
+               "Indian sequences in conflict": sum(s_["geo_status"] == "india" for s_ in ss)})
+ORDER = ["Tetranychus", "Oligonychus", "Schizotetranychus", "Aceria", "Phytoseiidae"]
+t5.sort(key=lambda r: (ORDER.index(r["File (reference sites)"].split(" ")[0]) if r["File (reference sites)"].split(" ")[0] in ORDER else 9,
+                       r["File (reference sites)"], -r["Indian sequences in conflict"], r["Names in the ASAP group (sequences)"]))
 if t5:
     write("table5_names_in_conflict_with_asap.csv", t5)
 print("tables:", sorted(os.listdir(OUT_T)))

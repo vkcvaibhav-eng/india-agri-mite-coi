@@ -1,0 +1,8 @@
+Partition 5 
+Asap-Score: 4.000000
+Proba: 6.866267e-01
+Nb subsets with recursion:2 (without recursion: 1)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 6 ;id: NCBI_MT027821.1_IN_Aceria_litchii NCBI_MT027819.1_XX_Aceria_litchii NCBI_MT027818.1_XX_Aceria_litchii NCBI_MT027820.1_XX_Aceria_litchii NCBI_MT027817.1_XX_Aceria_litchii NCBI_KY565339.1_IN_Aceria_saccharini 
+Subset[ 2 ] n: 1 ;id: NCBI_LC325506.1_XX_Aceria_chibaensis 

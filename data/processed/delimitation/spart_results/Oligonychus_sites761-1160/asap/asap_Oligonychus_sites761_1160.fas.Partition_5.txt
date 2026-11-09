@@ -1,0 +1,41 @@
+Partition 5 
+Asap-Score: 7.000000
+Proba: 5.708583e-01
+Nb subsets with recursion:35 (without recursion: 34)
+------------------------------------------------------------
+
+Subset[ 1 ] n: 3 ;id: NCBI_MZ496533.1_IN_Oligonychus_tylus NCBI_KU323485.1_IN_Oligonychus_tylus NCBI_PZ484972.1_XX_Oligonychus_tylus 
+Subset[ 2 ] n: 1 ;id: NCBI_MW791265.1_IN_Oligonychus_grypus 
+Subset[ 3 ] n: 2 ;id: NCBI_KY593991.1_IN_Oligonychus_oryzae NCBI_MW491838.1_XX_Oligonychus_grypus 
+Subset[ 4 ] n: 2 ;id: NCBI_MT821525.1_IN_Oligonychus_indicus NCBI_KC009700.1_IN_Oligonychus_indicus 
+Subset[ 5 ] n: 1 ;id: NCBI_MT815743.1_IN_Oligonychus_thelytokus 
+Subset[ 6 ] n: 1 ;id: NCBI_MT492157.1_IN_Oligonychus_plegas 
+Subset[ 7 ] n: 1 ;id: NCBI_MN337796.1_IN_Oligonychus_tylus 
+Subset[ 8 ] n: 1 ;id: NCBI_MH647654.1_IN_Oligonychus_tylus 
+Subset[ 9 ] n: 1 ;id: NCBI_MG916906.1_IN_Oligonychus_sp. 
+Subset[ 10 ] n: 2 ;id: NCBI_KR870322.1_IN_Oligonychus_coffeae NCBI_KC009699.1_IN_Oligonychus_coffeae 
+Subset[ 11 ] n: 1 ;id: NCBI_KR870321.1_IN_Oligonychus_indicus 
+Subset[ 12 ] n: 1 ;id: NCBI_KC283027.1_IN_Oligonychus_biharensis 
+Subset[ 13 ] n: 1 ;id: NCBI_AB683656.1_XX_Oligonychus_karamatus 
+Subset[ 14 ] n: 1 ;id: NCBI_AB683679.1_XX_Oligonychus_biharensis 
+Subset[ 15 ] n: 1 ;id: NCBI_AB683678.1_XX_Oligonychus_biharensis 
+Subset[ 16 ] n: 1 ;id: NCBI_AB683664.1_XX_Oligonychus_ununguis 
+Subset[ 17 ] n: 1 ;id: NCBI_MW517748.1_XX_Oligonychus_vitis 
+Subset[ 18 ] n: 1 ;id: NCBI_AB683667.1_XX_Oligonychus_castaneae 
+Subset[ 19 ] n: 1 ;id: NCBI_AB683681.1_XX_Oligonychus_rubicundus 
+Subset[ 20 ] n: 1 ;id: NCBI_AB683680.1_XX_Oligonychus_rubicundus 
+Subset[ 21 ] n: 2 ;id: NCBI_AB683677.1_XX_Oligonychus_modestus NCBI_AB683676.1_XX_Oligonychus_modestus 
+Subset[ 22 ] n: 1 ;id: NCBI_AB683675.1_XX_Oligonychus_orthius 
+Subset[ 23 ] n: 1 ;id: NCBI_AB683674.1_XX_Oligonychus_orthius 
+Subset[ 24 ] n: 2 ;id: NCBI_AB683673.1_XX_Oligonychus_amiensis NCBI_AB683672.1_XX_Oligonychus_amiensis 
+Subset[ 25 ] n: 2 ;id: NCBI_AB683671.1_XX_Oligonychus_coffeae NCBI_AB683670.1_XX_Oligonychus_coffeae 
+Subset[ 26 ] n: 1 ;id: NCBI_AB683669.1_XX_Oligonychus_gotohi 
+Subset[ 27 ] n: 1 ;id: NCBI_AB683668.1_XX_Oligonychus_gotohi 
+Subset[ 28 ] n: 1 ;id: NCBI_AB683665.1_XX_Oligonychus_perditus 
+Subset[ 29 ] n: 2 ;id: NCBI_AB683663.1_XX_Oligonychus_camelliae NCBI_AB683662.1_XX_Oligonychus_camelliae 
+Subset[ 30 ] n: 1 ;id: NCBI_AB683661.1_XX_Oligonychus_ilicis 
+Subset[ 31 ] n: 1 ;id: NCBI_AB683659.1_XX_Oligonychus_tsudomei 
+Subset[ 32 ] n: 1 ;id: NCBI_AB683658.1_XX_Oligonychus_hondoensis 
+Subset[ 33 ] n: 1 ;id: NCBI_AB683657.1_XX_Oligonychus_hondoensis 
+Subset[ 34 ] n: 1 ;id: NCBI_AB683655.1_XX_Oligonychus_pustulosus 
+Subset[ 35 ] n: 1 ;id: NCBI_AB683654.1_XX_Oligonychus_clavatus 
