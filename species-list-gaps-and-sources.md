@@ -142,19 +142,19 @@ Comparison with the user's *Tuckerella* review paper remains pending. Neither Ge
 
 | Species ID | Name | Authority | Year | Flags |
 | --- | --- | --- | --- | --- |
-| TET0009 | Bryobia praetiosa | Koch | 1836 | <Flags(allows_duplicate_labels=True)> |
-| TET0028 | Eotetranychus neoperplexus | Estebanes & Baker | 1950 | <Flags(allows_duplicate_labels=True)> |
-| TEN0044 | Larvacarus transitans | Ewing | 1992 | <Flags(allows_duplicate_labels=True)> |
-| ERI0138 | Aceria cordiae | Channabasavanna | 1966 | <Flags(allows_duplicate_labels=True)> |
-| ERI0212 | Aceria trichocnemum | (Nalepa) | 1929 | <Flags(allows_duplicate_labels=True)> |
-| ERI0234 | Aculops pretoriensis | Smith Meyer & Uckermann | 1990 | <Flags(allows_duplicate_labels=True)> |
-| ERI0353 | Disella oblongifoliae | Ghosh, Mondal & Chakrabarti | 1986 | <Flags(allows_duplicate_labels=True)> |
-| ERI0409 | Hemiscolocenus rares | Mohanasundaram | 1986 | <Flags(allows_duplicate_labels=True)> |
-| ERI0567 | Tetra tyrohylae | Smith Meyer | 1992 | <Flags(allows_duplicate_labels=True)> |
-| ERI0568 | Tetra visci | Smith Meyer | 1992 | <Flags(allows_duplicate_labels=True)> |
-| PHY0182 | Paraphytoseius cracentis | (Corpuz & Rimando) | 1966 | <Flags(allows_duplicate_labels=True)> |
-| PHY0216 | Phytoseius maldahaensis | Gupta | 1992 | <Flags(allows_duplicate_labels=True)> |
-| PHY0328 | Typhlodromus (Anthoseius) torbatejamae | Denmark and Danesshvar | 1982 | <Flags(allows_duplicate_labels=True)> |
+| TET0009 | Bryobia praetiosa | Koch | 1836 | authority_differs:koch/pritchard |
+| TET0028 | Eotetranychus neoperplexus | Estebanes & Baker | 1950 | authority_differs:estebanes/mcgregor |
+| TEN0044 | Larvacarus transitans | Ewing | 1992 | spelling_varies;year_differs_between_sources |
+| ERI0138 | Aceria cordiae | Channabasavanna | 1966 | authority_differs:channabasavanna/nalepa |
+| ERI0212 | Aceria trichocnemum | (Nalepa) | 1929 | spelling_varies;year_differs_between_sources |
+| ERI0234 | Aculops pretoriensis | Smith Meyer & Uckermann | 1990 | authority_differs:meyersmith/smithmeyer |
+| ERI0353 | Disella oblongifoliae | Ghosh, Mondal & Chakrabarti | 1986 | authority_differs:ghosh/ghosmondal |
+| ERI0409 | Hemiscolocenus rares | Mohanasundaram | 1986 | family_differs:Diptilomiopidae(tn2020)/Eriophyidae(gm2023) |
+| ERI0567 | Tetra tyrohylae | Smith Meyer | 1992 | authority_differs:meyersmith/smithmeyer |
+| ERI0568 | Tetra visci | Smith Meyer | 1992 | authority_differs:meyersmith/smithmeyer |
+| PHY0182 | Paraphytoseius cracentis | (Corpuz & Rimando) | 1966 | authority_differs:ai/gupta |
+| PHY0216 | Phytoseius maldahaensis | Gupta | 1992 | spelling_varies;year_differs_between_sources |
+| PHY0328 | Typhlodromus (Anthoseius) torbatejamae | Denmark and Danesshvar | 1982 | spelling_varies;year_differs_between_sources |
 
 Absence from another checklist alone is not evidence of absence from India, nor proof that the other list under-reports it. For species found in a single regional list, verify the record and check broader sources and synonyms.
 
