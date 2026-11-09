@@ -1,7 +1,6 @@
 """List sequences whose name differs from the majority name of their ASAP group.
 
-Uses the ASAP partitions chosen in the paper: Tetranychus sites 271-670 rank 3 (24 groups, 3.9%),
-the best-ranked partition for the other runs. Writes data/processed/suspect_names.csv.
+Uses the best-ranked ASAP partition of each run, or the rank set in ASAP_RANK (read_asap.py). Writes data/processed/suspect_names.csv.
 """
 import collections
 import csv
@@ -13,11 +12,9 @@ HERE = os.path.dirname(__file__)
 exec(open(os.path.join(HERE, "read_asap.py")).read().split("rows, summ = [], []")[0])
 ROOT = os.path.join(HERE, "..")
 meta = {r["record_id"].replace(".", "_"): r for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv")))}
-RUNS = [("Tetranychus_sites271-670", 24, "rank 3 (24 groups, 3.9%)"),
-        ("Tetranychus_sites741-1140", 25, "rank 1 (25 groups, 3.0%)"),
-        ("Oligonychus_sites261-660", 8, "rank 1 (8 groups, 9.3%)"),
-        ("Oligonychus_sites761-1160", 11, "rank 1 (11 groups, 3.1%)"),
-        ("Phytoseiidae_sites321-720", 11, "rank 1 (11 groups, 11.4%)")]
+RUNS = [(os.path.basename(p), asap_groups(os.path.basename(p)),
+         f"rank {ASAP_RANK.get(os.path.basename(p), 1)} ({asap_groups(os.path.basename(p))} groups)")
+        for p in sorted(glob.glob(os.path.join(RES, "*")))]
 UNNAMED = re.compile(r"\b(sp|cf|aff)\b")
 out = []
 for run, target, label in RUNS:

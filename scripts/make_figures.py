@@ -119,36 +119,45 @@ for g in [g for g in GROUPS if by[g]] + ["All groups"]:
     t2.append(row)
 write("table_best_close_match_by_group.csv", t2)
 
-fig, ax = plt.subplots(figsize=(6.8, 2.5), dpi=300)
+# Figure 1: 13 cm wide (one Acarologia column), 600 dpi, colour online with hatching so that
+# the four classes stay distinct in the black-and-white print edition
+plt.rcParams.update({"font.size": 7, "hatch.linewidth": 0.6})
+fig, ax = plt.subplots(figsize=(13 / 2.54, 5.2 / 2.54))
 COL = {"Same-name match": "#2a78d6", "Ambiguous": "#eda100", "Different-name match": "#e34948",
-       "No match within 3%": "#b9b8b3"}
+       "No match within 3%": "#d9d8d4"}
+HATCH = {"Same-name match": "", "Ambiguous": "////", "Different-name match": "xxxx", "No match within 3%": "...."}
 gs = [r for r in t2 if r["Group"] != "All groups"][::-1]
 for i, r in enumerate(gs):
     left = 0
     for _, lab in CATS:
         v = 100 * r[lab] / r["Named Indian sequences"]
-        ax.barh(i, v, left=left, color=COL[lab], height=0.62, edgecolor=SURFACE, linewidth=1)
-        if v >= 3.5:
-            ax.text(left + v / 2, i, f"{r[lab]}", ha="center", va="center", fontsize=7,
-                    color="#ffffff" if lab in ("Same-name match", "Different-name match") else INK)
+        ax.barh(i, v, left=left, color=COL[lab], height=0.62, edgecolor="#000000", linewidth=0.4,
+                hatch=HATCH[lab])
+        if v >= 4:
+            ax.text(left + v / 2, i, f"{r[lab]}", ha="center", va="center", fontsize=6.5,
+                    color="#ffffff" if lab == "Same-name match" else INK,
+                    bbox=None if lab == "Same-name match" else dict(boxstyle="square,pad=0.15", fc="white", ec="none"))
         left += v
-    ax.text(101.5, i, f"n = {r['Named Indian sequences']}", va="center", fontsize=8, color=INK2)
+    ax.text(101.5, i, f"n = {r['Named Indian sequences']}", va="center", fontsize=6.5, color=INK)
 ax.set_yticks(range(len(gs)))
 ax.set_yticklabels([r["Group"] for r in gs])
 ax.set_xlim(0, 100)
 ax.set_xlabel("Named Indian COI sequences (%)")
-ax.xaxis.grid(True, color=GRID, linewidth=0.6)
+ax.xaxis.grid(True, color=GRID, linewidth=0.5)
 ax.set_axisbelow(True)
-for s in ("top", "right", "left"):
-    ax.spines[s].set_visible(False)
+for s_ in ("top", "right", "left"):
+    ax.spines[s_].set_visible(False)
 ax.tick_params(axis="y", length=0)
-ax.legend(handles=[Patch(color=COL[lab], label=lab) for _, lab in CATS], loc="lower center",
-          bbox_to_anchor=(0.45, 1.0), ncol=4, frameon=False, fontsize=7.5)
-fig.tight_layout()
-for ext in ("png", "tiff"):
-    fig.savefig(os.path.join(OUT_F, f"fig1_name_agreement.{ext}"), dpi=300, facecolor=SURFACE,
-                **({"pil_kwargs": {"compression": "tiff_lzw"}} if ext == "tiff" else {}))
+ax.legend(handles=[Patch(facecolor=COL[lab], edgecolor="#000000", linewidth=0.4, hatch=HATCH[lab], label=lab)
+                   for _, lab in CATS], loc="lower center", bbox_to_anchor=(0.45, 1.0), ncol=4, frameon=False,
+          fontsize=6.5, handlelength=1.6, columnspacing=1.0)
+fig.tight_layout(pad=0.3)
+fig.savefig(os.path.join(OUT_F, "fig1_name_agreement.tiff"), dpi=600, facecolor=SURFACE,
+            pil_kwargs={"compression": "tiff_lzw"})
+fig.savefig(os.path.join(OUT_F, "fig1_name_agreement.png"), dpi=600, facecolor=SURFACE)
+fig.savefig(os.path.join(OUT_F, "fig1_name_agreement.svg"), facecolor=SURFACE)
 plt.close(fig)
+plt.rcParams.update({"font.size": 9})
 
 # ---- Table 2: sensitivity -----------------------------------------------------------
 POOLS = [("all", "All comparators"), ("holdout", "Comparators from other institutions"),
@@ -172,9 +181,9 @@ import glob  # noqa: E402
 import re  # noqa: E402
 HERE = os.path.dirname(__file__)
 exec(open(os.path.join(HERE, "read_asap.py")).read().split("rows, summ = [], []")[0])
-RUNS = {"Tetranychus_sites271-670": 24, "Tetranychus_sites741-1140": 25, "Oligonychus_sites261-660": 8,
-        "Oligonychus_sites761-1160": 11, "Schizotetranychus_sites281-680": 3, "Raoiella_sites111-510": 5,
-        "Steneotarsonemus_sites251-650": 2, "Phytoseiidae_sites321-720": 11}
+HAVE_ASAP = os.path.isdir(RES) and bool(os.listdir(RES))
+RUNS = {os.path.basename(r): asap_groups(os.path.basename(r)) for r in sorted(glob.glob(os.path.join(RES, "*")))} \
+    if HAVE_ASAP else {}
 UNNAMED = re.compile(r"\b(sp|cf|aff)\b")
 asap_of = defaultdict(list)    # name -> [(region, n groups, other names)]
 t4 = []
@@ -200,10 +209,11 @@ for run, target in RUNS.items():
     t4.append({"File (reference sites)": run.replace("_sites", " (") + ")", "Sequences": len(assign),
                "Indian": ind, "Distance": "p-distance" if "Simple" in dist else "Jukes-Cantor",
                "ASAP groups, best-ranked (threshold)": f"{asap1.get('subsets', '')} ({100 * float(asap1.get('threshold') or 0):.1f}%)",
-               "ASAP groups used": target,
+               "ASAP groups used": target if ASAP_RANK.get(run, 1) == 1 else f"{target} (rank {ASAP_RANK[run]})",
                "ABGD groups at P = 0.0129": ("none returned" if not abgd or "no usable" in abgd.get("threshold", "")
                                              else ("1 (no gap)" if abgd.get("subsets") == "1" else abgd["subsets"]))})
-write("table4_asap_abgd_partitions.csv", t4)
+if t4:
+    write("table4_asap_abgd_partitions.csv", t4)
 
 # ---- Table 3: per name -----------------------------------------------------------------
 t3 = []
@@ -225,7 +235,7 @@ for (g, n) in sorted({(x["group"], x["name"]) for x in cl}, key=lambda k: (GROUP
 write("table3_names.csv", t3)
 
 # ---- Table 5: conflicts with ASAP groups ------------------------------------------------
-sus = rows(os.path.join(PR, "suspect_names.csv"))
+sus = rows(os.path.join(PR, "suspect_names.csv")) if HAVE_ASAP else []
 seen, t5 = set(), []
 for s_ in sus:
     k = s_["accession"]
@@ -237,6 +247,7 @@ for s_ in sus:
                "Origin": {"india": "India", "outside": s_["country"], "unknown": "not given"}[s_["geo_status"]],
                "Host": s_["host"], "Reference sites": s_["region"].split("_")[-1].replace("sites", "")})
 t5.sort(key=lambda r: (r["Conflict"], r["ASAP group"], r["Origin"] != "India", r["Accession"]))
-write("table5_names_in_conflict_with_asap.csv", t5)
+if t5:
+    write("table5_names_in_conflict_with_asap.csv", t5)
 print("tables:", sorted(os.listdir(OUT_T)))
 print("figures:", sorted(os.listdir(OUT_F)))

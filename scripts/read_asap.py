@@ -41,6 +41,19 @@ GEO = {r["record_id"].replace(".", "_"): r["geo_status"]
        for r in csv.DictReader(open(os.path.join(ROOT, "data", "processed", "coi_metadata.csv"), encoding="utf-8"))}
 
 
+# ASAP partition reported per run: rank 1 unless set here (rank 3 for a file whose best-ranked
+# partition splits one well-sampled species at a very low threshold)
+ASAP_RANK = {}
+
+
+def asap_groups(run, rank=None):
+    """Number of subsets in the ASAP partition of the given rank (default ASAP_RANK or 1)."""
+    rank = rank or ASAP_RANK.get(run, 1)
+    res = glob.glob(os.path.join(RES, run, "asap", "*.res.cvs"))[0]
+    table = [r for r in csv.reader(open(res), delimiter="\t")][1:]
+    return int(table[rank - 1][1])
+
+
 def name_of(sample):
     m = re.search(r"_(IN|XX)_(.*)$", sample)
     if not m:

@@ -27,21 +27,39 @@ for path in sorted(glob.glob(os.path.join(ROOT, "data", "raw", "ncbi", "*.gb")))
         out[rec.id] = (re.sub(r"\s+", " ", sub).strip().lower(), authors)
 
 
-KEY = re.compile(r"universit|institut|college|centre|center|council|icar|museum|academy|bureau|survey|laborator|school", re.I)
+# the parent body is preferred over its departments and centres: a university first, then an
+# institute, bureau, directorate or other centre, then a laboratory, and the ICAR council last
+# (it is the parent of many separate institutes)
+TIERS = [re.compile(p, re.I) for p in (
+    r"universi",                       # also catches the typo 'universiy'
+    r"institut|bureau|directorate|research cent|college|museum|academy|survey|school",
+    r"centre|center|laborator",
+    r"council|icar",
+)]
+CITY = {"gkvk": "bengaluru", "bangalore": "bengaluru", "bengaluru": "bengaluru", "hebbal": "bengaluru"}
 
 
 def institution(line):
-    """Institution of a submitter line, so that one laboratory's differently typed
-    addresses fall together ('Univ. of Agril. Sciences, GKVK' = 'University of Agricultural
-    Sciences, GKVK campus')."""
+    """Parent institution of a submitter line, so that one body's differently typed
+    addresses fall together: 'Univ. of Agril. Sciences, GKVK' = 'University of Agricultural
+    Sciences, GKVK campus', and 'CPBMB, Kerala Agricultural Universiy' = 'Agricultural
+    Entomology, Kerala Agricultural University'."""
     t = line.lower().replace("agril.", "agricultural").replace("agri.", "agricultural").replace("univ.", "university")
+    t = t.replace("universiy", "university").replace("&", "and")
+    t = re.sub(r"\([^)]*\)", "", t)                 # '(icar-nbair)'
+    t = re.sub(r"\bicar\s*-\s*|\bicar\s+(?=[a-z])", "", t)   # 'ICAR-National Bureau ...' = 'National Bureau ...' 
     bits = [b.strip(" .") for b in t.split(",") if b.strip(" .")]
-    for i, b in enumerate(bits):
-        if KEY.search(b):
-            generic = re.match(r"(university|institute|college|school) of ", b)
-            nxt = bits[i + 1].split()[0] if generic and i + 1 < len(bits) and bits[i + 1].split() else ""
-            return re.sub(r"[^a-z ]", "", b + " " + nxt).strip()
-    return re.sub(r"[^a-z ]", "", bits[0]).strip() if bits else ""
+    for tier in TIERS:
+        for i, b in enumerate(bits):
+            if tier.search(b):
+                # several universities of agricultural sciences: keep the campus
+                generic = re.fullmatch(r"university of agricultural sciences", b)
+                nxt = bits[i + 1].split()[0] if generic and i + 1 < len(bits) and bits[i + 1].split() else ""
+                nxt = CITY.get(re.sub(r"[^a-z]", "", nxt), nxt)
+                return re.sub(r"[^a-z]", "", b + nxt)
+    return re.sub(r"[^a-z]", "", bits[0]) if bits else ""
+
+
 with open(os.path.join(ROOT, "data", "processed", "submitters.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
     w.writerow(["accession", "submitter", "institution", "first_submitting_author"])

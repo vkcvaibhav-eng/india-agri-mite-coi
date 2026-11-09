@@ -910,655 +910,656 @@ PHY0005,Amblyseiulella heveae,Typhlodromus heveae,cited_synonym_or_combination,g
 PHY0006,Amblyseiulella horrifer,Amblyseiulella horrifer,valid,gk2015
 PHY0007,Amblyseiulella hyauliangensis,Amblyseiulella hyauliangensis,valid,gm2023;gk2015
 PHY0007,Amblyseiulella hyauliangensis,Amblyseius (Asperoseius) hyauliangensts,cited_synonym_or_combination,gm2023
-PHY0008,Amblyseiulella multidentatus,Amblyseiulella multidentatus,valid,gk2015;g1985
-PHY0008,Amblyseiulella multidentatus,Amblyseius (Paraphytoseius) multidentatus,listed_as,g1985
-PHY0008,Amblyseiulella multidentatus,Paraphytoseius multidentatus,cited_synonym_or_combination,g1985
-PHY0009,Amblyseiulella nicobarensis,Amblyseiulella nicobarensis,valid,gm2023;gk2015
-PHY0009,Amblyseiulella nicobarensis,Amblyseius nicobarensis,cited_synonym_or_combination,gm2023
-PHY0009,Amblyseiulella nicobarensis,Para hivtaceiuc,listed_as,gm2023
-PHY0010,Amblyseiulella nucifera,Amblyseiulella nucifera,valid,gm2023;gk2015;g1985
-PHY0010,Amblyseiulella nucifera,Amblyseius (Asperoseius) ducifera,listed_as,g1985
-PHY0010,Amblyseiulella nucifera,Amblyseius nucifera,listed_as,g1985
-PHY0010,Amblyseiulella nucifera,Okiseius nucifera,listed_as,gk2015
-PHY0010,Amblyseiulella nucifera,Paraphyloseius (Tropicoseius) nucilera,cited_synonym_or_combination,g1985
-PHY0010,Amblyseiulella nucifera,Paraphytoseius (Tropicoseius) nucifera,cited_synonym_or_combination,gm2023
-PHY0011,Amblyseiulella solanae,Amblyseiulella solanae,valid,add2026
-PHY0012,Amblyseiulella tibouchina,Amblyseiulella tibouchina,valid,gm2023
-PHY0013,Amblyseius (Typhlodromalus) havu,Amblyseius (Typhlodromalus) havu,valid,g1985
-PHY0014,Amblyseius adhatodae,Amblyseius adhatodae,valid,gm2023;gb2017;gk2015;g1985
-PHY0014,Amblyseius adhatodae,Amblyseius (Amblyseius) adhatodae,listed_as,g1985
-PHY0015,Amblyseius aerialis,Amblyseius aerialis,valid,gm2023;gb2017;gk2015;g1985
-PHY0015,Amblyseius aerialis,Amblyseiopsis aerialis,cited_synonym_or_combination,g1985;gm2023
-PHY0015,Amblyseius aerialis,Amblyseius (Amblyseius) aerialis,listed_as,g1985
-PHY0016,Amblyseius amitae,Amblyseius amitae,valid,gk2015
-PHY0017,Amblyseius amorphalae,Amblyseius amorphalae,valid,gm2023
-PHY0018,Amblyseius amtalaensis,Amblyseius amtalaensis,valid,gm2023;gk2015
-PHY0019,Amblyseius andamanicus,Amblyseius andamanicus,valid,add2026
-PHY0020,Amblyseius andersoni,Amblyseius andersoni,valid,gk2015
-PHY0021,Amblyseius apocynae,Amblyseius apocynae,valid,gm2023;gk2015
-PHY0022,Amblyseius apocynaevagrans,Amblyseius apocynaevagrans,valid,gm2023;gk2015
-PHY0022,Amblyseius apocynaevagrans,Amblyseiulella apocynaevagrans,listed_as,gk2015
-PHY0023,Amblyseius azaliae,Amblyseius azaliae,valid,gm2023
-PHY0024,Amblyseius bengalensis,Amblyseius bengalensis,valid,gm2023
-PHY0025,Amblyseius bhadrakshae,Amblyseius bhadrakshae,valid,gm2023
-PHY0026,Amblyseius brachycalyx,Amblyseius brachycalyx,valid,gm2023
-PHY0027,Amblyseius channabasavannai,Amblyseius channabasavannai,valid,gm2023;gk2015;g1985
-PHY0027,Amblyseius channabasavannai,Amblyseius (Amblyseius) channabasavanni,listed_as,g1985
-PHY0028,Amblyseius charui,Amblyseius charui,valid,gm2023;gk2015
-PHY0029,Amblyseius coffeae,Amblyseius coffeae,valid,gm2023;gb2017;gk2015
-PHY0030,Amblyseius conulus,Amblyseius conulus,valid,gm2023
-PHY0031,Amblyseius crotalariae,Amblyseius crotalariae,valid,gm2023;gk2015;g1985
-PHY0031,Amblyseius crotalariae,Amblyseius (Typhlodromips) crotalariae,listed_as,g1985
-PHY0031,Amblyseius crotalariae,Amblyseius crotolariae,listed_as,gk2015
-PHY0031,Amblyseius crotalariae,Amblyseiys crotalariae,cited_synonym_or_combination,g1985
-PHY0032,Amblyseius cucurbitae,Amblyseius cucurbitae,valid,gm2023;gk2015
-PHY0033,Amblyseius dahlia,Amblyseius dahlia,valid,gm2023
-PHY0033,Amblyseius dahlia,Amblyseius dahliae,cited_synonym_or_combination,gm2023
-PHY0034,Amblyseius deleoni,Amblyseius deleoni,valid,gk2015;g1985
-PHY0034,Amblyseius deleoni,Amblyseius (Amblyseius) deleoni,listed_as,g1985
-PHY0035,Amblyseius eujeniae,Amblyseius eujeniae,valid,gm2023;gk2015;g1985
-PHY0035,Amblyseius eujeniae,Amblyseius (Typhlodromips) eujeniae,listed_as,g1985
-PHY0035,Amblyseius eujeniae,Amblyseius eugeniae,listed_as,g1985
-PHY0036,Amblyseius excelsus,Amblyseius excelsus,valid,gm2023;gk2015
-PHY0037,Amblyseius fraterculus,Amblyseius fraterculus,valid,gm2023;gk2015;g1985
-PHY0037,Amblyseius fraterculus,Amblyseius (Neoseiulus) fraterculus,listed_as,g1985
-PHY0037,Amblyseius fraterculus,Amblyseius jraterculus,listed_as,g1985
-PHY0038,Amblyseius giganticus,Amblyseius giganticus,valid,gm2023;gk2015
-PHY0039,Amblyseius guajavae,Amblyseius guajavae,valid,gm2023;gk2015;g1985
-PHY0039,Amblyseius guajavae,Amblyseius (Typhlodromips) guajavae,listed_as,g1985
-PHY0040,Amblyseius hapoliensis,Amblyseius hapoliensis,valid,gm2023;gk2015
-PHY0041,Amblyseius herbicolus,Amblyseius herbicolus,valid,gm2023;gb2017;gk2015
-PHY0041,Amblyseius herbicolus,Typhlodromus (Amblyseius) herbicolus,cited_synonym_or_combination,gm2023
-PHY0042,Amblyseius herbiculoides,Amblyseius herbiculoides,valid,gk2015
-PHY0043,Amblyseius indirae,Amblyseius indirae,valid,gm2023;gk2015
-PHY0043,Amblyseius indirae,Amblysejng indirae,cited_synonym_or_combination,gm2023
-PHY0044,Amblyseius ipomoeae,Amblyseius ipomoeae,valid,gk2015;g1985
-PHY0044,Amblyseius ipomoeae,Amblyseius (Amblyseius) ipomoeae,listed_as,g1985
-PHY0045,Amblyseius jarooa,Amblyseius jarooa,valid,gm2023;gk2015;g1985
-PHY0045,Amblyseius jarooa,Amblyseius (Typhlodromalus) jarooa,listed_as,g1985
-PHY0046,Amblyseius koothaliensis,Amblyseius koothaliensis,valid,gm2023;gk2015
-PHY0046,Amblyseius koothaliensis,Amblyseius kothallensis,listed_as,gm2023
-PHY0047,Amblyseius kulini,Amblyseius kulini,valid,gm2023;gk2015;g1985
-PHY0047,Amblyseius kulini,Amblyseius (Amblyseius) kulini,listed_as,g1985
-PHY0047,Amblyseius kulini,Amblyseius kuuni,listed_as,g1985
-PHY0048,Amblyseius kundurukkae,Amblyseius kundurukkae,valid,gm2023
-PHY0049,Amblyseius lanceae,Amblyseius lanceae,valid,gm2023
-PHY0050,Amblyseius largoensis,Amblyseius largoensis,valid,gm2023;gb2017;gk2015;g1985
-PHY0050,Amblyseius largoensis,Amblyseiopsis iargoensis,cited_synonym_or_combination,g1985
-PHY0050,Amblyseius largoensis,Amblyseiopsis largoensis,cited_synonym_or_combination,gm2023
-PHY0050,Amblyseius largoensis,Amblyseius (Amblyseius) largoensis,listed_as,g1985
-PHY0051,Amblyseius maai,Amblyseius maai,valid,gm2023
-PHY0052,Amblyseius malabarensis,Amblyseius malabarensis,valid,gm2023
-PHY0052,Amblyseius malabarensis,Amblyseius malabaeensis,cited_synonym_or_combination,gm2023
-PHY0053,Amblyseius manipurensis,Amblyseius manipurensis,valid,gm2023;gk2015;g1985
-PHY0053,Amblyseius manipurensis,Amblyseius (Typhlodromalus) manipurensis,listed_as,g1985
-PHY0054,Amblyseius mcmurtryi,Amblyseius mcmurtryi,valid,gm2023;gb2017;gk2015;g1985
-PHY0054,Amblyseius mcmurtryi,Amblyseius (Amblyseius) mcmurtryi,listed_as,g1985
-PHY0055,Amblyseius meghalayensis,Amblyseius meghalayensis,valid,gm2023
-PHY0055,Amblyseius meghalayensis,Amblyseius maghalayensis,cited_synonym_or_combination,gm2023
-PHY0056,Amblyseius metaliensis,Amblyseius metaliensis,valid,gm2023;gk2015
-PHY0057,Amblyseius mohanasundaramai,Amblyseius mohanasundaramai,valid,gm2023;gk2015
-PHY0057,Amblyseius mohanasundaramai,Amblyseius mohanasundarami,listed_as,gm2023
-PHY0058,Amblyseius muraleedharani,Amblyseius muraleedharani,valid,gm2023;gk2015
-PHY0059,Amblyseius neocrotalariae,Amblyseius neocrotalariae,valid,gm2023;gk2015;g1985
-PHY0059,Amblyseius neocrotalariae,Amblyseius (Typhlodromips) neocrotalariae,listed_as,g1985
-PHY0059,Amblyseius neocrotalariae,Amblyseius neocrotalarae,listed_as,gm2023
-PHY0059,Amblyseius neocrotalariae,Typhlodromips neocrotalariae,cited_synonym_or_combination,g1985
-PHY0059,Amblyseius neocrotalariae,Typhlodromus neocrotalareae,cited_synonym_or_combination,gm2023
-PHY0060,Amblyseius neorykei,Amblyseius neorykei,valid,gm2023;gk2015;g1985
-PHY0060,Amblyseius neorykei,Amblyseius (Amblyseius) neorykei,listed_as,g1985
-PHY0061,Amblyseius orientalis,Amblyseius orientalis,valid,gm2023;gk2015;g1985
-PHY0061,Amblyseius orientalis,Amblyseius (Amblyseius) orientalis,listed_as,g1985
-PHY0061,Amblyseius orientalis,Amblyseius orientatis,listed_as,g1985
-PHY0062,Amblyseius paraaerialis,Amblyseius paraaerialis,valid,gm2023;gb2017;gk2015;g1985
-PHY0062,Amblyseius paraaerialis,Amblyseius (Amblyseius) paraaerialis,listed_as,g1985
-PHY0063,Amblyseius parbatabasii,Amblyseius parbatabasii,valid,gm2023
-PHY0064,Amblyseius potentillae,Amblyseius potentillae,valid,gm2023;g1985
-PHY0064,Amblyseius potentillae,Amblyseiopsis potentillae,cited_synonym_or_combination,g1985
-PHY0064,Amblyseius potentillae,Amblyseius (Typhlodromips) potentillae,listed_as,g1985
-PHY0065,Amblyseius pseudorientalis,Amblyseius pseudorientalis,valid,gm2023;gk2015
-PHY0065,Amblyseius pseudorientalis,Amblyseius pseudoorientalis,listed_as,gm2023
-PHY0066,Amblyseius raoiellus,Amblyseius raoiellus,valid,gm2023
-PHY0067,Amblyseius reticulatus,Amblyseius reticulatus,valid,add2026
-PHY0068,Amblyseius rhabdus,Amblyseius rhabdus,valid,gm2023;g1985
-PHY0068,Amblyseius rhabdus,Amblyseius (Amblyseius) rhabdus,listed_as,g1985
-PHY0068,Amblyseius rhabdus,Amblyseius rlzabdus,cited_synonym_or_combination,g1985
-PHY0069,Amblyseius rishyapensis,Amblyseius rishyapensis,valid,gm2023
-PHY0070,Amblyseius rosica,Amblyseius rosica,valid,gm2023;gk2015
-PHY0071,Amblyseius rubiae,Amblyseius rubiae,valid,gm2023;gk2015
-PHY0072,Amblyseius shoreae,Amblyseius shoreae,valid,gm2023;gk2015;g1985
-PHY0072,Amblyseius shoreae,Amblvseius shoreae,cited_synonym_or_combination,gm2023
-PHY0072,Amblyseius shoreae,Amblyseius (Amblyseius) sboreae,listed_as,g1985
-PHY0073,Amblyseius sijiensis,Amblyseius sijiensis,valid,gm2023;gk2015
-PHY0074,Amblyseius sundi,Amblyseius sundi,valid,gb2017
-PHY0075,Asperoseius jujubae,Asperoseius jujubae,valid,gm2023
-PHY0076,Asperoseius latericulus,Asperoseius latericulus,valid,gm2023
-PHY0077,Euseius ahaioensis,Euseius ahaioensis,valid,gm2023;gk2015
-PHY0077,Euseius ahaioensis,Amblvseius (Euseius) ahaioensis,cited_synonym_or_combination,gm2023
-PHY0078,Euseius alstoniae,Euseius alstoniae,valid,gm2023;gb2017;gk2015;g1985
-PHY0078,Euseius alstoniae,Amblyseius (Euseius) alstoniae,listed_as,g1985
-PHY0079,Euseius aridophilus,Euseius aridophilus,valid,add2026
-PHY0080,Euseius arunachalensis,Euseius arunachalensis,valid,gm2023
-PHY0081,Euseius asperivorous,Euseius asperivorous,valid,gm2023
-PHY0082,Euseius astrictus,Euseius astrictus,valid,gm2023
-PHY0083,Euseius bambusae,Euseius bambusae,valid,gm2023;gk2015;g1985
-PHY0083,Euseius bambusae,Amblyseius (Euseius) bambusae,listed_as,g1985
-PHY0084,Euseius bandispermathecae,Euseius bandispermathecae,valid,gm2023
-PHY0085,Euseius bomdilae,Euseius bomdilae,valid,gm2023
-PHY0086,Euseius chikmagalurensis,Euseius chikmagalurensis,valid,gm2023;gk2015
-PHY0086,Euseius chikmagalurensis,Amblyseius (Typhlodromalus) chikmagalurensis,cited_synonym_or_combination,gm2023
-PHY0087,Euseius chitradurgae,Euseius chitradurgae,valid,gm2023;gk2015
-PHY0087,Euseius chitradurgae,Amblyseius (Typhlodromalus) chitradurgae,cited_synonym_or_combination,gm2023
-PHY0088,Euseius chittooriensis,Euseius chittooriensis,valid,add2026;gm2023
-PHY0089,Euseius coccineae,Euseius coccineae,valid,gm2023;gk2015;g1985
-PHY0089,Euseius coccineae,Amblyseius (Euseius) coccineae,listed_as,g1985
-PHY0090,Euseius coccosocius,Euseius coccosocius,valid,gm2023;gk2015;g1985
-PHY0090,Euseius coccosocius,Amblyseius (Euseius) coccosocius,listed_as,g1985
-PHY0090,Euseius coccosocius,Amblyselus coccosocius,cited_synonym_or_combination,g1985
-PHY0091,Euseius concordis,Euseius concordis,valid,gm2023;gk2015
-PHY0091,Euseius concordis,Amblyseius (Euseius) concordis,cited_synonym_or_combination,gm2023
-PHY0092,Euseius curcasae,Euseius curcasae,valid,gm2023
-PHY0093,Euseius delhiensis,Euseius delhiensis,valid,gm2023;gk2015;g1985
-PHY0093,Euseius delhiensis,Amblyseius (Euseius) delhiensis,listed_as,g1985
-PHY0093,Euseius delhiensis,Typhlodromus (Amblyseius) delhiensis,cited_synonym_or_combination,g1985;gm2023
-PHY0094,Euseius dwakiensis,Euseius dwakiensis,valid,gm2023
-PHY0095,Euseius eucalypti,Euseius eucalypti,valid,gm2023;gk2015;g1985
-PHY0095,Euseius eucalypti,Amblyseius (Euseius) eucalypti,listed_as,g1985
-PHY0096,Euseius fascae,Euseius fascae,valid,gm2023
-PHY0097,Euseius finlandicus,Euseius finlandicus,valid,gm2023;gb2017;gk2015;g1985
-PHY0097,Euseius finlandicus,Amblvseius (Euseius) finlandicus,cited_synonym_or_combination,gm2023
-PHY0097,Euseius finlandicus,Amblyseius (Euseius) nlandicus,listed_as,g1985
-PHY0097,Euseius finlandicus,Amblyseius finlandicus,listed_as,g1985
-PHY0097,Euseius finlandicus,Seiulus finlandicus,cited_synonym_or_combination,gm2023
-PHY0098,Euseius hibisci,Euseius hibisci,valid,gk2015
-PHY0099,Euseius hima,Euseius hima,valid,gm2023
-PHY0099,Euseius hima,Amblyseius (Amblyseius) hima,cited_synonym_or_combination,gm2023
-PHY0100,Euseius indica,Euseius indica,valid,gm2023;gk2015
-PHY0100,Euseius indica,Euseius mangiferae,listed_as,gm2023
-PHY0101,Euseius insanus,Euseius insanus,valid,gm2023;gk2015
-PHY0101,Euseius insanus,Amblyseius (Euseius) insanus,cited_synonym_or_combination,gm2023
-PHY0101,Euseius insanus,Amblyseius insanus,cited_synonym_or_combination,gm2023
-PHY0102,Euseius jalika,Euseius jalika,valid,add2026
-PHY0103,Euseius jhinukae,Euseius jhinukae,valid,add2026
-PHY0104,Euseius kalimpongensis,Euseius kalimpongensis,valid,gm2023;gk2015;g1985
-PHY0104,Euseius kalimpongensis,Amblvseius (Typhlodromalus) kalimpongensis,cited_synonym_or_combination,gm2023
-PHY0104,Euseius kalimpongensis,Amblyseius (Typhlodromalus) kalimpongensis,listed_as,g1985
-PHY0105,Euseius karpasae,Euseius karpasae,valid,add2026;gm2023
-PHY0106,Euseius kodaikanalensis,Euseius kodaikanalensis,valid,gk2015;g1985
-PHY0106,Euseius kodaikanalensis,Amblyseius (Euseius) kodaikanalensis,listed_as,g1985
-PHY0106,Euseius kodaikanalensis,Amblyseius kodaikanalellsis,listed_as,g1985
-PHY0107,Euseius macrospatulatus,Euseius macrospatulatus,valid,gm2023;gk2015
-PHY0107,Euseius macrospatulatus,Amblyseius (Euseius) macrospatulatus,cited_synonym_or_combination,gm2023
-PHY0108,Euseius madhubanensis,Euseius madhubanensis,valid,add2026
-PHY0109,Euseius madrasi,Euseius madrasi,valid,add2026
-PHY0110,Euseius neoalstoniae,Euseius neoalstoniae,valid,add2026;gm2023
-PHY0111,Euseius neococcineae,Euseius neococcineae,valid,gm2023;gk2015;g1985
-PHY0111,Euseius neococcineae,Amblyseius (Euseius) neococcineae,listed_as,g1985
-PHY0111,Euseius neococcineae,Phytoseius neococcineae,listed_as,gk2015
-PHY0112,Euseius ovalis,Euseius ovalis,valid,gm2023;gb2017;gk2015;g1985
-PHY0112,Euseius ovalis,Amblyseius (Euseius) ovalis,listed_as,g1985
-PHY0112,Euseius ovalis,Typhlodromus ovalis,cited_synonym_or_combination,g1985
-PHY0113,Euseius papayensis,Euseius papayensis,valid,gm2023;gk2015
-PHY0113,Euseius papayensis,Amblyseius (Euseius) papayensis,cited_synonym_or_combination,gm2023
-PHY0114,Euseius pariyarensis,Euseius pariyarensis,valid,gm2023
-PHY0115,Euseius prasadi,Euseius prasadi,valid,gm2023;gb2017;gk2015;g1985
-PHY0115,Euseius prasadi,Amblyseius (Euseius) pruni,listed_as,g1985
-PHY0116,Euseius rhododendronis,Euseius rhododendronis,valid,gm2023;gk2015;g1985
-PHY0116,Euseius rhododendronis,Amblyseius (Euseius) rhododendronis,listed_as,g1985
-PHY0117,Euseius sacchari,Euseius sacchari,valid,gm2023;gk2015;g1985
-PHY0117,Euseius sacchari,Amblyseius (Euseius) sacchari,listed_as,g1985
-PHY0117,Euseius sacchari,Amblysetus (Euseius) sacchari,cited_synonym_or_combination,gm2023
-PHY0118,Euseius sajnekhalicus,Euseius sajnekhalicus,valid,gm2023
-PHY0119,Euseius sativum,Euseius sativum,valid,gm2023;gk2015
-PHY0120,Euseius scutalis,Euseius scutalis,valid,gm2023;gk2015
-PHY0120,Euseius scutalis,Amblyseius scutalis,cited_synonym_or_combination,gm2023
-PHY0121,Euseius spontaneum,Euseius spontaneum,valid,gm2023
-PHY0122,Euseius sundarbanensis,Euseius sundarbanensis,valid,gm2023
-PHY0123,Euseius tamilicus,Euseius tamilicus,valid,add2026
-PHY0124,Euseius tripuraensis,Euseius tripuraensis,valid,gm2023
-PHY0125,Euseius tripurii,Euseius tripurii,valid,gm2023
-PHY0126,Euseius tubuliferus,Euseius tubuliferus,valid,gm2023
-PHY0126,Euseius tubuliferus,Euseius tibuliferus,cited_synonym_or_combination,gm2023
-PHY0127,Euseius vignus,Euseius vignus,valid,gm2023;gk2015
-PHY0127,Euseius vignus,Amblyseius (Euseius) vignus,cited_synonym_or_combination,gm2023
-PHY0128,Euseius vikrami,Euseius vikrami,valid,gm2023;gk2015
-PHY0129,Garhwalicus himalayensis,Garhwalicus himalayensis,valid,g1985
-PHY0129,Garhwalicus himalayensis,Garhwalicus himajayensis,listed_as,g1985
-PHY0130,Gynaeseius dweepabasi,Gynaeseius dweepabasi,valid,add2026
-PHY0131,Gynaeseius eharai,Gynaeseius eharai,valid,gm2023;gk2015
-PHY0131,Gynaeseius eharai,Indoseiulus eharai,cited_synonym_or_combination,gm2023
-PHY0132,Gynaeseius ghaiae,Gynaeseius ghaiae,valid,gm2023;gk2015
-PHY0132,Gynaeseius ghaiae,Indoseiulus ghaiae,cited_synonym_or_combination,gm2023
-PHY0133,Gynaeseius kalapaharicus,Gynaeseius kalapaharicus,valid,add2026
-PHY0134,Gynaeseius ricini,Gynaeseius ricini,valid,gm2023;gb2017;gk2015;g1985
-PHY0134,Gynaeseius ricini,Gynaesius ricini,listed_as,gb2017
-PHY0134,Gynaeseius ricini,Indoseiulus ricini,listed_as,g1985
-PHY0134,Gynaeseius ricini,Indoseius ricin,cited_synonym_or_combination,g1985
-PHY0134,Gynaeseius ricini,Indoseius ricini,cited_synonym_or_combination,gm2023
-PHY0135,Gynaeseius santosoi,Gynaeseius santosoi,valid,add2026
-PHY0136,Kuzinellus kuzini,Kuzinellus kuzini,valid,gm2023;gk2015
-PHY0136,Kuzinellus kuzini,Paraseiulus kuzini,cited_synonym_or_combination,gm2023
-PHY0137,Kuzinellus neosoleiger,Kuzinellus neosoleiger,valid,gm2023;gk2015;g1985
-PHY0137,Kuzinellus neosoleiger,Typhlodromus (Paraseiulus) neosoleiger,listed_as,g1985
-PHY0137,Kuzinellus neosoleiger,Typhlodromus neosole,cited_synonym_or_combination,g1985
-PHY0138,Neoseiulella celtis,Neoseiulella celtis,valid,gm2023;gk2015
-PHY0138,Neoseiulella celtis,Typhlodromus (Typhloctonus) celtis,cited_synonym_or_combination,gm2023
-PHY0139,Neoseiulella nesbitti,Neoseiulella nesbitti,valid,gm2023;gk2015;g1985
-PHY0139,Neoseiulella nesbitti,Typhlodromus (Typhloctomus) nesbitti,listed_as,g1985
-PHY0140,Neoseiulella prunus,Neoseiulella prunus,valid,gk2015
-PHY0141,Neoseiulella transitans,Neoseiulella transitans,valid,gm2023;gk2015;g1985
-PHY0141,Neoseiulella transitans,Neoseiulella transitrans,listed_as,gm2023
-PHY0141,Neoseiulella transitans,Typhlodromus (Typhloctomus) transitans,listed_as,g1985
-PHY0142,Neoseiulus aceriae,Neoseiulus aceriae,valid,gm2023;gk2015;g1985
-PHY0142,Neoseiulus aceriae,Amblvseius aceriae,cited_synonym_or_combination,gm2023
-PHY0142,Neoseiulus aceriae,Amblyseius (Neoseiulus) aceriae,listed_as,g1985
-PHY0143,Neoseiulus assamensis,Neoseiulus assamensis,valid,gm2023;gk2015;g1985
-PHY0143,Neoseiulus assamensis,Amblyseius (Neoseiulus) assamensis,listed_as,g1985
-PHY0143,Neoseiulus assamensis,Scapulaseius assamensis,listed_as,gk2015
-PHY0143,Neoseiulus assamensis,Typhlodromus (Amblyseius) assamensis,cited_synonym_or_combination,gm2023
-PHY0144,Neoseiulus baraki,Neoseiulus baraki,valid,gm2023;gk2015
-PHY0144,Neoseiulus baraki,Amblyseius (Neoseiulus) baraki,cited_synonym_or_combination,gm2023
-PHY0144,Neoseiulus baraki,Amblyseius baraki,cited_synonym_or_combination,gm2023
-PHY0145,Neoseiulus barkeri,Neoseiulus barkeri,valid,gm2023
-PHY0146,Neoseiulus bindrai,Neoseiulus bindrai,valid,gm2023;gk2015
-PHY0146,Neoseiulus bindrai,Amblyseius bindrai,cited_synonym_or_combination,gm2023
-PHY0147,Neoseiulus cucumeris,Neoseiulus cucumeris,valid,gm2023;gk2015
-PHY0147,Neoseiulus cucumeris,Amblyseius (Neoseiulus) cucumeris,cited_synonym_or_combination,gm2023
-PHY0147,Neoseiulus cucumeris,Typhlodromus cucumeris,cited_synonym_or_combination,gm2023
-PHY0148,Neoseiulus cynodonae,Neoseiulus cynodonae,valid,gm2023;gb2017;gk2015;g1985
-PHY0148,Neoseiulus cynodonae,Amblyseius (Neoseiulus) cynodonae,listed_as,g1985
-PHY0149,Neoseiulus dhani,Neoseiulus dhani,valid,add2026
-PHY0150,Neoseiulus dhooriai,Neoseiulus dhooriai,valid,gm2023;gk2015;g1985
-PHY0150,Neoseiulus dhooriai,Amblyseius (Neoseiulus) dhooriai,listed_as,g1985
-PHY0151,Neoseiulus fallacis,Neoseiulus fallacis,valid,gm2023;gk2015;g1985
-PHY0151,Neoseiulus fallacis,Amblyseius (Neoseiulus) fallacis,listed_as,g1985
-PHY0151,Neoseiulus fallacis,Amblyseius jallacis,listed_as,g1985
-PHY0151,Neoseiulus fallacis,Iphidulus fallacis,cited_synonym_or_combination,gm2023
-PHY0152,Neoseiulus ficusi,Neoseiulus ficusi,valid,gm2023;gk2015
-PHY0152,Neoseiulus ficusi,Amblyseius (Typhlodromalus) ficusi,cited_synonym_or_combination,gm2023
-PHY0153,Neoseiulus imbricatus,Neoseiulus imbricatus,valid,gm2023;gk2015
-PHY0153,Neoseiulus imbricatus,Amblyseius (Neoseiulus) imbricatus,cited_synonym_or_combination,gm2023
-PHY0153,Neoseiulus imbricatus,Amblyseius imbricatus,cited_synonym_or_combination,gm2023
-PHY0154,Neoseiulus indicus,Neoseiulus indicus,valid,gm2023;gb2017;gk2015;g1985
-PHY0154,Neoseiulus indicus,Amblyseius (Neoseiulus) indicus,listed_as,g1985
-PHY0154,Neoseiulus indicus,Imblyseius (Neoseiulus) indicus,cited_synonym_or_combination,gm2023
-PHY0155,Neoseiulus khejurae,Neoseiulus khejurae,valid,add2026
-PHY0156,Neoseiulus lablabi,Neoseiulus lablabi,valid,gm2023;gk2015;g1985
-PHY0156,Neoseiulus lablabi,Amblyseius (Typhlodromalus) lablabi,listed_as,g1985
-PHY0156,Neoseiulus lablabi,Amblyseius lablobi,cited_synonym_or_combination,g1985
-PHY0157,Neoseiulus longispinosus,Neoseiulus longispinosus,valid,gm2023;gb2017;gk2015;g1985
-PHY0157,Neoseiulus longispinosus,Amblyseius (Neoseiulus) longispinosus,listed_as,g1985
-PHY0157,Neoseiulus longispinosus,Amblyseius neoseiuluslongispinosus,listed_as,g1985
-PHY0158,Neoseiulus lula,Neoseiulus lula,valid,gm2023
-PHY0158,Neoseiulus lula,Amblyseius (Amblyseius) lula,cited_synonym_or_combination,gm2023
-PHY0159,Neoseiulus mulbericus,Neoseiulus mulbericus,valid,gm2023;gk2015
-PHY0159,Neoseiulus mulbericus,Amblyseius mulberricus,listed_as,gk2015
-PHY0160,Neoseiulus neoghanii,Neoseiulus neoghanii,valid,gm2023;gk2015
-PHY0160,Neoseiulus neoghanii,Amblyseius (Typhlodromips) neoghanii,cited_synonym_or_combination,gm2023
-PHY0161,Neoseiulus oahuensis,Neoseiulus oahuensis,valid,gm2023
-PHY0161,Neoseiulus oahuensis,Amblvyseius oahuensis,cited_synonym_or_combination,gm2023
-PHY0161,Neoseiulus oahuensis,Amblyseius (Neoseiulus) oahuensis,cited_synonym_or_combination,gm2023
-PHY0162,Neoseiulus paspalivorus,Neoseiulus paspalivorus,valid,gm2023;gk2015;g1985
-PHY0162,Neoseiulus paspalivorus,Amblyseius (Neoseiulus) paspalivorus,listed_as,g1985
-PHY0162,Neoseiulus paspalivorus,Amhlyseius luia,cited_synonym_or_combination,g1985
-PHY0162,Neoseiulus paspalivorus,Typhlodromus paspalivorus,cited_synonym_or_combination,gm2023
-PHY0163,Neoseiulus pranadae,Neoseiulus pranadae,valid,gm2023;gk2015
-PHY0164,Neoseiulus ramabettaensis,Neoseiulus ramabettaensis,valid,add2026
-PHY0165,Neoseiulus rangatensis,Neoseiulus rangatensis,valid,gm2023;gk2015;g1985
-PHY0165,Neoseiulus rangatensis,Amblyseins rangatensis,cited_synonym_or_combination,g1985
-PHY0165,Neoseiulus rangatensis,Amblyseius (Neoseiulus) rangatensis,listed_as,g1985
-PHY0165,Neoseiulus rangatensis,Amblyseius rangatensis,listed_as,gk2015
-PHY0166,Neoseiulus reticulatus,Neoseiulus reticulatus,valid,gm2023;gk2015
-PHY0166,Neoseiulus reticulatus,Typhlodromus reticulatus,cited_synonym_or_combination,gm2023
-PHY0167,Okeseius unisetatus,Okeseius unisetatus,valid,gm2023
-PHY0167,Okeseius unisetatus,Okiseius unisetatus,cited_synonym_or_combination,gm2023
-PHY0168,Okiseius himalayana,Okiseius himalayana,valid,gm2023;gk2015
-PHY0168,Okiseius himalayana,Paraphytoseius himalayana,listed_as,gk2015
-PHY0169,Okiseius jainticus,Okiseius jainticus,valid,gm2023
-PHY0170,Okiseius laaensis,Okiseius laaensis,valid,gm2023;gk2015
-PHY0170,Okiseius laaensis,Amblyseius laaensis,listed_as,gk2015
-PHY0170,Okiseius laaensis,Paraphytoseius laaensis,listed_as,gk2015
-PHY0171,Okiseius pahari,Okiseius pahari,valid,gm2023
-PHY0172,Okiseius ramdhuracus,Okiseius ramdhuracus,valid,gm2023
-PHY0173,Okiseius roseus,Okiseius roseus,valid,gm2023
-PHY0174,Okiseius sikkimensis,Okiseius sikkimensis,valid,gm2023;gk2015
-PHY0174,Okiseius sikkimensis,Paraphytoseius sikkimensis,listed_as,gk2015
-PHY0175,Okiseius yazuliensis,Okiseius yazuliensis,valid,gm2023;gk2015
-PHY0175,Okiseius yazuliensis,Paraphytoseius yazuliensis,listed_as,gk2015
-PHY0176,Paraamblyseius formosanus,Paraamblyseius formosanus,valid,g1985
-PHY0176,Paraamblyseius formosanus,Iphiseius formosanus,cited_synonym_or_combination,g1985
-PHY0177,Paraamblyseius fragariae,Paraamblyseius fragariae,valid,gm2023;gk2015;g1985
-PHY0178,Paraamblyseius mumai,Paraamblyseius mumai,valid,gm2023;gk2015;g1985
-PHY0179,Paraamblyseius ranipoolensis,Paraamblyseius ranipoolensis,valid,gm2023
-PHY0180,Paraphytoseius andamani,Paraphytoseius andamani,valid,add2026
-PHY0181,Paraphytoseius arjunae,Paraphytoseius arjunae,valid,gm2023;gk2015
-PHY0181,Paraphytoseius arjunae,Amblyseiulella arjunae,listed_as,gk2015
-PHY0182,Paraphytoseius bhadrakaliensis,Paraphytoseius bhadrakaliensis,valid,gm2023;gb2017;gk2015
-PHY0182,Paraphytoseius bhadrakaliensis,Amblyseiulella bhadrakaliensis,listed_as,gk2015
-PHY0182,Paraphytoseius bhadrakaliensis,Amblyseius bhadrakaliensis,cited_synonym_or_combination,gm2023
-PHY0183,Paraphytoseius camarae,Paraphytoseius camarae,valid,gm2023
-PHY0184,Paraphytoseius orientalis,Paraphytoseius orientalis,valid,gm2023;gb2017;gk2015
-PHY0184,Paraphytoseius orientalis,Amblyseiulella orientalis,listed_as,gk2015
-PHY0185,Paraphytoseius punjabensis,Paraphytoseius punjabensis,valid,add2026
-PHY0186,Paraphytoseius scleroticus,Paraphytoseius scleroticus,valid,gm2023;gb2017;gk2015;g1985
-PHY0186,Paraphytoseius scleroticus,Amblyseiulella scleroticus,listed_as,gk2015
-PHY0186,Paraphytoseius scleroticus,Amblyseius (Paraphytoseius) scleroticus,listed_as,g1985
-PHY0186,Paraphytoseius scleroticus,Amblyseius sczeroticus,listed_as,g1985
-PHY0186,Paraphytoseius scleroticus,Amhlyseius (Paraphytoseius) scleroticus,cited_synonym_or_combination,g1985
-PHY0187,Phytoscutus bakeri,Phytoscutus bakeri,valid,gm2023;gk2015;g1985
-PHY0187,Phytoscutus bakeri,Iphiseius bakeri,listed_as,g1985
-PHY0188,Phytoscutus keralaensis,Phytoscutus keralaensis,valid,gm2023
-PHY0189,Phytoscutus keralicus,Phytoscutus keralicus,valid,gm2023
-PHY0190,Phytoscutus punicae,Phytoscutus punicae,valid,gm2023
-PHY0191,Phytoscutus salebrosus,Phytoscutus salebrosus,valid,gm2023;gk2015;g1985
-PHY0191,Phytoscutus salebrosus,Amblyseius (Phytoscutella) salebrosus,listed_as,g1985
-PHY0191,Phytoscutus salebrosus,Taphlodromus (Amhlyseius) salehrosus,cited_synonym_or_combination,g1985
-PHY0191,Phytoscutus salebrosus,Typhlodromus (Amblyseius) salebrosus,cited_synonym_or_combination,gm2023
-PHY0192,Phytoseiulus persimilis,Phytoseiulus persimilis,valid,gm2023
-PHY0193,Phytoseius alathurensis,Phytoseius alathurensis,valid,gm2023
-PHY0194,Phytoseius aonlae,Phytoseius aonlae,valid,gm2023
-PHY0195,Phytoseius bandipurensis,Phytoseius bandipurensis,valid,gm2023;gk2015;g1985
-PHY0195,Phytoseius bandipurensis,Phvtoseius bandipurensis,cited_synonym_or_combination,gm2023
-PHY0195,Phytoseius bandipurensis,Phytoseius (Phytoseius) bandipurensis,listed_as,g1985
-PHY0196,Phytoseius baramuracus,Phytoseius baramuracus,valid,gm2023
-PHY0197,Phytoseius birbikrami,Phytoseius birbikrami,valid,gm2023
-PHY0198,Phytoseius brevicrinis,Phytoseius brevicrinis,valid,gm2023;gk2015
-PHY0199,Phytoseius clavus,Phytoseius clavus,valid,gm2023
-PHY0200,Phytoseius coheni,Phytoseius coheni,valid,gm2023;gk2015
-PHY0200,Phytoseius coheni,Phytoseius cohenii,listed_as,gm2023
-PHY0201,Phytoseius corniger,Phytoseius corniger,valid,gm2023;gk2015;g1985
-PHY0201,Phytoseius corniger,Phytoseius (Phytoseius) corniger,listed_as,g1985
-PHY0202,Phytoseius crinitus,Phytoseius crinitus,valid,gm2023;gb2017;gk2015;g1985
-PHY0202,Phytoseius crinitus,Phytoseius (Phytoseius) crinitus,listed_as,g1985
-PHY0203,Phytoseius domesticus,Phytoseius domesticus,valid,gm2023;gk2015
-PHY0204,Phytoseius dorsospinosus,Phytoseius dorsospinosus,valid,gm2023
-PHY0205,Phytoseius dumurae,Phytoseius dumurae,valid,gm2023
-PHY0206,Phytoseius ferrum,Phytoseius ferrum,valid,gm2023
-PHY0207,Phytoseius imbricus,Phytoseius imbricus,valid,gm2023
-PHY0208,Phytoseius indicus,Phytoseius indicus,valid,gm2023;gk2015
-PHY0209,Phytoseius intermedius,Phytoseius intermedius,valid,gm2023;gk2015;g1985
-PHY0209,Phytoseius intermedius,Phytoseius (Phytoseius) intermedius,listed_as,g1985
-PHY0210,Phytoseius jaunpurensis,Phytoseius jaunpurensis,valid,gm2023;gk2015;g1985
-PHY0210,Phytoseius jaunpurensis,Phytoseius (Phytoseius) jaunpurensis,listed_as,g1985
-PHY0210,Phytoseius jaunpurensis,Phytoseius jaudpurensis,listed_as,g1985
-PHY0211,Phytoseius jujuba,Phytoseius jujuba,valid,gm2023;gk2015;g1985
-PHY0211,Phytoseius jujuba,Phytoseius (Phytoseius) jujuba,listed_as,g1985
-PHY0212,Phytoseius kapuri,Phytoseius kapuri,valid,gm2023;gb2017;gk2015;g1985
-PHY0212,Phytoseius kapuri,Phytoseius (Pennaseius) kapuri,listed_as,g1985
-PHY0213,Phytoseius khowaiensis,Phytoseius khowaiensis,valid,gm2023
-PHY0214,Phytoseius leopardisimilis,Phytoseius leopardisimilis,valid,gm2023
-PHY0215,Phytoseius macropilis,Phytoseius macropilis,valid,gm2023;gk2015;g1985
-PHY0215,Phytoseius macropilis,Phytoseius (Phytoseius) macropilis,listed_as,g1985
-PHY0215,Phytoseius macropilis,Sejus macropilis,cited_synonym_or_combination,g1985;gm2023
-PHY0216,Phytoseius macrosetosus,Phytoseius macrosetosus,valid,gm2023;gb2017;gk2015;g1985
-PHY0216,Phytoseius macrosetosus,Phytoseius (Phytoseius) macrosetosus,listed_as,g1985
-PHY0217,Phytoseius maldahaensis,Phytoseius maldahaensis,valid,gm2023;gk2015
-PHY0217,Phytoseius maldahaensis,Phytoseius maldahensis,listed_as,gm2023
-PHY0218,Phytoseius mauritiana,Phytoseius mauritiana,valid,gm2023
-PHY0219,Phytoseius meyerae,Phytoseius meyerae,valid,gm2023;gk2015;g1985
-PHY0219,Phytoseius meyerae,Phytoseius (Phytoseius) meyerae,listed_as,g1985
-PHY0219,Phytoseius meyerae,Phytoseius meyerle,listed_as,g1985
-PHY0220,Phytoseius minutus,Phytoseius minutus,valid,gm2023;gb2017;gk2015;g1985
-PHY0220,Phytoseius minutus,Phytoseius (Pennaseius) minutus,listed_as,g1985
-PHY0221,Phytoseius mixtus,Phytoseius mixtus,valid,gm2023;gk2015;g1985
-PHY0221,Phytoseius mixtus,Phytoseius (Phytoseius) mixlus,cited_synonym_or_combination,g1985
-PHY0221,Phytoseius mixtus,Phytoseius (Phytoseius) mixtus,listed_as,g1985
-PHY0222,Phytoseius mizoramensis,Phytoseius mizoramensis,valid,gm2023
-PHY0223,Phytoseius namdaphaensis,Phytoseius namdaphaensis,valid,gm2023;gk2015
-PHY0224,Phytoseius namkhanaensis,Phytoseius namkhanaensis,valid,gm2023
-PHY0225,Phytoseius neglecta,Phytoseius neglecta,valid,gm2023;gk2015;g1985
-PHY0225,Phytoseius neglecta,Phytoseius (Dubininellus) negleela,cited_synonym_or_combination,g1985
-PHY0225,Phytoseius neglecta,Phytoseius (Phytoseius) neglecta,listed_as,g1985
-PHY0226,Phytoseius neocorniger,Phytoseius neocorniger,valid,gm2023;gk2015;g1985
-PHY0226,Phytoseius neocorniger,Phytoseius (Phytoseius) neocorniger,listed_as,g1985
-PHY0227,Phytoseius neoferox,Phytoseius neoferox,valid,gm2023;gk2015
-PHY0228,Phytoseius nipponicus,Phytoseius nipponicus,valid,gm2023;gk2015
-PHY0229,Phytoseius punicae,Phytoseius punicae,valid,gm2023
-PHY0230,Phytoseius punjabensis,Phytoseius punjabensis,valid,gm2023;gk2015;g1985
-PHY0230,Phytoseius punjabensis,Phytoseius (Phytoseius) punjabensis,listed_as,g1985
-PHY0231,Phytoseius rachelae,Phytoseius rachelae,valid,gm2023;gk2015;g1985
-PHY0231,Phytoseius rachelae,Phytoseius (Phytoseius) racbelae,listed_as,g1985
-PHY0232,Phytoseius roseus,Phytoseius roseus,valid,gm2023;gk2015;g1985
-PHY0232,Phytoseius roseus,Phytoseius (Phytoseius) roseus,listed_as,g1985
-PHY0233,Phytoseius rugosus,Phytoseius rugosus,valid,gm2023;gk2015;g1985
-PHY0233,Phytoseius rugosus,Phytoseius (Phytoseius) rugosus,listed_as,g1985
-PHY0234,Phytoseius strobilantheae,Phytoseius strobilantheae,valid,gm2023
-PHY0235,Phytoseius swirskii,Phytoseius swirskii,valid,gm2023;gb2017;gk2015;g1985
-PHY0235,Phytoseius swirskii,Phytoseius (Phytoseius) swirskii,listed_as,g1985
-PHY0236,Phytoseius viscosum,Phytoseius viscosum,valid,gm2023;gk2015
-PHY0237,Phytoseius wainsteini,Phytoseius wainsteini,valid,gm2023;gk2015;g1985
-PHY0237,Phytoseius wainsteini,Phytoseius (Dubininellus) waillsleini,cited_synonym_or_combination,g1985
-PHY0237,Phytoseius wainsteini,Phytoseius (Phytoseius) wainsteini,listed_as,g1985
-PHY0238,Phytoseius woodburyi,Phytoseius woodburyi,valid,gm2023;gk2015;g1985
-PHY0238,Phytoseius woodburyi,Phytoseius (Phytoseius) woodburyi,listed_as,g1985
-PHY0239,Platyseiella mumai,Platyseiella mumai,valid,gm2023;gk2015;g1985
-PHY0240,Proprioseiopsis amari,Proprioseiopsis amari,valid,gm2023
-PHY0240,Proprioseiopsis amari,Proprioeiopsis amari,cited_synonym_or_combination,gm2023
-PHY0241,Proprioseiopsis arunachalensis,Proprioseiopsis arunachalensis,valid,gm2023;gk2015
-PHY0241,Proprioseiopsis arunachalensis,Amblyseius (Proprioseiopsis) arunachalensis,cited_synonym_or_combination,gm2023
-PHY0242,Proprioseiopsis indicus,Proprioseiopsis indicus,valid,gm2023
-PHY0243,Proprioseiopsis keralaensis,Proprioseiopsis keralaensis,valid,gm2023;gk2015
-PHY0244,Proprioseiopsis nemotoi,Proprioseiopsis nemotoi,valid,add2026
-PHY0245,Proprioseiopsis peltatus,Proprioseiopsis peltatus,valid,gm2023;gk2015;g1985
-PHY0245,Proprioseiopsis peltatus,Amblyseius (Proprioseiopsis) peltatus,listed_as,g1985
-PHY0246,Proprioseiopsis punicae,Proprioseiopsis punicae,valid,gk2015
-PHY0247,Proprioseiopsis synachattiensis,Proprioseiopsis synachattiensis,valid,gm2023;gk2015
-PHY0247,Proprioseiopsis synachattiensis,Amblyseius (Proprioseiopsis) synachattiensis,cited_synonym_or_combination,gm2023
-PHY0248,Proprioseius kumaonensis,Proprioseius kumaonensis,valid,gm2023;gk2015;g1985
-PHY0248,Proprioseius kumaonensis,Amblyseius (Proprioseius) kumaonensis,listed_as,g1985
-PHY0249,Scapulaseius andamanicus,Scapulaseius andamanicus,valid,gm2023;gk2015;g1985
-PHY0249,Scapulaseius andamanicus,Iphiseius andamanicus,listed_as,g1985
-PHY0250,Scapulaseius arecae,Scapulaseius arecae,valid,gm2023;gk2015;g1985
-PHY0250,Scapulaseius arecae,Amblyseius (Typhlodromips) arecae,listed_as,g1985
-PHY0251,Scapulaseius asiaticus,Scapulaseius asiaticus,valid,gm2023;gk2015
-PHY0251,Scapulaseius asiaticus,Typhlodromus asiaticus,cited_synonym_or_combination,gm2023
-PHY0252,Scapulaseius augusta,Scapulaseius augusta,valid,gm2023;gk2015
-PHY0253,Scapulaseius daturae,Scapulaseius daturae,valid,gm2023;gk2015
-PHY0253,Scapulaseius daturae,Amblyseius daturae,cited_synonym_or_combination,gm2023
-PHY0254,Scapulaseius eucalypticus,Scapulaseius eucalypticus,valid,gm2023;gk2015;g1985
-PHY0254,Scapulaseius eucalypticus,Amblyseius (Typhlodromalus) eucalypticus,listed_as,g1985
-PHY0254,Scapulaseius eucalypticus,Amblyseius (Typhlodromalus) euealypticus,cited_synonym_or_combination,gm2023
-PHY0254,Scapulaseius eucalypticus,Transeius eucalypticus,listed_as,gk2015
-PHY0254,Scapulaseius eucalypticus,Typhlodromalus eucalypticus,cited_synonym_or_combination,gm2023
-PHY0255,Scapulaseius hapoli,Scapulaseius hapoli,valid,gm2023;gk2015
-PHY0255,Scapulaseius hapoli,Iphiseius (Iphiseius) hapoli,cited_synonym_or_combination,gm2023
-PHY0255,Scapulaseius hapoli,Transeius hapoli,listed_as,gk2015
-PHY0256,Scapulaseius mangiferae,Scapulaseius mangiferae,valid,gm2023;gk2015;g1985
-PHY0256,Scapulaseius mangiferae,Amblyseius (Typhlodromips) mangiferae,listed_as,g1985
-PHY0256,Scapulaseius mangiferae,Phytoseius mangiferae,listed_as,gk2015
-PHY0257,Scapulaseius meghalayensis,Scapulaseius meghalayensis,valid,gm2023;gk2015;g1985
-PHY0257,Scapulaseius meghalayensis,Amblyseius (Typhlodromips) meghalayensis,listed_as,g1985
-PHY0257,Scapulaseius meghalayensis,Transeius meghalayensis,listed_as,gk2015
-PHY0258,Scapulaseius moraesi,Scapulaseius moraesi,valid,gm2023
-PHY0258,Scapulaseius moraesi,Scapulaseius morasei,cited_synonym_or_combination,gm2023
-PHY0259,Scapulaseius officinaria,Scapulaseius officinaria,valid,gm2023;gk2015;g1985
-PHY0259,Scapulaseius officinaria,Amblyseius (Typhlodromips) officioaria,listed_as,g1985
-PHY0259,Scapulaseius officinaria,Amblyseius officinaria,listed_as,g1985
-PHY0260,Scapulaseius polyantheae,Scapulaseius polyantheae,valid,gm2023;gb2017;gk2015;g1985
-PHY0260,Scapulaseius polyantheae,Amblyseius (Typhlodromips) polyaotheae,listed_as,g1985
-PHY0260,Scapulaseius polyantheae,Amblyseius polyantheae,listed_as,g1985
-PHY0261,Scapulaseius sapienticola,Scapulaseius sapienticola,valid,gm2023;gk2015;g1985
-PHY0261,Scapulaseius sapienticola,Amblyseius (Typhlodromips) sapienticola,listed_as,g1985
-PHY0262,Scapulaseius sorghumae,Scapulaseius sorghumae,valid,gm2023;gk2015;g1985
-PHY0262,Scapulaseius sorghumae,Amblyseius (Typhlodromalus) sorghumae,listed_as,g1985
-PHY0263,Scapulaseius suknaensis,Scapulaseius suknaensis,valid,gm2023;gb2017;gk2015;g1985
-PHY0263,Scapulaseius suknaensis,Amblyseius (Typhlodromips) suknaensis,listed_as,g1985
-PHY0264,Transeius bangalorensis,Transeius bangalorensis,valid,gm2023;gk2015
-PHY0264,Transeius bangalorensis,Amblyseius (Typhlodromips) bangalorensis,cited_synonym_or_combination,gm2023
-PHY0264,Transeius bangalorensis,Amblyseius bangalorensis,cited_synonym_or_combination,gm2023
-PHY0265,Transeius tetranychivorus,Transeius tetranychivorus,valid,gm2023;gk2015;g1985
-PHY0265,Transeius tetranychivorus,Amblyseius (Typhlodromips) tetranychivoros,listed_as,g1985
-PHY0265,Transeius tetranychivorus,Amblyseius tetranychivorus,listed_as,g1985
-PHY0265,Transeius tetranychivorus,Typhlodromips tetranychivorus,cited_synonym_or_combination,gm2023
-PHY0266,Transeius uttarbharaticus,Transeius uttarbharaticus,valid,add2026
-PHY0267,Typhlodromips cinchonai,Typhlodromips cinchonai,valid,gm2023
-PHY0268,Typhlodromips jhilimiliensis,Typhlodromips jhilimiliensis,valid,gm2023
-PHY0268,Typhlodromips jhilimiliensis,Tvphlodromips jhilimiliensis,cited_synonym_or_combination,gm2023
-PHY0269,Typhlodromips neosyzygii,Typhlodromips neosyzygii,valid,gm2023
-PHY0270,Typhlodromips syzygii,Typhlodromips syzygii,valid,gm2023;gb2017;gk2015;g1985
-PHY0270,Typhlodromips syzygii,Amblyseius (Typhlodromips) syzygii,listed_as,g1985
-PHY0271,Typhlodromus (Anthoseius) adhatoda,Typhlodromus (Anthoseius) adhatoda,valid,gm2023
-PHY0272,Typhlodromus (Anthoseius) arunachalensis,Typhlodromus (Anthoseius) arunachalensis,valid,gm2023;gk2015
-PHY0272,Typhlodromus (Anthoseius) arunachalensis,Typhlodromus arunachalensis,listed_as,gk2015
-PHY0273,Typhlodromus (Anthoseius) bakeri,Typhlodromus (Anthoseius) bakeri,valid,gm2023;gk2015;g1985
-PHY0273,Typhlodromus (Anthoseius) bakeri,Seiulus bakeri,cited_synonym_or_combination,g1985;gm2023
-PHY0273,Typhlodromus (Anthoseius) bakeri,Typhlodromus (Amblydromella) bakeri,listed_as,g1985
-PHY0273,Typhlodromus (Anthoseius) bakeri,Typhlodromus bakeri,listed_as,gk2015
-PHY0274,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus (Anthoseius) bambusicolus,valid,gm2023;gk2015;g1985
-PHY0274,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus (Amblydromella) bambusicolus,listed_as,g1985
-PHY0274,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus bambusicolus,listed_as,gk2015
-PHY0275,Typhlodromus (Anthoseius) barapanicus,Typhlodromus (Anthoseius) barapanicus,valid,gm2023
-PHY0276,Typhlodromus (Anthoseius) bengalensis,Typhlodromus (Anthoseius) bengalensis,valid,gm2023
-PHY0277,Typhlodromus (Anthoseius) bolpurensis,Typhlodromus (Anthoseius) bolpurensis,valid,gm2023
-PHY0278,Typhlodromus (Anthoseius) bulbosis,Typhlodromus (Anthoseius) bulbosis,valid,gm2023
-PHY0279,Typhlodromus (Anthoseius) campana,Typhlodromus (Anthoseius) campana,valid,gm2023
-PHY0280,Typhlodromus (Anthoseius) carambolae,Typhlodromus (Anthoseius) carambolae,valid,gm2023
-PHY0281,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus (Anthoseius) channabasavannai,valid,gm2023;gk2015;g1985
-PHY0281,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus (Orientiseius) channabasavanni,listed_as,g1985
-PHY0281,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus channabasavannai,listed_as,gk2015
-PHY0282,Typhlodromus (Anthoseius) cherrapunjiensis,Typhlodromus (Anthoseius) cherrapunjiensis,valid,gm2023
-PHY0282,Typhlodromus (Anthoseius) cherrapunjiensis,Typhlodromus (Anthoseius) cherapunjiensis,cited_synonym_or_combination,gm2023
-PHY0283,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus (Anthoseius) chrysanthemi,valid,gm2023;gk2015;g1985
-PHY0283,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus (Amblydromella) chrysanthemi,listed_as,g1985
-PHY0283,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus chrysanthemi,listed_as,gk2015
-PHY0284,Typhlodromus (Anthoseius) communis,Typhlodromus (Anthoseius) communis,valid,gm2023;gk2015;g1985
-PHY0284,Typhlodromus (Anthoseius) communis,Typhlodromus (Typhlodromw) communis,listed_as,g1985
-PHY0284,Typhlodromus (Anthoseius) communis,Typhlodromus communis,listed_as,gk2015
-PHY0285,Typhlodromus (Anthoseius) dactylifera,Typhlodromus (Anthoseius) dactylifera,valid,gm2023;gk2015
-PHY0285,Typhlodromus (Anthoseius) dactylifera,Amblydromella dactylifera,cited_synonym_or_combination,gm2023
-PHY0285,Typhlodromus (Anthoseius) dactylifera,Typhlodromus dactylifera,listed_as,gk2015
-PHY0286,Typhlodromus (Anthoseius) dahungensis,Typhlodromus (Anthoseius) dahungensis,valid,gm2023
-PHY0287,Typhlodromus (Anthoseius) dalii,Typhlodromus (Anthoseius) dalii,valid,gm2023;gk2015
-PHY0287,Typhlodromus (Anthoseius) dalii,Amblydromella dalii,cited_synonym_or_combination,gm2023
-PHY0287,Typhlodromus (Anthoseius) dalii,Typhlodromus dalii,listed_as,gk2015
-PHY0288,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Anthoseius) darjeeligensis,valid,gm2023;gk2015;g1985
-PHY0288,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Amblydromella) ebarai,listed_as,g1985
-PHY0288,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Anthoseius) darjeelingensis,listed_as,gm2023
-PHY0288,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus darjeeligensis,listed_as,gk2015
-PHY0288,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus eharai,listed_as,g1985;gk2015
-PHY0289,Typhlodromus (Anthoseius) denmarki,Typhlodromus (Anthoseius) denmarki,valid,gm2023;gk2015
-PHY0289,Typhlodromus (Anthoseius) denmarki,Amblydromella denmarkii,cited_synonym_or_combination,gm2023
-PHY0289,Typhlodromus (Anthoseius) denmarki,Typhlodromus (Anthoseius) denmarkii,listed_as,gm2023
-PHY0289,Typhlodromus (Anthoseius) denmarki,Typhlodromus denmarki,listed_as,gk2015
-PHY0290,Typhlodromus (Anthoseius) divergentis,Typhlodromus (Anthoseius) divergentis,valid,gm2023;gk2015;g1985
-PHY0290,Typhlodromus (Anthoseius) divergentis,Amblydromella divergentis,cited_synonym_or_combination,g1985;gm2023
-PHY0290,Typhlodromus (Anthoseius) divergentis,Typhlodromus (Amblydromella) divergentis,listed_as,g1985
-PHY0290,Typhlodromus (Anthoseius) divergentis,Typhlodromus divergentis,listed_as,gk2015
-PHY0291,Typhlodromus (Anthoseius) fleschneri,Typhlodromus (Anthoseius) fleschneri,valid,gm2023;gk2015;g1985
-PHY0291,Typhlodromus (Anthoseius) fleschneri,Typhlodromus (Amblydromella) fleschneri,listed_as,g1985
-PHY0291,Typhlodromus (Anthoseius) fleschneri,Typhlodromus fleschneri,listed_as,gk2015
-PHY0291,Typhlodromus (Anthoseius) fleschneri,Typhlodromus jleschneri,listed_as,g1985
-PHY0292,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus (Anthoseius) garhwalicus,valid,gm2023;gk2015;g1985
-PHY0292,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus (Typhlodromw) garhwalicus,listed_as,g1985
-PHY0292,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus garhowalicus,listed_as,gk2015
-PHY0293,Typhlodromus (Anthoseius) gilbertoi,Typhlodromus (Anthoseius) gilbertoi,valid,add2026;gm2023
-PHY0294,Typhlodromus (Anthoseius) gopali,Typhlodromus (Anthoseius) gopali,valid,gm2023;gk2015;g1985
-PHY0294,Typhlodromus (Anthoseius) gopali,Typhlodromus (Amblydromella) gopali,listed_as,g1985
-PHY0294,Typhlodromus (Anthoseius) gopali,Typhlodromus gopaji,listed_as,g1985
-PHY0294,Typhlodromus (Anthoseius) gopali,Typhlodromus gopali,listed_as,gk2015
-PHY0295,Typhlodromus (Anthoseius) gosabaensis,Typhlodromus (Anthoseius) gosabaensis,valid,gm2023
-PHY0296,Typhlodromus (Anthoseius) hadii,Typhlodromus (Anthoseius) hadii,valid,gm2023;gk2015
-PHY0296,Typhlodromus (Anthoseius) hadii,Typhlodromus hadii,listed_as,gk2015
-PHY0297,Typhlodromus (Anthoseius) hasnuhanae,Typhlodromus (Anthoseius) hasnuhanae,valid,add2026;gm2023
-PHY0298,Typhlodromus (Anthoseius) heliotropium,Typhlodromus (Anthoseius) heliotropium,valid,gm2023
-PHY0299,Typhlodromus (Anthoseius) himalayensis,Typhlodromus (Anthoseius) himalayensis,valid,gm2023;gk2015;g1985
-PHY0299,Typhlodromus (Anthoseius) himalayensis,Typhlodromus (Amblydromella) himalayensis,listed_as,g1985
-PHY0299,Typhlodromus (Anthoseius) himalayensis,Typhlodromus himalayensis,listed_as,gk2015
-PHY0300,Typhlodromus (Anthoseius) himaliniae,Typhlodromus (Anthoseius) himaliniae,valid,gm2023
-PHY0301,Typhlodromus (Anthoseius) homalii,Typhlodromus (Anthoseius) homalii,valid,gm2023;gk2015;g1985
-PHY0301,Typhlodromus (Anthoseius) homalii,Typhlodromus (Amblydromella) homalii,listed_as,g1985
-PHY0301,Typhlodromus (Anthoseius) homalii,Typhlodromus homalii,listed_as,gk2015
-PHY0302,Typhlodromus (Anthoseius) kanchangarhensis,Typhlodromus (Anthoseius) kanchangarhensis,valid,add2026
-PHY0303,Typhlodromus (Anthoseius) kanchanjanghai,Typhlodromus (Anthoseius) kanchanjanghai,valid,gm2023
-PHY0304,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Anthoseius) kodaikanelensis,valid,gm2023;gk2015;g1985
-PHY0304,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Amblydromella) kodaikanslensis,listed_as,g1985
-PHY0304,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Anthoseius) kodaikanalensis,listed_as,gm2023
-PHY0304,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus kodaikanalensis,listed_as,g1985
-PHY0304,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus kodaikanelensis,listed_as,gk2015
-PHY0305,Typhlodromus (Anthoseius) majumderi,Typhlodromus (Anthoseius) majumderi,valid,gm2023;gk2015
-PHY0305,Typhlodromus (Anthoseius) majumderi,Typhlodromus majumderi,listed_as,gk2015
-PHY0306,Typhlodromus (Anthoseius) malviyai,Typhlodromus (Anthoseius) malviyai,valid,gm2023
-PHY0306,Typhlodromus (Anthoseius) malviyai,Typhloctonus (Typhlodromus) malviyai,cited_synonym_or_combination,gm2023
-PHY0307,Typhlodromus (Anthoseius) manipurensis,Typhlodromus (Anthoseius) manipurensis,valid,gm2023;gk2015;g1985
-PHY0307,Typhlodromus (Anthoseius) manipurensis,Typhlodromus (Orientiseius) manipurensis,listed_as,g1985
-PHY0307,Typhlodromus (Anthoseius) manipurensis,Typhlodromus manipurensis,listed_as,gk2015
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Typhlodromus (Anthoseius) meerutensis,valid,gm2023;gk2015;g1985
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Indodromus meerutensis,listed_as,g1985
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Indodromus meerutensls,listed_as,g1985
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Tvphlodromus (Anthoseius) meerutensis,cited_synonym_or_combination,gm2023
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Typhiodromus (Anthoseius) meerutensis,cited_synonym_or_combination,gm2023
-PHY0308,Typhlodromus (Anthoseius) meerutensis,Typhlodromus meerutensis,listed_as,gk2015
-PHY0309,Typhlodromus (Anthoseius) mori,Typhlodromus (Anthoseius) mori,valid,gm2023;gk2015;g1985
-PHY0309,Typhlodromus (Anthoseius) mori,Typhlodromus (Amblydromella) mori,listed_as,g1985
-PHY0309,Typhlodromus (Anthoseius) mori,Typhlodromus mori,listed_as,gk2015
-PHY0309,Typhlodromus (Anthoseius) mori,Typhlodromus morl,listed_as,g1985
-PHY0310,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus (Anthoseius) neorhenanus,valid,gm2023;gk2015;g1985
-PHY0310,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus (Typhlodromw) neorhenanus,listed_as,g1985
-PHY0310,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus neorhenanus,listed_as,gk2015
-PHY0310,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus neorhennus,listed_as,g1985
-PHY0311,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus (Anthoseius) neotransvaalensis,valid,gm2023;gk2015;g1985
-PHY0311,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus (Clayidromus) neotransvaalensis,listed_as,g1985
-PHY0311,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus neotransvaalensis,listed_as,gk2015
-PHY0312,Typhlodromus (Anthoseius) nilgiriensis,Typhlodromus (Anthoseius) nilgiriensis,valid,gm2023;gk2015
-PHY0312,Typhlodromus (Anthoseius) nilgiriensis,Typhlodromus nilgiriensis,listed_as,gk2015
-PHY0313,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Anthoseius) orissaensis,valid,gm2023;gk2015;g1985
-PHY0313,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Orientiseius) orissaensis,listed_as,g1985
-PHY0313,Typhlodromus (Anthoseius) orissaensis,Typhlodromus orissaensis,listed_as,gk2015
-PHY0314,Typhlodromus (Anthoseius) parandae,Typhlodromus (Anthoseius) parandae,valid,gm2023
-PHY0315,Typhlodromus (Anthoseius) parnangiae,Typhlodromus (Anthoseius) parnangiae,valid,add2026
-PHY0316,Typhlodromus (Anthoseius) persicus,Typhlodromus (Anthoseius) persicus,valid,gm2023;gk2015
-PHY0316,Typhlodromus (Anthoseius) persicus,Typhlodromus persicus,listed_as,gk2015
-PHY0317,Typhlodromus (Anthoseius) pruni,Typhlodromus (Anthoseius) pruni,valid,gm2023;gk2015;g1985
-PHY0317,Typhlodromus (Anthoseius) pruni,Typhlodromus (Orientiseius) pruni,listed_as,g1985
-PHY0317,Typhlodromus (Anthoseius) pruni,Typhlodromus pruni,listed_as,gk2015
-PHY0318,Typhlodromus (Anthoseius) ramdhuraensis,Typhlodromus (Anthoseius) ramdhuraensis,valid,gm2023
-PHY0319,Typhlodromus (Anthoseius) rhenanus,Typhlodromus (Anthoseius) rhenanus,valid,gm2023;gk2015;g1985
-PHY0319,Typhlodromus (Anthoseius) rhenanus,Seiulus rhenanus,cited_synonym_or_combination,g1985;gm2023
-PHY0319,Typhlodromus (Anthoseius) rhenanus,Typhlodromus (Amblydromella) rhenanus,listed_as,g1985
-PHY0319,Typhlodromus (Anthoseius) rhenanus,Typhlodromus rhenanus,listed_as,gk2015
-PHY0319,Typhlodromus (Anthoseius) rhenanus,Typhlodromus wrhenanus,listed_as,g1985
-PHY0320,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus (Anthoseius) rhododendroni,valid,gm2023;gk2015;g1985
-PHY0320,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus (Amblydromella) rhododendronis,listed_as,g1985
-PHY0320,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus rhododendroni,listed_as,gk2015
-PHY0320,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus rhododendronls,listed_as,g1985
-PHY0321,Typhlodromus (Anthoseius) rickeri,Typhlodromus (Anthoseius) rickeri,valid,gm2023;gk2015;g1985
-PHY0321,Typhlodromus (Anthoseius) rickeri,Typhlodromus (Orientiseius) rickeri,listed_as,g1985
-PHY0321,Typhlodromus (Anthoseius) rickeri,Typhlodromus ricker,cited_synonym_or_combination,g1985
-PHY0321,Typhlodromus (Anthoseius) rickeri,Typhlodromus rickeri,listed_as,gk2015
-PHY0322,Typhlodromus (Anthoseius) sagaricus,Typhlodromus (Anthoseius) sagaricus,valid,gm2023
-PHY0323,Typhlodromus (Anthoseius) saptaparniae,Typhlodromus (Anthoseius) saptaparniae,valid,add2026
-PHY0324,Typhlodromus (Anthoseius) sijiensis,Typhlodromus (Anthoseius) sijiensis,valid,gm2023;gk2015
-PHY0324,Typhlodromus (Anthoseius) sijiensis,Typhlodromus sijiensis,listed_as,gk2015
-PHY0325,Typhlodromus (Anthoseius) sodaliae,Typhlodromus (Anthoseius) sodaliae,valid,add2026
-PHY0326,Typhlodromus (Anthoseius) sonajhuriae,Typhlodromus (Anthoseius) sonajhuriae,valid,gm2023
-PHY0327,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus (Anthoseius) sonprayagensis,valid,gm2023;gk2015
-PHY0327,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus sonprayagensis,listed_as,gk2015
-PHY0328,Typhlodromus (Anthoseius) theae,Typhlodromus (Anthoseius) theae,valid,add2026;gm2023
-PHY0329,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) torbatejamae,valid,gm2023;gk2015
-PHY0329,Typhlodromus (Anthoseius) torbatejamae,Amblydromella tarbateijamae,cited_synonym_or_combination,gm2023
-PHY0329,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) tarbateijamae,listed_as,gm2023
-PHY0329,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus torbatejamae,listed_as,gk2015
-PHY0330,Typhlodromus (Anthoseius) umbratus,Typhlodromus (Anthoseius) umbratus,valid,gm2023;gk2015
-PHY0330,Typhlodromus (Anthoseius) umbratus,Amblydromella umbratus,cited_synonym_or_combination,gm2023
-PHY0330,Typhlodromus (Anthoseius) umbratus,Typhlodromus umbratus,listed_as,gk2015
-PHY0331,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) viniferae,valid,gm2023;gk2015
-PHY0331,Typhlodromus (Anthoseius) viniferae,Amblydromella vinifera,cited_synonym_or_combination,gm2023
-PHY0331,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) vinifera,listed_as,gm2023
-PHY0331,Typhlodromus (Anthoseius) viniferae,Typhlodromus viniferae,listed_as,gk2015
-PHY0332,Typhlodromus (Anthoseius) zafari,Typhlodromus (Anthoseius) zafari,valid,gm2023;gk2015
-PHY0332,Typhlodromus (Anthoseius) zafari,Tvphlodromus zafari,cited_synonym_or_combination,gm2023
-PHY0332,Typhlodromus (Anthoseius) zafari,Typhlodromus zafari,listed_as,gk2015
-PHY0333,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) confusus,valid,gm2023;gk2015;g1985
-PHY0333,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Brethria) confusus,listed_as,g1985
-PHY0333,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) conlusus,cited_synonym_or_combination,g1985
-PHY0333,Typhlodromus (Typhlodromus) confusus,Typhlodromus confusus,listed_as,gk2015
-PHY0334,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Typhlodromus) roshanlali,valid,gm2023;gk2015;g1985
-PHY0334,Typhlodromus (Typhlodromus) roshanlali,Typhlodromous (Typhlodromus) roshanlali,cited_synonym_or_combination,g1985
-PHY0334,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Brethria) roshanlali,listed_as,g1985
-PHY0334,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus roshanlali,listed_as,gk2015
-PHY0335,Typhlodromus kashmiricus,Typhlodromus kashmiricus,valid,gk2015;g1985
-PHY0335,Typhlodromus kashmiricus,Typhlodromus (Orientiseius) kashmiricus,listed_as,g1985
-PHY0336,Ueckermannseius samudricus,Ueckermannseius samudricus,valid,add2026
+PHY0008,Amblyseiulella nucifera,Amblyseiulella nucifera,valid,gm2023;gk2015;g1985
+PHY0008,Amblyseiulella nucifera,Amblyseius (Asperoseius) ducifera,listed_as,g1985
+PHY0008,Amblyseiulella nucifera,Amblyseius nucifera,listed_as,g1985
+PHY0008,Amblyseiulella nucifera,Okiseius nucifera,listed_as,gk2015
+PHY0008,Amblyseiulella nucifera,Paraphyloseius (Tropicoseius) nucilera,cited_synonym_or_combination,g1985
+PHY0008,Amblyseiulella nucifera,Paraphytoseius (Tropicoseius) nucifera,cited_synonym_or_combination,gm2023
+PHY0009,Amblyseiulella solanae,Amblyseiulella solanae,valid,add2026
+PHY0010,Amblyseiulella tibouchina,Amblyseiulella tibouchina,valid,gm2023
+PHY0011,Amblyseius (Typhlodromalus) havu,Amblyseius (Typhlodromalus) havu,valid,g1985
+PHY0012,Amblyseius adhatodae,Amblyseius adhatodae,valid,gm2023;gb2017;gk2015;g1985
+PHY0012,Amblyseius adhatodae,Amblyseius (Amblyseius) adhatodae,listed_as,g1985
+PHY0013,Amblyseius aerialis,Amblyseius aerialis,valid,gm2023;gb2017;gk2015;g1985
+PHY0013,Amblyseius aerialis,Amblyseiopsis aerialis,cited_synonym_or_combination,g1985;gm2023
+PHY0013,Amblyseius aerialis,Amblyseius (Amblyseius) aerialis,listed_as,g1985
+PHY0014,Amblyseius amitae,Amblyseius amitae,valid,gk2015
+PHY0015,Amblyseius amorphalae,Amblyseius amorphalae,valid,gm2023
+PHY0016,Amblyseius amtalaensis,Amblyseius amtalaensis,valid,gm2023;gk2015
+PHY0017,Amblyseius andamanicus,Amblyseius andamanicus,valid,add2026
+PHY0018,Amblyseius andersoni,Amblyseius andersoni,valid,gk2015
+PHY0019,Amblyseius apocynae,Amblyseius apocynae,valid,gm2023;gk2015
+PHY0020,Amblyseius apocynaevagrans,Amblyseius apocynaevagrans,valid,gm2023;gk2015
+PHY0020,Amblyseius apocynaevagrans,Amblyseiulella apocynaevagrans,listed_as,gk2015
+PHY0021,Amblyseius azaliae,Amblyseius azaliae,valid,gm2023
+PHY0022,Amblyseius bengalensis,Amblyseius bengalensis,valid,gm2023
+PHY0023,Amblyseius bhadrakshae,Amblyseius bhadrakshae,valid,gm2023
+PHY0024,Amblyseius brachycalyx,Amblyseius brachycalyx,valid,gm2023
+PHY0025,Amblyseius channabasavannai,Amblyseius channabasavannai,valid,gm2023;gk2015;g1985
+PHY0025,Amblyseius channabasavannai,Amblyseius (Amblyseius) channabasavanni,listed_as,g1985
+PHY0026,Amblyseius charui,Amblyseius charui,valid,gm2023;gk2015
+PHY0027,Amblyseius coffeae,Amblyseius coffeae,valid,gm2023;gb2017;gk2015
+PHY0028,Amblyseius conulus,Amblyseius conulus,valid,gm2023
+PHY0029,Amblyseius crotalariae,Amblyseius crotalariae,valid,gm2023;gk2015;g1985
+PHY0029,Amblyseius crotalariae,Amblyseius (Typhlodromips) crotalariae,listed_as,g1985
+PHY0029,Amblyseius crotalariae,Amblyseius crotolariae,listed_as,gk2015
+PHY0029,Amblyseius crotalariae,Amblyseiys crotalariae,cited_synonym_or_combination,g1985
+PHY0030,Amblyseius cucurbitae,Amblyseius cucurbitae,valid,gm2023;gk2015
+PHY0031,Amblyseius dahlia,Amblyseius dahlia,valid,gm2023
+PHY0031,Amblyseius dahlia,Amblyseius dahliae,cited_synonym_or_combination,gm2023
+PHY0032,Amblyseius deleoni,Amblyseius deleoni,valid,gk2015;g1985
+PHY0032,Amblyseius deleoni,Amblyseius (Amblyseius) deleoni,listed_as,g1985
+PHY0033,Amblyseius eujeniae,Amblyseius eujeniae,valid,gm2023;gk2015;g1985
+PHY0033,Amblyseius eujeniae,Amblyseius (Typhlodromips) eujeniae,listed_as,g1985
+PHY0033,Amblyseius eujeniae,Amblyseius eugeniae,listed_as,g1985
+PHY0034,Amblyseius excelsus,Amblyseius excelsus,valid,gm2023;gk2015
+PHY0035,Amblyseius fraterculus,Amblyseius fraterculus,valid,gm2023;gk2015;g1985
+PHY0035,Amblyseius fraterculus,Amblyseius (Neoseiulus) fraterculus,listed_as,g1985
+PHY0035,Amblyseius fraterculus,Amblyseius jraterculus,listed_as,g1985
+PHY0036,Amblyseius giganticus,Amblyseius giganticus,valid,gm2023;gk2015
+PHY0037,Amblyseius guajavae,Amblyseius guajavae,valid,gm2023;gk2015;g1985
+PHY0037,Amblyseius guajavae,Amblyseius (Typhlodromips) guajavae,listed_as,g1985
+PHY0038,Amblyseius hapoliensis,Amblyseius hapoliensis,valid,gm2023;gk2015
+PHY0039,Amblyseius herbicolus,Amblyseius herbicolus,valid,gm2023;gb2017;gk2015
+PHY0039,Amblyseius herbicolus,Typhlodromus (Amblyseius) herbicolus,cited_synonym_or_combination,gm2023
+PHY0040,Amblyseius herbiculoides,Amblyseius herbiculoides,valid,gk2015
+PHY0041,Amblyseius indirae,Amblyseius indirae,valid,gm2023;gk2015
+PHY0041,Amblyseius indirae,Amblysejng indirae,cited_synonym_or_combination,gm2023
+PHY0042,Amblyseius ipomoeae,Amblyseius ipomoeae,valid,gk2015;g1985
+PHY0042,Amblyseius ipomoeae,Amblyseius (Amblyseius) ipomoeae,listed_as,g1985
+PHY0043,Amblyseius jarooa,Amblyseius jarooa,valid,gm2023;gk2015;g1985
+PHY0043,Amblyseius jarooa,Amblyseius (Typhlodromalus) jarooa,listed_as,g1985
+PHY0044,Amblyseius koothaliensis,Amblyseius koothaliensis,valid,gm2023;gk2015
+PHY0044,Amblyseius koothaliensis,Amblyseius kothallensis,listed_as,gm2023
+PHY0045,Amblyseius kulini,Amblyseius kulini,valid,gm2023;gk2015;g1985
+PHY0045,Amblyseius kulini,Amblyseius (Amblyseius) kulini,listed_as,g1985
+PHY0045,Amblyseius kulini,Amblyseius kuuni,listed_as,g1985
+PHY0046,Amblyseius kundurukkae,Amblyseius kundurukkae,valid,gm2023
+PHY0047,Amblyseius lanceae,Amblyseius lanceae,valid,gm2023
+PHY0048,Amblyseius largoensis,Amblyseius largoensis,valid,gm2023;gb2017;gk2015;g1985
+PHY0048,Amblyseius largoensis,Amblyseiopsis iargoensis,cited_synonym_or_combination,g1985
+PHY0048,Amblyseius largoensis,Amblyseiopsis largoensis,cited_synonym_or_combination,gm2023
+PHY0048,Amblyseius largoensis,Amblyseius (Amblyseius) largoensis,listed_as,g1985
+PHY0049,Amblyseius maai,Amblyseius maai,valid,gm2023
+PHY0050,Amblyseius malabarensis,Amblyseius malabarensis,valid,gm2023
+PHY0050,Amblyseius malabarensis,Amblyseius malabaeensis,cited_synonym_or_combination,gm2023
+PHY0051,Amblyseius manipurensis,Amblyseius manipurensis,valid,gm2023;gk2015;g1985
+PHY0051,Amblyseius manipurensis,Amblyseius (Typhlodromalus) manipurensis,listed_as,g1985
+PHY0052,Amblyseius mcmurtryi,Amblyseius mcmurtryi,valid,gm2023;gb2017;gk2015;g1985
+PHY0052,Amblyseius mcmurtryi,Amblyseius (Amblyseius) mcmurtryi,listed_as,g1985
+PHY0053,Amblyseius meghalayensis,Amblyseius meghalayensis,valid,gm2023
+PHY0053,Amblyseius meghalayensis,Amblyseius maghalayensis,cited_synonym_or_combination,gm2023
+PHY0054,Amblyseius metaliensis,Amblyseius metaliensis,valid,gm2023;gk2015
+PHY0055,Amblyseius mohanasundaramai,Amblyseius mohanasundaramai,valid,gm2023;gk2015
+PHY0055,Amblyseius mohanasundaramai,Amblyseius mohanasundarami,listed_as,gm2023
+PHY0056,Amblyseius muraleedharani,Amblyseius muraleedharani,valid,gm2023;gk2015
+PHY0057,Amblyseius neocrotalariae,Amblyseius neocrotalariae,valid,gm2023;gk2015;g1985
+PHY0057,Amblyseius neocrotalariae,Amblyseius (Typhlodromips) neocrotalariae,listed_as,g1985
+PHY0057,Amblyseius neocrotalariae,Amblyseius neocrotalarae,listed_as,gm2023
+PHY0057,Amblyseius neocrotalariae,Typhlodromips neocrotalariae,cited_synonym_or_combination,g1985
+PHY0057,Amblyseius neocrotalariae,Typhlodromus neocrotalareae,cited_synonym_or_combination,gm2023
+PHY0058,Amblyseius neorykei,Amblyseius neorykei,valid,gm2023;gk2015;g1985
+PHY0058,Amblyseius neorykei,Amblyseius (Amblyseius) neorykei,listed_as,g1985
+PHY0059,Amblyseius orientalis,Amblyseius orientalis,valid,gm2023;gk2015;g1985
+PHY0059,Amblyseius orientalis,Amblyseius (Amblyseius) orientalis,listed_as,g1985
+PHY0059,Amblyseius orientalis,Amblyseius orientatis,listed_as,g1985
+PHY0060,Amblyseius paraaerialis,Amblyseius paraaerialis,valid,gm2023;gb2017;gk2015;g1985
+PHY0060,Amblyseius paraaerialis,Amblyseius (Amblyseius) paraaerialis,listed_as,g1985
+PHY0061,Amblyseius parbatabasii,Amblyseius parbatabasii,valid,gm2023
+PHY0062,Amblyseius potentillae,Amblyseius potentillae,valid,gm2023;g1985
+PHY0062,Amblyseius potentillae,Amblyseiopsis potentillae,cited_synonym_or_combination,g1985
+PHY0062,Amblyseius potentillae,Amblyseius (Typhlodromips) potentillae,listed_as,g1985
+PHY0063,Amblyseius pseudorientalis,Amblyseius pseudorientalis,valid,gm2023;gk2015
+PHY0063,Amblyseius pseudorientalis,Amblyseius pseudoorientalis,listed_as,gm2023
+PHY0064,Amblyseius raoiellus,Amblyseius raoiellus,valid,gm2023
+PHY0065,Amblyseius reticulatus,Amblyseius reticulatus,valid,add2026
+PHY0066,Amblyseius rhabdus,Amblyseius rhabdus,valid,gm2023;g1985
+PHY0066,Amblyseius rhabdus,Amblyseius (Amblyseius) rhabdus,listed_as,g1985
+PHY0066,Amblyseius rhabdus,Amblyseius rlzabdus,cited_synonym_or_combination,g1985
+PHY0067,Amblyseius rishyapensis,Amblyseius rishyapensis,valid,gm2023
+PHY0068,Amblyseius rosica,Amblyseius rosica,valid,gm2023;gk2015
+PHY0069,Amblyseius rubiae,Amblyseius rubiae,valid,gm2023;gk2015
+PHY0070,Amblyseius shoreae,Amblyseius shoreae,valid,gm2023;gk2015;g1985
+PHY0070,Amblyseius shoreae,Amblvseius shoreae,cited_synonym_or_combination,gm2023
+PHY0070,Amblyseius shoreae,Amblyseius (Amblyseius) sboreae,listed_as,g1985
+PHY0071,Amblyseius sijiensis,Amblyseius sijiensis,valid,gm2023;gk2015
+PHY0072,Amblyseius sundi,Amblyseius sundi,valid,gb2017
+PHY0073,Asperoseius jujubae,Asperoseius jujubae,valid,gm2023
+PHY0074,Asperoseius latericulus,Asperoseius latericulus,valid,gm2023
+PHY0075,Euseius ahaioensis,Euseius ahaioensis,valid,gm2023;gk2015
+PHY0075,Euseius ahaioensis,Amblvseius (Euseius) ahaioensis,cited_synonym_or_combination,gm2023
+PHY0076,Euseius alstoniae,Euseius alstoniae,valid,gm2023;gb2017;gk2015;g1985
+PHY0076,Euseius alstoniae,Amblyseius (Euseius) alstoniae,listed_as,g1985
+PHY0077,Euseius aridophilus,Euseius aridophilus,valid,add2026
+PHY0078,Euseius arunachalensis,Euseius arunachalensis,valid,gm2023
+PHY0079,Euseius asperivorous,Euseius asperivorous,valid,gm2023
+PHY0080,Euseius astrictus,Euseius astrictus,valid,gm2023
+PHY0081,Euseius bambusae,Euseius bambusae,valid,gm2023;gk2015;g1985
+PHY0081,Euseius bambusae,Amblyseius (Euseius) bambusae,listed_as,g1985
+PHY0082,Euseius bandispermathecae,Euseius bandispermathecae,valid,gm2023
+PHY0083,Euseius bomdilae,Euseius bomdilae,valid,gm2023
+PHY0084,Euseius chikmagalurensis,Euseius chikmagalurensis,valid,gm2023;gk2015
+PHY0084,Euseius chikmagalurensis,Amblyseius (Typhlodromalus) chikmagalurensis,cited_synonym_or_combination,gm2023
+PHY0085,Euseius chitradurgae,Euseius chitradurgae,valid,gm2023;gk2015
+PHY0085,Euseius chitradurgae,Amblyseius (Typhlodromalus) chitradurgae,cited_synonym_or_combination,gm2023
+PHY0086,Euseius chittooriensis,Euseius chittooriensis,valid,add2026;gm2023
+PHY0087,Euseius coccineae,Euseius coccineae,valid,gm2023;gk2015;g1985
+PHY0087,Euseius coccineae,Amblyseius (Euseius) coccineae,listed_as,g1985
+PHY0088,Euseius coccosocius,Euseius coccosocius,valid,gm2023;gk2015;g1985
+PHY0088,Euseius coccosocius,Amblyseius (Euseius) coccosocius,listed_as,g1985
+PHY0088,Euseius coccosocius,Amblyselus coccosocius,cited_synonym_or_combination,g1985
+PHY0089,Euseius concordis,Euseius concordis,valid,gm2023;gk2015
+PHY0089,Euseius concordis,Amblyseius (Euseius) concordis,cited_synonym_or_combination,gm2023
+PHY0090,Euseius curcasae,Euseius curcasae,valid,gm2023
+PHY0091,Euseius delhiensis,Euseius delhiensis,valid,gm2023;gk2015;g1985
+PHY0091,Euseius delhiensis,Amblyseius (Euseius) delhiensis,listed_as,g1985
+PHY0091,Euseius delhiensis,Typhlodromus (Amblyseius) delhiensis,cited_synonym_or_combination,g1985;gm2023
+PHY0092,Euseius dwakiensis,Euseius dwakiensis,valid,gm2023
+PHY0093,Euseius eucalypti,Euseius eucalypti,valid,gm2023;gk2015;g1985
+PHY0093,Euseius eucalypti,Amblyseius (Euseius) eucalypti,listed_as,g1985
+PHY0094,Euseius fascae,Euseius fascae,valid,gm2023
+PHY0095,Euseius finlandicus,Euseius finlandicus,valid,gm2023;gb2017;gk2015;g1985
+PHY0095,Euseius finlandicus,Amblvseius (Euseius) finlandicus,cited_synonym_or_combination,gm2023
+PHY0095,Euseius finlandicus,Amblyseius (Euseius) nlandicus,listed_as,g1985
+PHY0095,Euseius finlandicus,Amblyseius finlandicus,listed_as,g1985
+PHY0095,Euseius finlandicus,Seiulus finlandicus,cited_synonym_or_combination,gm2023
+PHY0096,Euseius hibisci,Euseius hibisci,valid,gk2015
+PHY0097,Euseius hima,Euseius hima,valid,gm2023
+PHY0097,Euseius hima,Amblyseius (Amblyseius) hima,cited_synonym_or_combination,gm2023
+PHY0098,Euseius indica,Euseius indica,valid,gm2023;gk2015
+PHY0098,Euseius indica,Euseius mangiferae,listed_as,gm2023
+PHY0099,Euseius insanus,Euseius insanus,valid,gm2023;gk2015
+PHY0099,Euseius insanus,Amblyseius (Euseius) insanus,cited_synonym_or_combination,gm2023
+PHY0099,Euseius insanus,Amblyseius insanus,cited_synonym_or_combination,gm2023
+PHY0100,Euseius jalika,Euseius jalika,valid,add2026
+PHY0101,Euseius jhinukae,Euseius jhinukae,valid,add2026
+PHY0102,Euseius kalimpongensis,Euseius kalimpongensis,valid,gm2023;gk2015;g1985
+PHY0102,Euseius kalimpongensis,Amblvseius (Typhlodromalus) kalimpongensis,cited_synonym_or_combination,gm2023
+PHY0102,Euseius kalimpongensis,Amblyseius (Typhlodromalus) kalimpongensis,listed_as,g1985
+PHY0103,Euseius karpasae,Euseius karpasae,valid,add2026;gm2023
+PHY0104,Euseius kodaikanalensis,Euseius kodaikanalensis,valid,gk2015;g1985
+PHY0104,Euseius kodaikanalensis,Amblyseius (Euseius) kodaikanalensis,listed_as,g1985
+PHY0104,Euseius kodaikanalensis,Amblyseius kodaikanalellsis,listed_as,g1985
+PHY0105,Euseius macrospatulatus,Euseius macrospatulatus,valid,gm2023;gk2015
+PHY0105,Euseius macrospatulatus,Amblyseius (Euseius) macrospatulatus,cited_synonym_or_combination,gm2023
+PHY0106,Euseius madhubanensis,Euseius madhubanensis,valid,add2026
+PHY0107,Euseius madrasi,Euseius madrasi,valid,add2026
+PHY0108,Euseius neoalstoniae,Euseius neoalstoniae,valid,add2026;gm2023
+PHY0109,Euseius neococcineae,Euseius neococcineae,valid,gm2023;gk2015;g1985
+PHY0109,Euseius neococcineae,Amblyseius (Euseius) neococcineae,listed_as,g1985
+PHY0109,Euseius neococcineae,Phytoseius neococcineae,listed_as,gk2015
+PHY0110,Euseius ovalis,Euseius ovalis,valid,gm2023;gb2017;gk2015;g1985
+PHY0110,Euseius ovalis,Amblyseius (Euseius) ovalis,listed_as,g1985
+PHY0110,Euseius ovalis,Typhlodromus ovalis,cited_synonym_or_combination,g1985
+PHY0111,Euseius papayensis,Euseius papayensis,valid,gm2023;gk2015
+PHY0111,Euseius papayensis,Amblyseius (Euseius) papayensis,cited_synonym_or_combination,gm2023
+PHY0112,Euseius pariyarensis,Euseius pariyarensis,valid,gm2023
+PHY0113,Euseius prasadi,Euseius prasadi,valid,gm2023;gb2017;gk2015;g1985
+PHY0113,Euseius prasadi,Amblyseius (Euseius) pruni,listed_as,g1985
+PHY0114,Euseius rhododendronis,Euseius rhododendronis,valid,gm2023;gk2015;g1985
+PHY0114,Euseius rhododendronis,Amblyseius (Euseius) rhododendronis,listed_as,g1985
+PHY0115,Euseius sacchari,Euseius sacchari,valid,gm2023;gk2015;g1985
+PHY0115,Euseius sacchari,Amblyseius (Euseius) sacchari,listed_as,g1985
+PHY0115,Euseius sacchari,Amblysetus (Euseius) sacchari,cited_synonym_or_combination,gm2023
+PHY0116,Euseius sajnekhalicus,Euseius sajnekhalicus,valid,gm2023
+PHY0117,Euseius sativum,Euseius sativum,valid,gm2023;gk2015
+PHY0118,Euseius scutalis,Euseius scutalis,valid,gm2023;gk2015
+PHY0118,Euseius scutalis,Amblyseius scutalis,cited_synonym_or_combination,gm2023
+PHY0119,Euseius spontaneum,Euseius spontaneum,valid,gm2023
+PHY0120,Euseius sundarbanensis,Euseius sundarbanensis,valid,gm2023
+PHY0121,Euseius tamilicus,Euseius tamilicus,valid,add2026
+PHY0122,Euseius tripuraensis,Euseius tripuraensis,valid,gm2023
+PHY0123,Euseius tripurii,Euseius tripurii,valid,gm2023
+PHY0124,Euseius tubuliferus,Euseius tubuliferus,valid,gm2023
+PHY0124,Euseius tubuliferus,Euseius tibuliferus,cited_synonym_or_combination,gm2023
+PHY0125,Euseius vignus,Euseius vignus,valid,gm2023;gk2015
+PHY0125,Euseius vignus,Amblyseius (Euseius) vignus,cited_synonym_or_combination,gm2023
+PHY0126,Euseius vikrami,Euseius vikrami,valid,gm2023;gk2015
+PHY0127,Garhwalicus himalayensis,Garhwalicus himalayensis,valid,g1985
+PHY0127,Garhwalicus himalayensis,Garhwalicus himajayensis,listed_as,g1985
+PHY0128,Gynaeseius dweepabasi,Gynaeseius dweepabasi,valid,add2026
+PHY0129,Gynaeseius eharai,Gynaeseius eharai,valid,gm2023;gk2015
+PHY0129,Gynaeseius eharai,Indoseiulus eharai,cited_synonym_or_combination,gm2023
+PHY0130,Gynaeseius ghaiae,Gynaeseius ghaiae,valid,gm2023;gk2015
+PHY0130,Gynaeseius ghaiae,Indoseiulus ghaiae,cited_synonym_or_combination,gm2023
+PHY0131,Gynaeseius kalapaharicus,Gynaeseius kalapaharicus,valid,add2026
+PHY0132,Gynaeseius ricini,Gynaeseius ricini,valid,gm2023;gb2017;gk2015;g1985
+PHY0132,Gynaeseius ricini,Gynaesius ricini,listed_as,gb2017
+PHY0132,Gynaeseius ricini,Indoseiulus ricini,listed_as,g1985
+PHY0132,Gynaeseius ricini,Indoseius ricin,cited_synonym_or_combination,g1985
+PHY0132,Gynaeseius ricini,Indoseius ricini,cited_synonym_or_combination,gm2023
+PHY0133,Gynaeseius santosoi,Gynaeseius santosoi,valid,add2026
+PHY0134,Kuzinellus kuzini,Kuzinellus kuzini,valid,gm2023;gk2015
+PHY0134,Kuzinellus kuzini,Paraseiulus kuzini,cited_synonym_or_combination,gm2023
+PHY0135,Kuzinellus neosoleiger,Kuzinellus neosoleiger,valid,gm2023;gk2015;g1985
+PHY0135,Kuzinellus neosoleiger,Typhlodromus (Paraseiulus) neosoleiger,listed_as,g1985
+PHY0135,Kuzinellus neosoleiger,Typhlodromus neosole,cited_synonym_or_combination,g1985
+PHY0136,Neoseiulella celtis,Neoseiulella celtis,valid,gm2023;gk2015
+PHY0136,Neoseiulella celtis,Typhlodromus (Typhloctonus) celtis,cited_synonym_or_combination,gm2023
+PHY0137,Neoseiulella nesbitti,Neoseiulella nesbitti,valid,gm2023;gk2015;g1985
+PHY0137,Neoseiulella nesbitti,Typhlodromus (Typhloctomus) nesbitti,listed_as,g1985
+PHY0138,Neoseiulella prunus,Neoseiulella prunus,valid,gk2015
+PHY0139,Neoseiulella transitans,Neoseiulella transitans,valid,gm2023;gk2015;g1985
+PHY0139,Neoseiulella transitans,Neoseiulella transitrans,listed_as,gm2023
+PHY0139,Neoseiulella transitans,Typhlodromus (Typhloctomus) transitans,listed_as,g1985
+PHY0140,Neoseiulus aceriae,Neoseiulus aceriae,valid,gm2023;gk2015;g1985
+PHY0140,Neoseiulus aceriae,Amblvseius aceriae,cited_synonym_or_combination,gm2023
+PHY0140,Neoseiulus aceriae,Amblyseius (Neoseiulus) aceriae,listed_as,g1985
+PHY0141,Neoseiulus assamensis,Neoseiulus assamensis,valid,gm2023;gk2015;g1985
+PHY0141,Neoseiulus assamensis,Amblyseius (Neoseiulus) assamensis,listed_as,g1985
+PHY0141,Neoseiulus assamensis,Scapulaseius assamensis,listed_as,gk2015
+PHY0141,Neoseiulus assamensis,Typhlodromus (Amblyseius) assamensis,cited_synonym_or_combination,gm2023
+PHY0142,Neoseiulus baraki,Neoseiulus baraki,valid,gm2023;gk2015
+PHY0142,Neoseiulus baraki,Amblyseius (Neoseiulus) baraki,cited_synonym_or_combination,gm2023
+PHY0142,Neoseiulus baraki,Amblyseius baraki,cited_synonym_or_combination,gm2023
+PHY0143,Neoseiulus barkeri,Neoseiulus barkeri,valid,gm2023
+PHY0144,Neoseiulus bindrai,Neoseiulus bindrai,valid,gm2023;gk2015
+PHY0144,Neoseiulus bindrai,Amblyseius bindrai,cited_synonym_or_combination,gm2023
+PHY0145,Neoseiulus cucumeris,Neoseiulus cucumeris,valid,gm2023;gk2015
+PHY0145,Neoseiulus cucumeris,Amblyseius (Neoseiulus) cucumeris,cited_synonym_or_combination,gm2023
+PHY0145,Neoseiulus cucumeris,Typhlodromus cucumeris,cited_synonym_or_combination,gm2023
+PHY0146,Neoseiulus cynodonae,Neoseiulus cynodonae,valid,gm2023;gb2017;gk2015;g1985
+PHY0146,Neoseiulus cynodonae,Amblyseius (Neoseiulus) cynodonae,listed_as,g1985
+PHY0147,Neoseiulus dhani,Neoseiulus dhani,valid,add2026
+PHY0148,Neoseiulus dhooriai,Neoseiulus dhooriai,valid,gm2023;gk2015;g1985
+PHY0148,Neoseiulus dhooriai,Amblyseius (Neoseiulus) dhooriai,listed_as,g1985
+PHY0149,Neoseiulus fallacis,Neoseiulus fallacis,valid,gm2023;gk2015;g1985
+PHY0149,Neoseiulus fallacis,Amblyseius (Neoseiulus) fallacis,listed_as,g1985
+PHY0149,Neoseiulus fallacis,Amblyseius jallacis,listed_as,g1985
+PHY0149,Neoseiulus fallacis,Iphidulus fallacis,cited_synonym_or_combination,gm2023
+PHY0150,Neoseiulus ficusi,Neoseiulus ficusi,valid,gm2023;gk2015
+PHY0150,Neoseiulus ficusi,Amblyseius (Typhlodromalus) ficusi,cited_synonym_or_combination,gm2023
+PHY0151,Neoseiulus imbricatus,Neoseiulus imbricatus,valid,gm2023;gk2015
+PHY0151,Neoseiulus imbricatus,Amblyseius (Neoseiulus) imbricatus,cited_synonym_or_combination,gm2023
+PHY0151,Neoseiulus imbricatus,Amblyseius imbricatus,cited_synonym_or_combination,gm2023
+PHY0152,Neoseiulus indicus,Neoseiulus indicus,valid,gm2023;gb2017;gk2015;g1985
+PHY0152,Neoseiulus indicus,Amblyseius (Neoseiulus) indicus,listed_as,g1985
+PHY0152,Neoseiulus indicus,Imblyseius (Neoseiulus) indicus,cited_synonym_or_combination,gm2023
+PHY0153,Neoseiulus khejurae,Neoseiulus khejurae,valid,add2026
+PHY0154,Neoseiulus lablabi,Neoseiulus lablabi,valid,gm2023;gk2015;g1985
+PHY0154,Neoseiulus lablabi,Amblyseius (Typhlodromalus) lablabi,listed_as,g1985
+PHY0154,Neoseiulus lablabi,Amblyseius lablobi,cited_synonym_or_combination,g1985
+PHY0155,Neoseiulus longispinosus,Neoseiulus longispinosus,valid,gm2023;gb2017;gk2015;g1985
+PHY0155,Neoseiulus longispinosus,Amblyseius (Neoseiulus) longispinosus,listed_as,g1985
+PHY0155,Neoseiulus longispinosus,Amblyseius neoseiuluslongispinosus,listed_as,g1985
+PHY0156,Neoseiulus lula,Neoseiulus lula,valid,gm2023
+PHY0156,Neoseiulus lula,Amblyseius (Amblyseius) lula,cited_synonym_or_combination,gm2023
+PHY0157,Neoseiulus mulbericus,Neoseiulus mulbericus,valid,gm2023;gk2015
+PHY0157,Neoseiulus mulbericus,Amblyseius mulberricus,listed_as,gk2015
+PHY0158,Neoseiulus neoghanii,Neoseiulus neoghanii,valid,gm2023;gk2015
+PHY0158,Neoseiulus neoghanii,Amblyseius (Typhlodromips) neoghanii,cited_synonym_or_combination,gm2023
+PHY0159,Neoseiulus oahuensis,Neoseiulus oahuensis,valid,gm2023
+PHY0159,Neoseiulus oahuensis,Amblvyseius oahuensis,cited_synonym_or_combination,gm2023
+PHY0159,Neoseiulus oahuensis,Amblyseius (Neoseiulus) oahuensis,cited_synonym_or_combination,gm2023
+PHY0160,Neoseiulus paspalivorus,Neoseiulus paspalivorus,valid,gm2023;gk2015;g1985
+PHY0160,Neoseiulus paspalivorus,Amblyseius (Neoseiulus) paspalivorus,listed_as,g1985
+PHY0160,Neoseiulus paspalivorus,Amhlyseius luia,cited_synonym_or_combination,g1985
+PHY0160,Neoseiulus paspalivorus,Typhlodromus paspalivorus,cited_synonym_or_combination,gm2023
+PHY0161,Neoseiulus pranadae,Neoseiulus pranadae,valid,gm2023;gk2015
+PHY0162,Neoseiulus ramabettaensis,Neoseiulus ramabettaensis,valid,add2026
+PHY0163,Neoseiulus rangatensis,Neoseiulus rangatensis,valid,gm2023;gk2015;g1985
+PHY0163,Neoseiulus rangatensis,Amblyseins rangatensis,cited_synonym_or_combination,g1985
+PHY0163,Neoseiulus rangatensis,Amblyseius (Neoseiulus) rangatensis,listed_as,g1985
+PHY0163,Neoseiulus rangatensis,Amblyseius rangatensis,listed_as,gk2015
+PHY0164,Neoseiulus reticulatus,Neoseiulus reticulatus,valid,gm2023;gk2015
+PHY0164,Neoseiulus reticulatus,Typhlodromus reticulatus,cited_synonym_or_combination,gm2023
+PHY0165,Okeseius unisetatus,Okeseius unisetatus,valid,gm2023
+PHY0165,Okeseius unisetatus,Okiseius unisetatus,cited_synonym_or_combination,gm2023
+PHY0166,Okiseius himalayana,Okiseius himalayana,valid,gm2023;gk2015
+PHY0166,Okiseius himalayana,Paraphytoseius himalayana,listed_as,gk2015
+PHY0167,Okiseius jainticus,Okiseius jainticus,valid,gm2023
+PHY0168,Okiseius laaensis,Okiseius laaensis,valid,gm2023;gk2015
+PHY0168,Okiseius laaensis,Amblyseius laaensis,listed_as,gk2015
+PHY0168,Okiseius laaensis,Paraphytoseius laaensis,listed_as,gk2015
+PHY0169,Okiseius pahari,Okiseius pahari,valid,gm2023
+PHY0170,Okiseius ramdhuracus,Okiseius ramdhuracus,valid,gm2023
+PHY0171,Okiseius roseus,Okiseius roseus,valid,gm2023
+PHY0172,Okiseius sikkimensis,Okiseius sikkimensis,valid,gm2023;gk2015
+PHY0172,Okiseius sikkimensis,Paraphytoseius sikkimensis,listed_as,gk2015
+PHY0173,Okiseius yazuliensis,Okiseius yazuliensis,valid,gm2023;gk2015
+PHY0173,Okiseius yazuliensis,Paraphytoseius yazuliensis,listed_as,gk2015
+PHY0174,Paraamblyseius formosanus,Paraamblyseius formosanus,valid,g1985
+PHY0174,Paraamblyseius formosanus,Iphiseius formosanus,cited_synonym_or_combination,g1985
+PHY0175,Paraamblyseius fragariae,Paraamblyseius fragariae,valid,gm2023;gk2015;g1985
+PHY0176,Paraamblyseius mumai,Paraamblyseius mumai,valid,gm2023;gk2015;g1985
+PHY0177,Paraamblyseius ranipoolensis,Paraamblyseius ranipoolensis,valid,gm2023
+PHY0178,Paraphytoseius andamani,Paraphytoseius andamani,valid,add2026
+PHY0179,Paraphytoseius arjunae,Paraphytoseius arjunae,valid,gm2023;gk2015
+PHY0179,Paraphytoseius arjunae,Amblyseiulella arjunae,listed_as,gk2015
+PHY0180,Paraphytoseius bhadrakaliensis,Paraphytoseius bhadrakaliensis,valid,gm2023;gb2017;gk2015
+PHY0180,Paraphytoseius bhadrakaliensis,Amblyseiulella bhadrakaliensis,listed_as,gk2015
+PHY0180,Paraphytoseius bhadrakaliensis,Amblyseius bhadrakaliensis,cited_synonym_or_combination,gm2023
+PHY0181,Paraphytoseius camarae,Paraphytoseius camarae,valid,gm2023
+PHY0182,Paraphytoseius cracentis,Paraphytoseius cracentis,valid,gm2023;gk2015;g1985
+PHY0182,Paraphytoseius cracentis,Amblyseiulella multidentatus,listed_as,gk2015
+PHY0182,Paraphytoseius cracentis,Amblyseiulella nicobarensis,listed_as,gk2015;gm2023
+PHY0182,Paraphytoseius cracentis,Amblyseius (Paraphytoseius) multidentatus,listed_as,g1985
+PHY0182,Paraphytoseius cracentis,Amblyseius nicobarensis,cited_synonym_or_combination,gm2023
+PHY0182,Paraphytoseius cracentis,Para hivtaceiuc,listed_as,gm2023
+PHY0182,Paraphytoseius cracentis,Paraphytoseius multidentatus,cited_synonym_or_combination,g1985
+PHY0183,Paraphytoseius orientalis,Paraphytoseius orientalis,valid,gm2023;gb2017;gk2015
+PHY0183,Paraphytoseius orientalis,Amblyseiulella orientalis,listed_as,gk2015
+PHY0184,Paraphytoseius punjabensis,Paraphytoseius punjabensis,valid,add2026
+PHY0185,Paraphytoseius scleroticus,Paraphytoseius scleroticus,valid,gm2023;gb2017;gk2015;g1985
+PHY0185,Paraphytoseius scleroticus,Amblyseiulella scleroticus,listed_as,gk2015
+PHY0185,Paraphytoseius scleroticus,Amblyseius (Paraphytoseius) scleroticus,listed_as,g1985
+PHY0185,Paraphytoseius scleroticus,Amblyseius sczeroticus,listed_as,g1985
+PHY0185,Paraphytoseius scleroticus,Amhlyseius (Paraphytoseius) scleroticus,cited_synonym_or_combination,g1985
+PHY0186,Phytoscutus bakeri,Phytoscutus bakeri,valid,gm2023;gk2015;g1985
+PHY0186,Phytoscutus bakeri,Iphiseius bakeri,listed_as,g1985
+PHY0187,Phytoscutus keralaensis,Phytoscutus keralaensis,valid,gm2023
+PHY0188,Phytoscutus keralicus,Phytoscutus keralicus,valid,gm2023
+PHY0189,Phytoscutus punicae,Phytoscutus punicae,valid,gm2023
+PHY0190,Phytoscutus salebrosus,Phytoscutus salebrosus,valid,gm2023;gk2015;g1985
+PHY0190,Phytoscutus salebrosus,Amblyseius (Phytoscutella) salebrosus,listed_as,g1985
+PHY0190,Phytoscutus salebrosus,Taphlodromus (Amhlyseius) salehrosus,cited_synonym_or_combination,g1985
+PHY0190,Phytoscutus salebrosus,Typhlodromus (Amblyseius) salebrosus,cited_synonym_or_combination,gm2023
+PHY0191,Phytoseiulus persimilis,Phytoseiulus persimilis,valid,gm2023
+PHY0192,Phytoseius alathurensis,Phytoseius alathurensis,valid,gm2023
+PHY0193,Phytoseius aonlae,Phytoseius aonlae,valid,gm2023
+PHY0194,Phytoseius bandipurensis,Phytoseius bandipurensis,valid,gm2023;gk2015;g1985
+PHY0194,Phytoseius bandipurensis,Phvtoseius bandipurensis,cited_synonym_or_combination,gm2023
+PHY0194,Phytoseius bandipurensis,Phytoseius (Phytoseius) bandipurensis,listed_as,g1985
+PHY0195,Phytoseius baramuracus,Phytoseius baramuracus,valid,gm2023
+PHY0196,Phytoseius birbikrami,Phytoseius birbikrami,valid,gm2023
+PHY0197,Phytoseius brevicrinis,Phytoseius brevicrinis,valid,gm2023;gk2015
+PHY0198,Phytoseius clavus,Phytoseius clavus,valid,gm2023
+PHY0199,Phytoseius coheni,Phytoseius coheni,valid,gm2023;gk2015
+PHY0199,Phytoseius coheni,Phytoseius cohenii,listed_as,gm2023
+PHY0200,Phytoseius corniger,Phytoseius corniger,valid,gm2023;gk2015;g1985
+PHY0200,Phytoseius corniger,Phytoseius (Phytoseius) corniger,listed_as,g1985
+PHY0201,Phytoseius crinitus,Phytoseius crinitus,valid,gm2023;gb2017;gk2015;g1985
+PHY0201,Phytoseius crinitus,Phytoseius (Phytoseius) crinitus,listed_as,g1985
+PHY0202,Phytoseius domesticus,Phytoseius domesticus,valid,gm2023;gk2015
+PHY0203,Phytoseius dorsospinosus,Phytoseius dorsospinosus,valid,gm2023
+PHY0204,Phytoseius dumurae,Phytoseius dumurae,valid,gm2023
+PHY0205,Phytoseius ferrum,Phytoseius ferrum,valid,gm2023
+PHY0206,Phytoseius imbricus,Phytoseius imbricus,valid,gm2023
+PHY0207,Phytoseius indicus,Phytoseius indicus,valid,gm2023;gk2015
+PHY0208,Phytoseius intermedius,Phytoseius intermedius,valid,gm2023;gk2015;g1985
+PHY0208,Phytoseius intermedius,Phytoseius (Phytoseius) intermedius,listed_as,g1985
+PHY0209,Phytoseius jaunpurensis,Phytoseius jaunpurensis,valid,gm2023;gk2015;g1985
+PHY0209,Phytoseius jaunpurensis,Phytoseius (Phytoseius) jaunpurensis,listed_as,g1985
+PHY0209,Phytoseius jaunpurensis,Phytoseius jaudpurensis,listed_as,g1985
+PHY0210,Phytoseius jujuba,Phytoseius jujuba,valid,gm2023;gk2015;g1985
+PHY0210,Phytoseius jujuba,Phytoseius (Phytoseius) jujuba,listed_as,g1985
+PHY0211,Phytoseius kapuri,Phytoseius kapuri,valid,gm2023;gb2017;gk2015;g1985
+PHY0211,Phytoseius kapuri,Phytoseius (Pennaseius) kapuri,listed_as,g1985
+PHY0212,Phytoseius khowaiensis,Phytoseius khowaiensis,valid,gm2023
+PHY0213,Phytoseius leopardisimilis,Phytoseius leopardisimilis,valid,gm2023
+PHY0214,Phytoseius macropilis,Phytoseius macropilis,valid,gm2023;gk2015;g1985
+PHY0214,Phytoseius macropilis,Phytoseius (Phytoseius) macropilis,listed_as,g1985
+PHY0214,Phytoseius macropilis,Sejus macropilis,cited_synonym_or_combination,g1985;gm2023
+PHY0215,Phytoseius macrosetosus,Phytoseius macrosetosus,valid,gm2023;gb2017;gk2015;g1985
+PHY0215,Phytoseius macrosetosus,Phytoseius (Phytoseius) macrosetosus,listed_as,g1985
+PHY0216,Phytoseius maldahaensis,Phytoseius maldahaensis,valid,gm2023;gk2015
+PHY0216,Phytoseius maldahaensis,Phytoseius maldahensis,listed_as,gm2023
+PHY0217,Phytoseius mauritiana,Phytoseius mauritiana,valid,gm2023
+PHY0218,Phytoseius meyerae,Phytoseius meyerae,valid,gm2023;gk2015;g1985
+PHY0218,Phytoseius meyerae,Phytoseius (Phytoseius) meyerae,listed_as,g1985
+PHY0218,Phytoseius meyerae,Phytoseius meyerle,listed_as,g1985
+PHY0219,Phytoseius minutus,Phytoseius minutus,valid,gm2023;gb2017;gk2015;g1985
+PHY0219,Phytoseius minutus,Phytoseius (Pennaseius) minutus,listed_as,g1985
+PHY0220,Phytoseius mixtus,Phytoseius mixtus,valid,gm2023;gk2015;g1985
+PHY0220,Phytoseius mixtus,Phytoseius (Phytoseius) mixlus,cited_synonym_or_combination,g1985
+PHY0220,Phytoseius mixtus,Phytoseius (Phytoseius) mixtus,listed_as,g1985
+PHY0221,Phytoseius mizoramensis,Phytoseius mizoramensis,valid,gm2023
+PHY0222,Phytoseius namdaphaensis,Phytoseius namdaphaensis,valid,gm2023;gk2015
+PHY0223,Phytoseius namkhanaensis,Phytoseius namkhanaensis,valid,gm2023
+PHY0224,Phytoseius neglecta,Phytoseius neglecta,valid,gm2023;gk2015;g1985
+PHY0224,Phytoseius neglecta,Phytoseius (Dubininellus) negleela,cited_synonym_or_combination,g1985
+PHY0224,Phytoseius neglecta,Phytoseius (Phytoseius) neglecta,listed_as,g1985
+PHY0225,Phytoseius neocorniger,Phytoseius neocorniger,valid,gm2023;gk2015;g1985
+PHY0225,Phytoseius neocorniger,Phytoseius (Phytoseius) neocorniger,listed_as,g1985
+PHY0226,Phytoseius neoferox,Phytoseius neoferox,valid,gm2023;gk2015
+PHY0227,Phytoseius nipponicus,Phytoseius nipponicus,valid,gm2023;gk2015
+PHY0228,Phytoseius punicae,Phytoseius punicae,valid,gm2023
+PHY0229,Phytoseius punjabensis,Phytoseius punjabensis,valid,gm2023;gk2015;g1985
+PHY0229,Phytoseius punjabensis,Phytoseius (Phytoseius) punjabensis,listed_as,g1985
+PHY0230,Phytoseius rachelae,Phytoseius rachelae,valid,gm2023;gk2015;g1985
+PHY0230,Phytoseius rachelae,Phytoseius (Phytoseius) racbelae,listed_as,g1985
+PHY0231,Phytoseius roseus,Phytoseius roseus,valid,gm2023;gk2015;g1985
+PHY0231,Phytoseius roseus,Phytoseius (Phytoseius) roseus,listed_as,g1985
+PHY0232,Phytoseius rugosus,Phytoseius rugosus,valid,gm2023;gk2015;g1985
+PHY0232,Phytoseius rugosus,Phytoseius (Phytoseius) rugosus,listed_as,g1985
+PHY0233,Phytoseius strobilantheae,Phytoseius strobilantheae,valid,gm2023
+PHY0234,Phytoseius swirskii,Phytoseius swirskii,valid,gm2023;gb2017;gk2015;g1985
+PHY0234,Phytoseius swirskii,Phytoseius (Phytoseius) swirskii,listed_as,g1985
+PHY0235,Phytoseius viscosum,Phytoseius viscosum,valid,gm2023;gk2015
+PHY0236,Phytoseius wainsteini,Phytoseius wainsteini,valid,gm2023;gk2015;g1985
+PHY0236,Phytoseius wainsteini,Phytoseius (Dubininellus) waillsleini,cited_synonym_or_combination,g1985
+PHY0236,Phytoseius wainsteini,Phytoseius (Phytoseius) wainsteini,listed_as,g1985
+PHY0237,Phytoseius woodburyi,Phytoseius woodburyi,valid,gm2023;gk2015;g1985
+PHY0237,Phytoseius woodburyi,Phytoseius (Phytoseius) woodburyi,listed_as,g1985
+PHY0238,Platyseiella mumai,Platyseiella mumai,valid,gm2023;gk2015;g1985
+PHY0239,Proprioseiopsis amari,Proprioseiopsis amari,valid,gm2023
+PHY0239,Proprioseiopsis amari,Proprioeiopsis amari,cited_synonym_or_combination,gm2023
+PHY0240,Proprioseiopsis arunachalensis,Proprioseiopsis arunachalensis,valid,gm2023;gk2015
+PHY0240,Proprioseiopsis arunachalensis,Amblyseius (Proprioseiopsis) arunachalensis,cited_synonym_or_combination,gm2023
+PHY0241,Proprioseiopsis indicus,Proprioseiopsis indicus,valid,gm2023
+PHY0242,Proprioseiopsis keralaensis,Proprioseiopsis keralaensis,valid,gm2023;gk2015
+PHY0243,Proprioseiopsis nemotoi,Proprioseiopsis nemotoi,valid,add2026
+PHY0244,Proprioseiopsis peltatus,Proprioseiopsis peltatus,valid,gm2023;gk2015;g1985
+PHY0244,Proprioseiopsis peltatus,Amblyseius (Proprioseiopsis) peltatus,listed_as,g1985
+PHY0245,Proprioseiopsis punicae,Proprioseiopsis punicae,valid,gk2015
+PHY0246,Proprioseiopsis synachattiensis,Proprioseiopsis synachattiensis,valid,gm2023;gk2015
+PHY0246,Proprioseiopsis synachattiensis,Amblyseius (Proprioseiopsis) synachattiensis,cited_synonym_or_combination,gm2023
+PHY0247,Proprioseius kumaonensis,Proprioseius kumaonensis,valid,gm2023;gk2015;g1985
+PHY0247,Proprioseius kumaonensis,Amblyseius (Proprioseius) kumaonensis,listed_as,g1985
+PHY0248,Scapulaseius andamanicus,Scapulaseius andamanicus,valid,gm2023;gk2015;g1985
+PHY0248,Scapulaseius andamanicus,Iphiseius andamanicus,listed_as,g1985
+PHY0249,Scapulaseius arecae,Scapulaseius arecae,valid,gm2023;gk2015;g1985
+PHY0249,Scapulaseius arecae,Amblyseius (Typhlodromips) arecae,listed_as,g1985
+PHY0250,Scapulaseius asiaticus,Scapulaseius asiaticus,valid,gm2023;gk2015
+PHY0250,Scapulaseius asiaticus,Typhlodromus asiaticus,cited_synonym_or_combination,gm2023
+PHY0251,Scapulaseius augusta,Scapulaseius augusta,valid,gm2023;gk2015
+PHY0252,Scapulaseius daturae,Scapulaseius daturae,valid,gm2023;gk2015
+PHY0252,Scapulaseius daturae,Amblyseius daturae,cited_synonym_or_combination,gm2023
+PHY0253,Scapulaseius eucalypticus,Scapulaseius eucalypticus,valid,gm2023;gk2015;g1985
+PHY0253,Scapulaseius eucalypticus,Amblyseius (Typhlodromalus) eucalypticus,listed_as,g1985
+PHY0253,Scapulaseius eucalypticus,Amblyseius (Typhlodromalus) euealypticus,cited_synonym_or_combination,gm2023
+PHY0253,Scapulaseius eucalypticus,Transeius eucalypticus,listed_as,gk2015
+PHY0253,Scapulaseius eucalypticus,Typhlodromalus eucalypticus,cited_synonym_or_combination,gm2023
+PHY0254,Scapulaseius hapoli,Scapulaseius hapoli,valid,gm2023;gk2015
+PHY0254,Scapulaseius hapoli,Iphiseius (Iphiseius) hapoli,cited_synonym_or_combination,gm2023
+PHY0254,Scapulaseius hapoli,Transeius hapoli,listed_as,gk2015
+PHY0255,Scapulaseius mangiferae,Scapulaseius mangiferae,valid,gm2023;gk2015;g1985
+PHY0255,Scapulaseius mangiferae,Amblyseius (Typhlodromips) mangiferae,listed_as,g1985
+PHY0255,Scapulaseius mangiferae,Phytoseius mangiferae,listed_as,gk2015
+PHY0256,Scapulaseius meghalayensis,Scapulaseius meghalayensis,valid,gm2023;gk2015;g1985
+PHY0256,Scapulaseius meghalayensis,Amblyseius (Typhlodromips) meghalayensis,listed_as,g1985
+PHY0256,Scapulaseius meghalayensis,Transeius meghalayensis,listed_as,gk2015
+PHY0257,Scapulaseius moraesi,Scapulaseius moraesi,valid,gm2023
+PHY0257,Scapulaseius moraesi,Scapulaseius morasei,cited_synonym_or_combination,gm2023
+PHY0258,Scapulaseius officinaria,Scapulaseius officinaria,valid,gm2023;gk2015;g1985
+PHY0258,Scapulaseius officinaria,Amblyseius (Typhlodromips) officioaria,listed_as,g1985
+PHY0258,Scapulaseius officinaria,Amblyseius officinaria,listed_as,g1985
+PHY0259,Scapulaseius polyantheae,Scapulaseius polyantheae,valid,gm2023;gb2017;gk2015;g1985
+PHY0259,Scapulaseius polyantheae,Amblyseius (Typhlodromips) polyaotheae,listed_as,g1985
+PHY0259,Scapulaseius polyantheae,Amblyseius polyantheae,listed_as,g1985
+PHY0260,Scapulaseius sapienticola,Scapulaseius sapienticola,valid,gm2023;gk2015;g1985
+PHY0260,Scapulaseius sapienticola,Amblyseius (Typhlodromips) sapienticola,listed_as,g1985
+PHY0261,Scapulaseius sorghumae,Scapulaseius sorghumae,valid,gm2023;gk2015;g1985
+PHY0261,Scapulaseius sorghumae,Amblyseius (Typhlodromalus) sorghumae,listed_as,g1985
+PHY0262,Scapulaseius suknaensis,Scapulaseius suknaensis,valid,gm2023;gb2017;gk2015;g1985
+PHY0262,Scapulaseius suknaensis,Amblyseius (Typhlodromips) suknaensis,listed_as,g1985
+PHY0263,Transeius bangalorensis,Transeius bangalorensis,valid,gm2023;gk2015
+PHY0263,Transeius bangalorensis,Amblyseius (Typhlodromips) bangalorensis,cited_synonym_or_combination,gm2023
+PHY0263,Transeius bangalorensis,Amblyseius bangalorensis,cited_synonym_or_combination,gm2023
+PHY0264,Transeius tetranychivorus,Transeius tetranychivorus,valid,gm2023;gk2015;g1985
+PHY0264,Transeius tetranychivorus,Amblyseius (Typhlodromips) tetranychivoros,listed_as,g1985
+PHY0264,Transeius tetranychivorus,Amblyseius tetranychivorus,listed_as,g1985
+PHY0264,Transeius tetranychivorus,Typhlodromips tetranychivorus,cited_synonym_or_combination,gm2023
+PHY0265,Transeius uttarbharaticus,Transeius uttarbharaticus,valid,add2026
+PHY0266,Typhlodromips cinchonai,Typhlodromips cinchonai,valid,gm2023
+PHY0267,Typhlodromips jhilimiliensis,Typhlodromips jhilimiliensis,valid,gm2023
+PHY0267,Typhlodromips jhilimiliensis,Tvphlodromips jhilimiliensis,cited_synonym_or_combination,gm2023
+PHY0268,Typhlodromips neosyzygii,Typhlodromips neosyzygii,valid,gm2023
+PHY0269,Typhlodromips syzygii,Typhlodromips syzygii,valid,gm2023;gb2017;gk2015;g1985
+PHY0269,Typhlodromips syzygii,Amblyseius (Typhlodromips) syzygii,listed_as,g1985
+PHY0270,Typhlodromus (Anthoseius) adhatoda,Typhlodromus (Anthoseius) adhatoda,valid,gm2023
+PHY0271,Typhlodromus (Anthoseius) arunachalensis,Typhlodromus (Anthoseius) arunachalensis,valid,gm2023;gk2015
+PHY0271,Typhlodromus (Anthoseius) arunachalensis,Typhlodromus arunachalensis,listed_as,gk2015
+PHY0272,Typhlodromus (Anthoseius) bakeri,Typhlodromus (Anthoseius) bakeri,valid,gm2023;gk2015;g1985
+PHY0272,Typhlodromus (Anthoseius) bakeri,Seiulus bakeri,cited_synonym_or_combination,g1985;gm2023
+PHY0272,Typhlodromus (Anthoseius) bakeri,Typhlodromus (Amblydromella) bakeri,listed_as,g1985
+PHY0272,Typhlodromus (Anthoseius) bakeri,Typhlodromus bakeri,listed_as,gk2015
+PHY0273,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus (Anthoseius) bambusicolus,valid,gm2023;gk2015;g1985
+PHY0273,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus (Amblydromella) bambusicolus,listed_as,g1985
+PHY0273,Typhlodromus (Anthoseius) bambusicolus,Typhlodromus bambusicolus,listed_as,gk2015
+PHY0274,Typhlodromus (Anthoseius) barapanicus,Typhlodromus (Anthoseius) barapanicus,valid,gm2023
+PHY0275,Typhlodromus (Anthoseius) bengalensis,Typhlodromus (Anthoseius) bengalensis,valid,gm2023
+PHY0276,Typhlodromus (Anthoseius) bolpurensis,Typhlodromus (Anthoseius) bolpurensis,valid,gm2023
+PHY0277,Typhlodromus (Anthoseius) bulbosis,Typhlodromus (Anthoseius) bulbosis,valid,gm2023
+PHY0278,Typhlodromus (Anthoseius) campana,Typhlodromus (Anthoseius) campana,valid,gm2023
+PHY0279,Typhlodromus (Anthoseius) carambolae,Typhlodromus (Anthoseius) carambolae,valid,gm2023
+PHY0280,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus (Anthoseius) channabasavannai,valid,gm2023;gk2015;g1985
+PHY0280,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus (Orientiseius) channabasavanni,listed_as,g1985
+PHY0280,Typhlodromus (Anthoseius) channabasavannai,Typhlodromus channabasavannai,listed_as,gk2015
+PHY0281,Typhlodromus (Anthoseius) cherrapunjiensis,Typhlodromus (Anthoseius) cherrapunjiensis,valid,gm2023
+PHY0281,Typhlodromus (Anthoseius) cherrapunjiensis,Typhlodromus (Anthoseius) cherapunjiensis,cited_synonym_or_combination,gm2023
+PHY0282,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus (Anthoseius) chrysanthemi,valid,gm2023;gk2015;g1985
+PHY0282,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus (Amblydromella) chrysanthemi,listed_as,g1985
+PHY0282,Typhlodromus (Anthoseius) chrysanthemi,Typhlodromus chrysanthemi,listed_as,gk2015
+PHY0283,Typhlodromus (Anthoseius) communis,Typhlodromus (Anthoseius) communis,valid,gm2023;gk2015;g1985
+PHY0283,Typhlodromus (Anthoseius) communis,Typhlodromus (Typhlodromw) communis,listed_as,g1985
+PHY0283,Typhlodromus (Anthoseius) communis,Typhlodromus communis,listed_as,gk2015
+PHY0284,Typhlodromus (Anthoseius) dactylifera,Typhlodromus (Anthoseius) dactylifera,valid,gm2023;gk2015
+PHY0284,Typhlodromus (Anthoseius) dactylifera,Amblydromella dactylifera,cited_synonym_or_combination,gm2023
+PHY0284,Typhlodromus (Anthoseius) dactylifera,Typhlodromus dactylifera,listed_as,gk2015
+PHY0285,Typhlodromus (Anthoseius) dahungensis,Typhlodromus (Anthoseius) dahungensis,valid,gm2023
+PHY0286,Typhlodromus (Anthoseius) dalii,Typhlodromus (Anthoseius) dalii,valid,gm2023;gk2015
+PHY0286,Typhlodromus (Anthoseius) dalii,Amblydromella dalii,cited_synonym_or_combination,gm2023
+PHY0286,Typhlodromus (Anthoseius) dalii,Typhlodromus dalii,listed_as,gk2015
+PHY0287,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Anthoseius) darjeeligensis,valid,gm2023;gk2015;g1985
+PHY0287,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Amblydromella) ebarai,listed_as,g1985
+PHY0287,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus (Anthoseius) darjeelingensis,listed_as,gm2023
+PHY0287,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus darjeeligensis,listed_as,gk2015
+PHY0287,Typhlodromus (Anthoseius) darjeeligensis,Typhlodromus eharai,listed_as,g1985;gk2015
+PHY0288,Typhlodromus (Anthoseius) denmarki,Typhlodromus (Anthoseius) denmarki,valid,gm2023;gk2015
+PHY0288,Typhlodromus (Anthoseius) denmarki,Amblydromella denmarkii,cited_synonym_or_combination,gm2023
+PHY0288,Typhlodromus (Anthoseius) denmarki,Typhlodromus (Anthoseius) denmarkii,listed_as,gm2023
+PHY0288,Typhlodromus (Anthoseius) denmarki,Typhlodromus denmarki,listed_as,gk2015
+PHY0289,Typhlodromus (Anthoseius) divergentis,Typhlodromus (Anthoseius) divergentis,valid,gm2023;gk2015;g1985
+PHY0289,Typhlodromus (Anthoseius) divergentis,Amblydromella divergentis,cited_synonym_or_combination,g1985;gm2023
+PHY0289,Typhlodromus (Anthoseius) divergentis,Typhlodromus (Amblydromella) divergentis,listed_as,g1985
+PHY0289,Typhlodromus (Anthoseius) divergentis,Typhlodromus divergentis,listed_as,gk2015
+PHY0290,Typhlodromus (Anthoseius) fleschneri,Typhlodromus (Anthoseius) fleschneri,valid,gm2023;gk2015;g1985
+PHY0290,Typhlodromus (Anthoseius) fleschneri,Typhlodromus (Amblydromella) fleschneri,listed_as,g1985
+PHY0290,Typhlodromus (Anthoseius) fleschneri,Typhlodromus fleschneri,listed_as,gk2015
+PHY0290,Typhlodromus (Anthoseius) fleschneri,Typhlodromus jleschneri,listed_as,g1985
+PHY0291,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus (Anthoseius) garhwalicus,valid,gm2023;gk2015;g1985
+PHY0291,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus (Typhlodromw) garhwalicus,listed_as,g1985
+PHY0291,Typhlodromus (Anthoseius) garhwalicus,Typhlodromus garhowalicus,listed_as,gk2015
+PHY0292,Typhlodromus (Anthoseius) gilbertoi,Typhlodromus (Anthoseius) gilbertoi,valid,add2026;gm2023
+PHY0293,Typhlodromus (Anthoseius) gopali,Typhlodromus (Anthoseius) gopali,valid,gm2023;gk2015;g1985
+PHY0293,Typhlodromus (Anthoseius) gopali,Typhlodromus (Amblydromella) gopali,listed_as,g1985
+PHY0293,Typhlodromus (Anthoseius) gopali,Typhlodromus gopaji,listed_as,g1985
+PHY0293,Typhlodromus (Anthoseius) gopali,Typhlodromus gopali,listed_as,gk2015
+PHY0294,Typhlodromus (Anthoseius) gosabaensis,Typhlodromus (Anthoseius) gosabaensis,valid,gm2023
+PHY0295,Typhlodromus (Anthoseius) hadii,Typhlodromus (Anthoseius) hadii,valid,gm2023;gk2015
+PHY0295,Typhlodromus (Anthoseius) hadii,Typhlodromus hadii,listed_as,gk2015
+PHY0296,Typhlodromus (Anthoseius) hasnuhanae,Typhlodromus (Anthoseius) hasnuhanae,valid,add2026;gm2023
+PHY0297,Typhlodromus (Anthoseius) heliotropium,Typhlodromus (Anthoseius) heliotropium,valid,gm2023
+PHY0298,Typhlodromus (Anthoseius) himalayensis,Typhlodromus (Anthoseius) himalayensis,valid,gm2023;gk2015;g1985
+PHY0298,Typhlodromus (Anthoseius) himalayensis,Typhlodromus (Amblydromella) himalayensis,listed_as,g1985
+PHY0298,Typhlodromus (Anthoseius) himalayensis,Typhlodromus himalayensis,listed_as,gk2015
+PHY0299,Typhlodromus (Anthoseius) himaliniae,Typhlodromus (Anthoseius) himaliniae,valid,gm2023
+PHY0300,Typhlodromus (Anthoseius) homalii,Typhlodromus (Anthoseius) homalii,valid,gm2023;gk2015;g1985
+PHY0300,Typhlodromus (Anthoseius) homalii,Typhlodromus (Amblydromella) homalii,listed_as,g1985
+PHY0300,Typhlodromus (Anthoseius) homalii,Typhlodromus homalii,listed_as,gk2015
+PHY0301,Typhlodromus (Anthoseius) kanchangarhensis,Typhlodromus (Anthoseius) kanchangarhensis,valid,add2026
+PHY0302,Typhlodromus (Anthoseius) kanchanjanghai,Typhlodromus (Anthoseius) kanchanjanghai,valid,gm2023
+PHY0303,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Anthoseius) kodaikanelensis,valid,gm2023;gk2015;g1985
+PHY0303,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Amblydromella) kodaikanslensis,listed_as,g1985
+PHY0303,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus (Anthoseius) kodaikanalensis,listed_as,gm2023
+PHY0303,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus kodaikanalensis,listed_as,g1985
+PHY0303,Typhlodromus (Anthoseius) kodaikanelensis,Typhlodromus kodaikanelensis,listed_as,gk2015
+PHY0304,Typhlodromus (Anthoseius) majumderi,Typhlodromus (Anthoseius) majumderi,valid,gm2023;gk2015
+PHY0304,Typhlodromus (Anthoseius) majumderi,Typhlodromus majumderi,listed_as,gk2015
+PHY0305,Typhlodromus (Anthoseius) malviyai,Typhlodromus (Anthoseius) malviyai,valid,gm2023
+PHY0305,Typhlodromus (Anthoseius) malviyai,Typhloctonus (Typhlodromus) malviyai,cited_synonym_or_combination,gm2023
+PHY0306,Typhlodromus (Anthoseius) manipurensis,Typhlodromus (Anthoseius) manipurensis,valid,gm2023;gk2015;g1985
+PHY0306,Typhlodromus (Anthoseius) manipurensis,Typhlodromus (Orientiseius) manipurensis,listed_as,g1985
+PHY0306,Typhlodromus (Anthoseius) manipurensis,Typhlodromus manipurensis,listed_as,gk2015
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Typhlodromus (Anthoseius) meerutensis,valid,gm2023;gk2015;g1985
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Indodromus meerutensis,listed_as,g1985
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Indodromus meerutensls,listed_as,g1985
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Tvphlodromus (Anthoseius) meerutensis,cited_synonym_or_combination,gm2023
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Typhiodromus (Anthoseius) meerutensis,cited_synonym_or_combination,gm2023
+PHY0307,Typhlodromus (Anthoseius) meerutensis,Typhlodromus meerutensis,listed_as,gk2015
+PHY0308,Typhlodromus (Anthoseius) mori,Typhlodromus (Anthoseius) mori,valid,gm2023;gk2015;g1985
+PHY0308,Typhlodromus (Anthoseius) mori,Typhlodromus (Amblydromella) mori,listed_as,g1985
+PHY0308,Typhlodromus (Anthoseius) mori,Typhlodromus mori,listed_as,gk2015
+PHY0308,Typhlodromus (Anthoseius) mori,Typhlodromus morl,listed_as,g1985
+PHY0309,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus (Anthoseius) neorhenanus,valid,gm2023;gk2015;g1985
+PHY0309,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus (Typhlodromw) neorhenanus,listed_as,g1985
+PHY0309,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus neorhenanus,listed_as,gk2015
+PHY0309,Typhlodromus (Anthoseius) neorhenanus,Typhlodromus neorhennus,listed_as,g1985
+PHY0310,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus (Anthoseius) neotransvaalensis,valid,gm2023;gk2015;g1985
+PHY0310,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus (Clayidromus) neotransvaalensis,listed_as,g1985
+PHY0310,Typhlodromus (Anthoseius) neotransvaalensis,Typhlodromus neotransvaalensis,listed_as,gk2015
+PHY0311,Typhlodromus (Anthoseius) nilgiriensis,Typhlodromus (Anthoseius) nilgiriensis,valid,gm2023;gk2015
+PHY0311,Typhlodromus (Anthoseius) nilgiriensis,Typhlodromus nilgiriensis,listed_as,gk2015
+PHY0312,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Anthoseius) orissaensis,valid,gm2023;gk2015;g1985
+PHY0312,Typhlodromus (Anthoseius) orissaensis,Typhlodromus (Orientiseius) orissaensis,listed_as,g1985
+PHY0312,Typhlodromus (Anthoseius) orissaensis,Typhlodromus orissaensis,listed_as,gk2015
+PHY0313,Typhlodromus (Anthoseius) parandae,Typhlodromus (Anthoseius) parandae,valid,gm2023
+PHY0314,Typhlodromus (Anthoseius) parnangiae,Typhlodromus (Anthoseius) parnangiae,valid,add2026
+PHY0315,Typhlodromus (Anthoseius) persicus,Typhlodromus (Anthoseius) persicus,valid,gm2023;gk2015
+PHY0315,Typhlodromus (Anthoseius) persicus,Typhlodromus persicus,listed_as,gk2015
+PHY0316,Typhlodromus (Anthoseius) pruni,Typhlodromus (Anthoseius) pruni,valid,gm2023;gk2015;g1985
+PHY0316,Typhlodromus (Anthoseius) pruni,Typhlodromus (Orientiseius) pruni,listed_as,g1985
+PHY0316,Typhlodromus (Anthoseius) pruni,Typhlodromus pruni,listed_as,gk2015
+PHY0317,Typhlodromus (Anthoseius) ramdhuraensis,Typhlodromus (Anthoseius) ramdhuraensis,valid,gm2023
+PHY0318,Typhlodromus (Anthoseius) rhenanus,Typhlodromus (Anthoseius) rhenanus,valid,gm2023;gk2015;g1985
+PHY0318,Typhlodromus (Anthoseius) rhenanus,Seiulus rhenanus,cited_synonym_or_combination,g1985;gm2023
+PHY0318,Typhlodromus (Anthoseius) rhenanus,Typhlodromus (Amblydromella) rhenanus,listed_as,g1985
+PHY0318,Typhlodromus (Anthoseius) rhenanus,Typhlodromus rhenanus,listed_as,gk2015
+PHY0318,Typhlodromus (Anthoseius) rhenanus,Typhlodromus wrhenanus,listed_as,g1985
+PHY0319,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus (Anthoseius) rhododendroni,valid,gm2023;gk2015;g1985
+PHY0319,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus (Amblydromella) rhododendronis,listed_as,g1985
+PHY0319,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus rhododendroni,listed_as,gk2015
+PHY0319,Typhlodromus (Anthoseius) rhododendroni,Typhlodromus rhododendronls,listed_as,g1985
+PHY0320,Typhlodromus (Anthoseius) rickeri,Typhlodromus (Anthoseius) rickeri,valid,gm2023;gk2015;g1985
+PHY0320,Typhlodromus (Anthoseius) rickeri,Typhlodromus (Orientiseius) rickeri,listed_as,g1985
+PHY0320,Typhlodromus (Anthoseius) rickeri,Typhlodromus ricker,cited_synonym_or_combination,g1985
+PHY0320,Typhlodromus (Anthoseius) rickeri,Typhlodromus rickeri,listed_as,gk2015
+PHY0321,Typhlodromus (Anthoseius) sagaricus,Typhlodromus (Anthoseius) sagaricus,valid,gm2023
+PHY0322,Typhlodromus (Anthoseius) saptaparniae,Typhlodromus (Anthoseius) saptaparniae,valid,add2026
+PHY0323,Typhlodromus (Anthoseius) sijiensis,Typhlodromus (Anthoseius) sijiensis,valid,gm2023;gk2015
+PHY0323,Typhlodromus (Anthoseius) sijiensis,Typhlodromus sijiensis,listed_as,gk2015
+PHY0324,Typhlodromus (Anthoseius) sodaliae,Typhlodromus (Anthoseius) sodaliae,valid,add2026
+PHY0325,Typhlodromus (Anthoseius) sonajhuriae,Typhlodromus (Anthoseius) sonajhuriae,valid,gm2023
+PHY0326,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus (Anthoseius) sonprayagensis,valid,gm2023;gk2015
+PHY0326,Typhlodromus (Anthoseius) sonprayagensis,Typhlodromus sonprayagensis,listed_as,gk2015
+PHY0327,Typhlodromus (Anthoseius) theae,Typhlodromus (Anthoseius) theae,valid,add2026;gm2023
+PHY0328,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) torbatejamae,valid,gm2023;gk2015
+PHY0328,Typhlodromus (Anthoseius) torbatejamae,Amblydromella tarbateijamae,cited_synonym_or_combination,gm2023
+PHY0328,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus (Anthoseius) tarbateijamae,listed_as,gm2023
+PHY0328,Typhlodromus (Anthoseius) torbatejamae,Typhlodromus torbatejamae,listed_as,gk2015
+PHY0329,Typhlodromus (Anthoseius) umbratus,Typhlodromus (Anthoseius) umbratus,valid,gm2023;gk2015
+PHY0329,Typhlodromus (Anthoseius) umbratus,Amblydromella umbratus,cited_synonym_or_combination,gm2023
+PHY0329,Typhlodromus (Anthoseius) umbratus,Typhlodromus umbratus,listed_as,gk2015
+PHY0330,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) viniferae,valid,gm2023;gk2015
+PHY0330,Typhlodromus (Anthoseius) viniferae,Amblydromella vinifera,cited_synonym_or_combination,gm2023
+PHY0330,Typhlodromus (Anthoseius) viniferae,Typhlodromus (Anthoseius) vinifera,listed_as,gm2023
+PHY0330,Typhlodromus (Anthoseius) viniferae,Typhlodromus viniferae,listed_as,gk2015
+PHY0331,Typhlodromus (Anthoseius) zafari,Typhlodromus (Anthoseius) zafari,valid,gm2023;gk2015
+PHY0331,Typhlodromus (Anthoseius) zafari,Tvphlodromus zafari,cited_synonym_or_combination,gm2023
+PHY0331,Typhlodromus (Anthoseius) zafari,Typhlodromus zafari,listed_as,gk2015
+PHY0332,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) confusus,valid,gm2023;gk2015;g1985
+PHY0332,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Brethria) confusus,listed_as,g1985
+PHY0332,Typhlodromus (Typhlodromus) confusus,Typhlodromus (Typhlodromus) conlusus,cited_synonym_or_combination,g1985
+PHY0332,Typhlodromus (Typhlodromus) confusus,Typhlodromus confusus,listed_as,gk2015
+PHY0333,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Typhlodromus) roshanlali,valid,gm2023;gk2015;g1985
+PHY0333,Typhlodromus (Typhlodromus) roshanlali,Typhlodromous (Typhlodromus) roshanlali,cited_synonym_or_combination,g1985
+PHY0333,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus (Brethria) roshanlali,listed_as,g1985
+PHY0333,Typhlodromus (Typhlodromus) roshanlali,Typhlodromus roshanlali,listed_as,gk2015
+PHY0334,Typhlodromus kashmiricus,Typhlodromus kashmiricus,valid,gk2015;g1985
+PHY0334,Typhlodromus kashmiricus,Typhlodromus (Orientiseius) kashmiricus,listed_as,g1985
+PHY0335,Ueckermannseius samudricus,Ueckermannseius samudricus,valid,add2026
 TAR0001,Bongotarsonemus bicornus,Bongotarsonemus bicornus,valid,gm2023;tarswb2023
 TAR0002,Bongotarsonemus unicornus,Bongotarsonemus unicornus,valid,gm2023;tarswb2023
 TAR0003,Ceratotarsonemus bengalicus,Ceratotarsonemus bengalicus,valid,tarswb2023
