@@ -241,8 +241,8 @@ the flag it writes new ones.
 GenBank: the COI and mitogenome queries in `logs/download_log.csv` returned 12,638 records. After the marker rule
 below and the 250 bp minimum, 11,819 were kept. BOLD: 16,781 COI-5P records were read from the TSV files; 10,047
 were copies of GenBank records (same accession) and were folded into them, leaving 6,734. Two predicted transcripts
-(XM_) were removed, giving 18,551 records and 11,989 representatives. GenBank held no Tuckerellidae record; BOLD was
-not searched for that family.
+(XM_) were removed, giving 18,551 records and 11,989 representatives. Neither GenBank nor BOLD (portal search, November
+2026) held a Tuckerellidae record.
 
 ### Marker identity
 
