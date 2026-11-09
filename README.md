@@ -204,7 +204,7 @@ list for the group, with the epithet spelling most sources agree on.
 Counted species at the current rebuild: Tetranychidae 148, Tenuipalpidae 114, Eriophyoidea 580, Tarsonemidae 43,
 Tuckerellidae 4, Phytoseiidae 332; total 1,221. Five historical-only rows are not counted. *Amblyseiulella
 nicobarensis* is counted as *Paraphytoseius cracentis* (Prasad & Karmakar 2015), *A. multidentatus* is joined to
-*P. orientalis* (Matthysse & Denmark 1981), and *Eriophyes euphorbiae* Mohanasundaram of the Tamil Nadu list is joined
+*P. orientalis* (Chant & McMurtry 2003), and *Eriophyes euphorbiae* Mohanasundaram of the Tamil Nadu list is joined
 to its replacement name *E. antiquorum* Amrine & Stasny (`authority_corrections.csv`, `duplicate_review.csv`). See
 [species-list-gaps-and-sources.md](species-list-gaps-and-sources.md) for the verification queue.
 
@@ -242,8 +242,10 @@ again from the current comparison sets.
 ### Download accounting
 
 GenBank: the COI and mitogenome queries in `logs/download_log.csv` returned 12,638 records. After the marker rule
-below and the 250 bp minimum, 11,819 were kept. BOLD: 16,781 COI-5P records were read from the TSV files; 10,047
-were copies of GenBank records (same accession) and were folded into them, leaving 6,734. Two predicted transcripts
+below and the 250 bp minimum, 11,819 were kept. BOLD: 16,781 COI records were read from the TSV files, 15,644 of the
+5′ region (COI-5P) and 1,137 of the 3′ region (COI-3P) (`data/interim/bold_metadata.csv`). All 1,137 COI-3P records and
+8,910 COI-5P records were copies of GenBank records (same accession) and were folded into them, leaving 6,734 BOLD-only
+records, all COI-5P. Two predicted transcripts
 (XM_) were removed, giving 18,551 records and 11,989 representatives. Neither GenBank nor BOLD (portal search, November
 2026) held a Tuckerellidae record.
 

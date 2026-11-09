@@ -21,7 +21,7 @@ Eriophyoidea comprise Eriophyidae 513, Diptilomiopidae 65 and Phytoptidae 2.
 Identity decisions in force ([authority corrections](data/checklist/authority_corrections.csv), [duplicate review](data/checklist/duplicate_review.csv)):
 
 - *Amblyseiulella nicobarensis* (Gupta) is counted as *Paraphytoseius cracentis* (Corpuz & Rimando, 1966): Prasad & Karmakar (2015), Persian Journal of Acarology 4(2): 143–162, types examined.
-- *Amblyseiulella multidentatus* (Swirski & Shechter, 1961) is joined to *Paraphytoseius orientalis* (Narayanan, Kaur & Ghai, 1960): Matthysse & Denmark (1981), Florida Entomologist 64(2): 340–357, p. 342; followed by Chant & McMurtry (2003) and Moraes et al. (2004).
+- *Amblyseiulella multidentatus* (Swirski & Shechter, 1961) is joined to *Paraphytoseius orientalis* (Narayanan, Kaur & Ghai, 1960): Chant & McMurtry (2003), International Journal of Acarology 29(3): 179–224, p. 220; followed by Moraes et al. (2004) and Lofego et al. (2024). Matthysse & Denmark (1981) had used *P. multidentatus* as the senior name for this group.
 - *Eriophyes euphorbiae* Mohanasundaram, 1983 (Tamil Nadu list) is joined to its replacement name *Eriophyes antiquorum* Amrine & Stasny, 1994, under which Gupta & Mondal (2023) list the same mite on *Euphorbia antiquorum*.
 - *Euseius mangiferae* Chatterjee & Gupta, 2003 is shown as *Euseius indica* (replacement name; Gupta & Karmakar 2015, entry 116); *Tegolophus gmelinae* is joined to *T. mohanasundarami* Amrine & Stasny, 1994; *Eriophyes alangii* is Nalepa, 1914; the subgenus of *Mixonychus jayaraji* is spelt *Tylonychus*.
 
