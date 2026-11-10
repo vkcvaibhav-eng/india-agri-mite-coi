@@ -101,7 +101,7 @@ TET0099,Tetranychidae,Tetranychidae,Schizotetranychus fluvialis,McGregor,1928,0,
 TET0100,Tetranychidae,Tetranychidae,Schizotetranychus hindustanicus,Hirst,1924,0,0,0,0,,,
 TET0101,Tetranychidae,Tetranychidae,Schizotetranychus indicus,Gupta & Gupta,1994,0,0,0,0,,,
 TET0102,Tetranychidae,Tetranychidae,Schizotetranychus kochummeni,Ehara,1988,0,0,0,0,,,
-TET0103,Tetranychidae,Tetranychidae,Schizotetranychus krungthepensis,Auger & Naing,2014,19,19,1,1,India,exact,Schizotetranychus krungthepensis
+TET0103,Tetranychidae,Tetranychidae,Schizotetranychus krungthepensis,Naing & Auger,2014,19,19,1,1,India,exact,Schizotetranychus krungthepensis
 TET0104,Tetranychidae,Tetranychidae,Schizotetranychus laevidorsatus,Ehara,1988,1,1,0,1,India,exact,Schizotetranychus laevidorsatus
 TET0105,Tetranychidae,Tetranychidae,Schizotetranychus lespedezae,Beglyarov & Mitrofanov,1973,2,0,0,1,Japan,exact,Schizotetranychus lespedezae
 TET0106,Tetranychidae,Tetranychidae,Schizotetranychus mansoni,Gupta,1980,2,1,1,2,India;Unrecoverable,exact,Schizotetranychus mansoni
@@ -143,7 +143,7 @@ TET0142,Tetranychidae,Tetranychidae,Tetranychus puschelii,Meyer,1974,9,8,0,2,Ind
 TET0143,Tetranychidae,Tetranychidae,Tetranychus sayedi,Baker & Pritchard,1960,0,0,0,0,,,
 TET0144,Tetranychidae,Tetranychidae,Tetranychus taiwanicus,Ehara,1969,1,0,0,0,,exact,Tetranychus taiwanicus
 TET0145,Tetranychidae,Tetranychidae,Tetranychus truncatus,Ehara,1956,122,40,1,8,Bangladesh;Burkina Faso;China;India;Japan;South Korea;Unrecoverable;Viet Nam,exact,Tetranychus truncatus
-TET0146,Tetranychidae,Tetranychidae,Tetranychus turkestani,Ugarov & Nikolski,1937,47,4,7,11,Canada;China;France;India;Iran;Netherlands;Poland;Russia;Saudi Arabia;Spain;USA,exact,Tetranychus turkestani
+TET0146,Tetranychidae,Tetranychidae,Tetranychus turkestani,(Ugarov & Nikolskii),1937,47,4,7,11,Canada;China;France;India;Iran;Netherlands;Poland;Russia;Saudi Arabia;Spain;USA,exact,Tetranychus turkestani
 TET0147,Tetranychidae,Tetranychidae,Tetranychus udaipurensis,Gupta & Gupta,1994,17,15,1,2,India;Unrecoverable,exact,Tetranychus udaipurensis
 TET0148,Tetranychidae,Tetranychidae,Tetranychus urticae,Koch,1836,394,34,8,32,Australia;Belarus;Brazil;Canada;China;Egypt;France;Germany;Greece;India;Iran;Iraq;Italy;Japan;Kazakhstan;Mexico;Netherlands;New Zealand;Pakistan;Philippines;Portugal;Russia;Saudi Arabia;South Korea;Spain;Taiwan;Tunisia;Turkey;USA;United States;Unrecoverable;Viet Nam,exact;name_map,Tetranychus cinnabarinus;Tetranychus urticae
 TET0149,Tetranychidae,Tetranychidae,Tetranychus zaheri,Nassar & Ghai,1981,0,0,0,0,,,
