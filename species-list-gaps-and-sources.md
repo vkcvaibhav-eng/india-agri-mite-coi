@@ -143,7 +143,7 @@ Comparison with the user's *Tuckerella* review paper remains pending. Neither Ge
 | Species ID | Name | Authority | Year | Flags |
 | --- | --- | --- | --- | --- |
 | TET0009 | Bryobia praetiosa | Koch | 1836 | authority_differs:koch/pritchard |
-| TET0028 | Eotetranychus neoperplexus | Estebanes & Baker | 1950 | authority_differs:estebanes/mcgregor |
+| TET0028 | Eotetranychus neoperplexus | Estebanes & Baker | 1968 | authority_differs:estebanes/mcgregor |
 | TEN0044 | Larvacarus transitans | (Ewing) | 1922 | spelling_varies;year_differs_between_sources (set to 1922 in `authority_corrections.csv`, November 2026) |
 | ERI0138 | Aceria cordiae | Channabasavanna | 1966 | authority_differs:channabasavanna/nalepa |
 | ERI0212 | Aceria trichocnemum | (Nalepa) | 1929 | spelling_varies;year_differs_between_sources |
