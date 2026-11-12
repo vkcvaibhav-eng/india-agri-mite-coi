@@ -97,7 +97,7 @@ joined,cited name (gm2023),,Eriophyoidea,ERI0513,Shevtchenkella coimbatorensis,g
 joined,cited name (gm2023),,Eriophyoidea,ERI0515,Shevtchenkella parviflorae,gm2023;mandal2026;tn2020,ERI0515,Tegonotus parviflorae,g1985,gm2023 cites Tegonotus parviflorae under Shevtchenkella parviflorae
 joined,cited name (gm2023),,Eriophyoidea,ERI0523,Tegolophus dhodabettaensis,gm2023;tn2020,ERI0523,Vasates dhodabettaensis,g1985,gm2023 cites Vasates dhodabettaensis under Tegolophus dhodabettaensis
 joined,cited name (gm2023),,Eriophyoidea,ERI0577,Vasates odinae,gm2023;mandal2026;tn2020,ERI0577,Phyllocoptruta odinae,g1985,gm2023 cites Phyllocoptruta odinae under Vasates odinae
-joined,recombination,,Eriophyoidea,ERI0077,Abacarus mutica,mandal2026,ERI0077,Mesalox mutica,gm2023,Abacarus mutica Sur & Chakrabarti 2017 = Mesalox mutica Sur & Chakrabarti 2017
+joined,recombination,,Eriophyoidea,ERI0076,Abacarus mutica,mandal2026,ERI0076,Mesalox mutica,gm2023,Abacarus mutica Sur & Chakrabarti 2017 = Mesalox mutica Sur & Chakrabarti 2017
 joined,recombination,,Eriophyoidea,ERI0151,Aceria erythrensis,g1985;mandal2026,ERI0151,Eriophyes erythrensis,gm2023,Aceria erythrensis Chakrabarti & Ghosh 1981 = Eriophyes erythrensis Chakrabarti & Ghosh 1981
 joined,recombination,,Eriophyoidea,ERI0260,Aculus niphlocladae,gm2023,ERI0260,Aculops nipbocladae,g1985,Aculus niphlocladae (Keifer) 1966 = Aculops nipbocladae Keifer 1966
 joined,recombination,,Eriophyoidea,ERI0263,Aculus pseudostriae,mandal2026,ERI0263,Abacarus pseudostriae,gm2023;tn2020,Aculus pseudostriae Mohanasundaram 1984 = Abacarus pseudostriae Mohanasundaram 1984
@@ -111,7 +111,7 @@ joined,recombination,,Eriophyoidea,ERI0051,Levonga combretis,gm2023;mandal2026,E
 joined,recombination,,Eriophyoidea,ERI0477,Phaicus bambusae,mandal2026,ERI0477,Tegolophus bambusae,g1985;gm2023;som2025,Phaicus bambusae ChannaBasavanna 1966 = Tegolophus bambusae Channabasavanna 1966
 joined,recombination,,Eriophyoidea,ERI0574,Vareeboona fisus,mandal2026,ERI0574,Tegonotus fisus,gm2023,Vareeboona fisus Chakrabar & Sarkar 2011 = Tegonotus fisus Chakrabarti & Sarkar 2011
 joined,recombination,,Eriophyoidea,ERI0064,Vimola artocarpae,mandal2026,ERI0064,Diptilomiopus artocarpae,g1985;gm2023;som2025;tn2020,Vimola artocarpae Mohanasundaram 1981 = Diptilomiopus artocarpae Mohanasundaram 1981
-joined,reviewed by hand,,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,decided same species after checking the literature (duplicate_review.csv)
+joined,reviewed by hand,,Eriophyoidea,ERI0087,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0087,Aceria ruelliae,g1985;gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0201,Aceria sacchari,gm2023;tn2020,ERI0201,Aceria saccharini,g1985;gm2023,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0253,Aculops leguminae,g1985;gm2023,ERI0253,Aculus leguminae,gm2023;tn2020,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0266,Aculus shoreum,gm2023;mandal2026,ERI0266,Phyllocoptes shoreum,gm2023,decided same species after checking the literature (duplicate_review.csv)
@@ -121,13 +121,13 @@ joined,reviewed by hand,,Eriophyoidea,ERI0369,Eriophyes euphorbiae,tn2020,ERI036
 joined,reviewed by hand,,Eriophyoidea,ERI0201,Eriophyes saccharini,gm2023;tn2020,ERI0201,Aceria sacchari / Aceria saccharini,g1985;gm2023;tn2020,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0423,Mesalox odayarae,gm2023;tn2020,ERI0423,Phyllocoptruta odayarae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
 joined,reviewed by hand,,Eriophyoidea,ERI0530,Tegolophus mohanasundarami,gm2023,ERI0530,Tegolophus gmelinae,g1985;tn2020,decided same species after checking the literature (duplicate_review.csv)
-joined,spelling,0.95,Eriophyoidea,ERI0066,Aaphyllisa parindiae,gm2023,ERI0066,Acaphyllisa parindiae,g1985;tn2020,aaphyllisa parindiae ~ acaphyllisa parindiae
-joined,spelling,0.94,Eriophyoidea,ERI0067,Abacarus arjunalis,g1985;gm2023;mandal2026,ERI0067,Abacus arjunalis,som2025,abacarus arjunalis ~ abacus arjunalis
+joined,spelling,0.95,Eriophyoidea,ERI0094,Aaphyllisa parindiae,gm2023,ERI0094,Acaphyllisa parindiae,g1985;tn2020,aaphyllisa parindiae ~ acaphyllisa parindiae
+joined,spelling,0.94,Eriophyoidea,ERI0066,Abacarus arjunalis,g1985;gm2023;mandal2026,ERI0066,Abacus arjunalis,som2025,abacarus arjunalis ~ abacus arjunalis
 joined,spelling,0.95,Eriophyoidea,ERI0226,Abcarus anacardiae,karn2025,ERI0226,Abacarus anacardiae,g1985;tn2020,abcarus anacardiae ~ abacarus anacardiae
-joined,spelling,0.95,Eriophyoidea,ERI0085,Acalitus meliosmae,g1985;gm2023,ERI0085,Acalitus meliosomae,tn2020,acalitus meliosmae ~ acalitus meliosomae
-joined,spelling,0.91,Eriophyoidea,ERI0091,Acaphylla stienwedeni,gm2023;tn2020,ERI0091,Acaphylla steinwedeni,g1985,acaphylla stienwedeni ~ acaphylla steinwedeni
-joined,spelling,0.86,Eriophyoidea,ERI0092,Acaphylla syzigii,gm2023;mandal2026,ERI0092,Acaphylla syzygii,g1985;som2025,acaphylla syzigii ~ acaphylla syzygii
-joined,spelling,0.90,Eriophyoidea,ERI0094,Acaphyllisa araucariae,mandal2026,ERI0094,Acaphyllisa araucuriae,gm2023,acaphyllisa araucariae ~ acaphyllisa araucuriae
+joined,spelling,0.95,Eriophyoidea,ERI0084,Acalitus meliosmae,g1985;gm2023,ERI0084,Acalitus meliosomae,tn2020,acalitus meliosmae ~ acalitus meliosomae
+joined,spelling,0.91,Eriophyoidea,ERI0090,Acaphylla stienwedeni,gm2023;tn2020,ERI0090,Acaphylla steinwedeni,g1985,acaphylla stienwedeni ~ acaphylla steinwedeni
+joined,spelling,0.86,Eriophyoidea,ERI0091,Acaphylla syzigii,gm2023;mandal2026,ERI0091,Acaphylla syzygii,g1985;som2025,acaphylla syzigii ~ acaphylla syzygii
+joined,spelling,0.90,Eriophyoidea,ERI0093,Acaphyllisa araucariae,mandal2026,ERI0093,Acaphyllisa araucuriae,gm2023,acaphyllisa araucariae ~ acaphyllisa araucuriae
 joined,spelling,0.96,Eriophyoidea,ERI0001,Acarhynchus bamboovagrans,gm2023,ERI0001,Acarhynchus baboovagrans,tn2020,acarhynchus bamboovagrans ~ acarhynchus baboovagrans
 joined,spelling,0.92,Eriophyoidea,ERI0111,Aceria annonae,mandal2026,ERI0111,Aceria anonae,gm2023;som2025,aceria annonae ~ aceria anonae
 joined,spelling,0.99,Eriophyoidea,ERI0115,Aceria articulatae,gm2023,ERI0115,Aceria articulate,tn2020,aceria articulatae ~ aceria articulate
@@ -202,12 +202,12 @@ kept apart,reviewed by hand,,Eriophyoidea,ERI0051,Levonga combretis / Neorhynacu
 kept apart,reviewed by hand,,Eriophyoidea,ERI0530,Tegolophus gmelinae,g1985;tn2020,ERI0526,Tegolophus gmelinus,g1985;gm2023,decided different species after checking the literature (duplicate_review.csv)
 refused,cited name (g1985),,Eriophyoidea,ERI0368,Phytoptus alangii,g1985,ERI0368,Eriophyes alangii,g1985;tn2020,g1985 cites Eriophyes alangii under Phytoptus alangii; g1985 list both as species
 refused,cited name (g1985),,Eriophyoidea,ERI0373,Phytoptus casuarinae,g1985,ERI0373,Eriophyes casoarinae / Eriophyes casuarinae,g1985;gm2023;tn2020,g1985 cites Eriophyes casuarinae under Phytoptus casuarinae; g1985 list both as species
-refused,cited name (gm2023),,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,gm2023 cites Aceria ruelliae under Acalitus ruelliae; gm2023 list both as species
+refused,cited name (gm2023),,Eriophyoidea,ERI0087,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0087,Aceria ruelliae,g1985;gm2023,gm2023 cites Aceria ruelliae under Acalitus ruelliae; gm2023 list both as species
 refused,cited name (gm2023),,Eriophyoidea,ERI0201,Aceria saccharini,g1985;gm2023,ERI0201,Eriophyes saccharini,gm2023;tn2020,gm2023 cites Eriophyes saccharini under Aceria saccharini; gm2023 list both as species
 refused,cited name (gm2023),,Eriophyoidea,ERI0201,Aceria saccharini,g1985;gm2023,ERI0201,Aceria sacchari,gm2023;tn2020,gm2023 cites Aceria sacchari under Aceria saccharini; gm2023 list both as species
 refused,cited name (gm2023),,Eriophyoidea,ERI0253,Aculus leguminae,gm2023;tn2020,ERI0253,Aculops leguminae,g1985;gm2023,gm2023 cites Aculops leguminae under Aculus leguminae; gm2023 list both as species
-refused,recombination,,Eriophyoidea,ERI0079,Abacarus sacchari,g1985;gm2023;mandal2026;tn2020,ERI0201,Aceria sacchari,gm2023;tn2020,"Abacarus sacchari ChannaBasavanna 1966 = Aceria sacchari Channabasavanna 1966; gm2023, tn2020 list both"
-refused,recombination,,Eriophyoidea,ERI0088,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0088,Aceria ruelliae,g1985;gm2023,Acalitus ruelliae ChannaBasavanna 1966 = Aceria ruelliae Channabasavanna 1966; gm2023 list both
+refused,recombination,,Eriophyoidea,ERI0078,Abacarus sacchari,g1985;gm2023;mandal2026;tn2020,ERI0201,Aceria sacchari,gm2023;tn2020,"Abacarus sacchari ChannaBasavanna 1966 = Aceria sacchari Channabasavanna 1966; gm2023, tn2020 list both"
+refused,recombination,,Eriophyoidea,ERI0087,Acalitus ruelliae,gm2023;mandal2026;som2025,ERI0087,Aceria ruelliae,g1985;gm2023,Acalitus ruelliae ChannaBasavanna 1966 = Aceria ruelliae Channabasavanna 1966; gm2023 list both
 refused,recombination,,Eriophyoidea,ERI0100,Aceria acaicae / Aceria indiensis,gm2023;tn2020,ERI0496,Porcupinotus acaciae / Porcupinotus acaiae,gm2023;tn2020,"Aceria indiensis (Mohanasundaram)  = Porcupinotus acaciae Mohanasundaram 1984; gm2023, tn2020 list both"
 refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0477,Phaicus bambusae,mandal2026,Aceria bambusae Channabasavanna 1966 = Phaicus bambusae ChannaBasavanna 1966; mandal2026 list both
 refused,recombination,,Eriophyoidea,ERI0120,Aceria bambusae,g1985;gm2023;mandal2026;tn2020,ERI0477,Tegolophus bambusae,g1985;gm2023;som2025,"Aceria bambusae Channabasavanna 1966 = Tegolophus bambusae Channabasavanna 1966; g1985, gm2023 list both"

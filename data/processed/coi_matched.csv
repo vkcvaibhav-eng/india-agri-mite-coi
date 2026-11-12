@@ -5427,7 +5427,7 @@ NCBI_MZ274812.1,ncbi,MZ274812.1,GBMNE69566-22,BOLD:AEC6719,Eriophyoidea,Eriophyo
 NCBI_MZ274811.1,ncbi,MZ274811.1,GBMNE69565-22,BOLD:AEB2772,Eriophyoidea,Eriophyoidea,Aceria fraxiniflora,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,587
 NCBI_MZ274810.1,ncbi,MZ274810.1,GBMNE69560-22,BOLD:AEC9939,Eriophyoidea,Eriophyoidea,Abacarus oplismeni,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,658
 NCBI_MZ274809.1,ncbi,MZ274809.1,GBMNE69559-22,BOLD:AEC9938,Eriophyoidea,Eriophyoidea,Abacarus oplismeni,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ274808.1,ncbi,MZ274808.1,GBMNE69564-22,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,658
+NCBI_MZ274808.1,ncbi,MZ274808.1,GBMNE69564-22,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,658
 NCBI_MZ274807.1,ncbi,MZ274807.1,GBMNE69562-22,BOLD:AED0061,Eriophyoidea,Eriophyoidea,Abacarus floridulus,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,610
 NCBI_MZ274806.1,ncbi,MZ274806.1,GBMNE69561-22,,Eriophyoidea,Eriophyoidea,Tegolophus ringsi,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,533
 NCBI_MZ274805.1,ncbi,MZ274805.1,GBMNE69558-22,BOLD:AEC9035,Eriophyoidea,Eriophyoidea,Abacarus oplismeni,,,not_in_list,,,unknown,0,1,1,GB:nanjingagriculturaluniversity,620
@@ -7229,8 +7229,8 @@ NCBI_MZ482153.1,ncbi,MZ482153.1,ERIAA1406-20,BOLD:AEF7559,Eriophyoidea,Eriophyoi
 NCBI_MZ482152.1,ncbi,MZ482152.1,ERIAA1405-20,BOLD:AEF7559,Eriophyoidea,Eriophyoidea,Acaphyllisa sp.,,,no_species_name,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,588
 NCBI_MZ482151.1,ncbi,MZ482151.1,ERIAA1407-20,BOLD:AEF7559,Eriophyoidea,Eriophyoidea,Acaphyllisa sp.,,,no_species_name,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482150.1,ncbi,MZ482150.1,ERIAA902-20,BOLD:ADX1125,Eriophyoidea,Eriophyoidea,Acaphyllisa sp.,,,no_species_name,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482149.1,ncbi,MZ482149.1,ERIYY484-20,BOLD:AEE5541,Eriophyoidea,Eriophyoidea,Acaphylla steinwedeni,ERI0091,Acaphylla stienwedeni,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482148.1,ncbi,MZ482148.1,ERIAA1067-20,BOLD:AEE5541,Eriophyoidea,Eriophyoidea,Acaphylla steinwedeni,ERI0091,Acaphylla stienwedeni,exact,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482149.1,ncbi,MZ482149.1,ERIYY484-20,BOLD:AEE5541,Eriophyoidea,Eriophyoidea,Acaphylla steinwedeni,ERI0090,Acaphylla stienwedeni,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482148.1,ncbi,MZ482148.1,ERIAA1067-20,BOLD:AEE5541,Eriophyoidea,Eriophyoidea,Acaphylla steinwedeni,ERI0090,Acaphylla stienwedeni,exact,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482147.1,ncbi,MZ482147.1,ERIAA1636-20,BOLD:AEG7978,Eriophyoidea,Eriophyoidea,Acalitus phloeocoptes,,,not_in_list,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482146.1,ncbi,MZ482146.1,ERIAA1634-20,BOLD:AEG7978,Eriophyoidea,Eriophyoidea,Acalitus phloeocoptes,,,not_in_list,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482145.1,ncbi,MZ482145.1,ERIAA1638-20,BOLD:AEG7978,Eriophyoidea,Eriophyoidea,Acalitus phloeocoptes,,,not_in_list,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
@@ -7316,11 +7316,11 @@ NCBI_MZ482066.1,ncbi,MZ482066.1,ERIYY004-19,BOLD:AEB3958,Eriophyoidea,Eriophyoid
 NCBI_MZ482065.1,ncbi,MZ482065.1,ERIYY769-20,BOLD:AEB3958,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,Canada,outside,0,1,1,GB:nanjingagriculturaluniversity,641
 NCBI_MZ482064.1,ncbi,MZ482064.1,ERIYY376-20,BOLD:AEF5555,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,Canada,outside,0,1,1,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482063.1,ncbi,MZ482063.1,ERIAA222-20,BOLD:AEC9141,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482062.1,ncbi,MZ482062.1,ERIAA722-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482061.1,ncbi,MZ482061.1,ERIAA305-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482060.1,ncbi,MZ482060.1,ERIAA723-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,629
-NCBI_MZ482059.1,ncbi,MZ482059.1,ERIAA915-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
-NCBI_MZ482058.1,ncbi,MZ482058.1,ERIAA306-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482062.1,ncbi,MZ482062.1,ERIAA722-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482061.1,ncbi,MZ482061.1,ERIAA305-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482060.1,ncbi,MZ482060.1,ERIAA723-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,629
+NCBI_MZ482059.1,ncbi,MZ482059.1,ERIAA915-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
+NCBI_MZ482058.1,ncbi,MZ482058.1,ERIAA306-20,BOLD:ADW3834,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482057.1,ncbi,MZ482057.1,ERIAA936-20,BOLD:AEE3148,Eriophyoidea,Eriophyoidea,Abacarus phalaris,,,not_in_list,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482056.1,ncbi,MZ482056.1,ERIAA937-20,BOLD:AEE3148,Eriophyoidea,Eriophyoidea,Abacarus phalaris,,,not_in_list,,China,outside,0,0,,GB:nanjingagriculturaluniversity,658
 NCBI_MZ482055.1,ncbi,MZ482055.1,ERIYY143-19,BOLD:AEB9018,Eriophyoidea,Eriophyoidea,Abacarus panticis,,,not_in_list,,China,outside,0,1,1,GB:nanjingagriculturaluniversity,612
@@ -8787,14 +8787,14 @@ NCBI_KX892634.1,ncbi,KX892634.1,GACAC8612-19,,Eriophyoidea,Eriophyoidea,Abacarus
 NCBI_KX892633.1,ncbi,KX892633.1,GACAC8611-19,,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,528
 NCBI_KX892632.1,ncbi,KX892632.1,GACAC8613-19,BOLD:ADW9241,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,587
 NCBI_KX892631.1,ncbi,KX892631.1,GACAC8626-19,BOLD:ADW9241,Eriophyoidea,Eriophyoidea,Abacarus sp.,,,no_species_name,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,604
-NCBI_KX892630.1,ncbi,KX892630.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,598
-NCBI_KX892629.1,ncbi,KX892629.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,604
-NCBI_KX892628.1,ncbi,KX892628.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,604
-NCBI_KX892627.1,ncbi,KX892627.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
-NCBI_KX892626.1,ncbi,KX892626.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
-NCBI_KX892625.1,ncbi,KX892625.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
-NCBI_KX892624.1,ncbi,KX892624.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
-NCBI_KX892623.1,ncbi,KX892623.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0079,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
+NCBI_KX892630.1,ncbi,KX892630.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,598
+NCBI_KX892629.1,ncbi,KX892629.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,604
+NCBI_KX892628.1,ncbi,KX892628.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,1,1,GB:universidaefederaldealagoasufal,604
+NCBI_KX892627.1,ncbi,KX892627.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
+NCBI_KX892626.1,ncbi,KX892626.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
+NCBI_KX892625.1,ncbi,KX892625.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
+NCBI_KX892624.1,ncbi,KX892624.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
+NCBI_KX892623.1,ncbi,KX892623.1,,,Eriophyoidea,Eriophyoidea,Abacarus sacchari,ERI0078,Abacarus sacchari,exact,,Brazil,outside,0,0,,GB:universidaefederaldealagoasufal,604
 NCBI_KY610215.1,ncbi,KY610215.1,GBMIN117755-17,BOLD:AAJ6643,Eriophyoidea,Eriophyoidea,Aceria tulipae,ERI0214,Aceria tulipae,exact,,Netherlands,outside,0,1,1,GB:adammickiewiczuniversity,604
 NCBI_KY610214.1,ncbi,KY610214.1,GBMIN117754-17,BOLD:AAJ6643,Eriophyoidea,Eriophyoidea,Aceria tulipae,ERI0214,Aceria tulipae,exact,,Netherlands,outside,0,1,1,GB:adammickiewiczuniversity,604
 NCBI_KY610213.1,ncbi,KY610213.1,GBMIN117753-17,BOLD:AAJ6643,Eriophyoidea,Eriophyoidea,Aceria tulipae,ERI0214,Aceria tulipae,exact,,Netherlands,outside,0,0,,GB:adammickiewiczuniversity,604

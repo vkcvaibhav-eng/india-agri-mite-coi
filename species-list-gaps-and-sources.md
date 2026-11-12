@@ -51,7 +51,7 @@ Blank metadata stays blank until a source supports a value.
 | Species ID | Name | Group | Sources |
 | --- | --- | --- | --- |
 | ERI0026 | Diptilomiopus ficus | Eriophyoidea | som2025 |
-| ERI0086 | Acalitus odoratus | Eriophyoidea | karn2025 |
+| ERI0085 | Acalitus odoratus | Eriophyoidea | karn2025 |
 | ERI0125 | Aceria boisi | Eriophyoidea | karn2025 |
 | ERI0134 | Aceria clerodendrum | Eriophyoidea | som2025 |
 | ERI0155 | Aceria ficarius | Eriophyoidea | karn2025 |
@@ -79,8 +79,8 @@ The missing-authority rows are included here, so the two queues must not be adde
 | TEN0015 | Brevipalpus edwinae | Baker | gb2017 |
 | ERI0026 | Diptilomiopus ficus | Missing | som2025 |
 | ERI0035 | Diptilomiopus lagerstroemae | Chakrabarti, Pandit & Mondal | gm2023 |
-| ERI0081 | Acalitus delhiensis | Menon, Joshi & Ramamurthy | gm2023 |
-| ERI0086 | Acalitus odoratus | Missing | karn2025 |
+| ERI0080 | Acalitus delhiensis | Menon, Joshi & Ramamurthy | gm2023 |
+| ERI0085 | Acalitus odoratus | Missing | karn2025 |
 | ERI0100 | Aceria acaicae | (Mohanasundaram) | gm2023;tn2020 |
 | ERI0109 | Aceria amrini | Joshi, Menon & Ramamurthy | gm2023 |
 | ERI0125 | Aceria boisi | Missing | karn2025 |
@@ -144,10 +144,10 @@ Comparison with the user's *Tuckerella* review paper remains pending. Neither Ge
 | --- | --- | --- | --- | --- |
 | TET0009 | Bryobia praetiosa | Koch | 1836 | authority_differs:koch/pritchard |
 | TET0028 | Eotetranychus neoperplexus | Estebanes & Baker | 1950 | authority_differs:estebanes/mcgregor |
-| TEN0044 | Larvacarus transitans | Ewing | 1992 | spelling_varies;year_differs_between_sources |
+| TEN0044 | Larvacarus transitans | (Ewing) | 1922 | spelling_varies;year_differs_between_sources (set to 1922 in `authority_corrections.csv`, November 2026) |
 | ERI0138 | Aceria cordiae | Channabasavanna | 1966 | authority_differs:channabasavanna/nalepa |
 | ERI0212 | Aceria trichocnemum | (Nalepa) | 1929 | spelling_varies;year_differs_between_sources |
-| ERI0234 | Aculops pretoriensis | Smith Meyer & Uckermann | 1990 | authority_differs:meyersmith/smithmeyer |
+| ERI0234 | Aculops pretoriensis | Smith Meyer & Ueckermann | 1990 | authority_differs:meyersmith/smithmeyer |
 | ERI0353 | Disella oblongifoliae | Ghosh, Mondal & Chakrabarti | 1986 | authority_differs:ghosh/ghosmondal |
 | ERI0409 | Hemiscolocenus rares | Mohanasundaram | 1986 | family_differs:Diptilomiopidae(tn2020)/Eriophyidae(gm2023) |
 | ERI0567 | Tetra tyrohylae | Smith Meyer | 1992 | authority_differs:meyersmith/smithmeyer |
