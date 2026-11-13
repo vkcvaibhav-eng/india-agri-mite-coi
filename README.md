@@ -1,5 +1,11 @@
 # india-agri-mite-coi
 
+Data and code for the paper *Coverage gaps and name conflicts in public COI barcodes of agricultural mites recorded in India* by V. K. Chaudhari and Abhishek Shukla (submitted to *Acarologia*).
+
+Archived on Zenodo: [https://doi.org/10.5281/zenodo.24185074](https://doi.org/10.5281/zenodo.24185074) (release 1.0.0).
+
+Cite as: Chaudhari V.K., Shukla A. 2026. Data and code for: Coverage gaps and name conflicts in public COI barcodes of agricultural mites recorded in India. Version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.24185074
+
 Download and provenance code for Paper 1 of the project *Integrating DNA barcodes
 and published records to assess the state of knowledge of agricultural mites in
 India*.

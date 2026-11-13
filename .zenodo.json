@@ -1,15 +1,31 @@
 {
-  "title": "india-agri-mite-coi: data and code for COI barcode coverage and name concordance in six mite groups recorded in India",
+  "title": "Data and code for: Coverage gaps and name conflicts in public COI barcodes of agricultural mites recorded in India",
   "upload_type": "software",
-  "description": "<p>Scripts, inputs and outputs for the paper \"COI barcode coverage and name concordance in six mite groups recorded in India\" (submitted to Acarologia). The archive holds the checklist of 1,221 Indian species of Tetranychidae, Tenuipalpidae, Eriophyoidea, Tarsonemidae, Tuckerellidae and Phytoseiidae compiled from national and regional lists; the GenBank and BOLD COI records downloaded in November 2026; the marker, geography and name-matching steps; the nearest-neighbour name-agreement analysis; the ASAP and ABGD input files and the Spart Explorer results; and the scripts that regenerate every table and figure of the paper. See README.md for the order of the steps.</p>",
+  "description": "<p>Scripts, inputs and outputs for the paper \"Coverage gaps and name conflicts in public COI barcodes of agricultural mites recorded in India\" (submitted to Acarologia). The archive holds the checklist of 1,221 Indian species of Tetranychidae, Tenuipalpidae, Eriophyoidea, Tarsonemidae, Tuckerellidae and Phytoseiidae compiled from national and regional lists; the GenBank and BOLD COI records downloaded in November 2026; the marker, geography and name-matching steps; the nearest-neighbour name-agreement analysis; the ASAP and ABGD input files and the Spart Explorer results; and the scripts that regenerate every table and figure of the paper. See README.md for the order of the steps.</p>",
   "creators": [
     {
       "name": "Chaudhari, V. K.",
-      "affiliation": "AINP on Agricultural Acarology, Department of Entomology, N. M. College of Agriculture, Navsari Agricultural University, Navsari, Gujarat, India",
+      "affiliation": "Department of Entomology, N. M. College of Agriculture, Navsari Agricultural University, Navsari, Gujarat, India",
       "orcid": "0000-0001-9688-0134"
+    },
+    {
+      "name": "Shukla, Abhishek",
+      "affiliation": "Department of Entomology, College of Agriculture, Navsari Agricultural University, Waghai Campus, Gujarat, India",
+      "orcid": "0000-0001-7879-4099"
     }
   ],
   "license": "cc-by-4.0",
-  "keywords": ["DNA barcoding", "cytochrome c oxidase subunit I", "Tetranychidae", "Eriophyoidea", "Phytoseiidae", "Tenuipalpidae", "Tarsonemidae", "India", "reference library", "checklist"],
+  "keywords": [
+    "DNA barcoding",
+    "cytochrome c oxidase subunit I",
+    "Tetranychidae",
+    "Eriophyoidea",
+    "Phytoseiidae",
+    "Tenuipalpidae",
+    "Tarsonemidae",
+    "India",
+    "reference library",
+    "checklist"
+  ],
   "language": "eng"
 }
